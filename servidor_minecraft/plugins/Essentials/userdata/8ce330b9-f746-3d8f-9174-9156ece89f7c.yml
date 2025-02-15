@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.181.188.8
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1739494589396
+  login: 1739627619271
+money: '0'
+last-account-name: THEMONILO
+logoutlocation:
+  world: 75aaca70-8402-4c3e-8ef8-285f4f7e7303
+  world-name: world
+  x: 251.5200850199516
+  y: 106.04736164106913
+  z: 375.52998436805433
+  yaw: 73.35015106201172
+  pitch: -12.15526294708252

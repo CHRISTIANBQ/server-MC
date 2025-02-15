@@ -1,0 +1,214 @@
+[13:53:13] [ServerMain/INFO]: Building unoptimized datafixer
+[13:53:15] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[13:53:15] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
+[13:53:16] [ServerMain/INFO]: Loaded 7 recipes
+[13:53:17] [Server thread/INFO]: Starting minecraft server version 1.19.3
+[13:53:17] [Server thread/INFO]: Loading properties
+[13:53:17] [Server thread/INFO]: This server is running Paper version git-Paper-448 (MC: 1.19.3) (Implementing API version 1.19.3-R0.1-SNAPSHOT) (Git: 155aa36)
+[13:53:17] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[13:53:17] [Server thread/INFO]: Using 4 threads for Netty based IO
+[13:53:17] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[13:53:17] [Server thread/INFO]: Default game type: SURVIVAL
+[13:53:17] [Server thread/INFO]: Generating keypair
+[13:53:17] [Server thread/INFO]: Starting Minecraft server on *:25565
+[13:53:17] [Server thread/INFO]: Using epoll channel type
+[13:53:17] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[13:53:17] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[13:53:17] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load 'plugins/ExcellentCrates-6.0.1.jar' in 'plugins'
+org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins: [nightcore]. Please download and install these plugins to run 'ExcellentCrates'.
+	at io.papermc.paper.plugin.entrypoint.strategy.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:80) ~[paper-1.19.3.jar:git-Paper-448]
+	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:35) ~[paper-1.19.3.jar:git-Paper-448]
+	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:36) ~[paper-1.19.3.jar:git-Paper-448]
+	at org.bukkit.craftbukkit.v1_19_R2.CraftServer.loadPlugins(CraftServer.java:428) ~[paper-1.19.3.jar:git-Paper-448]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:273) ~[paper-1.19.3.jar:git-Paper-448]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1101) ~[paper-1.19.3.jar:git-Paper-448]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:316) ~[paper-1.19.3.jar:git-Paper-448]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[13:53:17] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load 'plugins/ItemTag-3.5.1.jar' in 'plugins'
+org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins: [ItemEdit]. Please download and install these plugins to run 'ItemTag'.
+	at io.papermc.paper.plugin.entrypoint.strategy.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:80) ~[paper-1.19.3.jar:git-Paper-448]
+	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:35) ~[paper-1.19.3.jar:git-Paper-448]
+	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:36) ~[paper-1.19.3.jar:git-Paper-448]
+	at org.bukkit.craftbukkit.v1_19_R2.CraftServer.loadPlugins(CraftServer.java:428) ~[paper-1.19.3.jar:git-Paper-448]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:273) ~[paper-1.19.3.jar:git-Paper-448]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1101) ~[paper-1.19.3.jar:git-Paper-448]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:316) ~[paper-1.19.3.jar:git-Paper-448]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[13:53:18] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.2.1
+[13:53:18] [Server thread/INFO]: [ViaVersion] ViaVersion 5.2.1 is now loaded. Registering protocol transformers and injecting...
+[13:53:18] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[13:53:19] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[13:53:19] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.154
+[13:53:19] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.2.13+46576cc
+[13:53:19] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@25255320]
+[13:53:19] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.0.6
+[13:53:19] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+167-4e64782
+[13:53:19] [Server thread/INFO]: [CataMines] Loading server plugin CataMines v2.5.11
+[13:53:19] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.8+33cdb4a
+[13:53:19] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[13:53:19] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.154
+[13:53:20] [Server thread/INFO]:         __    
+[13:53:20] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.154
+[13:53:20] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[13:53:20] [Server thread/INFO]: 
+[13:53:20] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[13:53:20] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[13:53:20] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[13:53:21] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[13:53:21] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1361ms)
+[13:53:21] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.13+46576cc
+[13:53:21] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[13:53:21] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[13:53:21] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R2.PaperweightAdapter as the Bukkit adapter
+[13:53:22] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[13:53:22] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[13:53:22] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[13:53:22] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[13:53:22] [Server thread/INFO]: Preparing level "world"
+[13:53:23] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[13:53:23] [Server thread/INFO]: Time elapsed: 129 ms
+[13:53:23] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[13:53:23] [Server thread/INFO]: Time elapsed: 51 ms
+[13:53:23] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[13:53:23] [Server thread/INFO]: Time elapsed: 39 ms
+[13:53:23] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.2.1
+[13:53:23] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.19.3 (761)
+[13:53:23] [Server thread/WARN]: [ViaVersion] Please update your Java runtime to at least Java 21 (your version is 17.0.14).
+[13:53:23] [Server thread/WARN]: [ViaVersion] At some point in the future, ViaVersion will no longer be compatible with this version of Java.
+[13:53:23] [Server thread/INFO]: [TAB] Enabling TAB v5.0.6
+[13:53:23] [Server thread/INFO]: [TAB] Loaded NMS hook in 64ms
+[13:53:23] [Server thread/INFO]: [TAB] Enabled in 240ms
+[13:53:23] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+167-4e64782
+[13:53:24] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[13:53:24] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[13:53:24] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[13:53:24] [Server thread/INFO]: [Essentials] Starting Essentials ban format conversion
+[13:53:24] [Server thread/INFO]: [Essentials] Found 1 files to convert...
+[13:53:24] [Server thread/INFO]: [Essentials] Converted 0/1
+[13:53:24] [Server thread/INFO]: [Essentials] Ban format update complete.
+[13:53:24] [Server thread/INFO]: [Essentials] Attempting to migrate ignore list to UUIDs
+[13:53:24] [Server thread/INFO]: [Essentials] Done converting ignore list.
+[13:53:24] [Server thread/INFO]: [Essentials] Attempting to migrate legacy userdata keys to Configurate
+[13:53:24] [Server thread/INFO]: [Essentials] Done converting legacy userdata keys to Configurate.
+[13:53:24] [Server thread/INFO]: [Essentials] Done converting mail list.
+[13:53:24] [Server thread/INFO]: [Essentials] #===========================================================================#
+[13:53:24] [Server thread/INFO]: [Essentials]  EssentialsX will now purge any NPC accounts which were incorrectly created.
+[13:53:24] [Server thread/INFO]: [Essentials]  Only NPC accounts with the default starting balance will be deleted. If
+[13:53:24] [Server thread/INFO]: [Essentials]  they turn out to be valid NPC accounts, they will be re-created as needed.
+[13:53:24] [Server thread/INFO]: [Essentials]  Any files deleted here will be backed up to the 
+[13:53:24] [Server thread/INFO]: [Essentials]  "plugins/Essentials/userdata-npc-backup" folder. If you notice any files
+[13:53:24] [Server thread/INFO]: [Essentials]  have been purged incorrectly, you should restore it from the backup and
+[13:53:24] [Server thread/INFO]: [Essentials]  report it to us on GitHub:
+[13:53:24] [Server thread/INFO]: [Essentials]  https://github.com/EssentialsX/Essentials/issues/new/choose
+[13:53:24] [Server thread/INFO]: [Essentials] 
+[13:53:24] [Server thread/INFO]: [Essentials]  NOTE: This is a one-time process and will take several minutes if you have
+[13:53:24] [Server thread/INFO]: [Essentials]  a lot of userdata files! If you interrupt this process, EssentialsX will
+[13:53:24] [Server thread/INFO]: [Essentials]  skip the process until you rename or remove the backup folder.
+[13:53:24] [Server thread/INFO]: [Essentials] #===========================================================================#
+[13:53:24] [Server thread/INFO]: [Essentials] Found ~1 files under "plugins/Essentials/userdata"...
+[13:53:24] [Server thread/INFO]: [Essentials] #===========================================================================#
+[13:53:24] [Server thread/INFO]: [Essentials]  EssentialsX has finished purging NPC accounts.
+[13:53:24] [Server thread/INFO]: [Essentials] 
+[13:53:24] [Server thread/INFO]: [Essentials]  Deleted accounts: 0
+[13:53:24] [Server thread/INFO]: [Essentials]  Total accounts processed: 1
+[13:53:24] [Server thread/INFO]: [Essentials] 
+[13:53:24] [Server thread/INFO]: [Essentials]  Purged accounts have been backed up to
+[13:53:24] [Server thread/INFO]: [Essentials]  "plugins/Essentials/userdata-npc-backup", and can be restored from there
+[13:53:24] [Server thread/INFO]: [Essentials]  if needed. Please report any files which have been incorrectly deleted
+[13:53:24] [Server thread/INFO]: [Essentials]  to us on GitHub:
+[13:53:24] [Server thread/INFO]: [Essentials]  https://github.com/EssentialsX/Essentials/issues/new/choose
+[13:53:24] [Server thread/INFO]: [Essentials] #===========================================================================#
+[13:53:24] [Server thread/INFO]: [Essentials] Selected Legacy 1.8 Potion Meta Provider as the provider for PotionMetaProvider
+[13:53:24] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+[13:53:24] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[13:53:24] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[13:53:24] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[13:53:24] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[13:53:24] [Server thread/INFO]: [Essentials] Selected Legacy InventoryView Abstract Class ABI Provider as the provider for InventoryViewProvider
+[13:53:24] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[13:53:24] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[13:53:24] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[13:53:24] [Server thread/INFO]: [Essentials] Selected Legacy Damage Event Provider as the provider for DamageEventProvider
+[13:53:24] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[13:53:24] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[13:53:24] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[13:53:24] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[13:53:24] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[13:53:24] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[13:53:24] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[13:53:24] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[13:53:24] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[13:53:24] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[13:53:24] [Server thread/INFO]: [Essentials] Selected Reflection Sync Commands Provider as the provider for SyncCommandsProvider
+[13:53:24] [Server thread/INFO]: [Essentials] Loaded 43465 items from items.json.
+[13:53:24] [Server thread/INFO]: [Essentials] Using locale en
+[13:53:24] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[13:53:24] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[13:53:24] [Server thread/WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
+[13:53:24] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
+[13:53:24] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[13:53:24] [Server thread/INFO]: [CataMines] Enabling CataMines v2.5.11
+[13:53:24] [Server thread/INFO]: [CataMines] Loading config file
+[13:53:25] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.8+33cdb4a
+[13:53:25] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[13:53:25] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[13:53:25] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[13:53:25] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[13:53:25] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[13:53:25] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[13:53:25] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[13:53:25] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[13:53:25] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[13:53:25] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[13:53:25] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[13:53:25] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[13:53:25] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[13:53:25] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[13:53:25] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[13:53:25] [Server thread/INFO]: [WorldGuard] Loading region data...
+[13:53:26] [Server thread/INFO]: Running delayed init tasks
+[13:53:26] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[13:53:26] [Craft Scheduler Thread - 2 - Essentials/INFO]: [Essentials] Fetching version information...
+[13:53:26] [Server thread/INFO]: [CataMines] Loading mines from files...
+[13:53:26] [Server thread/INFO]: [CataMines] Starting mines and registering commands. Running version 2.5.11
+[13:53:26] [Server thread/INFO]: [CataMines] Registering listeners
+[13:53:26] [Server thread/INFO]: Done (9.553s)! For help, type "help"
+[13:53:26] [Server thread/INFO]: Timings Reset
+[13:53:26] [Craft Scheduler Thread - 2 - Essentials/WARN]: [Essentials] You're 1 EssentialsX dev build(s) out of date!
+[13:53:26] [Craft Scheduler Thread - 2 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html
+[13:53:38] [User Authenticator #0/INFO]: UUID of player THEMONILO is 8ce330b9-f746-3d8f-9174-9156ece89f7c
+[13:53:39] [Server thread/INFO]: THEMONILO joined the game
+[13:53:39] [Server thread/INFO]: THEMONILO[/127.181.188.8:45615] logged in with entity id 31 at ([world]8.5, -60.0, 8.5)
+[13:54:11] [Server thread/INFO]: THEMONILO issued server command: /gamemode creative
+[13:54:28] [Server thread/INFO]: THEMONILO issued server command: /up 1
+[13:55:05] [Server thread/INFO]: THEMONILO issued server command: /schematic list
+[13:55:11] [Server thread/INFO]: THEMONILO issued server command: /schem load "farmboxhyste.schem"
+[13:55:14] [WorldEdit Task Executor - 0/INFO]: THEMONILO loaded /workspaces/server-MC/servidor_minecraft/plugins/WorldEdit/schematics/farmboxhyste.schem
+[13:55:20] [Server thread/INFO]: THEMONILO issued server command: //paste -a
+[13:55:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13196ms or 263 ticks behind
+[13:58:21] [Server thread/INFO]: THEMONILO issued server command: /speed fly 9
+[13:59:14] [Server thread/INFO]: THEMONILO issued server command: /speed
+[13:59:20] [Server thread/INFO]: THEMONILO issued server command: /speed 2
+[13:59:48] [Server thread/INFO]: THEMONILO issued server command: /gamemode spectator
+[14:00:27] [Server thread/INFO]: THEMONILO issued server command: /gamemode creative
+[14:00:42] [Server thread/INFO]: THEMONILO issued server command: /schematic list
+[14:00:45] [Server thread/INFO]: THEMONILO issued server command: /gamemode spectator
+[14:01:24] [Server thread/INFO]: THEMONILO issued server command: /schem load "landbox-v1-y98.schem"
+[14:01:24] [WorldEdit Task Executor - 1/ERROR]: Uncaught exception occurred in task: Loading schematic landbox-v1-y98.schem
+java.io.IOException: Schematic file is missing a "Version" tag of type com.sk89q.jnbt.IntTag
+	at com.sk89q.worldedit.extent.clipboard.io.NBTSchematicReader.requireTag(NBTSchematicReader.java:36) ~[worldedit-bukkit-7.2.13.jar:?]
+	at com.sk89q.worldedit.extent.clipboard.io.SpongeSchematicReader.getBaseTag(SpongeSchematicReader.java:157) ~[worldedit-bukkit-7.2.13.jar:?]
+	at com.sk89q.worldedit.extent.clipboard.io.SpongeSchematicReader.read(SpongeSchematicReader.java:91) ~[worldedit-bukkit-7.2.13.jar:?]
+	at com.sk89q.worldedit.command.SchematicCommands$SchematicLoadTask.call(SchematicCommands.java:322) ~[worldedit-bukkit-7.2.13.jar:?]
+	at com.sk89q.worldedit.command.SchematicCommands$SchematicLoadTask.call(SchematicCommands.java:304) ~[worldedit-bukkit-7.2.13.jar:?]
+	at com.sk89q.worldedit.command.util.AsyncCommandBuilder.runTask(AsyncCommandBuilder.java:158) ~[worldedit-bukkit-7.2.13.jar:?]
+	at com.google.common.util.concurrent.TrustedListenableFutureTask$TrustedFutureInterruptibleTask.runInterruptibly(TrustedListenableFutureTask.java:131) ~[guava-31.1-jre.jar:?]
+	at com.google.common.util.concurrent.InterruptibleTask.run(InterruptibleTask.java:74) ~[guava-31.1-jre.jar:?]
+	at com.google.common.util.concurrent.TrustedListenableFutureTask.run(TrustedListenableFutureTask.java:82) ~[guava-31.1-jre.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[14:01:26] [Server thread/INFO]: THEMONILO issued server command: /schem load "clipboard-33.schem"
+[14:01:26] [WorldEdit Task Executor - 1/WARN]: Schematic was made in a newer Minecraft version (3700 > 3218). Data may be incompatible.
+[14:01:26] [WorldEdit Task Executor - 1/WARN]: Invalid BlockState in palette: minecraft:short_grass. Block will be replaced with air.
+[14:01:28] [WorldEdit Task Executor - 1/INFO]: THEMONILO loaded /workspaces/server-MC/servidor_minecraft/plugins/WorldEdit/schematics/clipboard-33.schem
