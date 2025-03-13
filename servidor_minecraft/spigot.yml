@@ -43,6 +43,18 @@ settings:
   log-villager-deaths: true
   log-named-deaths: true
   debug: false
+commands:
+  replace-commands:
+  - setblock
+  - summon
+  - testforblock
+  - tellraw
+  spam-exclusions:
+  - /skill
+  silent-commandblock-console: false
+  log: true
+  tab-complete: 0
+  send-namespaced: true
 world-settings:
   default:
     below-zero-generation-in-existing-chunks: true
@@ -72,6 +84,7 @@ world-settings:
       beetroot-modifier: 100
       carrot-modifier: 100
       potato-modifier: 100
+      torchflower-modifier: 100
       wheat-modifier: 100
       netherwart-modifier: 100
       vine-modifier: 100
@@ -83,6 +96,7 @@ world-settings:
       weepingvines-modifier: 100
       cavevines-modifier: 100
       glowberry-modifier: 100
+      pitcherplant-modifier: 100
     entity-activation-range:
       animals: 32
       monsters: 32
@@ -114,6 +128,7 @@ world-settings:
       animals: 48
       monsters: 48
       misc: 32
+      display: 128
       other: 64
     ticks-per:
       hopper-transfer: 8
@@ -137,6 +152,7 @@ world-settings:
     seed-fossil: 14357921
     seed-portal: 34222645
     seed-ancientcity: 20083232
+    seed-trailruins: 83469867
     seed-buriedtreasure: 10387320
     seed-mineshaft: default
     seed-stronghold: default
@@ -153,20 +169,6 @@ world-settings:
       tile: 50
       entity: 50
     verbose: false
-  worldeditregentempworld:
-    verbose: false
-commands:
-  spam-exclusions:
-  - /skill
-  silent-commandblock-console: false
-  replace-commands:
-  - setblock
-  - summon
-  - testforblock
-  - tellraw
-  log: true
-  tab-complete: 0
-  send-namespaced: true
 players:
   disable-saving: false
 config-version: 12
