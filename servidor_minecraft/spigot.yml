@@ -17,10 +17,6 @@ messages:
   outdated-client: Outdated client! Please use {0}
   outdated-server: Outdated server! I'm still on {0}
   restart: Server is restarting
-advancements:
-  disable-saving: false
-  disabled:
-  - minecraft:story/disabled
 settings:
   player-shuffle: 0
   timeout-time: 60
@@ -43,18 +39,22 @@ settings:
   log-villager-deaths: true
   log-named-deaths: true
   debug: false
+advancements:
+  disable-saving: false
+  disabled:
+  - minecraft:story/disabled
 commands:
   replace-commands:
   - setblock
   - summon
   - testforblock
   - tellraw
-  spam-exclusions:
-  - /skill
-  silent-commandblock-console: false
   log: true
   tab-complete: 0
   send-namespaced: true
+  spam-exclusions:
+  - /skill
+  silent-commandblock-console: false
 world-settings:
   default:
     below-zero-generation-in-existing-chunks: true
@@ -152,7 +152,6 @@ world-settings:
     seed-fossil: 14357921
     seed-portal: 34222645
     seed-ancientcity: 20083232
-    seed-trailruins: 83469867
     seed-buriedtreasure: 10387320
     seed-mineshaft: default
     seed-stronghold: default
@@ -168,8 +167,6 @@ world-settings:
     max-tick-time:
       tile: 50
       entity: 50
-    verbose: false
-  worldeditregentempworld:
     verbose: false
 players:
   disable-saving: false

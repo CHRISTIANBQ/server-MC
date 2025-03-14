@@ -1,0 +1,150 @@
+# Material list for latest spigot version: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+# EntityType list for latest spigot version: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/EntityType.html
+# Attribute list for latest spigot version: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/attribute/Attribute.html
+# Potion effects list for latest spigot version: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/potion/PotionEffectType.html
+# Random UUID generator: https://www.uuidgenerator.net/
+# Color codes: https://docs.adventure.kyori.net/minimessage.html#format
+
+example_sword:
+  
+  displayname: <gradient:#FA7CBB:#F14658><bold>My Custom Sword
+  material: WOODEN_SWORD
+  injectID: false # allow Oraxen to recognise the item if true or not set
+  durability: 10 # Only for 1.20.5+ servers
+  
+  ItemFlags:
+  - HIDE_ENCHANTS
+  - HIDE_ATTRIBUTES
+  - HIDE_UNBREAKABLE
+  - HIDE_DESTROYS
+  - HIDE_PLACED_ON
+  - HIDE_POTION_EFFECTS
+  
+  PersistentData:
+  - key: test:hello
+    type: STRING
+    value: Here is a value
+  
+  AttributeModifiers:
+  - attribute: GENERIC_MOVEMENT_SPEED
+    amount: 0.1
+    operation: 0
+    slot: HAND
+    uuid: 2a3336d2-5b03-46a5-9921-ecdb1c86b33e
+    name: oraxen:modifier
+  
+  Enchantments:
+    protection: 4
+    flame: 34
+    sharpness: 18
+  
+  Mechanics:
+    durability:
+      value: 10
+
+example_custom_mechanic:
+  displayname: <gradient:#FA7CBB:#F14658><bold>My Item With A Custom Mechanic
+  material: DIAMOND_SWORD
+  Mechanics:
+    custom:
+      test:
+        one_usage: true
+        cooldown: 200 # in ticks
+        event: CLICK:right:all
+        conditions:
+        - '#player.hasPermission(''example.permission'')'
+        actions:
+        - '[console] give <player> cooked_beef 1'
+
+example_efficient_pickaxe:
+  displayname: <gradient:#59A7EA:#F1D2FF><bold>Turbo Pickaxe
+  material: DIAMOND_PICKAXE
+  Mechanics:
+    efficiency:
+      amount: 3
+
+example_slow_pickaxe:
+  displayname: <gradient:#59A7EA:#F1D2FF><bold>Slow Pickaxe
+  material: DIAMOND_PICKAXE
+  Mechanics:
+    efficiency:
+      amount: -3
+
+example_potion:
+  displayname: <#6f737d>Wither Potion
+  material: SPLASH_POTION
+  injectID: false # allow Oraxen to recognise the item if true or not set
+  color: 34, 0, 10
+  PotionEffects:
+  - type: WITHER
+    duration: 200
+    amplifier: 2
+    ambient: false
+    particles: true
+    icon: true
+
+miner_sandwitch:
+  displayname: <gradient:#F69D84:#FAD98D>Miner's sandwitch
+  material: COOKED_BEEF
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - default/sandwitch.png
+    custom_model_data: 1000
+  Mechanics:
+    consumable_potion_effects:
+      fast_digging:
+        amplifier: 0
+        ambient: true # Makes potion effect produce more, translucent, particles.
+        particles: true # whether this effect has particles or not
+        icon: true # whether this effect has an icon or not
+        duration: 72000 # one hour in ticks
+
+amethyst:
+  displayname: <gradient:#4B36B1:#6699FF>Amethyst
+  material: PAPER
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - default/amethyst.png
+    custom_model_data: 1021
+
+ruby:
+  displayname: <gradient:#FA7CBB:#F14658>Ruby
+  material: PAPER
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - default/ruby.png
+    custom_model_data: 1022
+
+onyx:
+  displayname: <#6f737d>Onyx
+  material: PAPER
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - default/onyx.png
+    custom_model_data: 1023
+
+orax:
+  displayname: <gradient:#3685EC:#72C1E4>Orax
+  material: PAPER
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - default/orax.png
+    custom_model_data: 1024
+
+fire:
+  displayname: <gradient:#F06966:#FAD6A6>Fire
+  material: PAPER
+  Pack:
+    generate_model: false
+    model: block/fire_floor0 # so we use the already existing fire model
+    custom_model_data: 1025

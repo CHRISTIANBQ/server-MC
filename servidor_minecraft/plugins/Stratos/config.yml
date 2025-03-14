@@ -1,0 +1,607 @@
+##########################################################
+#                         STRATOS                        #
+##########################################################
+
+# This is the default configuration for worlds that don't have custom configuration
+# To create a custom configuration for a world (before creation), use /sconfig create <world_name>
+# PLEASE DO NOT modify a world's config file after the beginning of the generation process
+
+# ---------- #
+# AUTO SPAWN #
+# ---------- #
+
+# Auto spawn is made to find a safe place to spawn in your world, disable to let another plugin teleport your players to spawn
+
+auto_spawn: true
+
+# --------------- #
+# STRUCTURES ORES #
+# --------------- #
+
+# structures_ores enable or disable spawning of ores blocks in structures, villages etc..
+# If disabled, ores blocks will be replaced by wool
+
+structures_ores: true
+
+# ------------- #
+#  TREE FELLER  #
+# ------------- #
+
+# Enable or disable tree feller
+# Tree feller allow you to break trees rapidly
+
+tree_feller: false
+
+# Tree feller radius : radius of blocks that will be cut by the tree feller (high value can cause lag)
+
+tree_feller_radius: 30
+
+# ------------ #
+# WORLD HEIGHT #
+# ------------ #
+
+# Define the default world height (sea level)
+
+world_height: 94
+
+# ------------ #
+# LEAVES DECAY #
+# ------------ #
+
+# Enable or disable leaves decay
+
+leaves_decay: false
+
+# -------------------- #
+# SILVER FISH SPAWNING #
+# -------------------- #
+
+# Enable or disable silverfish
+
+silver_fish_spawn: true
+
+# ------ #
+# BIOMES #
+# ------ #
+
+# Here is the list of the current biomes you can add into your world, this list may change with further updates :
+# - Autumn
+# - Canyon
+# - Flower
+# - FlowerMountain
+# - Ice
+# - Island
+# - Japanese
+# - Jungle
+# - Mountain
+# - MushroomForest
+# - MushroomValley
+# - Oasis
+# - Plain
+# - Plain2
+# - Sea
+# - Swamp
+# - Volcano
+# - Christmas
+# - Swamp2 (1.17 +)
+# - CherryPlains (1.20 +)
+
+# centerX and centerY features are here for people who want high customization of biomes placement (Customization will be explained later).
+# tree_probability is the probability to place a tree per chunk (value between 0 and 1)
+# However if you use the presets already made in this plugin, you don't need to tune them. Simply be sure theses arguments are always between 0 and 1
+# You can add as many biomes as you want, even multiple sames biomes
+
+biomes:
+- ==: SBiome
+  biome: Autumn
+  centerX: 0.0
+  centerY: 0.0
+  tree_probability: 0.8
+- ==: SBiome
+  biome: Canyon
+  centerX: 0.0
+  centerY: 0.0
+  tree_probability: 0.5
+- ==: SBiome
+  biome: Flower
+  centerX: 0.0
+  centerY: 0.0
+  tree_probability: 0.5
+- ==: SBiome
+  biome: FlowerMountain
+  centerX: 0.0
+  centerY: 0.0
+  tree_probability: 0.5
+- ==: SBiome
+  biome: Ice
+  centerX: 0.0
+  centerY: 0.0
+  tree_probability: 0.5
+- ==: SBiome
+  biome: Island
+  centerX: 0.0
+  centerY: 0.0
+  tree_probability: 0.5
+- ==: SBiome
+  biome: Japanese
+  centerX: 0.0
+  centerY: 0.0
+  tree_probability: 0.5
+- ==: SBiome
+  biome: Jungle
+  centerX: 0.0
+  centerY: 0.0
+  tree_probability: 1.0
+- ==: SBiome
+  biome: Mountain
+  centerX: 0.0
+  centerY: 0.0
+  tree_probability: 1.0
+- ==: SBiome
+  biome: MushroomForest
+  centerX: 0.0
+  centerY: 0.0
+  tree_probability: 0.8
+- ==: SBiome
+  biome: MushroomValley
+  centerX: 0.0
+  centerY: 0.0
+  tree_probability: 0.5
+- ==: SBiome
+  biome: Oasis
+  centerX: 0.0
+  centerY: 0.0
+  tree_probability: 0.5
+- ==: SBiome
+  centerX: 0.0
+  biome: Plain
+  centerY: 0.0
+  tree_probability: 0.5
+- ==: SBiome
+  biome: Plain2
+  centerX: 0.0
+  centerY: 0.0
+  tree_probability: 0.5
+- ==: SBiome
+  biome: Savanna
+  centerX: 0.0
+  centerY: 0.0
+  tree_probability: 0.2
+- ==: SBiome
+  biome: Sea
+  centerX: 0.0
+  centerY: 0.0
+  tree_probability: 0.5
+- ==: SBiome
+  biome: Swamp
+  centerX: 0.0
+  centerY: 0.0
+  tree_probability: 1.0
+- ==: SBiome
+  biome: Volcano
+  centerX: 0.0
+  centerY: 0.0
+  tree_probability: 0.1
+- ==: SBiome
+  biome: Christmas
+  centerX: 0.0
+  centerY: 0.0
+  tree_probability: 0.8
+- ==: SBiome
+  biome: Swamp2
+  centerX: 0.0
+  centerY: 0.0
+  tree_probability: 0.5
+
+
+# Biome spreading : Enable or disable biome spreading
+
+biome_spreading: true
+
+# coal_blocks_enabled : Enable or disable coal blocks in Volcano biome
+
+coal_blocks_enabled: true
+
+# Biome size
+# Available sizes : supersmall, small, medium, large
+
+biome_size: small
+
+# ----------- #
+# POSITIONING #
+# ----------- #
+
+# Positioning is the way biomes are placed in your world, here are the differents presets :
+# random : biomes are all placed randomly in your world
+# island : The sea biome is the predominant biome (if you added it in your biome list)
+# balanced : Random placement with balanced distribution
+# manual : this preset will use centerY and centerX parameters to place your biomes
+
+positioning: island
+
+# ---- #
+# ORES #
+# ---- #
+
+# Define the way ores are placed in your world
+# Probability : the probability to place a vein (2,4 or 8 blocks) of ore per block
+# Max height : the maximum height the ore can appear in the world
+# Min height : the minimum height the ore can appear in the world
+
+ore_enabled: true
+
+diamond:
+  probability: 0.001276
+  max_height: 18
+  min_height: 5
+
+iron:
+  probability: 0.0072
+  max_height: 65
+  min_height: 5
+
+coal:
+  probability: 0.0125
+  max_height: 130
+  min_height: 30
+
+lapis_lazuli:
+  probability: 0.00083
+  max_height: 23
+  min_height: 12
+
+gold:
+  probability: 0.001437
+  max_height: 35
+  min_height: 8
+
+emerald:
+  probability: 0.0005
+  max_height: 30
+  min_height: 5
+
+redstone:
+  probability: 0.01025
+  max_height: 23
+  min_height: 10
+
+copper: # 1.17+ only
+  probability: 0.001
+  max_height: 96
+  min_height: 5
+
+deepslate: # 1.17+ only
+  enabled: true
+  amount_per_chunk: 5 # amount of deepslate group per chunk
+
+geodes_enabled: true # 1.17+ only
+
+# ------ #
+# Rivers #
+# ------ #
+
+# Enable or disable rivers
+
+rivers_enabled: true
+
+# Change the river level (0 equals to terrain level)
+
+river_level: 2
+
+# ----- #
+# Caves #
+# ----- #
+
+# Cave enabled : enable or disable caves
+# Cave threshold : value between 0 and 1, decrease this value to have biggest caves
+# Cave max height : the maximum height a cave can appear
+
+cave_enabled: true
+cave_threshold: 0.7
+cave_max_height: 120
+
+# ----- #
+# Trees #
+# ----- #
+
+# tree factor : the number of trees max per chunk (this number will be computed with tree probability per chunk)
+# Note that a great amount of trees will slow down the generation process. This value is limited to 5
+
+tree_factor: 1
+
+# log_item : get log drop instead of wood block
+
+log_item: false
+
+# grow_according_to_biome : saplings will grow according to the biome
+
+grow_according_to_biome: true
+
+# bamboo_growing : enable or disable bamboo growing
+
+bamboo_growing: true
+
+# -------- #
+# Villages #
+# -------- #
+
+# villages_enabled : enable or disable villages
+
+villages_enabled: true
+
+# min_chest_items : Minimum amount of items by chest
+
+min_chest_items: 1
+
+# max_chest_items : Maximum amount of items by chest
+
+max_chest_items: 5
+
+# messy filling : fill chest in an unordered way
+
+messy_filling: false
+
+# chest_items : chose items to fill villages chests in villages
+#     amount_min : the minimum amount of the item that can spawn in the chest
+#     amount_max : the maximum amount of the item that can spawn in the chest
+#     material : the material of the item (you can find the list here : https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html)
+#     probability : probability to have this item in the chest
+
+chest_items:
+- ==: SItem
+  amount_min: 1
+  amount_max: 3
+  material: EMERALD
+  probability: 0.8
+- ==: SItem
+  amount_min: 3
+  amount_max: 18
+  material: SPRUCE_LOG
+  probability: 0.1
+- ==: SItem
+  amount_min: 2
+  amount_max: 5
+  material: APPLE
+  probability: 0.3
+- ==: SItem
+  amount_min: 1
+  amount_max: 4
+  material: DIAMOND_SWORD
+  probability: 1.0
+  hide_enchants: true
+  enchants:
+    - DAMAGE_ALL:5
+    - DAMAGE_ARTHROPODS:3
+
+# ---------- #
+# Structures #
+# ---------- #
+
+# structures_enabled : enable or disable structures
+
+structures_enabled: true
+
+# min_chest_items : Minimum amount of items by chest
+
+structure_min_chest_items: 1
+
+# max_chest_items : Maximum amount of items by chest
+
+structure_max_chest_items: 5
+
+# messy filling : fill chest in an unordered way
+
+structure_messy_filling: false
+
+# structure_chest_items : chose items to fill structures chests
+#     amount_min : the minimum amount of the item that can spawn in the chest
+#     amount_max : the maximum amount of the item that can spawn in the chest
+#     material : the material of the item (you can find the list here : https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html)
+#     probability : probability to have this item in the chest
+
+structure_chest_items:
+- ==: SItem
+  amount_min: 1
+  amount_max: 3
+  material: EMERALD
+  probability: 0.8
+- ==: SItem
+  amount_min: 3
+  amount_max: 18
+  material: SPRUCE_LOG
+  probability: 0.1
+- ==: SItem
+  amount_min: 2
+  amount_max: 5
+  material: APPLE
+  probability: 0.3
+- ==: SItem
+  amount_min: 1
+  amount_max: 4
+  material: DIAMOND_SWORD
+  probability: 1.0
+  enchants:
+    - DAMAGE_ALL:5
+    - DAMAGE_ARTHROPODS:3
+  lores:
+    - §1line1
+    - §2line2
+  name: §3Awesome sword
+
+# space_structures : chunk space between structures (decrease this value to increase the amount of structures)
+
+space_structures: 75
+
+# -------- #
+# Dungeons #
+# -------- #
+
+# dungeons_enabled : enable or disable dungeons
+
+dungeons_enabled: true
+
+# spawners_enabled : enable or disable spawners
+
+spawners_enabled: true
+
+# spawners_probability : probability to place a spawner in a dungeon
+
+spawners_probability: 1.0
+
+# min_chest_items : Minimum amount of items by chest
+
+dungeons_min_chest_items: 1
+
+# max_chest_items : Maximum amount of items by chest
+
+dungeons_max_chest_items: 5
+
+# messy filling : fill chest in an unordered way
+
+dungeons_messy_filling: false
+
+# dungeons_light : enable or disable light blocks in dungeons
+
+dungeons_light: true
+
+# dungeons_chest_items : chose items to fill dungeons chests
+#     amount_min : the minimum amount of the item that can spawn in the chest
+#     amount_max : the maximum amount of the item that can spawn in the chest
+#     material : the material of the item (you can find the list here : https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html)
+#     probability : probability to have this item in the chest
+
+dungeons_chest_items:
+- ==: SItem
+  amount_min: 30
+  amount_max: 35
+  material: EMERALD
+  probability: 1.0
+- ==: SItem
+  amount_min: 3
+  amount_max: 18
+  material: SPRUCE_LOG
+  probability: 0.1
+- ==: SItem
+  amount_min: 2
+  amount_max: 5
+  material: APPLE
+  probability: 0.3
+- ==: SItem
+  amount_min: 1
+  amount_max: 4
+  material: DIAMOND_SWORD
+  probability: 1.0
+  enchants:
+    - DAMAGE_ALL:5
+    - DAMAGE_ARTHROPODS:3
+- ==: SItem
+  amount_min: 1
+  amount_max: 4
+  material: ENCHANTED_BOOK
+  probability: 1.0
+  book_enchants:
+    - DAMAGE_ALL:5
+
+# dungeon_space : number of chunks between two dungeons
+
+dungeon_space: 139
+
+# dungeon_width : change dungeon size
+
+dungeon_width: 5
+
+# ----------- #
+# Strongholds #
+# ----------- #
+
+# strongholds_enabled : enable or disable strongholds
+
+strongholds_enabled: true
+
+# stronghold_space : number of chunks between two strongholds
+
+stronghold_space: 177
+
+# ------- #
+# Balloon #
+# ------- #
+
+# balloon_enabled : enable or disable hot air balloons
+
+balloon_enabled: true
+
+# balloon_probability : change hot air balloon probability
+
+balloon_probability: 0.03
+
+# min_chest_items : Minimum amount of items by chest
+
+balloon_min_chest_items: 1
+
+# max_chest_items : Maximum amount of items by chest
+
+balloon_max_chest_items: 5
+
+# messy filling : fill chest in an unordered way
+
+balloon_messy_filling: false
+
+# balloon_chest_items : chose items to fill balloon chests
+#     amount_min : the minimum amount of the item that can spawn in the chest
+#     amount_max : the maximum amount of the item that can spawn in the chest
+#     material : the material of the item (you can find the list here : https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html)
+#     probability : probability to have this item in the chest
+
+balloon_chest_items:
+  - ==: SItem
+    amount_min: 30
+    amount_max: 35
+    material: EMERALD
+    probability: 1.0
+  - ==: SItem
+    amount_min: 3
+    amount_max: 18
+    material: SPRUCE_LOG
+    probability: 0.1
+  - ==: SItem
+    amount_min: 2
+    amount_max: 5
+    material: APPLE
+    probability: 0.3
+
+# ----- #
+# Lakes #
+# ----- #
+
+# lakes_enabled : Enable or disable lakes
+
+lakes_enabled: true
+
+# ---------- #
+# Flat Spawn #
+# ---------- #
+
+# flat_spawn_enabled : Enable or disable flat spawn
+
+flat_spawn_enabled: false
+
+# spawn_height : Choose the height of the spawn
+
+spawn_height: 100
+
+# spawn_distance : The distance to point 0,0 where flat spawn is applied
+
+spawn_distance: 50
+
+# spawn_trees_enabled : Enable or disable trees in the spawn area
+
+spawn_trees_enabled: false
+
+# spawn_caves_enabled : Enable or disable caves in the spawn area
+
+spawn_caves_enabled: false
+
+# spawn_rivers_enabled : Enable or disable rivers in the spawn area
+
+spawn_rivers_enabled: false
+#cGZqlUTi5mYLVzM1NTdSFlS3VUT0EleONzaq1UMNRUT5dmMOdTNYVjcIB1SOFUakJTO1kHN

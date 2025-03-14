@@ -1,0 +1,204 @@
+# Material list for latest spigot version: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+# EntityType list for latest spigot version: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/EntityType.html
+# Attribute list for latest spigot version: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/attribute/Attribute.html
+# Potion effects list for latest spigot version: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/potion/PotionEffectType.html
+# Random UUID generator: https://www.uuidgenerator.net/
+# Color codes: https://docs.adventure.kyori.net/minimessage.html#format
+
+storm_sword:
+  displayname: <gradient:#3685EC:#72C1E4>Storm Sword
+  material: DIAMOND_SWORD
+  AttributeModifiers:
+  - attribute: GENERIC_ATTACK_DAMAGE
+    amount: 10
+    operation: 0
+    slot: HAND
+    uuid: 1135bd0f-bd71-4256-af60-4cbae944021e
+    name: oraxen:modifier
+  - attribute: GENERIC_ATTACK_SPEED
+    amount: 3.2
+    operation: 0
+    slot: HAND
+    uuid: cd6c5ad9-e042-454e-b115-e07a3b854be0
+    name: oraxen:modifier
+  lore:
+  - <#6f737d>» <#D5D6D8>Right click to strike lightning
+  Pack:
+    generate_model: false
+    model: default/storm_sword
+    custom_model_data: 1004
+  Mechanics:
+    thor:
+      lightning_bolts_amount: 5
+      random_location_variation: 1.5
+      delay: 20000 # in milliseconds (20000ms = 20s)
+
+energy_crystal_sword:
+  displayname: <gradient:#3685EC:#72C1E4>Energy Crystal Sword
+  material: DIAMOND_SWORD
+  AttributeModifiers:
+  - attribute: GENERIC_ATTACK_DAMAGE
+    amount: 10
+    operation: 0
+    slot: HAND
+    uuid: 6258a33e-c2e8-4071-a34e-e3a1af63ace3
+    name: oraxen:modifier
+  - attribute: GENERIC_ATTACK_SPEED
+    amount: 1.6
+    operation: 0
+    slot: HAND
+    uuid: 1a5199bb-6d29-4764-aef2-277a1ab66a2d
+    name: oraxen:modifier
+  Pack:
+    generate_model: false
+    model: default/energy_crystal_sword
+    custom_model_data: 1005
+
+glass_sword:
+  displayname: <#D5D6D8>Glass Sword
+  material: DIAMOND_SWORD
+  lore:
+  - <#6f737d>» <#D5D6D8>Fragile
+  AttributeModifiers:
+  - attribute: GENERIC_ATTACK_DAMAGE
+    amount: 10
+    operation: 0
+    slot: HAND
+    uuid: c7f1108a-5221-443f-8481-714beab6a410
+    name: oraxen:modifier
+  - attribute: GENERIC_ATTACK_SPEED
+    amount: 1.6
+    operation: 0
+    slot: HAND
+    uuid: 02f76680-b65b-4a98-8e8e-1009c98a1f1f
+    name: oraxen:modifier
+  Pack:
+    generate_model: true
+    parent_model: item/handheld
+    textures:
+    - default/glass_sword.png
+    custom_model_data: 1006
+  Mechanics:
+    durability:
+      value: 8
+
+obsidian_sword:
+  displayname: <gradient:#4B36B1:#6699FF>Obsidian Sword
+  material: DIAMOND_SWORD
+  lore:
+  - <#6f737d>» <#D5D6D8>Ludicrous durability
+  AttributeModifiers:
+  - attribute: GENERIC_ATTACK_DAMAGE
+    amount: 6
+    operation: 0
+    slot: HAND
+    uuid: 049954fb-c6e6-415d-acf7-424a2f0aea3c
+    name: oraxen:modifier
+  - attribute: GENERIC_ATTACK_SPEED
+    amount: 1.6
+    operation: 0
+    slot: HAND
+    uuid: 6c21b47c-9700-4e34-b890-757bee7d6f23
+    name: oraxen:modifier
+  Pack:
+    generate_model: true
+    parent_model: item/handheld
+    textures:
+    - default/obsidian_sword.png
+    custom_model_data: 1007
+  Mechanics:
+    durability:
+      value: 10000
+
+blood_sword:
+  displayname: <gradient:#FA7CBB:#F14658>Blood Sword
+  material: DIAMOND_SWORD
+  lore:
+  - <#6f737d>» <#D5D6D8>Steal the life of your enemies
+  AttributeModifiers:
+  - attribute: GENERIC_ATTACK_DAMAGE
+    amount: 8
+    operation: 0
+    slot: HAND
+    uuid: 1d5f559c-a495-4527-9a12-be5a00e9f9bf
+    name: oraxen:modifier
+  - attribute: GENERIC_ATTACK_SPEED
+    amount: 1.6
+    operation: 0
+    slot: HAND
+    uuid: 527ebd92-3048-40df-a07a-23b09f689837
+    name: oraxen:modifier
+  Pack:
+    generate_model: false
+    model: default/blood_sword
+    custom_model_data: 1008
+  Mechanics:
+    lifeleech:
+      amount: 2 # the amount of 1/2 hearts that you'll steal to your opponents
+    durability:
+      value: 500 # diamond sword is 1561
+
+octavia_sword:
+  displayname: <#D5D6D8>Octavia Sword
+  material: DIAMOND_SWORD
+  Pack:
+    generate_model: false
+    model: default/octavia_sword
+    custom_model_data: 1009
+  Mechanics:
+    durability:
+      value: 600 # diamond sword is 1561
+
+dagger:
+  displayname: <gradient:#FA7CBB:#F14658>Dagger
+  material: DIAMOND_SWORD
+  Pack:
+    generate_model: false
+    model: default/dagger
+    custom_model_data: 1010
+  Mechanics:
+    durability:
+      value: 10 # diamond sword is 1561
+
+katana:
+  displayname: <gradient:#F69D84:#FAD98D>Katana
+  material: DIAMOND_SWORD
+  AttributeModifiers:
+  - attribute: GENERIC_ATTACK_DAMAGE
+    amount: 5
+    operation: 0
+    slot: HAND
+    uuid: 1f81a228-9c6e-4c43-8869-b8977563d8d3
+    name: oraxen:modifier
+  - attribute: GENERIC_ATTACK_SPEED
+    amount: 5
+    operation: 0
+    slot: HAND
+    uuid: 17fcb56b-8329-497d-94e6-31d32c68597d
+    name: oraxen:modifier
+  Pack:
+    generate_model: false
+    model: default/katana
+    custom_model_data: 1011
+  Mechanics:
+    durability:
+      value: 1000 # diamond sword is 1561
+
+combat_bow:
+  displayname: <gradient:#F69D84:#FAD98D>Combat Bow
+  material: BOW
+  AttributeModifiers:
+  - attribute: GENERIC_ATTACK_DAMAGE
+    amount: 7
+    operation: 0
+    slot: HAND
+    uuid: e2fc0767-97be-41f6-93e0-987e86d56936
+    name: oraxen:modifier
+  Pack:
+    generate_model: false
+    model: default/combat_bow
+    pulling_models:
+    - default/combat_bow_pulling_0
+    - default/combat_bow_pulling_1
+    - default/combat_bow_pulling_2
+    custom_model_data: 1000
