@@ -1,0 +1,41 @@
+Plugin:
+  # Command names that will be registered as main plugin commands.
+  # Do not leave this empty. Split multiple names with a comma.
+  Command_Aliases: nexengine
+  # Localized plugin name. It's used in messages and with internal placeholders.
+  Name: NexEngine
+  # Plugin prefix. Used in messages.
+  # You can use %plugin_name_localized% placeholder for a plugin name.
+  Prefix: '#fdf35e%plugin_name%#d4d9d8 » '
+  # Sets the plugin language.
+  # It will use language config from the '/lang/' sub-folder for specified language code.
+  # By default uses your system's default locale.
+  Language: en
+UserData:
+  # Enables debug messages for user data management.
+  # [Default is false]
+  Debug: false
+  Cache:
+    # Sets how long (in seconds) user data will be cached for offline users
+    # until removed and needs to be loaded from the database again.
+    # [Default is 300 (5 minutes)]
+    LifeTime: 300
+    # Sets whether or not plugin will cache player names and UUIDs.
+    # This will improve database performance when checking if user exists, but will increase memory usage.
+    # [Default is true]
+    Names_And_UUIDs: true
+TabCompleter:
+  # Sets maximal length for input text to use a regex based search (aka smart tab-completer).
+  # When player entered text with length that exceeds this value, basic text search will be used instead.
+  # [Default is 32]
+  Regex_Max_Length: 32
+  # Amount of milliseconds for regex matcher timeout in tab completion.
+  # If tab-completion takes more than this amount to find matches from a list, it will be interrupted.
+  # [Default is 25ms]
+  Regex_Timeout: 25
+Engine:
+  # Sets whether or not 'Player#getDisplayName' can be used to find & get players in addition to regular 'Player#getName'.
+  # This is useful if you want to use custom player nicknames in commands.
+  # (Works only for NexEngine based plugins.)
+  # [Default is false]
+  Respect_Player_DisplayName: false

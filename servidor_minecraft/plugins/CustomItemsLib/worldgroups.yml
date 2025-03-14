@@ -1,0 +1,28 @@
+# ----------------------------------------------------------
+# WorldGroups. New worlds are added in the Default Group
+# ----------------------------------------------------------
+# These worldgroups which worlds share the players 
+# their economy balance and bank-balance. If you use
+# MyPet, PerWorldInventory or similar, the world 
+# should be the grouped the same way here.
+#
+# Bounties in MobHunting is shared the same way.
+
+groups:
+  default:
+    worlds:
+    - world
+    - world_nether
+    - world_the_end
+    default-gamemode: SURVIVAL
+    starting-balance: 3000.0
+  survival:
+    worlds:
+    - survival
+    default-gamemode: SURVIVAL
+    starting-balance: 3000.0
+  creative:
+    worlds:
+    - creative
+    default-gamemode: CREATIVE
+    starting-balance: 3000.0

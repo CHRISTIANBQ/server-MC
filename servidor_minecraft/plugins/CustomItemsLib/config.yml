@@ -1,0 +1,335 @@
+
+# This file contains settings which is shared between BagOfGold and MobHunting, 
+# this means if you change settings in this file it will affect both plugins.
+# 
+# 
+# ########################################################################
+# general Settings
+# ########################################################################
+general:
+
+  # The language (file) to use. You can put the name of the language file as the language code 
+  # (eg. en_US, fr_FR, hu_HU, pt_BR, zh_CN, ru_RU ect.) or you can specify the name of a custom file without the .lang
+  # Please check the lang/ folder for a list of all available translations.
+  language: en_US
+
+  # Enable/disable debug information
+  debug: true
+
+  # When a new playerjoins the server he will by default start
+  # in 'LEARNING MODE' and get extra information about when he get rewards and not,
+  # when killing Mobs. The player can disable this InGame by using the command '/mobhunt learn'
+  newplayer_learning_mode: true
+
+  # Config version. Do NOT change this!
+  config_version: 0
+
+# ########################################################################
+# Shared Settings
+# ########################################################################
+economy:
+
+  # Here you can change the way the numbers is formatted when you use BagOfGold as an EconomyPlugin.
+  number_format: '#.#####'
+
+  # Rounding of rewards when you uses a range or %. (ex creeperPrize=10:30) the reward.
+  # All numbers except 0 can be used. 
+  # Set rounding_reward=1 if you want integers. IE. 10,11,12,13,14...
+  # Set rounding_reward=0.01 if you want 2 decimals 10.00, 10.01, 10.02... integers.
+  # Set rounding_reward=5 if you want multipla of 5 IE. 10,15,20,25...
+  # Set rounding_reward=2 if you want multipla of 2 IE. 10,12,14,16...
+  reward_rounding: 1.0
+
+  # If you only want the bags to be able to contain a 
+  # certain amount of gold you can set the limit here. Set limit_per_bag: 9999999999 to disable the limit.
+  limit_per_bag: 10000.0
+
+  # This is the minimum reward which will which will be paid to the player 0.01 will be fine
+  # in most installation, but Gringott users who want very low rewards (like 0.001  for killing
+  # a mob) will have to lower the minimum reward. Remember that some multipliers are less than 1
+  #  and grinding detection and penalties. The minimum_reward should therefor be less than 10%
+  #  of smallest reward. In the Gringotts example minimum_reward should be 0.0001 or 0.00005.
+  minimum_reward: 0.01
+
+# ########################################################################
+# Reward Settings
+# ########################################################################
+reward:
+
+  # ########################################################################
+  # Name Settings
+  # ########################################################################
+  name:
+
+    # This is the name of the currency which will be used in the displayname. This can't be empty.
+    reward_name: Bag Of Gold
+
+    # This is the name of the reward in plural. This can't be empty.
+    reward_name_plural: Bag of gold
+
+    # Here you can set of the color of the number above the dropped item. 
+    # Use color names like WHITE, RED, BLUE, GOLD
+    text_color: GOLD
+
+    # Here you can hide the displayname when the bag of gold is an floating item in a world
+    # like for normal Minecraft items.
+    # You will still be able to see the displayname and value in the player Inventory.
+    show_displayname: true
+
+  # ########################################################################
+  # Command Settings
+  # ########################################################################
+  command:
+
+    # Here you can chance the command /mh money ... and /bag money... to /mh <alias> ... and /bag <alias>...
+    # Example: gold,bag,silver,coin,???? 
+    command_alias: money
+
+  # ########################################################################
+  # Reward Type Settings
+  # ########################################################################
+  itemtype:
+
+    # Here you can set the type of item to be dropped.
+    # You can choose between "ITEM","KILLED","SKULL","KILLER", "GRINGOTTS_STYLE". The default is SKULL.
+    # The value will be showed above the item.
+    # ITEM: The reward is dropped as a normal Minecraft item.
+    # KILLED: The reward is dropped as the head of the mob/player you killed.
+    # SKULL: The reward is dropped as a SKULL with a custom texture. You can generate custom texture value
+    # and custom texture signature at http://mineskin.org
+    # KILLER: The reward is dropped as the killers head.
+    # GRINGOTTS_STYLE: The reward is dropped as Gringotts Items.
+    # 
+    # OBS: If the Gringotts plugin is installed and support not disabled, the droped item will be the Gringotts chosen item.
+    reward_itemtype: SKULL
+
+    # ########################################################################
+    # ITEM Settings
+    # ########################################################################
+    item:
+
+      # Here you can set which item should be used when you have 
+      # chosen reward_itemtype: ITEM. 
+      # Use Minecraft Item names like: 
+      # GOLD_NUGGET, DIAMOND, GOLD_INGOT, EMERALD, GOLDEN_APPLE 
+      itemtype: GOLD_INGOT
+
+      # This is the displayname format of BagOfGold (ITEM) items.
+      displayname_format: '&6{value}&r'
+
+      # This is the displayname format of BagOfGold (ITEM) items when the value is 0.
+      displayname_format_no_value: ''
+
+    # ########################################################################
+    # SKULL Settings
+    # ########################################################################
+    # Examples:
+    # 
+    # Bag of gold: (https://mineskin.org/6875)
+    # 
+    # This is the default values for the 'Bag of gold' item.
+    # skull_texture_value: 'eyJ0aW1lc3RhbXAiOjE0ODU5MTIwNjk3OTgsInByb2ZpbGVJZCI6IjdkYTJhYjNhOTNjYTQ4ZWU4MzA0OGFmYzNiODBlNjhlIiwicHJvZmlsZU5hbWUiOiJHb2xkYXBmZWwiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzM5NmNlMTNmZjYxNTVmZGYzMjM1ZDhkMjIxNzRjNWRlNGJmNTUxMmYxYWRlZGExYWZhM2ZjMjgxODBmM2Y3In19fQ=='
+    # skull_texture_signature: 'm8u2ChI43ySVica7pcY0CsCuMCGgAdN7c9f/ZOxDZsPzJY8eiDrwxLIh6oPY1rvE1ja/rmftPSmdnbeHYrzLQ18QBzehFp8ZVegPsd9iNHc4FuD7nr1is2FD8M8AWAZOViiwlUKnfd8avb3SKfvFmhmVhQtE+atJYQrXhJwiqR4S+KTccA6pjIESM3AWlbCOmykg31ey7MQWB4YgtRp8NyFD3HNTLZ8alcEXBuG3t58wYBEME1UaOFah45tHuV1FW+iGBHHFWLu1UsAbg0Uw87Pp+KSTUGrhdwSc/55czILulI8IUnUfxmkaThRjd7g6VpH/w+9jLvm+7tOwfMQZlXp9104t9XMVnTAchzQr6mB3U6drCsGnuZycQzEgretQsUh3hweN7Jzz5knl6qc1n3Sn8t1yOvaIQLWG1f3l6irPdl28bwEd4Z7VDrGqYgXsd2GsOK/gCQ7rChNqbJ2p+jCja3F3ZohfmTYOU8W7DJ8Ne+xaofSuPnWODnZN9x+Y+3RE3nzH9tzP+NBMsV3YQXpvUD7Pepg7ScO+k9Fj3/F+KfBje0k6xfl+75s7kR3pNWQI5EVrO6iuky6dMuFPUBfNfq33fZV6Tqr/7o24aKpfA4WwJf91G9mC18z8NCgFR6iK4cPGmkTMvNtxUQ3MoB0LCOkRcbP0i7qxHupt8xE='
+    # 
+    # Bag of gold (alternative): (https://mineskin.org/3384)
+    # skull_texture_value: 'eyJ0aW1lc3RhbXAiOjE0NzQzMzI0MzY1MDYsInByb2ZpbGVJZCI6IjNlMjZiMDk3MWFjZDRjNmQ5MzVjNmFkYjE1YjYyMDNhIiwicHJvZmlsZU5hbWUiOiJOYWhlbGUiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzg2NzczZDc0Y2Y1MDhmZDc3Yzc4MmZmZDI5ZGYyZmU0N2ZiNzE0YjViMGQ3ZGU2N2Q1Mjg2OTMxZTJmMWRmMiJ9fX0='
+    # skull_texture_signature: 'JdvJksowuxYQ0eqf56J+Dmczg7zvlw2DbIc58Q33kRt65uMUNn2iRCQsbNpztC1cAAgyYMOyFDiOUZQeIK03CSRoPLDtWp2u501YoGKqhjgrE0V0UDh3JetWKz4Ob0KmATtY+4R2vSoMjHFEFppM0Oq+8ZER12FAiVEMAzeseFN3Z9fWAMc/V10LoquGBpq6ExTfSCEEMDEGZopF1T8ZBKL0vf4DVendfz4v3yl7bRBzISZEAnF+ECTa9z36r8HRqS8+s0eO/AWYQcRaKIu9H+wSK5F/1v+rgifeSlMAnt1Na8m1b5tMfNuq6pXxWCq4nUGgYVTOLUinqs9ZcFz3Z6Mtx5YtymKk2M0mzxmTm9+AeOL4s3K/UrJYQlcmLBJSv4hd6EigJXoashzWNCHKmFDYCdEhh4FArq4G9vRZtoudcTeMsvi0VmXIgER8U5iSfoTtzXcGbf/GT0ECtgfeA40f5oCqyE4nXreudMmvlDCBr/KHbILQWeeH/jhtYqQ6OwJb3Ji2Bs9F5fQmICSqk7X4yKzexf8rdDhOG1z+/TCot7K8unPVuQx46sXPeP7t2hCiHOXMAnOMt8vuL3gQUURIEM6fMryjmlKsgvk8Jo0gawavRCIZQtA6vT0JRRnSAchzEOA7QP1iiVV3LnwX9Yqw7oMJ/+REV1hWesuzDOc='
+    # 
+    # Chest: (https://mineskin.org/3136)
+    # 
+    # Use these values if you want the item to be a small 'Treasure chest'.
+    # skull_texture_value: 'eyJ0aW1lc3RhbXAiOjE0NzI4Mzk3Nzk2ODMsInByb2ZpbGVJZCI6ImIwZDRiMjhiYzFkNzQ4ODlhZjBlODY2MWNlZTk2YWFiIiwicHJvZmlsZU5hbWUiOiJJbnZlbnRpdmVHYW1lcyIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTY5NDcxMjQ1YmNhN2M0ZmUwNjQ0MGQ5YjRiOWY3NDIxN2VkNzM0M2FhZDU5YTc5MThiMWExZDYxZDhiYTZkYSJ9fX0='
+    # skull_texture_signature: 'lVA2QIbvybpzhcXof5yWz/7nkHdhG/3MGO+1DyD1txdRCALV6BRwsDUBwIUg06MkLUpBkjmiOvFcCRgal/jDE/xkkJPyk2tb/w4NtQ5PiPiAe0oInVnuiSIVFIE4tnsCdvX0joll3uKwVu6XY3t1KEsqJATcPhA5hslVn1iOp/IfMziIfuCzzob04rScpwcw0mLNtbtbMVAl6LYR9gXVuOkAfXujuYq4lbI/iW0yuLxSAzr8i9QWBP2ftup4qQHwocQRTdUE6/G5G9LwJWXhhnqKWjgjfvL0y2FRFJkgN1cvuq7DvUDBVsePnRIHwU5YvBPMjcZe/KE8VPTSodsN84/+++5p95Puxe1DXMX822xR71IQsxM7eax7Ffrr/Tzxw2rSDh9ivGGlRAB85OHwp/ouUgWNSrT8inNMYImque9EuZku9p3OFet8iZsFhkMXANeNtTVL7LKV7/L/0YWwoeyBnw5QQqvGyWKw3dac5eDkRNCyCtdDIntM5vsd8FxnIFj36zxLWgmrJmOM9hg5PBM4gcDxxryBcug8jSe+W9XDU39OOJotXajj8dgSL8yUn+d7l4Qvat/vJbAE8lonMl7P0P9QBPzmcIUvlRMuHSpRZQYkoCbwc2Filahd/5INtm7I4Y28XYzzupdwLk3cavKfOloL5YrWNqaZr/+9Tbk='
+    # 
+    # Birthday present: (https://mineskin.org/4743)
+    # 
+    # Use these values if you want the reward to be a 'Birthday present'.
+    # skull_texture_value: 'eyJ0aW1lc3RhbXAiOjE0Nzk5MzEzNDMxMjgsInByb2ZpbGVJZCI6IjNlMjZiMDk3MWFjZDRjNmQ5MzVjNmFkYjE1YjYyMDNhIiwicHJvZmlsZU5hbWUiOiJOYWhlbGUiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2NmNDRkZjIzMjBiNzYzMTI0N2FhZGY1OWMwZWNlOTdhNGJiNTdkZjI4YzFjZWU3OTM0ZjZhZTI4YWY4OTg5In19fQ=='
+    # skull_texture_signature: 'k1xQ6E1NuxG1ZN7nlQqRJltYrJn44XHVhNA9pSEu2Pt2mkuixMxhIDj2Tg6o+JWlTyGfXtPVWLxygeGymmeSGaVcmDTaCALg7PL11ZfSzSWSxaIufNbj1EcSi264jg5FrAa/2/DnFsgu16wjlWiIGtjCzgx2QabY8YofoPKw6Y6Y5FHZJVXpT8Rsxs8ok6ZHtfm/ZyyTgvRSzh2mKmVyQIYJ1ZKxuqWhDQfbtBpu3dlEzMAEJo85Dvb7uIFYa7WFitjFJue/c9qpqAnazWFLrx33nYpjjeYhcfAvsaNQW3JVFEkyxzEgzOHbdsbiZcqTCwO+49whu175xOqT7XhouEubDT7A3H1jiSvQvkUZJv/GzUF4qFYHSfxhr6OWoBrRGwWmPdcrYx7fUWKo43CAqa5inaiTV4gU70BWrx5i3LhIJxpnspAyTXs8tZBxeoh8IizWD7uXkYYqh3j9cwuHoxfwZuMpOx9CPTC6R/YwJ1YK5OgJBY1+QhNw+NOilWT3jTok82elFvOLm3a5yLyVs+/UPmLD7rZsFm7/DD3VnRcpgjKRiyy2j9vYsYLyNE2BVLVJxBVk2yyy9u7L4VR6PO+8v2dh9DQl7vM2ORCxKPl2lt6woHWM2+eT1PXr16LtMtAOGYT8mlKFhp8Ou2+9fu4AqWkX7n3swU6XLiK5cJs='
+    skull:
+
+      # This is the displayname format of BagOfGold (SKULL) items.
+      displayname_format: '&6{name} &6({value})&r'
+
+      # This is the Custom Texture Value generated at http://mineskin.org
+      skull_texture_value: eyJ0aW1lc3RhbXAiOjE0ODU5MTIwNjk3OTgsInByb2ZpbGVJZCI6IjdkYTJhYjNhOTNjYTQ4ZWU4MzA0OGFmYzNiODBlNjhlIiwicHJvZmlsZU5hbWUiOiJHb2xkYXBmZWwiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzM5NmNlMTNmZjYxNTVmZGYzMjM1ZDhkMjIxNzRjNWRlNGJmNTUxMmYxYWRlZGExYWZhM2ZjMjgxODBmM2Y3In19fQ==
+
+      # This is the Custom Texture Signature generated at http://mineskin.org
+      skull_texture_signature: m8u2ChI43ySVica7pcY0CsCuMCGgAdN7c9f/ZOxDZsPzJY8eiDrwxLIh6oPY1rvE1ja/rmftPSmdnbeHYrzLQ18QBzehFp8ZVegPsd9iNHc4FuD7nr1is2FD8M8AWAZOViiwlUKnfd8avb3SKfvFmhmVhQtE+atJYQrXhJwiqR4S+KTccA6pjIESM3AWlbCOmykg31ey7MQWB4YgtRp8NyFD3HNTLZ8alcEXBuG3t58wYBEME1UaOFah45tHuV1FW+iGBHHFWLu1UsAbg0Uw87Pp+KSTUGrhdwSc/55czILulI8IUnUfxmkaThRjd7g6VpH/w+9jLvm+7tOwfMQZlXp9104t9XMVnTAchzQr6mB3U6drCsGnuZycQzEgretQsUh3hweN7Jzz5knl6qc1n3Sn8t1yOvaIQLWG1f3l6irPdl28bwEd4Z7VDrGqYgXsd2GsOK/gCQ7rChNqbJ2p+jCja3F3ZohfmTYOU8W7DJ8Ne+xaofSuPnWODnZN9x+Y+3RE3nzH9tzP+NBMsV3YQXpvUD7Pepg7ScO+k9Fj3/F+KfBje0k6xfl+75s7kR3pNWQI5EVrO6iuky6dMuFPUBfNfq33fZV6Tqr/7o24aKpfA4WwJf91G9mC18z8NCgFR6iK4cPGmkTMvNtxUQ3MoB0LCOkRcbP0i7qxHupt8xE=
+
+    # ########################################################################
+    # KILLED Settings
+    # ########################################################################
+    killed:
+
+      # This is the displayname format of BagOfGold (KILLED) items.
+      displayname_format: '&6{name} &6({value})&r'
+
+      # This is the displayname format of BagOfGold (KILLED) items when the value is 0.
+      displayname_format_no_value: '&6{name}&r'
+
+    # ########################################################################
+    # KILLED Settings
+    # ########################################################################
+    killer:
+
+      # This is the displayname format of BagOfGold (KILLER) items.
+      displayname_format: '&6{name} &6({value})&r'
+
+      # This is the displayname format of BagOfGold (KILLER) items when the value is 0.
+      displayname_format_no_value: '&6{name}&r'
+
+    # ########################################################################
+    # GRINGOTTS_STYLE Settings
+    # ########################################################################
+    # OBS GRINGOTTS_STYLE is still being tested! The original Gringotts seems to die with Minecraft 1.14, but I have made a Gringotts style
+    # for Gringotts lovers (https://www.spigotmc.org/resources/gringotts.42071/)
+    gringotts:
+
+      # If you want to have an Gringotts style economy you can set 
+      # 'reward_itemtype: GRINGOTTS_STYLE' and then set the value of the
+      # value of the items here. You can add as many items as you want, but be
+      # careful when you choose the value of the item so you dont ruin the
+      # server economy. The Gringoots defaul values is EMERALD=1 and EMERALD_BLOCK=9
+      # Another good combination would be GOLD_NUGGET=1, GOLD_INGOT=9, GOLD_BLOCK=81
+      # Choose from this list: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
+      # The value of the denomination must be desending.
+      denomination:
+        EMERALD_BLOCK: '9'
+        EMERALD: '1'
+
+  # ########################################################################
+  # Other reward settings
+  # ########################################################################
+  other:
+
+    # Dark room mobspawners usually collect items in a HOPPER. This is allowed by default.
+    # If you want to deny HOPPERS to collect MobHunting Money rewards 
+    # set "deny_hoppers_to_pickup_rewards"=true
+    deny_hoppers_to_pickup_rewards: false
+
+    # By default flowing WATER / LAVA usually breaks Player Heads, but here you can set the behavior.
+    # If you want to deny WATER and LAVA to break Rewards, set "deny_water_to_break_rewards"=true
+    deny_water_to_break_rewards: false
+
+# ########################################################################
+# Integration to other plugins.
+# ########################################################################
+plugins:
+
+  # ########################################################################
+  # TitleApi
+  # ########################################################################
+  titleapi:
+
+    # Enable/Disable integration with TitleAPI
+    enable_integration_titleapi: true
+
+  # ########################################################################
+  # TitleManager
+  # ########################################################################
+  titlemanager:
+
+    # Enable/Disable integration with TitleManger. If you want messages in player chat you can set this to true.
+    # https://www.spigotmc.org/resources/titlemanager.1049/
+    enable_integration_titlemanager: true
+
+  # ########################################################################
+  # Actionbar
+  # ########################################################################
+  actionbar:
+
+    # Enable/Disable integration with Actionbar. If you want messages in player chat you can set this to true.
+    enable_integration_actionbar: true
+
+  # ########################################################################
+  # ActionbarAPI
+  # ########################################################################
+  actionbarapi:
+
+    # Enable/Disable integration with ActionBarAPI. If you want messages in player chat you can set this to true.
+    # https://www.spigotmc.org/resources/actionbarapi_1_8_1_9_1_10.1315/
+    enable_integration_actionbarapi: true
+
+  # ########################################################################
+  # ActionAnnouncer
+  # ########################################################################
+  actionannouncer:
+
+    # Enable/Disable integration with ActionAnnouncer. If you want messages in player chat you can set this to true.
+    # https://www.spigotmc.org/resources/actionannouncer.1320/
+    enable_integration_actionannouncer: true
+
+  # ########################################################################
+  # BossBarAPI
+  # ########################################################################
+  bossbarapi:
+
+    # Enable/Disable integration with BossBarAPI. If you want messages in player chat you can set this to true.
+    enable_integration_bossbarapi: true
+
+  # ########################################################################
+  # BarApi
+  # ########################################################################
+  barapi:
+
+    # Enable/Disable integration with BarAPI. If you want messages in player chat you can set this to true.
+    # https://dev.bukkit.org/projects/bar_api
+    enable_integration_barapi: true
+
+  # ########################################################################
+  # CMI
+  # ########################################################################
+  cmi:
+
+    # Enable/Disable integration with CMI.
+    # https://www.spigotmc.org/resources/cmi-270-commands-insane-kits-portals-essentials-economy-mysql-sqlite-much-more.3742/
+    enable_integration_cmi: true
+
+  # ########################################################################
+  # Protocollib
+  # ########################################################################
+  protocollib:
+
+    # Enable/Disable integration with ProtocolLib.
+    # https://www.spigotmc.org/resources/protocollib.1997/
+    enable_integration_protocollib: true
+
+# ########################################################################
+# Database Settings.
+# ########################################################################
+database:
+
+  # Type of database to use. Valid values are: sqlite, mysql
+  type: sqlite
+  database_name: customitemslib
+  mysql:
+    username: user
+    password: password
+    host: localhost:3306
+    useSSL: 'false'
+
+  # Time between saving data to disk in ticks (20 ticks ~ 1 sec) This number must be higher that 1200 ticks = 2 minutes,
+  # but I recommend to save every 5th minute = 6000 ticks
+  save_period: 6000
+
+  # This is the database layout version. Mostly for internal use and you should not need
+  # to change this value. In case you decide to delete your database and let it recreate
+  # or if you change database type sqlite/mysql you should set this value to 0 again.
+  database_version: 1
+
+# ########################################################################
+# Update settings
+# ########################################################################
+updates:
+
+  # Check if there is a new version of the plugin available.
+  update-check: true
+
+  # Set the number of seconds between each check. Recommended setting is
+  # check_every: 7200 ~ to check every second hour.
+  check_every: 7200
+
+  # Set 'autoupdate: true' if you want new updates downloaded and installed.
+  # You will still have to reboot the server manually.
+  autoupdate: false

@@ -1,0 +1,7 @@
+# Always make a backup before changing this file.
+# The format of the Holographic Leaderboards can be changed using the Java String.format() syntax.
+# (https://docs.oracle.com/javase/8/docs/api/java/util/Formatter.html).
+# The colors can be changed using '§' and the normal Minecraft color codes. (http://ess.khhq.net/mc/)
+# If you make a wrong format you can always delete the formatting lines and restart the server.
+
+{}

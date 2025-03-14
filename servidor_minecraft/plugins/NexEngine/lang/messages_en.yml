@@ -1,0 +1,81 @@
+# Here you can create your own custom placeholders to use it in language config.
+# Key = Placeholder, Value = Replacer.
+Placeholders:
+  '%red%': '#fd5e5e'
+  '%gray%': '#d4d9d8'
+  '%green%': '#aefd5e'
+Command:
+  Usage:
+  - <! prefix:"false" !>
+  - '#d4d9d8'
+  - '#fd5e5eError: #d4d9d8Wrong arguments!'
+  - '#fd5e5eUsage: #fdf35e/%command_label% #fdba5e%command_usage%'
+  - '#d4d9d8'
+  Help:
+    List:
+    - <! prefix:"false" !>
+    - '#d4d9d8'
+    - '  #fdf35e&l%plugin_name_localized%#d4d9d8 - #fdf35e&lCommands:'
+    - '#d4d9d8'
+    - '  #fd5e5e&l<> #d4d9d8- Required, #aefd5e&l[] #d4d9d8- Optional.'
+    - '#d4d9d8'
+    - '  #fdf35e/%command_label% #fdba5e%command_usage% #d4d9d8- %command_description%'
+    - '#d4d9d8'
+    Desc: Show help page.
+  CheckPerm:
+    Desc: Print player permission info.
+    Usage: <player>
+  Reload:
+    Desc: Reload the whole plugin.
+    Done: All data & configuration has been reloaded!
+Time:
+  Day: '%s%d.'
+  Hour: '%s%h.'
+  Min: '%s%min.'
+  Sec: '%s%sec.'
+Other:
+  'Yes': '#aefd5eYes'
+  'No': '#fd5e5eNo'
+  Any: Any
+  None: None
+  Never: Never
+  OneTimed: One-Timed
+  Unlimited: Unlimited
+  Infinity: ∞
+Error:
+  Player:
+    Invalid: '#fd5e5ePlayer not found.'
+  World:
+    Invalid: '#fd5e5eWorld not found.'
+  Number:
+    Invalid: '#fd5e5e%num% is not a valid number.'
+  Permission:
+    Deny: '#fd5e5eYou don''t have permissions to do that!'
+  Command:
+    Self: '#fd5e5eThis command can not be used on yourself.'
+    Sender: '#fd5e5eThis command is for players only.'
+Editor:
+  Tip:
+    Exit: '<! prefix:"false" !><? show_text:"#d4d9d8Click me or type #fd5e5e#exit" run_command:"/#exit" ?>#d4d9d8Click here to #fd5e5e[Exit Edit Mode]</>'
+  Title:
+    Done: '#aefd5e&lDone!'
+    Edit: '#aefd5e&l< Edit Mode >'
+    Error: '#fd5e5e&lError!'
+  Error:
+    Number:
+      Generic: '#d4d9d8Invalid number!'
+      NotInt: '#d4d9d8Expecting #fd5e5ewhole#d4d9d8 number!'
+    Enum: '#d4d9d8Invalid Input!'
+  Generic:
+    Close:
+      Name: '#ea3131(✕) Exit'
+      Lore: []
+    Return:
+      Name: '#aaa8a8(↓) #e8f2f2Return'
+      Lore: []
+    NextPage:
+      Name: '#aaa8a8(→) #e8f2f2Next Page'
+      Lore: []
+    PreviousPage:
+      Name: '#aaa8a8(←) #e8f2f2Previous Page'
+      Lore: []

@@ -1,0 +1,188 @@
+
+# ########################################################################
+# Economy Settings
+# ########################################################################
+economy:
+
+  # Set this to true if you want tha BagOfGold to be a real Economy, which can be used for 
+  # buying/selling other items. If you want the BagOfGold to be items which can be bought/sold,
+  # set this to false
+  use-bagofgold-as-an-economy-plugin: true
+
+  # Here you can change then name of your sign banks.
+  bank_name_on_sign: BagOfGold Bank
+
+# ########################################################################
+# Gringotts Style
+# ########################################################################
+# OBS DONT USE GRINGOTTS_STYLE YET! Gringotts seems to die with Minecraft 1.13, but I have made a Gringotts style
+# for Gringotts lovers (https://www.spigotmc.org/resources/gringotts.42071/)
+gringotts:
+
+  # This is deprecated. Please use bagofgoldcore.yml settings in BagOfGold folder instead.
+  denomination:
+    EMERALD_BLOCK: '9'
+    EMERALD: '1'
+
+# ########################################################################
+# Bank settings
+# ########################################################################
+# The Banker is dependend on Citizens2 plugin.
+banker:
+
+  # This is the name/displayname of the banker.
+  banker-name: Bank Manager
+
+  # This is the bankers Skin. You can find other skins at https://mineskin.org/
+  banker-texture: ewogICJ0aW1lc3RhbXAiIDogMTYxMzc0MDE5NjE5MywKICAicHJvZmlsZUlkIiA6ICIwNWQ0NTNiZWE0N2Y0MThiOWI2ZDUzODg0MWQxMDY2MCIsCiAgInByb2ZpbGVOYW1lIiA6ICJFY2hvcnJhIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzcwMTkyODkwNTU4OTBjMTIxMWFjZDM3MjVhNzBmMDUxNTVlNmVjMTZlYTgzMjZjMzdmNDFiMjE2MTI2NjFkYjgiCiAgICB9CiAgfQp9
+
+  # This is the skin signature. Make sure that the signature matches the texture from https://mineskin.org/
+  banker-signature: dVWdZ9OaO0PySSQO3TyfTh0sB6faiXvuMAGFALNw48lWehuZsCpIIGjxaGHr+i/VR+xXW5lrKIB82TedbfGy8wyhYXmfbo9b8BtXMlRye0duwyMim2Bug1H62BB3VD/Z/4n8wF+Y3r8dfrSCCX8b3B6Rr2C3Y1i086mVD7a4g42Cj/1e+nlXosNenqkm0vKtvUfb0vBVIAx4xuOjexRyCwGEpcDW30n70lLzuljtDE0nrhfuyvhKif7HDyLrh+22nunkVv5KjdK5UqABcEXz8SB0mdEVhxzwNOPZYzylVMYuwOXFhG6Q3EavqRnpNP6E8VLvuJ9qqmnStE1ajRLwphDdbOnoh3EogBkhKwh0ayy0s/ZM8IxPvQAUXKDUlf71j/IeArS8nBfTO7U8pNPGbC/9NnRxa9vvqiEECxzqFwrDigEstZFENUqzlWby6MZFN08xqySaSahPi7FACmVCn9wkcImtWs+N7y2N7Mk4spX3uv5lwhC5taj+/WqZVxKLGreCs3pnIKnX8+wmEEYT2FIZHXJAWGrqizEp6/gpCkwl9X2pgrj89yG4NpaYiNAyjMu9tXgfoBOfbaRriSomk5jJLu5C93Grvd98LKmXWpOj1KunwmST4JdtF/BTk/sSCnr9RXDf9iMbnSM/ZC4PFgKQyzzJ1PC8yC9FuUhk4WM=
+
+  # Change the numbers or add new lines if you like.
+  banker-actions:
+    deposit10: '10'
+    deposit100: '100'
+    deposit1000: '1000'
+    depositall: All
+    withdraw10: '10'
+    withdraw100: '100'
+    withdraw1000: '1000'
+    withdrawall: All
+  interest:
+
+    # Enable interst calculation. Players can get an interest per day/week
+    calculate-interest: false
+
+    # How often do you want the Interest to be calculated and added to your
+    # account: DAY, WEEK, MONTH, YEAR. 1 Minecraft day = 20 min, 
+    # 1 Minecraft week = 2.3 hours, 1 Minecraft nmonth = 10 hours,
+    # 1 Minecraft year = 121.75 hours
+    # Source: https://minecraft.gamepedia.com/Day-night_cycle
+    period: WEEK
+
+    # This is the interest in % per Minecraft year (121.75 hours). Be careful not to make
+    # it too big, it can ruin your server economy. Default is 20%
+    interest: 20.0
+
+# ########################################################################
+# Integration to other plugins.
+# ########################################################################
+plugins:
+
+  # ########################################################################
+  # Citizens / MasterMobHunter settings.
+  # ########################################################################
+  citizens:
+
+    # Enable integration with Citizens2
+    enable-integration-citizens: true
+
+  # ########################################################################
+  # Shopkeepers settings.
+  # ########################################################################
+  shopkeepers:
+
+    # Enable integration with Shopkeepers. This is still in BETA TEST and 
+    # you should not use the Shopkeeper integration. 
+    # You can only SELL items and get BagOfGold at the moment!!!
+    enable-integration-shopkeepers-beta: false
+
+  # ########################################################################
+  # Essentials settings.
+  # ########################################################################
+  essentials:
+
+    # Enable integration with Essentials
+    # http://dev.bukkit.org/bukkit-plugins/essentialsx/
+    enable-integration-essentials: true
+
+  # ########################################################################
+  # PerWorldInventory settings.
+  # ########################################################################
+  perworldinventory:
+
+    # Enable integration with PerWorldInventory
+    # http://dev.bukkit.org/bukkit-plugins/essentialsx/
+    enable-integration-perworldinventory: true
+
+  # ########################################################################
+  # PlaceholderApi
+  # ########################################################################
+  placeholderapi:
+
+    # Enable/Disable integration with PlaceholderAPI.
+    # https://www.spigotmc.org/resources/placeholderapi.6245/
+    enable_integration_placeholderapi: true
+
+  # ########################################################################
+  # Worldguard
+  # ########################################################################
+  worldguard:
+
+    # Enable/Disable integration with WorldGuard
+    enable_integration_worldguard: true
+
+  # ########################################################################
+  # Worldedit
+  # ########################################################################
+  worldedit:
+
+    # Enable/Disable integration with WorldEdit
+    enable_integration_worldedit: true
+
+# ########################################################################
+# General Settings
+# ########################################################################
+general:
+
+  # The language (file) to use. You can put the name of the language file as the language code 
+  # (eg. en_US, fr_FR, hu_HU, pt_BR, zh_CN, ru_RU ect.) or you can specify the name of a custom file without the .lang
+  # Please check the lang/ folder for a list of all available translations.
+  language: en_US
+
+  # If kills are not being registered in mob hunting. Enable this to see why they arent
+  debug: false
+
+  # When a new playerjoins the server he will by default start
+  # in 'LEARNING MODE' and get extra information about when he get rewards and not,
+  # when killing Mobs. The player can disable this InGame by using the command '/mobhunt learn'
+  newplayer_learning_mode: true
+
+  # Backup config on each server start / reload
+  backup: true
+
+# ########################################################################
+# Database Settings.
+# ########################################################################
+database:
+
+  # Type of database to use. Valid values are: sqlite, mysql
+  type: sqlite
+  database_name: bagofgold
+  mysql:
+    username: user
+    password: password
+    host: localhost:3306
+    useSSL: 'false'
+
+  # This is the database layout version. Mostly for internal use and you should not need
+  # to change this value. In case you decide to delete your database and let it recreate
+  # or if you change database type sqlite/mysql you should set this value to 0 again.
+  database_version: 4
+
+# ########################################################################
+# Update settings
+# ########################################################################
+updates:
+
+  # Check if there is a new version of the plugin available.
+  update-check: true
+
+  # Set the number of seconds between each check. Recommended setting is
+  # check_every: 7200 ~ to check every second hour.
+  check_every: 7200
+
+  # Set 'autoupdate: true' if you want new updates downloaded and installed.
+  # You will still have to reboot the server manually.
+  autoupdate: false
