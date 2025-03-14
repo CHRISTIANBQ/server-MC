@@ -600,6 +600,7 @@
     "criteria": {
       "minecraft:spider": "2025-03-14 00:43:27 +0000",
       "minecraft:creeper": "2025-03-14 01:41:53 +0000",
+      "minecraft:wither_skeleton": "2025-03-14 01:53:08 +0000",
       "minecraft:zombie": "2025-03-14 01:23:25 +0000"
     },
     "done": false
@@ -718,15 +719,33 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/gold_ingot_from_smelting_raw_gold": {
+    "criteria": {
+      "has_raw_gold": "2025-03-14 01:46:06 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/birch_button": {
     "criteria": {
       "has_planks": "2025-03-14 01:43:58 +0000"
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/raw_gold_block": {
+    "criteria": {
+      "has_raw_gold": "2025-03-14 01:46:06 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/bow": {
     "criteria": {
       "has_string": "2025-03-14 01:41:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_blasting_raw_gold": {
+    "criteria": {
+      "has_raw_gold": "2025-03-14 01:46:06 +0000"
     },
     "done": true
   },
@@ -739,6 +758,12 @@
   "minecraft:recipes/decorations/birch_fence": {
     "criteria": {
       "has_planks": "2025-03-14 01:43:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coal": {
+    "criteria": {
+      "has_coal_block": "2025-03-14 01:46:35 +0000"
     },
     "done": true
   },
@@ -832,9 +857,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/white_stained_glass_pane": {
+    "criteria": {
+      "has_glass": "2025-03-14 01:53:09 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/loom": {
     "criteria": {
       "has_string": "2025-03-14 01:41:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/nether_brick": {
+    "criteria": {
+      "has_netherrack": "2025-03-14 01:46:08 +0000"
     },
     "done": true
   },

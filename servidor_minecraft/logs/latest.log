@@ -512,3 +512,133 @@ java.lang.IllegalArgumentException: No enum constant org.bukkit.Particle.SMOKE
 [01:45:54] [Server thread/INFO]: elian has made the advancement [Diamonds!]
 [01:45:58] [Server thread/INFO]: THEMONILO issued server command: /mp shoot 1
 [01:45:58] [Server thread/INFO]: [MeteoritesPro] A Fiery Meteorite has been sighted near X:-236 Z:93 !
+[01:46:53] [Server thread/INFO]: [CustomItemsLib][Debug] CoreRewardListeners: The reward despawned (# of rewards left=3)
+[01:46:56] [Server thread/INFO]: THEMONILO was shot by Skeleton
+[01:47:11] [Server thread/INFO]: THEMONILO was shot by Skeleton
+[01:47:20] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] Saving CustomItemsLib data
+[01:48:13] [Server thread/INFO]: [CustomItemsLib][Debug] CoreRewardListeners: The reward despawned (# of rewards left=3)
+[01:48:22] [Server thread/INFO]: THEMONILO issued server command: /mp shoot 1
+[01:48:22] [Server thread/INFO]: [MeteoritesPro] A Fiery Meteorite has been sighted near X:-237 Z:118 !
+[01:48:54] [Server thread/INFO]: THEMONILO was shot by Skeleton
+[01:48:54] [Server thread/INFO]: THEMONILO issued server command: /mp shoot 1
+[01:48:54] [Server thread/INFO]: [MeteoritesPro] A Fiery Meteorite has been sighted near X:-240 Z:123 !
+[01:48:58] [Server thread/INFO]: [CustomItemsLib][Debug] CoreRewardListeners: The reward despawned (# of rewards left=3)
+[01:49:00] [Server thread/INFO]: [CustomItemsLib][Debug] CoreRewardListeners: The reward despawned (# of rewards left=2)
+[01:49:11] [Server thread/INFO]: THEMONILO was shot by Skeleton
+[01:49:55] [Server thread/INFO]: elian has made the advancement [Not Today, Thank You]
+[01:50:09] [Server thread/INFO]: THEMONILO was slain by Zombie
+[01:50:20] [Server thread/INFO]: elian has made the advancement [Cover Me with Diamonds]
+[01:50:50] [Server thread/INFO]: THEMONILO issued server command: /mp shoot 1
+[01:50:50] [Server thread/INFO]: [MeteoritesPro] A Fiery Meteorite has been sighted near X:-232 Z:116 !
+[01:50:51] [Server thread/INFO]: elian blew up
+[01:51:05] [Server thread/INFO]: THEMONILO went up in flames
+[01:51:28] [Server thread/INFO]: THEMONILO was slain by Meteorite Guardian
+[01:51:42] [Server thread/INFO]: THEMONILO was slain by Meteorite Guardian
+[01:51:50] [Server thread/INFO]: elian was slain by Meteorite Guardian
+[01:51:52] [Server thread/INFO]: THEMONILO was slain by Meteorite Guardian
+[01:51:55] [Server thread/INFO]: [CustomItemsLib][Debug] CoreRewardListeners: The reward despawned (# of rewards left=4)
+[01:52:02] [Server thread/INFO]: THEMONILO was slain by Meteorite Guardian
+[01:52:11] [Server thread/INFO]: elian was slain by Meteorite Guardian
+[01:52:11] [Server thread/INFO]: THEMONILO issued server command: /mobkill monsters
+[01:52:18] [Server thread/INFO]: THEMONILO issued server command: /mobkill mobs
+[01:52:20] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] Saving CustomItemsLib data
+[01:52:22] [Server thread/INFO]: THEMONILO issued server command: /mobkill all
+[01:52:26] [Craft Scheduler Thread - 14 - BeautyQuests/INFO]: [BeautyQuests] Datas saved ~ periodic save
+[01:52:27] [Server thread/INFO]: THEMONILO was slain by Meteorite Guardian
+[01:52:29] [Server thread/INFO]: elian was slain by Meteorite Guardian
+[01:52:30] [Server thread/INFO]: THEMONILO was slain by Meteorite Guardian
+[01:52:31] [Server thread/INFO]: elian was slain by Meteorite Guardian
+[01:52:33] [Server thread/INFO]: THEMONILO was slain by Meteorite Guardian
+[01:52:34] [Server thread/INFO]: elian was slain by Meteorite Guardian
+[01:52:35] [Server thread/INFO]: THEMONILO was slain by Meteorite Guardian
+[01:52:37] [Server thread/INFO]: THEMONILO was slain by Meteorite Guardian
+[01:52:40] [Server thread/INFO]: elian was slain by Meteorite Guardian
+[01:52:41] [Server thread/INFO]: THEMONILO issued server command: /gamemode creative
+[01:52:46] [Server thread/INFO]: elian was slain by Meteorite Guardian
+[01:52:52] [Server thread/INFO]: 1Kennethe has made the advancement [Diamonds!]
+[01:53:07] [Server thread/INFO]: elian was slain by Meteorite Guardian
+[01:53:08] [Server thread/INFO]: Named entity EntitySkeletonWither['Meteorite Guardian'/3490, uuid='cfc8de53-6a72-4af8-a575-f6f02da43328', l='ServerLevel[world]', x=-247.64, y=124.00, z=119.18, cpos=[-16, 7], tl=2112, v=true] died: Meteorite Guardian was slain by THEMONILO
+[01:53:16] [Server thread/INFO]: THEMONILO issued server command: /gamemode survival
+[01:53:37] [Server thread/INFO]: THEMONILO issued server command: /mobkill all
+[01:53:39] [Server thread/INFO]: THEMONILO issued server command: /mobkill mobs
+[01:54:06] [Server thread/INFO]: [BagOfGold] Checking for new updates...
+[01:54:06] [Server thread/INFO]: THEMONILO issued server command: /mp shoot 1
+[01:54:06] [Server thread/INFO]: [MeteoritesPro] A Fiery Meteorite has been sighted near X:-246 Z:118 !
+[01:54:07] [Server thread/INFO]: THEMONILO blew up
+[01:54:07] [Server thread/INFO]: 1Kennethe blew up
+[01:54:07] [Server thread/INFO]: THEMONILO issued server command: /mp shoot 1
+[01:54:07] [Server thread/INFO]: [MeteoritesPro] A Fiery Meteorite has been sighted near X:-246 Z:118 !
+[01:54:07] [Craft Scheduler Thread - 12 - BagOfGold/INFO]: [BagOfGold] No update found.
+[01:54:13] [Server thread/INFO]: THEMONILO issued server command: /mp shoot 1
+[01:54:13] [Server thread/INFO]: [MeteoritesPro] A Fiery Meteorite has been sighted near X:-264 Z:75 !
+[01:54:13] [Server thread/INFO]: THEMONILO issued server command: /mp shoot 1
+[01:54:13] [Server thread/INFO]: [MeteoritesPro] A Fiery Meteorite has been sighted near X:-264 Z:75 !
+[01:54:17] [Server thread/INFO]: THEMONILO issued server command: /mp shoot 1
+[01:54:17] [Server thread/INFO]: [MeteoritesPro] A Fiery Meteorite has been sighted near X:-264 Z:75 !
+[01:54:18] [Server thread/INFO]: THEMONILO issued server command: /mp shoot 1
+[01:54:18] [Server thread/INFO]: [MeteoritesPro] A Fiery Meteorite has been sighted near X:-264 Z:75 !
+[01:54:19] [Server thread/INFO]: THEMONILO issued server command: /mp shoot 1
+[01:54:19] [Server thread/INFO]: [MeteoritesPro] A Fiery Meteorite has been sighted near X:-264 Z:75 !
+[01:54:20] [Server thread/INFO]: THEMONILO issued server command: /mp shoot 1
+[01:54:20] [Server thread/INFO]: [MeteoritesPro] A Fiery Meteorite has been sighted near X:-264 Z:75 !
+[01:54:21] [Server thread/INFO]: THEMONILO issued server command: /mp shoot 1
+[01:54:21] [Server thread/INFO]: [MeteoritesPro] A Fiery Meteorite has been sighted near X:-264 Z:75 !
+[01:54:22] [Server thread/INFO]: THEMONILO issued server command: /mp shoot 1
+[01:54:22] [Server thread/INFO]: [MeteoritesPro] A Fiery Meteorite has been sighted near X:-264 Z:75 !
+[01:54:22] [Server thread/INFO]: THEMONILO issued server command: /mp shoot 1
+[01:54:22] [Server thread/INFO]: [MeteoritesPro] A Fiery Meteorite has been sighted near X:-264 Z:75 !
+[01:54:22] [Server thread/INFO]: THEMONILO issued server command: /mp shoot 1
+[01:54:22] [Server thread/INFO]: [MeteoritesPro] A Fiery Meteorite has been sighted near X:-264 Z:75 !
+[01:54:23] [Server thread/INFO]: THEMONILO issued server command: /mp shoot 1
+[01:54:23] [Server thread/INFO]: [MeteoritesPro] A Fiery Meteorite has been sighted near X:-264 Z:75 !
+[01:54:23] [Server thread/INFO]: THEMONILO issued server command: /mp shoot 1
+[01:54:23] [Server thread/INFO]: [MeteoritesPro] A Fiery Meteorite has been sighted near X:-264 Z:75 !
+[01:54:25] [Server thread/INFO]: THEMONILO issued server command: /mp shoot 1
+[01:54:25] [Server thread/INFO]: [MeteoritesPro] A Fiery Meteorite has been sighted near X:-264 Z:75 !
+[01:54:25] [Server thread/INFO]: THEMONILO issued server command: /mp shoot 1
+[01:54:25] [Server thread/INFO]: [MeteoritesPro] A Fiery Meteorite has been sighted near X:-264 Z:75 !
+[01:54:50] [Server thread/INFO]: elian went up in flames
+[01:54:55] [Server thread/INFO]: THEMONILO issued server command: /mp shoot 1
+[01:54:55] [Server thread/INFO]: [MeteoritesPro] A Fiery Meteorite has been sighted near X:-265 Z:93 !
+[01:54:55] [Server thread/INFO]: THEMONILO issued server command: /mp shoot 1
+[01:54:55] [Server thread/INFO]: [MeteoritesPro] A Fiery Meteorite has been sighted near X:-266 Z:93 !
+[01:54:56] [Server thread/INFO]: [CustomItemsLib][Debug] No skin found i database
+[01:54:56] [Server thread/INFO]: [CustomItemsLib][Debug] Trying to fecth skin from Online Player Profile
+[01:54:56] [Server thread/INFO]: [CustomItemsLib][Debug] CustomItems: set the skin using OwningPlayer/Owner (THEMONILO)
+[01:54:56] [Server thread/INFO]: THEMONILO was blown up by 1Kennethe
+[01:54:57] [Server thread/INFO]: 1Kennethe went up in flames
+[01:55:08] [Server thread/INFO]: elian went up in flames
+[01:55:26] [Server thread/INFO]: THEMONILO issued server command: /mp shoot 1
+[01:55:26] [Server thread/INFO]: [MeteoritesPro] A Fiery Meteorite has been sighted near X:-258 Z:66 !
+[01:55:26] [Server thread/INFO]: THEMONILO issued server command: /mp shoot 1
+[01:55:26] [Server thread/INFO]: [MeteoritesPro] A Fiery Meteorite has been sighted near X:-258 Z:66 !
+[01:55:27] [Server thread/INFO]: THEMONILO issued server command: /mp shoot 1
+[01:55:27] [Server thread/INFO]: [MeteoritesPro] A Fiery Meteorite has been sighted near X:-258 Z:66 !
+[01:55:27] [Server thread/INFO]: THEMONILO issued server command: /mp shoot 1
+[01:55:27] [Server thread/INFO]: [MeteoritesPro] A Fiery Meteorite has been sighted near X:-258 Z:66 !
+[01:55:28] [Server thread/INFO]: THEMONILO issued server command: /mp shoot 1
+[01:55:28] [Server thread/INFO]: [MeteoritesPro] A Fiery Meteorite has been sighted near X:-258 Z:66 !
+[01:55:29] [Server thread/INFO]: THEMONILO issued server command: /mp shoot 1
+[01:55:29] [Server thread/INFO]: [MeteoritesPro] A Fiery Meteorite has been sighted near X:-258 Z:66 !
+[01:55:46] [Server thread/INFO]: 1Kennethe burned to death
+[01:56:00] [Server thread/INFO]: THEMONILO issued server command: /mp shoot 1
+[01:56:00] [Server thread/INFO]: [MeteoritesPro] A Fiery Meteorite has been sighted near X:-235 Z:66 !
+[01:56:01] [Server thread/INFO]: THEMONILO issued server command: /mp shoot 1
+[01:56:01] [Server thread/INFO]: [MeteoritesPro] A Fiery Meteorite has been sighted near X:-235 Z:66 !
+[01:56:01] [Server thread/INFO]: THEMONILO issued server command: /mp shoot 1
+[01:56:01] [Server thread/INFO]: [MeteoritesPro] A Fiery Meteorite has been sighted near X:-235 Z:66 !
+[01:56:07] [Server thread/INFO]: THEMONILO issued server command: /mp shoot 3
+[01:56:10] [Server thread/INFO]: THEMONILO issued server command: /mp shoot 2
+[01:56:10] [Server thread/INFO]: [MeteoritesPro] An Icy Meteorite has been sighted near X:-244 Z:63 !
+[01:56:12] [Server thread/INFO]: THEMONILO issued server command: /mp shoot 2
+[01:56:12] [Server thread/INFO]: [MeteoritesPro] An Icy Meteorite has been sighted near X:-243 Z:60 !
+[01:56:13] [Server thread/INFO]: THEMONILO issued server command: /mp shoot 2
+[01:56:13] [Server thread/INFO]: [MeteoritesPro] An Icy Meteorite has been sighted near X:-243 Z:60 !
+[01:56:33] [Server thread/INFO]: THEMONILO issued server command: /gamemode creative
+[01:56:43] [Server thread/INFO]: THEMONILO issued server command: /up 1
+[01:56:47] [Server thread/INFO]: THEMONILO issued server command: //pos1
+[01:56:58] [Server thread/INFO]: THEMONILO issued server command: //pos2
+[01:57:00] [Server thread/INFO]: THEMONILO issued server command: //set air
+[01:57:19] [Server thread/INFO]: THEMONILO issued server command: //pos2
+[01:57:20] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] Saving CustomItemsLib data
+[01:57:21] [Server thread/INFO]: THEMONILO issued server command: //set air

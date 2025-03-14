@@ -211,3 +211,6 @@
 [01:40:22] [DEBUG] 1Kennethe (58ded296-153e-304a-9f19-127df9f5730f) joined the server
 [01:40:22] [DEBUG] Loading player 1Kennethe...
 [01:40:22] [DEBUG] Completed load of 1Kennethe (58ded296-153e-304a-9f19-127df9f5730f (#3)) datas within 37 ms (0 quests, 0 pools) | Loaded from cached accounts pending unload
+[01:52:26] [DEBUG] Saving 3 loaded accounts and 3 identifiers.
+[01:52:26] [DEBUG] Saved datas (0.003s)!
+[01:52:26] [INFO] Datas saved ~ periodic save
