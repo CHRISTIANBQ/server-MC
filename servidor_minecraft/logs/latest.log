@@ -809,3 +809,7 @@ java.lang.NullPointerException: Cannot invoke "Object.hashCode()" because "key" 
 [03:17:24] [Server thread/INFO]: THEMONILO issued server command: /gamemode survival
 [03:18:23] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] Saving CustomItemsLib data
 [03:18:33] [Server thread/INFO]: elian has made the advancement [Suit Up]
+[03:19:34] [Server thread/INFO]: THEMONILO issued server command: /tpa elian
+[03:19:42] [Server thread/INFO]: elian issued server command: /tpaccept
+[03:23:23] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] Saving CustomItemsLib data
+[03:28:23] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] Saving CustomItemsLib data
