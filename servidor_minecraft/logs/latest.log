@@ -1,47 +1,34 @@
-[21:18:00] [ServerMain/ERROR]: [EntrypointUtil] su/nightexpress/nightcore/NightCoreLoader has been compiled by a more recent version of the Java Runtime (class file version 65.0), this version of the Java Runtime only recognizes class file versions up to 61.0
-java.lang.UnsupportedClassVersionError: su/nightexpress/nightcore/NightCoreLoader has been compiled by a more recent version of the Java Runtime (class file version 65.0), this version of the Java Runtime only recognizes class file versions up to 61.0
-	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:?]
-	at java.lang.ClassLoader.defineClass(ClassLoader.java:1017) ~[?:?]
-	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150) ~[?:?]
-	at io.papermc.paper.plugin.entrypoint.classloader.PaperSimplePluginClassLoader.findClass(PaperSimplePluginClassLoader.java:103) ~[paper-1.20.jar:git-Paper-17]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:592) ~[?:?]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
-	at java.lang.Class.forName0(Native Method) ~[?:?]
-	at java.lang.Class.forName(Class.java:467) ~[?:?]
-	at io.papermc.paper.plugin.provider.util.ProviderUtil.loadClass(ProviderUtil.java:51) ~[paper-api-1.20-R0.1-SNAPSHOT.jar:?]
-	at io.papermc.paper.plugin.provider.util.ProviderUtil.loadClass(ProviderUtil.java:29) ~[paper-api-1.20-R0.1-SNAPSHOT.jar:?]
-	at io.papermc.paper.plugin.provider.type.paper.PaperPluginProviderFactory.build(PaperPluginProviderFactory.java:37) ~[paper-1.20.jar:git-Paper-17]
-	at io.papermc.paper.plugin.provider.type.paper.PaperPluginProviderFactory.build(PaperPluginProviderFactory.java:23) ~[paper-1.20.jar:git-Paper-17]
-	at io.papermc.paper.plugin.provider.type.PluginFileType.register(PluginFileType.java:71) ~[paper-1.20.jar:git-Paper-17]
-	at io.papermc.paper.plugin.provider.source.FileProviderSource.registerProviders(FileProviderSource.java:57) ~[paper-1.20.jar:git-Paper-17]
-	at io.papermc.paper.plugin.provider.source.DirectoryProviderSource.lambda$registerProviders$1(DirectoryProviderSource.java:34) ~[paper-1.20.jar:git-Paper-17]
-	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183) ~[?:?]
-	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179) ~[?:?]
-	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[?:?]
-	at java.util.Iterator.forEachRemaining(Iterator.java:133) ~[?:?]
-	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1845) ~[?:?]
-	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
-	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150) ~[?:?]
-	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173) ~[?:?]
-	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
-	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596) ~[?:?]
-	at io.papermc.paper.plugin.provider.source.DirectoryProviderSource.registerProviders(DirectoryProviderSource.java:32) ~[paper-1.20.jar:git-Paper-17]
-	at io.papermc.paper.plugin.provider.source.DirectoryProviderSource.registerProviders(DirectoryProviderSource.java:14) ~[paper-1.20.jar:git-Paper-17]
-	at io.papermc.paper.plugin.util.EntrypointUtil.registerProvidersFromSource(EntrypointUtil.java:14) ~[paper-1.20.jar:git-Paper-17]
-	at io.papermc.paper.plugin.PluginInitializerManager.load(PluginInitializerManager.java:100) ~[paper-1.20.jar:git-Paper-17]
-	at net.minecraft.server.Main.main(Main.java:126) ~[paper-1.20.jar:git-Paper-17]
-	at org.bukkit.craftbukkit.Main.main(Main.java:316) ~[paper-1.20.jar:git-Paper-17]
-	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
+[21:40:36] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[21:40:36] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
+[21:40:38] [ServerMain/INFO]: Loaded 7 recipes
+[21:40:39] [Server thread/INFO]: Starting minecraft server version 1.20
+[21:40:39] [Server thread/INFO]: Loading properties
+[21:40:39] [Server thread/INFO]: This server is running Paper version git-Paper-17 (MC: 1.20) (Implementing API version 1.20-R0.1-SNAPSHOT) (Git: c287e92)
+[21:40:39] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[21:40:39] [Server thread/INFO]: Using 4 threads for Netty based IO
+[21:40:39] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[21:40:39] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[21:40:39] [Server thread/INFO]: Default game type: SURVIVAL
+[21:40:39] [Server thread/INFO]: Generating keypair
+[21:40:39] [Server thread/INFO]: Starting Minecraft server on *:25565
+[21:40:39] [Server thread/INFO]: Using epoll channel type
+[21:40:39] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[21:40:39] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[21:40:39] [Server thread/WARN]: **** FAILED TO BIND TO PORT!
+[21:40:39] [Server thread/WARN]: The exception was: io.netty.channel.unix.Errors$NativeIoException: bind(..) failed: Address already in use
+[21:40:39] [Server thread/WARN]: Perhaps a server is already running on that port?
+[21:40:39] [Server thread/ERROR]: Encountered an unexpected exception
+java.lang.IllegalStateException: Failed to initialize server
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1102) ~[paper-1.20.jar:git-Paper-17]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318) ~[paper-1.20.jar:git-Paper-17]
 	at java.lang.Thread.run(Thread.java:840) ~[?:?]
-[21:18:04] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[21:18:04] [ServerMain/ERROR]: Failed to start the minecraft server
-net.minecraft.util.SessionLock$ExceptionWorldConflict: /workspaces/server-MC/servidor_minecraft/./world/session.lock: already locked (possibly by other Minecraft instance?)
-	at net.minecraft.util.DirectoryLock$LockException.alreadyLocked(DirectoryLock.java:102) ~[?:?]
-	at net.minecraft.util.DirectoryLock.create(DirectoryLock.java:30) ~[?:?]
-	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.<init>(LevelStorageSource.java:512) ~[?:?]
-	at net.minecraft.world.level.storage.LevelStorageSource.validateAndCreateAccess(LevelStorageSource.java:425) ~[?:?]
-	at net.minecraft.server.Main.main(Main.java:200) ~[paper-1.20.jar:git-Paper-17]
-	at org.bukkit.craftbukkit.Main.main(Main.java:316) ~[paper-1.20.jar:git-Paper-17]
-	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
-	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[21:40:39] [Server thread/ERROR]: This crash report has been saved to: /workspaces/server-MC/servidor_minecraft/./crash-reports/crash-2025-03-15_21.40.39-server.txt
+[21:40:39] [Server thread/INFO]: Stopping server
+[21:40:39] [Server thread/INFO]: Saving players
+[21:40:39] [Server thread/INFO]: Saving worlds
+[21:40:39] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[21:40:39] [Server thread/INFO]: Flushing Chunk IO
+[21:40:39] [Server thread/INFO]: Closing Thread Pool
+[21:40:39] [Server thread/INFO]: Closing Server
