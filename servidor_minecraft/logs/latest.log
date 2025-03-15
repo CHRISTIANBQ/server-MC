@@ -639,3 +639,12 @@ java.lang.NullPointerException: location is marked non-null but is null
 [18:21:19] [Server thread/INFO]: THEMONILO issued server command: /dh delete hola
 [18:21:38] [Server thread/INFO]: THEMONILO issued server command: /pl
 [18:23:02] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] Saving CustomItemsLib data
+[18:28:02] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] Saving CustomItemsLib data
+[18:28:10] [Server thread/INFO]: THEMONILO issued server command: /set air
+[18:28:18] [Server thread/INFO]: THEMONILO issued server command: //set air
+[18:31:42] [Server thread/INFO]: THEMONILO lost connection: Timed out
+[18:31:42] [Server thread/INFO]: [CustomItemsLib][Debug] Saving lastKnownWorldGroup: default
+[18:31:42] [Server thread/INFO]: THEMONILO ha abandonado el servidor.
+[18:33:02] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] PlayerSettings saved.
+[18:33:02] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] Removing THEMONILO from PlayerSettings cache
+[18:33:02] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] Saving CustomItemsLib data
