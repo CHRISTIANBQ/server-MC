@@ -485,3 +485,18 @@ Caused by: java.lang.ClassNotFoundException: net.citizensnpcs.api.CitizensAPI
 [17:39:59] [Server thread/INFO]: THEMONILO issued server command: /spawb
 [17:40:01] [Server thread/INFO]: THEMONILO issued server command: /spawn
 [17:40:36] [Server thread/INFO]: THEMONILO issued server command: /pl
+[17:43:02] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] Saving CustomItemsLib data
+[17:46:39] [Server thread/INFO]: THEMONILO issued server command: /nlogin:changepassword
+[17:46:47] [Server thread/INFO]: THEMONILO issued server command: /nlogin:changepass
+[17:47:32] [Craft Scheduler Thread - 3 - nLogin/INFO]: ✔ You have successfully unregistered the player THEMONILO.
+[17:47:32] [Craft Scheduler Thread - 3 - nLogin/INFO]: 
+[17:47:32] [Craft Scheduler Thread - 3 - nLogin/INFO]: ⚑ This operation took 8.90ms.
+[17:47:32] [Server thread/INFO]: THEMONILO lost connection: Te desregistraste con éxito.
+[17:47:32] [Server thread/INFO]: [CustomItemsLib][Debug] Saving lastKnownWorldGroup: default
+[17:47:32] [Server thread/INFO]: THEMONILO ha abandonado el servidor.
+[17:47:42] [User Authenticator #1/INFO]: UUID of player THEMONILO is 8ce330b9-f746-3d8f-9174-9156ece89f7c
+[17:47:42] [Server thread/INFO]: THEMONILO se ha unido al servidor.
+[17:47:42] [Server thread/INFO]: THEMONILO[/127.181.188.8:50971] logged in with entity id 57069 at ([world]273.42667910494316, 118.0, -0.5433102124796256)
+[17:48:01] [Craft Scheduler Thread - 21 - nLogin/INFO]: [nLogin] The user THEMONILO has successfully registered.
+[17:48:02] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] PlayerSettings saved.
+[17:48:02] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] Saving CustomItemsLib data
