@@ -7,7 +7,16 @@ facing: 0.0
 down-origin: false
 pages:
 - lines:
-  - content: '&l#18b8ec ! Bienvenido &f&f%player_name% &l#18b8ec registrate/logeate de
-      esta manera:'
+  - content: '&l#18b8ec ! Bienvenido &f&f%player_name% a &l#ea2818Permadeath !'
+    height: 0.3
+  - content: '&f'
+    height: 0.3    
+  - content: '&l#18b8ec registrate o logeate'
+    height: 0.3
+  - content: '&l#18b8ec  de esta manera:'
+    height: 0.3    
+  - content: '&f'
+    height: 0.3
+  - content: <#FFFFFF>&m                                            </#FFFF00>
     height: 0.3
   actions: {}
