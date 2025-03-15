@@ -144,3 +144,53 @@
 [2025-03-15 02:36:58] [INFO   ] Calculated structure at 26,-24 
 [2025-03-15 02:36:59] [INFO   ] Spawning DeepCavePopulator at 452,-35,-384 
 [2025-03-15 02:37:06] [INFO   ] Spawning CaveFluidClusterPopulator at 435,-23,-394 
+[2025-03-15 02:43:53] [INFO   ] Large Cave at 832,43,-192 has water level > -32 with populator LargeLushCavePopulator 
+[2025-03-15 02:43:54] [INFO   ] Calculated structure at 32,-24 
+[2025-03-15 02:44:00] [INFO   ] Spawning LushClusterCavePopulator at 491,9,-391 
+[2025-03-15 02:44:12] [INFO   ] Spawning DripstoneClusterCavePopulator at 555,4,-377 
+[2025-03-15 02:45:45] [INFO   ] Spawning CrystallineClusterCavePopulator at 198,-32,-449 
+[2025-03-15 02:45:58] [INFO   ] Registered: org.terraform.structure.mineshaft.ShaftRoomPopulator at 318 4 -705 in a room of size 14x15 
+[2025-03-15 02:45:58] [INFO   ] Registered: org.terraform.structure.mineshaft.ShaftRoomPopulator at 331 4 -673 in a room of size 13x15 
+[2025-03-15 02:45:58] [INFO   ] Registered: org.terraform.structure.mineshaft.SmeltingHallPopulator at 345 4 -700 in a room of size 15x14 
+[2025-03-15 02:45:58] [INFO   ] Registered: org.terraform.structure.mineshaft.SmeltingHallPopulator at 369 4 -680 in a room of size 13x14 
+[2025-03-15 02:45:58] [INFO   ] Registered: org.terraform.structure.mineshaft.CaveSpiderDenPopulator at 305 4 -747 in a room of size 15x14 
+[2025-03-15 02:45:58] [INFO   ] Registered: org.terraform.structure.mineshaft.CaveSpiderDenPopulator at 307 4 -681 in a room of size 13x15 
+[2025-03-15 02:45:58] [INFO   ] Registered: org.terraform.structure.mineshaft.ShaftRoomPopulator at 289 4 -763 in a room of size 13x14 
+[2025-03-15 02:45:58] [INFO   ] Registered: org.terraform.structure.mineshaft.ShaftRoomPopulator at 265 4 -633 in a room of size 14x15 
+[2025-03-15 02:45:58] [INFO   ] Registered: org.terraform.structure.mineshaft.SmeltingHallPopulator at 291 4 -727 in a room of size 15x14 
+[2025-03-15 02:45:58] [INFO   ] Registered: org.terraform.structure.mineshaft.ShaftTopPopulator at 265 19 -633 in a room of size 14x5 
+[2025-03-15 02:45:58] [INFO   ] Registered: org.terraform.structure.mineshaft.CaveSpiderDenPopulator at 282 19 -661 in a room of size 14x15 
+[2025-03-15 02:45:58] [INFO   ] Registered: org.terraform.structure.mineshaft.SmeltingHallPopulator at 372 19 -633 in a room of size 15x14 
+[2025-03-15 02:45:58] [INFO   ] Registered: org.terraform.structure.mineshaft.SmeltingHallPopulator at 321 19 -658 in a room of size 13x13 
+[2025-03-15 02:45:58] [INFO   ] Registered: org.terraform.structure.mineshaft.ShaftTopPopulator at 289 19 -763 in a room of size 13x6 
+[2025-03-15 02:45:58] [INFO   ] Registered: org.terraform.structure.mineshaft.SmeltingHallPopulator at 341 19 -688 in a room of size 13x14 
+[2025-03-15 02:45:58] [INFO   ] Registered: org.terraform.structure.mineshaft.SmeltingHallPopulator at 301 19 -640 in a room of size 13x14 
+[2025-03-15 02:45:58] [INFO   ] Registered: org.terraform.structure.mineshaft.ShaftTopPopulator at 318 19 -705 in a room of size 14x6 
+[2025-03-15 02:45:58] [INFO   ] Registered: org.terraform.structure.mineshaft.SmeltingHallPopulator at 350 19 -771 in a room of size 15x15 
+[2025-03-15 02:45:58] [INFO   ] Registered: org.terraform.structure.mineshaft.CaveSpiderDenPopulator at 353 19 -731 in a room of size 15x14 
+[2025-03-15 02:45:58] [INFO   ] Registered: org.terraform.structure.mineshaft.CaveSpiderDenPopulator at 250 19 -695 in a room of size 15x14 
+[2025-03-15 02:45:58] [INFO   ] Registered: org.terraform.structure.mineshaft.SmeltingHallPopulator at 276 19 -742 in a room of size 13x14 
+[2025-03-15 02:45:58] [INFO   ] Registered: org.terraform.structure.mineshaft.CaveSpiderDenPopulator at 254 19 -645 in a room of size 14x15 
+[2025-03-15 02:45:58] [INFO   ] Registered: org.terraform.structure.mineshaft.ShaftTopPopulator at 331 19 -673 in a room of size 13x5 
+[2025-03-15 02:45:58] [INFO   ] Calculated structure at 20,-33 
+[2025-03-15 02:45:58] [INFO   ] Registered: org.terraform.structure.mineshaft.ShaftRoomPopulator at 813 20 -643 in a room of size 15x14 
+[2025-03-15 02:45:58] [INFO   ] Registered: org.terraform.structure.mineshaft.SmeltingHallPopulator at 863 20 -751 in a room of size 14x13 
+[2025-03-15 02:45:58] [INFO   ] Registered: org.terraform.structure.mineshaft.CaveSpiderDenPopulator at 900 20 -686 in a room of size 15x15 
+[2025-03-15 02:45:58] [INFO   ] Registered: org.terraform.structure.mineshaft.SmeltingHallPopulator at 808 20 -773 in a room of size 15x14 
+[2025-03-15 02:45:58] [INFO   ] Registered: org.terraform.structure.mineshaft.ShaftRoomPopulator at 832 20 -735 in a room of size 15x15 
+[2025-03-15 02:45:58] [INFO   ] Registered: org.terraform.structure.mineshaft.CaveSpiderDenPopulator at 857 20 -730 in a room of size 14x15 
+[2025-03-15 02:45:58] [INFO   ] Registered: org.terraform.structure.mineshaft.CaveSpiderDenPopulator at 828 20 -680 in a room of size 14x14 
+[2025-03-15 02:45:58] [INFO   ] Registered: org.terraform.structure.mineshaft.CaveSpiderDenPopulator at 903 20 -656 in a room of size 14x13 
+[2025-03-15 02:45:58] [INFO   ] Registered: org.terraform.structure.mineshaft.SmeltingHallPopulator at 828 20 -655 in a room of size 13x13 
+[2025-03-15 02:45:58] [INFO   ] Registered: org.terraform.structure.mineshaft.CaveSpiderDenPopulator at 776 20 -737 in a room of size 13x13 
+[2025-03-15 02:45:58] [INFO   ] Registered: org.terraform.structure.mineshaft.CaveSpiderDenPopulator at 762 35 -742 in a room of size 14x13 
+[2025-03-15 02:45:58] [INFO   ] Registered: org.terraform.structure.mineshaft.ShaftTopPopulator at 813 35 -643 in a room of size 15x7 
+[2025-03-15 02:45:58] [INFO   ] Registered: org.terraform.structure.mineshaft.CaveSpiderDenPopulator at 877 35 -771 in a room of size 15x15 
+[2025-03-15 02:45:58] [INFO   ] Registered: org.terraform.structure.mineshaft.SmeltingHallPopulator at 810 35 -737 in a room of size 15x13 
+[2025-03-15 02:45:58] [INFO   ] Registered: org.terraform.structure.mineshaft.CaveSpiderDenPopulator at 817 35 -722 in a room of size 14x15 
+[2025-03-15 02:45:58] [INFO   ] Registered: org.terraform.structure.mineshaft.ShaftTopPopulator at 832 35 -735 in a room of size 15x6 
+[2025-03-15 02:45:58] [INFO   ] Registered: org.terraform.structure.mineshaft.CaveSpiderDenPopulator at 773 35 -672 in a room of size 14x14 
+[2025-03-15 02:45:58] [INFO   ] Registered: org.terraform.structure.mineshaft.CaveSpiderDenPopulator at 898 35 -760 in a room of size 15x13 
+[2025-03-15 02:45:58] [INFO   ] Calculated structure at 32,-33 
+[2025-03-15 02:47:08] [INFO   ] Large Cave at -192,7,-192 has water level > -22 with populator GenericLargeCavePopulator 
+[2025-03-15 02:47:08] [INFO   ] Calculated structure at -1,-28 

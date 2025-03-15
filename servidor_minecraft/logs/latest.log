@@ -683,3 +683,52 @@ java.lang.NullPointerException: Cannot invoke "Object.hashCode()" because "key" 
 [02:36:58] [Tuinity Chunk System Worker #0/WARN]: [ChunkUpgradeGenericStatusTask] Future status not complete after scheduling: minecraft:biomes, generate: true
 [02:37:04] [Server thread/INFO]: THEMONILO issued server command: /kits tools
 [02:38:04] [Server thread/INFO]: THEMONILO issued server command: /backpack
+[02:38:23] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] PlayerSettings saved.
+[02:38:23] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] Saving CustomItemsLib data
+[02:38:25] [Server thread/INFO]: THEMONILO issued server command: /lp group default permission set essentials.home
+[02:38:25] [luckperms-command-executor/INFO]: [LP] LOG > (THEMONILO) [G] (default)
+[02:38:25] [luckperms-command-executor/INFO]: [LP] LOG > permission set essentials.home true
+[02:38:29] [Server thread/INFO]: THEMONILO issued server command: /lp group default permission set essentials.sethome
+[02:38:29] [luckperms-command-executor/INFO]: [LP] LOG > (THEMONILO) [G] (default)
+[02:38:29] [luckperms-command-executor/INFO]: [LP] LOG > permission set essentials.sethome true
+[02:38:33] [Server thread/INFO]: THEMONILO issued server command: /lp group default permission set essentials.spawn
+[02:38:33] [luckperms-command-executor/INFO]: [LP] LOG > (THEMONILO) [G] (default)
+[02:38:33] [luckperms-command-executor/INFO]: [LP] LOG > permission set essentials.spawn true
+[02:38:35] [Server thread/INFO]: Set the weather to rain & thunder
+[02:38:35] [Server thread/INFO]: elian ha muerto y ahora descanza en paz.
+[02:38:35] [Server thread/INFO]: Este es el comienzo del sufrimiento eterno de elian. ¡HA SIDO PERMABANEADO!
+[02:38:35] [Server thread/INFO]: X: 231 || Y: 71 || Z: -163
+[02:38:35] [Server thread/INFO]: elian was slain by Lvl 5 | Zombie
+[02:38:37] [Server thread/INFO]: elian lost connection: Has sido PERMABANEADO
+[02:38:37] [Server thread/INFO]: [CustomItemsLib][Debug] Saving lastKnownWorldGroup: default
+[02:38:37] [Server thread/INFO]: elian ha abandonado el servidor.
+[02:38:40] [Server thread/INFO]: ¡Comienza el Death Train con duración de 1 horas!
+[02:38:49] [Server thread/INFO]: THEMONILO has made the advancement [Monster Hunter]
+[02:38:56] [Server thread/INFO]: THEMONILO issued server command: /pardon elian
+[02:38:56] [Server thread/INFO]: [Essentials] Player THEMONILO unbanned elian
+[02:41:26] [User Authenticator #2/INFO]: UUID of player elian is 3e97d394-1562-31e4-9172-59b2e573112d
+[02:41:26] [Server thread/INFO]: elian se ha unido al servidor.
+[02:41:26] [Server thread/INFO]: elian[/127.86.242.136:36677] logged in with entity id 155522 at ([world]273.61408298136257, 98.0, -0.6979646645713944)
+[02:41:44] [Craft Scheduler Thread - 46 - nLogin/INFO]: [nLogin] The user elian has successfully logged in.
+[02:41:57] [Server thread/INFO]: THEMONILO issued server command: /spawn
+[02:42:41] [Server thread/INFO]: THEMONILO issued server command: /gms elian
+[02:43:14] [Server thread/INFO]: elian has made the advancement [Monster Hunter]
+[02:43:23] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] PlayerSettings saved.
+[02:43:23] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] Saving CustomItemsLib data
+[02:43:34] [Server thread/INFO]: THEMONILO issued server command: /pl
+[02:45:57] [Server thread/INFO]: Permadeath ➤ El jugador THEMONILO no puede dar más horas de tormenta.
+[02:45:57] [Server thread/INFO]: THEMONILO ha muerto y ahora descanza en paz.
+[02:45:57] [Server thread/INFO]: Este es el comienzo del sufrimiento eterno de THEMONILO. ¡HA SIDO PERMABANEADO!
+[02:45:57] [Server thread/INFO]: X: 306 || Y: 65 || Z: -308
+[02:45:57] [Server thread/INFO]: THEMONILO fell from a high place
+[02:45:59] [Server thread/INFO]: THEMONILO lost connection: Has sido PERMABANEADO
+[02:45:59] [Server thread/INFO]: [CustomItemsLib][Debug] Saving lastKnownWorldGroup: default
+[02:45:59] [Server thread/INFO]: THEMONILO ha abandonado el servidor.
+[02:46:23] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /pardon THEMONILO
+[02:46:23] [Server thread/INFO]: [Essentials] Player Console unbanned THEMONILO
+[02:46:27] [User Authenticator #3/INFO]: UUID of player THEMONILO is 8ce330b9-f746-3d8f-9174-9156ece89f7c
+[02:46:27] [Server thread/INFO]: THEMONILO se ha unido al servidor.
+[02:46:27] [Server thread/INFO]: THEMONILO[/127.181.188.8:47027] logged in with entity id 166143 at ([world]273.61408298136257, 98.0, -0.6979646645713944)
+[02:46:57] [Craft Scheduler Thread - 58 - nLogin/INFO]: [nLogin] The user THEMONILO has successfully logged in.
+[02:47:11] [Server thread/INFO]: THEMONILO issued server command: /tp elian
+[02:47:37] [Server thread/INFO]: THEMONILO issued server command: /gamemode adventure
