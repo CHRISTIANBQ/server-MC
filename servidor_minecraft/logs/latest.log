@@ -554,3 +554,88 @@ Caused by: java.lang.ClassNotFoundException: net.citizensnpcs.api.CitizensAPI
 [18:13:07] [Server thread/INFO]: THEMONILO issued server command: /dh reload
 [18:13:07] [Craft Scheduler Thread - 40 - DecentHolograms/INFO]: [DecentHolograms] Loading holograms... 
 [18:13:07] [Craft Scheduler Thread - 40 - DecentHolograms/INFO]: [DecentHolograms] Loaded 2 holograms!
+[18:13:57] [Server thread/INFO]: THEMONILO issued server command: /dh reload
+[18:13:57] [Craft Scheduler Thread - 44 - DecentHolograms/INFO]: [DecentHolograms] Loading holograms... 
+[18:13:57] [Craft Scheduler Thread - 44 - DecentHolograms/INFO]: [DecentHolograms] Loaded 2 holograms!
+[18:14:45] [Server thread/INFO]: THEMONILO issued server command: /dh reload
+[18:14:45] [Craft Scheduler Thread - 42 - DecentHolograms/INFO]: [DecentHolograms] Loading holograms... 
+[18:14:45] [Craft Scheduler Thread - 42 - DecentHolograms/INFO]: [DecentHolograms] Loaded 2 holograms!
+[18:15:51] [Server thread/INFO]: THEMONILO issued server command: /dh reload
+[18:15:51] [Craft Scheduler Thread - 38 - DecentHolograms/INFO]: [DecentHolograms] Loading holograms... 
+[18:15:51] [Craft Scheduler Thread - 38 - DecentHolograms/WARN]: [DecentHolograms] Failed to reload config file at path 'holograms/login_register.yml'.
+[18:15:51] [Craft Scheduler Thread - 38 - DecentHolograms/WARN]: [DecentHolograms] Failed to load hologram from file 'login_register.yml'!
+java.lang.NullPointerException: location is marked non-null but is null
+	at eu.decentsoftware.holograms.api.holograms.objects.HologramObject.<init>(HologramObject.java:37) ~[DecentHolograms-2.8.15.jar:?]
+	at eu.decentsoftware.holograms.api.holograms.objects.UpdatingHologramObject.<init>(UpdatingHologramObject.java:26) ~[DecentHolograms-2.8.15.jar:?]
+	at eu.decentsoftware.holograms.api.holograms.Hologram.<init>(Hologram.java:329) ~[DecentHolograms-2.8.15.jar:?]
+	at eu.decentsoftware.holograms.api.holograms.Hologram.<init>(Hologram.java:316) ~[DecentHolograms-2.8.15.jar:?]
+	at eu.decentsoftware.holograms.api.holograms.Hologram.fromFile(Hologram.java:131) ~[DecentHolograms-2.8.15.jar:?]
+	at eu.decentsoftware.holograms.api.holograms.HologramManager.loadHolograms(HologramManager.java:193) ~[DecentHolograms-2.8.15.jar:?]
+	at eu.decentsoftware.holograms.api.holograms.HologramManager.reload(HologramManager.java:174) ~[DecentHolograms-2.8.15.jar:?]
+	at eu.decentsoftware.holograms.api.DecentHolograms.reload(DecentHolograms.java:103) ~[DecentHolograms-2.8.15.jar:?]
+	at eu.decentsoftware.holograms.plugin.commands.HologramsCommand$ReloadSubCommand.lambda$null$0(HologramsCommand.java:157) ~[DecentHolograms-2.8.15.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.jar:git-Paper-17]
+	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57) ~[paper-1.20.jar:git-Paper-17]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[paper-1.20.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[18:15:51] [Craft Scheduler Thread - 38 - DecentHolograms/INFO]: [DecentHolograms] Loaded 1 holograms!
+[18:16:08] [Server thread/INFO]: THEMONILO issued server command: /dh reload
+[18:16:08] [Craft Scheduler Thread - 12 - DecentHolograms/INFO]: [DecentHolograms] Loading holograms... 
+[18:16:08] [Craft Scheduler Thread - 12 - DecentHolograms/WARN]: [DecentHolograms] Failed to reload config file at path 'holograms/login_register.yml'.
+[18:16:08] [Craft Scheduler Thread - 12 - DecentHolograms/WARN]: [DecentHolograms] Failed to load hologram from file 'login_register.yml'!
+java.lang.NullPointerException: location is marked non-null but is null
+	at eu.decentsoftware.holograms.api.holograms.objects.HologramObject.<init>(HologramObject.java:37) ~[DecentHolograms-2.8.15.jar:?]
+	at eu.decentsoftware.holograms.api.holograms.objects.UpdatingHologramObject.<init>(UpdatingHologramObject.java:26) ~[DecentHolograms-2.8.15.jar:?]
+	at eu.decentsoftware.holograms.api.holograms.Hologram.<init>(Hologram.java:329) ~[DecentHolograms-2.8.15.jar:?]
+	at eu.decentsoftware.holograms.api.holograms.Hologram.<init>(Hologram.java:316) ~[DecentHolograms-2.8.15.jar:?]
+	at eu.decentsoftware.holograms.api.holograms.Hologram.fromFile(Hologram.java:131) ~[DecentHolograms-2.8.15.jar:?]
+	at eu.decentsoftware.holograms.api.holograms.HologramManager.loadHolograms(HologramManager.java:193) ~[DecentHolograms-2.8.15.jar:?]
+	at eu.decentsoftware.holograms.api.holograms.HologramManager.reload(HologramManager.java:174) ~[DecentHolograms-2.8.15.jar:?]
+	at eu.decentsoftware.holograms.api.DecentHolograms.reload(DecentHolograms.java:103) ~[DecentHolograms-2.8.15.jar:?]
+	at eu.decentsoftware.holograms.plugin.commands.HologramsCommand$ReloadSubCommand.lambda$null$0(HologramsCommand.java:157) ~[DecentHolograms-2.8.15.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.jar:git-Paper-17]
+	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57) ~[paper-1.20.jar:git-Paper-17]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[paper-1.20.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[18:16:08] [Craft Scheduler Thread - 12 - DecentHolograms/INFO]: [DecentHolograms] Loaded 1 holograms!
+[18:16:32] [Server thread/INFO]: THEMONILO issued server command: /dh reload
+[18:16:32] [Craft Scheduler Thread - 64 - DecentHolograms/INFO]: [DecentHolograms] Loading holograms... 
+[18:16:32] [Craft Scheduler Thread - 64 - DecentHolograms/INFO]: [DecentHolograms] Loaded 2 holograms!
+[18:17:15] [Server thread/INFO]: THEMONILO issued server command: /dh reload
+[18:17:15] [Craft Scheduler Thread - 42 - DecentHolograms/INFO]: [DecentHolograms] Loading holograms... 
+[18:17:15] [Craft Scheduler Thread - 42 - DecentHolograms/INFO]: [DecentHolograms] Loaded 2 holograms!
+[18:18:02] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] Saving CustomItemsLib data
+[18:18:31] [Server thread/INFO]: THEMONILO issued server command: /dh reload
+[18:18:31] [Craft Scheduler Thread - 45 - DecentHolograms/INFO]: [DecentHolograms] Loading holograms... 
+[18:18:31] [Craft Scheduler Thread - 45 - DecentHolograms/INFO]: [DecentHolograms] Loaded 2 holograms!
+[18:18:43] [Server thread/INFO]: THEMONILO issued server command: /dh reload
+[18:18:43] [Craft Scheduler Thread - 61 - DecentHolograms/INFO]: [DecentHolograms] Loading holograms... 
+[18:18:43] [Craft Scheduler Thread - 61 - DecentHolograms/INFO]: [DecentHolograms] Loaded 2 holograms!
+[18:18:57] [Server thread/INFO]: THEMONILO issued server command: /dh reload
+[18:18:57] [Craft Scheduler Thread - 68 - DecentHolograms/INFO]: [DecentHolograms] Loading holograms... 
+[18:18:57] [Craft Scheduler Thread - 68 - DecentHolograms/INFO]: [DecentHolograms] Loaded 2 holograms!
+[18:19:07] [Server thread/INFO]: THEMONILO issued server command: /dh reload
+[18:19:07] [Craft Scheduler Thread - 67 - DecentHolograms/INFO]: [DecentHolograms] Loading holograms... 
+[18:19:07] [Craft Scheduler Thread - 67 - DecentHolograms/INFO]: [DecentHolograms] Loaded 2 holograms!
+[18:19:22] [Server thread/INFO]: THEMONILO issued server command: /dh tp login_register
+[18:19:25] [Server thread/INFO]: THEMONILO issued server command: /dh tp login_register
+[18:19:36] [Server thread/INFO]: THEMONILO issued server command: /dh movehere
+[18:19:39] [Server thread/INFO]: THEMONILO issued server command: /dh movehere login_register
+[18:19:47] [Server thread/INFO]: THEMONILO issued server command: /dh tp login_register
+[18:19:50] [Server thread/INFO]: THEMONILO issued server command: /dh tp login_register
+[18:19:57] [Server thread/INFO]: THEMONILO issued server command: /dh movehere login_register
+[18:20:04] [Server thread/INFO]: THEMONILO issued server command: /dh movehere login_register
+[18:20:12] [Server thread/INFO]: THEMONILO issued server command: /dh movehere login_register
+[18:20:20] [Server thread/INFO]: THEMONILO issued server command: /dh tp login_register
+[18:20:25] [Server thread/INFO]: THEMONILO issued server command: /dh tp login_register
+[18:20:39] [Server thread/INFO]: THEMONILO issued server command: /dh movehere login_register
+[18:20:57] [Server thread/INFO]: THEMONILO issued server command: /dh reload
+[18:20:57] [Craft Scheduler Thread - 45 - DecentHolograms/INFO]: [DecentHolograms] Loading holograms... 
+[18:20:57] [Craft Scheduler Thread - 45 - DecentHolograms/INFO]: [DecentHolograms] Loaded 2 holograms!
+[18:21:19] [Server thread/INFO]: THEMONILO issued server command: /dh delete hola
+[18:21:38] [Server thread/INFO]: THEMONILO issued server command: /pl
+[18:23:02] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] Saving CustomItemsLib data
