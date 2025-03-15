@@ -627,3 +627,6 @@ Caused by: java.lang.ClassNotFoundException: net.citizensnpcs.api.CitizensAPI
 [19:06:13] [Server thread/INFO]: THEMONILO issued server command: //cyl air 6 4
 [19:06:22] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] Saving CustomItemsLib data
 [19:06:36] [Server thread/INFO]: THEMONILO issued server command: //hcyl stripped_spruce_wood 6 4
+[19:11:22] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] Saving CustomItemsLib data
+[19:14:23] [Server thread/INFO]: THEMONILO issued server command: //set air
+[19:16:22] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] Saving CustomItemsLib data
