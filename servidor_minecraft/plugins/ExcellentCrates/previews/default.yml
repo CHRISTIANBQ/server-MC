@@ -23,10 +23,10 @@ Reward:
 # You can freely edit items in this section as you wish (add, remove, modify items).
 # Get some tips in documentation: https://github.com/nulli0n/NexEngine-spigot/wiki/Menu-Config
 # The following values are available for button types:
+# - MILESTONES
 # - CLOSE
 # - PAGE_NEXT
 # - PAGE_PREVIOUS
-# - MILESTONES
 # ==================================================
 Content:
   panes_1:

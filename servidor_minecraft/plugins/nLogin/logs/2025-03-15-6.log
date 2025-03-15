@@ -43,3 +43,4 @@ Caused by: java.lang.ClassNotFoundException: net.citizensnpcs.api.CitizensAPI
 	... 21 more
 [2025/03/15 19:02:50]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'THEMONILO', `unique_id` = 8ce330b9f7463d8f91749156ece89f7c,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$p1Av.IOTHGOmTdhiQ/UTzOuGAbGFnWZv.1MgzSxggnZCthH1oj/mK', `last_ip` = '127.181.188.8', `creation_date` = 2025-03-15 17:53:28.5, `last_seen` = 2025-03-15 19:02:50.763, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"es","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_ip, last_seen, settings] columns)
 [2025/03/15 19:02:50]: [nLogin] The user THEMONILO has successfully logged in.
+[2025/03/15 20:18:32]: [nLogin] Successful plugin core shutdown (took 0.00s)

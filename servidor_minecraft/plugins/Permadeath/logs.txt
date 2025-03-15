@@ -4,3 +4,6 @@
 [15/03/2025] 04:29:52 Se ha activado el plugin.
 [15/03/2025] 17:33:06 Se ha activado el plugin.
 [15/03/2025] 19:01:27 Se ha activado el plugin.
+[15/03/2025] 20:43:56 Se ha activado el plugin.
+[15/03/2025] 20:48:05 Se ha activado el plugin.
+[15/03/2025] 20:59:15 Se ha activado el plugin.
