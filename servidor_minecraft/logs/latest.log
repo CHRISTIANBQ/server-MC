@@ -630,3 +630,15 @@ Caused by: java.lang.ClassNotFoundException: net.citizensnpcs.api.CitizensAPI
 [19:11:22] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] Saving CustomItemsLib data
 [19:14:23] [Server thread/INFO]: THEMONILO issued server command: //set air
 [19:16:22] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] Saving CustomItemsLib data
+[19:20:43] [Server thread/INFO]: THEMONILO issued server command: //set light
+[19:20:50] [Server thread/INFO]: THEMONILO issued server command: /undio
+[19:20:52] [Server thread/INFO]: THEMONILO issued server command: /undo
+[19:21:18] [Server thread/INFO]: THEMONILO issued server command: //set purple_carpet
+[19:21:22] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] Saving CustomItemsLib data
+[19:21:29] [Server thread/INFO]: THEMONILO issued server command: //set light
+[19:23:39] [Server thread/INFO]: THEMONILO issued server command: //set air
+[19:23:47] [Server thread/INFO]: THEMONILO issued server command: //set light
+[19:26:15] [Server thread/INFO]: THEMONILO issued server command: //set air
+[19:26:22] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] Saving CustomItemsLib data
+[19:27:28] [Server thread/INFO]: THEMONILO issued server command: //set air
+[19:27:49] [Server thread/INFO]: THEMONILO issued server command: //set light
