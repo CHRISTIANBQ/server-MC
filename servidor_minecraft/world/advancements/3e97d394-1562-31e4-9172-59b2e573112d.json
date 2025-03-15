@@ -27,6 +27,7 @@
       "minecraft:stony_shore": "2025-03-15 02:43:59 +0000",
       "minecraft:snowy_taiga": "2025-03-15 02:46:53 +0000",
       "minecraft:jagged_peaks": "2025-03-15 02:49:39 +0000",
+      "minecraft:cold_ocean": "2025-03-15 03:55:33 +0000",
       "minecraft:snowy_beach": "2025-03-15 02:46:49 +0000",
       "minecraft:plains": "2025-03-15 02:32:05 +0000"
     },
@@ -178,6 +179,7 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:skeleton": "2025-03-15 03:53:26 +0000",
       "minecraft:spider": "2025-03-15 02:44:57 +0000",
       "minecraft:zombie": "2025-03-15 02:50:57 +0000",
       "minecraft:zombie_villager": "2025-03-15 02:43:14 +0000"
@@ -1028,6 +1030,42 @@
   "minecraft:recipes/misc/pink_dye_from_peony": {
     "criteria": {
       "has_peony": "2025-03-15 03:40:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/calibrated_sculk_sensor": {
+    "criteria": {
+      "has_amethyst_shard": "2025-03-15 03:55:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tinted_glass": {
+    "criteria": {
+      "has_amethyst_shard": "2025-03-15 03:55:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dispenser": {
+    "criteria": {
+      "has_bow": "2025-03-15 03:53:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/spyglass": {
+    "criteria": {
+      "has_amethyst_shard": "2025-03-15 03:55:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/amethyst_block": {
+    "criteria": {
+      "has_amethyst_shard": "2025-03-15 03:55:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bone_meal": {
+    "criteria": {
+      "has_bone": "2025-03-15 03:53:29 +0000"
     },
     "done": true
   },

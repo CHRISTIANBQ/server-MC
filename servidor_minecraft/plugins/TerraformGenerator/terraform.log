@@ -208,3 +208,4 @@
 [2025-03-15 03:44:58] [INFO   ] Spawning shipwreck at 689, 41, -849 with rotation of NORTH 
 [2025-03-15 03:45:17] [INFO   ] Generating org.terraform.structure.small.ruinedportal.RuinedPortalPopulator at chunk: 47,-56 
 [2025-03-15 03:47:19] [INFO   ] Generating org.terraform.structure.small.buriedtreasure.BuriedTreasurePopulator at chunk: 25,-43 
+[2025-03-15 03:51:14] [INFO   ] Minecart with chest at: 355, 4, -678 

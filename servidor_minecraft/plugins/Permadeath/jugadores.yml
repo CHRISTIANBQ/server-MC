@@ -3,10 +3,10 @@ Players:
     UUID: 8ce330b9-f746-3d8f-9174-9156ece89f7c
     HP: 0
     LastDay: 1
-    banCause: Caída
-    banTime: 03:39:09
+    banCause: Mobs
+    banTime: 03:50:35
     banDay: '2025-03-15'
-    coords: 811 72 -491
+    coords: 627 43 -745
   elian:
     UUID: 3e97d394-1562-31e4-9172-59b2e573112d
     HP: 0
