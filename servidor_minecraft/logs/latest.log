@@ -774,3 +774,19 @@ java.lang.NullPointerException: Cannot invoke "Object.hashCode()" because "key" 
 [02:55:13] [Server thread/INFO]: THEMONILO issued server command: /tpa elian
 [02:55:20] [Server thread/INFO]: elian issued server command: /tpaccept
 [02:58:23] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] Saving CustomItemsLib data
+[02:59:48] [Server thread/INFO]: elian lost connection: Timed out
+[02:59:48] [Server thread/INFO]: [CustomItemsLib][Debug] Saving lastKnownWorldGroup: default
+[02:59:48] [Server thread/INFO]: elian ha abandonado el servidor.
+[03:00:50] [User Authenticator #5/INFO]: UUID of player elian is 3e97d394-1562-31e4-9172-59b2e573112d
+[03:00:50] [Server thread/INFO]: elian se ha unido al servidor.
+[03:00:50] [Server thread/INFO]: elian[/127.86.242.136:42823] logged in with entity id 178740 at ([world]579.0813197793199, 61.0, -206.30000001192093)
+[03:01:14] [Craft Scheduler Thread - 85 - nLogin/INFO]: [nLogin] The user elian has successfully logged in.
+[03:03:23] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] PlayerSettings saved.
+[03:03:23] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] Saving CustomItemsLib data
+[03:06:26] [Server thread/INFO]: THEMONILO lost connection: Timed out
+[03:06:26] [Server thread/INFO]: [CustomItemsLib][Debug] Saving lastKnownWorldGroup: default
+[03:06:26] [Server thread/INFO]: THEMONILO ha abandonado el servidor.
+[03:07:51] [Server thread/INFO]: elian has made the advancement [Acquire Hardware]
+[03:08:23] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] PlayerSettings saved.
+[03:08:23] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] Removing THEMONILO from PlayerSettings cache
+[03:08:23] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] Saving CustomItemsLib data

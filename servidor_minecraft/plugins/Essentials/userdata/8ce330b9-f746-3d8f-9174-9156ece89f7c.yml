@@ -16,7 +16,7 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1742006917529
+  logout: 1742007986183
   login: 1742006946426
   kits:
     firework: 1742006218688
@@ -34,8 +34,8 @@ last-account-name: THEMONILO
 logoutlocation:
   world: 64abf6b2-2f0f-47ef-b152-b5de591b0494
   world-name: world
-  x: 273.61408298136257
-  y: 98.0
-  z: -0.6979646645713944
-  yaw: -175.34878540039062
-  pitch: 22.049964904785156
+  x: 580.6999999880791
+  y: 50.0
+  z: -205.30000001192093
+  yaw: 64.641357421875
+  pitch: 28.49997901916504
