@@ -49,12 +49,18 @@ commands:
   - summon
   - testforblock
   - tellraw
-  log: true
-  tab-complete: 0
-  send-namespaced: true
   spam-exclusions:
   - /skill
   silent-commandblock-console: false
+  log: true
+  tab-complete: 0
+  send-namespaced: true
+players:
+  disable-saving: false
+config-version: 12
+stats:
+  disable-saving: false
+  forced-stats: {}
 world-settings:
   default:
     below-zero-generation-in-existing-chunks: true
@@ -168,9 +174,5 @@ world-settings:
       tile: 50
       entity: 50
     verbose: false
-players:
-  disable-saving: false
-config-version: 12
-stats:
-  disable-saving: false
-  forced-stats: {}
+  worldeditregentempworld:
+    verbose: false

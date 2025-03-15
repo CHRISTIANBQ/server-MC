@@ -1,0 +1,26 @@
+location: world:273.473:103.907:-5.284
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: "§6&l¡Bienvenido, %player_name%!"
+    height: 0.3
+  - content: "§eEstás en &c&lPermadeath, &eun servidor de supervivencia extrema."
+    height: 0.3
+  - content: "§7Tu último acceso fue: &a%player_last_login_time%."
+    height: 0.3
+  - content: "§bTu saldo actual: &e$%vault_eco_balance%."
+    height: 0.3
+  - content: "§aNivel actual: &e%player_level%."
+    height: 0.3
+  - content: "§9Ping: &e%player_ping% ms."
+    height: 0.3
+  - content: "§6Ranking: &e%luckperms_prefix%."
+    height: 0.3
+  - content: "§d¡Disfruta tu estadía y buena suerte!"
+    height: 0.3
+  actions: {}

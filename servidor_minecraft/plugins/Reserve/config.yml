@@ -1,8 +1,0 @@
- 
-version:
-  # This is the current version of TownyEco.  Please do not edit.
-  version: 0.1.3
-  # Please do not edit.
-  last_run_version: 0.1.3
-# Should Reserve hook into vault automatically (legacy support, however may cause issues)
-vault-support: 'true'
