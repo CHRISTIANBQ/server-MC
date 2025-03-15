@@ -790,3 +790,22 @@ java.lang.NullPointerException: Cannot invoke "Object.hashCode()" because "key" 
 [03:08:23] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] PlayerSettings saved.
 [03:08:23] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] Removing THEMONILO from PlayerSettings cache
 [03:08:23] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] Saving CustomItemsLib data
+[03:09:03] [User Authenticator #6/INFO]: UUID of player THEMONILO is 8ce330b9-f746-3d8f-9174-9156ece89f7c
+[03:09:03] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] Player THEMONILO loaded. Texture=null
+[03:09:03] [Server thread/INFO]: THEMONILO se ha unido al servidor.
+[03:09:03] [Server thread/INFO]: THEMONILO[/127.181.188.8:60859] logged in with entity id 179976 at ([world]580.6999999880791, 50.0, -205.30000001192093)
+[03:09:03] [Server thread/INFO]: [CustomItemsLib][Debug] Store THEMONILO's skin in CustomItemsLib Skin Cache
+[03:09:47] [Server thread/INFO]: THEMONILO lost connection: Te has tardado mucho en iniciar sesión.
+[03:09:47] [Server thread/INFO]: [CustomItemsLib][Debug] Saving lastKnownWorldGroup: default
+[03:09:47] [Server thread/INFO]: THEMONILO ha abandonado el servidor.
+[03:10:07] [Server thread/INFO]: elian has made the advancement [Isn't It Iron Pick]
+[03:10:09] [User Authenticator #7/INFO]: UUID of player THEMONILO is 8ce330b9-f746-3d8f-9174-9156ece89f7c
+[03:10:09] [Server thread/INFO]: THEMONILO se ha unido al servidor.
+[03:10:09] [Server thread/INFO]: THEMONILO[/127.181.188.8:49811] logged in with entity id 180105 at ([world]580.6999999880791, 50.0, -205.30000001192093)
+[03:10:37] [Craft Scheduler Thread - 51 - nLogin/INFO]: [nLogin] The user THEMONILO has successfully logged in.
+[03:13:23] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] PlayerSettings saved.
+[03:13:23] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] Saving CustomItemsLib data
+[03:17:23] [Server thread/INFO]: THEMONILO issued server command: /gamemode creative
+[03:17:24] [Server thread/INFO]: THEMONILO issued server command: /gamemode survival
+[03:18:23] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] Saving CustomItemsLib data
+[03:18:33] [Server thread/INFO]: elian has made the advancement [Suit Up]
