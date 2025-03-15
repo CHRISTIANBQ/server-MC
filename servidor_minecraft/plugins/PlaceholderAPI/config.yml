@@ -34,3 +34,5 @@ expansions:
       medium: '&e'
       high: '&c'
       low: '&a'
+  localtime:
+    date_format: dd/MM/yyyy hh:mma

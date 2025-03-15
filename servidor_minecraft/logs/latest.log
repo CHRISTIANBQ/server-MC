@@ -620,3 +620,66 @@ java.lang.NullPointerException: Cannot invoke "Object.hashCode()" because "key" 
 [02:25:55] [Server thread/INFO]: THEMONILO issued server command: /dh reload
 [02:25:55] [Craft Scheduler Thread - 3 - DecentHolograms/INFO]: [DecentHolograms] Loading holograms... 
 [02:25:55] [Craft Scheduler Thread - 3 - DecentHolograms/INFO]: [DecentHolograms] Loaded 1 holograms!
+[02:28:23] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] Saving CustomItemsLib data
+[02:32:04] [User Authenticator #1/INFO]: [ExcellentCrates] Created new user data for: '3e97d394-1562-31e4-9172-59b2e573112d'
+[02:32:04] [User Authenticator #1/INFO]: UUID of player elian is 3e97d394-1562-31e4-9172-59b2e573112d
+[02:32:04] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] Creating new PlayerSettings for elian in the CustomItemsLib database.
+[02:32:04] [Server thread/INFO]: elian se ha unido al servidor.
+[02:32:04] [Server thread/INFO]: elian[/127.86.242.136:49353] logged in with entity id 125976 at ([world]3.5, 65.0, -6.5)
+[02:32:04] [Server thread/INFO]: [CustomItemsLib][Debug] Store elian's skin in CustomItemsLib Skin Cache
+[02:32:05] [Server thread/INFO]: elian has made the advancement [Getting an Upgrade]
+[02:32:49] [Server thread/INFO]: elian lost connection: Te has tardado mucho en registrarte.
+[02:32:49] [Server thread/INFO]: [CustomItemsLib][Debug] Saving lastKnownWorldGroup: default
+[02:32:49] [Server thread/INFO]: elian ha abandonado el servidor.
+[02:32:56] [User Authenticator #1/INFO]: UUID of player elian is 3e97d394-1562-31e4-9172-59b2e573112d
+[02:32:56] [Server thread/INFO]: elian se ha unido al servidor.
+[02:32:56] [Server thread/INFO]: elian[/127.86.242.136:60967] logged in with entity id 134257 at ([world]273.5, 98.0, -0.5)
+[02:33:23] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] PlayerSettings saved.
+[02:33:23] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] Saving CustomItemsLib data
+[02:33:24] [Server thread/INFO]: THEMONILO issued server command: /papi ecloud download LocalTime
+[02:33:24] [placeholderapi-io-#3/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[02:33:26] [Server thread/INFO]: THEMONILO issued server command: /dh reload
+[02:33:26] [Craft Scheduler Thread - 32 - DecentHolograms/INFO]: [DecentHolograms] Loading holograms... 
+[02:33:26] [Craft Scheduler Thread - 32 - DecentHolograms/INFO]: [DecentHolograms] Loaded 1 holograms!
+[02:33:28] [Server thread/INFO]: THEMONILO issued server command: /dh reload
+[02:33:28] [Craft Scheduler Thread - 25 - DecentHolograms/INFO]: [DecentHolograms] Loading holograms... 
+[02:33:28] [Craft Scheduler Thread - 25 - DecentHolograms/INFO]: [DecentHolograms] Loaded 1 holograms!
+[02:33:31] [Server thread/INFO]: THEMONILO issued server command: /papi reload
+[02:33:31] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[02:33:31] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[02:33:31] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: player [2.0.8]
+[02:33:31] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: localtime [1.2]
+[02:33:40] [Server thread/INFO]: elian lost connection: Te has tardado mucho en registrarte.
+[02:33:40] [Server thread/INFO]: [CustomItemsLib][Debug] Saving lastKnownWorldGroup: default
+[02:33:40] [Server thread/INFO]: elian ha abandonado el servidor.
+[02:33:49] [User Authenticator #1/INFO]: UUID of player elian is 3e97d394-1562-31e4-9172-59b2e573112d
+[02:33:49] [Server thread/INFO]: elian se ha unido al servidor.
+[02:33:49] [Server thread/INFO]: elian[/127.86.242.136:58941] logged in with entity id 142857 at ([world]273.5, 98.0, -0.5)
+[02:33:53] [Server thread/INFO]: THEMONILO issued server command: /papi ecloud download va
+[02:33:57] [Server thread/INFO]: THEMONILO issued server command: /papi ecloud download Vault
+[02:33:57] [placeholderapi-io-#4/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[02:34:01] [Server thread/INFO]: THEMONILO issued server command: /papi reload
+[02:34:01] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[02:34:01] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[02:34:02] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: player [2.0.8]
+[02:34:02] [Server thread/WARN]: [PlaceholderAPI] Cannot load expansion vault due to a missing plugin: Vault
+[02:34:02] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: localtime [1.2]
+[02:34:08] [Server thread/INFO]: THEMONILO issued server command: /dh reload
+[02:34:08] [Craft Scheduler Thread - 29 - DecentHolograms/INFO]: [DecentHolograms] Loading holograms... 
+[02:34:08] [Craft Scheduler Thread - 29 - DecentHolograms/INFO]: [DecentHolograms] Loaded 1 holograms!
+[02:34:12] [Craft Scheduler Thread - 7 - nLogin/INFO]: [nLogin] The user elian has successfully registered.
+[02:34:55] [Server thread/INFO]: THEMONILO issued server command: /speed 21 elian
+[02:35:01] [Server thread/INFO]: THEMONILO issued server command: /speed 21 1 elian
+[02:35:08] [Server thread/INFO]: THEMONILO issued server command: /speed 21 1 elian
+[02:35:20] [Server thread/INFO]: THEMONILO issued server command: /speed 4 1 elian
+[02:35:50] [Server thread/INFO]: THEMONILO issued server command: /lp group default permission set backpack.user
+[02:35:50] [luckperms-command-executor/INFO]: [LP] LOG > (THEMONILO) [G] (default)
+[02:35:50] [luckperms-command-executor/INFO]: [LP] LOG > permission set backpack.user true
+[02:35:58] [Server thread/INFO]: THEMONILO issued server command: /lp group default permission set backpack.size.6
+[02:35:58] [luckperms-command-executor/INFO]: [LP] LOG > (THEMONILO) [G] (default)
+[02:35:58] [luckperms-command-executor/INFO]: [LP] LOG > permission set backpack.size.6 true
+[02:36:21] [Server thread/INFO]: THEMONILO issued server command: /gms
+[02:36:58] [Server thread/INFO]: THEMONILO issued server command: /kits firework
+[02:36:58] [Tuinity Chunk System Worker #0/WARN]: [ChunkUpgradeGenericStatusTask] Future status not complete after scheduling: minecraft:biomes, generate: true
+[02:37:04] [Server thread/INFO]: THEMONILO issued server command: /kits tools
+[02:38:04] [Server thread/INFO]: THEMONILO issued server command: /backpack
