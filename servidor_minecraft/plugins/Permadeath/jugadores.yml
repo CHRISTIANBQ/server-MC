@@ -4,13 +4,13 @@ Players:
     HP: 0
     LastDay: 1
     banCause: Proyectil
-    banTime: 04:07:27
+    banTime: 04:15:51
     banDay: '2025-03-15'
-    coords: 597 38 -622
+    coords: 564 71 -659
   elian:
     UUID: 3e97d394-1562-31e4-9172-59b2e573112d
     HP: 0
-    banCause: Caída
-    banTime: 03:47:30
+    banCause: Proyectil
+    banTime: 04:17:25
     banDay: '2025-03-15'
-    coords: 628 47 -772
+    coords: 571 70 -637

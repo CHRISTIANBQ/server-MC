@@ -1087,3 +1087,170 @@ java.lang.NullPointerException: Cannot invoke "Object.hashCode()" because "key" 
 [04:08:04] [Server thread/INFO]: [Graves] Debug: Grave a09c0b6f-1d19-4cb2-aa31-5ed9a95e856d autolooted by THEMONILO
 [04:08:23] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] PlayerSettings saved.
 [04:08:23] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] Saving CustomItemsLib data
+[04:10:16] [Server thread/INFO]: Set the weather to rain & thunder
+[04:10:16] [Server thread/INFO]: elian ha muerto y ahora descanza en paz.
+[04:10:16] [Server thread/INFO]: Este es el comienzo del sufrimiento eterno de elian. ¡HA SIDO PERMABANEADO!
+[04:10:16] [Server thread/INFO]: X: 569 || Y: 24 || Z: -626
+[04:10:16] [Server thread/INFO]: [Graves] Debug: Placing grave block for 8f3938b7-c3bb-499b-bbb6-e3db6a4a46b4 at world, 569.5x, 24.5y, -625.5z
+[04:10:16] [Server thread/INFO]: elian was shot by Lvl 6 | Skeleton
+[04:10:18] [Server thread/INFO]: elian lost connection: Has sido PERMABANEADO
+[04:10:18] [Server thread/INFO]: [CustomItemsLib][Debug] Saving lastKnownWorldGroup: default
+[04:10:18] [Server thread/INFO]: elian ha abandonado el servidor.
+[04:10:20] [Server thread/INFO]: Permadeath ➤ El jugador THEMONILO no puede dar más horas de tormenta.
+[04:10:20] [Server thread/INFO]: THEMONILO ha muerto y ahora descanza en paz.
+[04:10:20] [Server thread/INFO]: Este es el comienzo del sufrimiento eterno de THEMONILO. ¡HA SIDO PERMABANEADO!
+[04:10:20] [Server thread/INFO]: X: 580 || Y: 24 || Z: -630
+[04:10:20] [Server thread/INFO]: [Graves] Debug: Placing grave block for d142c124-2fce-42d6-997d-fb2b88725332 at world, 580.5x, 24.5y, -629.5z
+[04:10:20] [Server thread/INFO]: THEMONILO was shot by Lvl 6 | Skeleton
+[04:10:21] [Server thread/INFO]: ¡Comienza el Death Train con duración de 1 horas!
+[04:10:22] [Server thread/INFO]: THEMONILO lost connection: Has sido PERMABANEADO
+[04:10:22] [Server thread/INFO]: [CustomItemsLib][Debug] Saving lastKnownWorldGroup: default
+[04:10:22] [Server thread/INFO]: THEMONILO ha abandonado el servidor.
+[04:10:30] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /pardon THEMONILO
+[04:10:30] [Server thread/INFO]: [Essentials] Player Console unbanned THEMONILO
+[04:10:32] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /pardon elian
+[04:10:32] [Server thread/INFO]: [Essentials] Player Console unbanned elian
+[04:10:35] [User Authenticator #17/INFO]: UUID of player THEMONILO is 8ce330b9-f746-3d8f-9174-9156ece89f7c
+[04:10:35] [Server thread/INFO]: THEMONILO se ha unido al servidor.
+[04:10:35] [Server thread/INFO]: THEMONILO[/127.181.188.8:53431] logged in with entity id 222848 at ([world]273.61408298136257, 98.0, -0.6979646645713944)
+[04:10:43] [User Authenticator #17/INFO]: UUID of player elian is 3e97d394-1562-31e4-9172-59b2e573112d
+[04:10:43] [Server thread/INFO]: elian se ha unido al servidor.
+[04:10:43] [Server thread/INFO]: elian[/127.86.242.136:37235] logged in with entity id 224106 at ([world]273.61408298136257, 98.0, -0.6979646645713944)
+[04:10:46] [Craft Scheduler Thread - 143 - nLogin/INFO]: [nLogin] The user THEMONILO has successfully logged in.
+[04:10:47] [Server thread/INFO]: THEMONILO issued server command: /gms
+[04:10:55] [Server thread/INFO]: THEMONILO issued server command: /gms *
+[04:10:56] [Server thread/INFO]: elian lost connection: La contraseña ingresada es incorrecta.
+[04:10:56] [Server thread/INFO]: [CustomItemsLib][Debug] Saving lastKnownWorldGroup: default
+[04:10:56] [Server thread/INFO]: elian ha abandonado el servidor.
+[04:11:00] [Server thread/INFO]: THEMONILO issued server command: /gms *
+[04:11:07] [Server thread/INFO]: THEMONILO issued server command: /graves gui
+[04:11:10] [User Authenticator #17/INFO]: UUID of player elian is 3e97d394-1562-31e4-9172-59b2e573112d
+[04:11:10] [Server thread/INFO]: elian se ha unido al servidor.
+[04:11:10] [Server thread/INFO]: elian[/127.86.242.136:39751] logged in with entity id 228890 at ([world]273.61921202073256, 97.92159999847412, -0.635778013530491)
+[04:11:14] [Server thread/INFO]: [Graves] Debug: Replacing grave block for d142c124-2fce-42d6-997d-fb2b88725332 at world, 580.5x, 24.5y, -629.5z
+[04:11:14] [Server thread/INFO]: [Graves] Debug: Removing hologram for grave d142c124-2fce-42d6-997d-fb2b88725332
+[04:11:14] [Server thread/INFO]: [Graves] Debug: Removing hologram for grave d142c124-2fce-42d6-997d-fb2b88725332
+[04:11:14] [Server thread/INFO]: [Graves] Debug: Removing hologram for grave d142c124-2fce-42d6-997d-fb2b88725332
+[04:11:14] [Server thread/INFO]: [Graves] Debug: Removing grave d142c124-2fce-42d6-997d-fb2b88725332
+[04:11:14] [Server thread/INFO]: [Graves] Debug: Grave d142c124-2fce-42d6-997d-fb2b88725332 autolooted by THEMONILO
+[04:11:21] [Server thread/INFO]: Permadeath ➤ El jugador THEMONILO no puede dar más horas de tormenta.
+[04:11:21] [Server thread/INFO]: THEMONILO ha muerto y ahora descanza en paz.
+[04:11:21] [Server thread/INFO]: Este es el comienzo del sufrimiento eterno de THEMONILO. ¡HA SIDO PERMABANEADO!
+[04:11:21] [Server thread/INFO]: X: 571 || Y: 24 || Z: -622
+[04:11:21] [Server thread/INFO]: [Graves] Debug: Placing grave block for 64ec9f63-2a59-4df5-a506-9c058fb83a1d at world, 571.5x, 24.5y, -621.5z
+[04:11:21] [Server thread/INFO]: THEMONILO was shot by Lvl 6 | Skeleton
+[04:11:23] [Server thread/INFO]: THEMONILO lost connection: Has sido PERMABANEADO
+[04:11:23] [Server thread/INFO]: [CustomItemsLib][Debug] Saving lastKnownWorldGroup: default
+[04:11:23] [Server thread/INFO]: THEMONILO ha abandonado el servidor.
+[04:11:26] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /pardon THEMONILO
+[04:11:26] [Server thread/INFO]: [Essentials] Player Console unbanned THEMONILO
+[04:11:27] [Craft Scheduler Thread - 142 - nLogin/INFO]: [nLogin] The user elian has successfully logged in.
+[04:11:29] [User Authenticator #17/INFO]: UUID of player THEMONILO is 8ce330b9-f746-3d8f-9174-9156ece89f7c
+[04:11:29] [Server thread/INFO]: THEMONILO se ha unido al servidor.
+[04:11:29] [Server thread/INFO]: THEMONILO[/127.181.188.8:54623] logged in with entity id 231694 at ([world]273.61408298136257, 98.0, -0.6979646645713944)
+[04:11:40] [Craft Scheduler Thread - 141 - nLogin/INFO]: [nLogin] The user THEMONILO has successfully logged in.
+[04:11:42] [Server thread/INFO]: THEMONILO issued server command: /gms *
+[04:11:44] [Server thread/INFO]: Set the weather to rain & thunder
+[04:11:44] [Server thread/INFO]: elian ha muerto y ahora descanza en paz.
+[04:11:44] [Server thread/INFO]: Este es el comienzo del sufrimiento eterno de elian. ¡HA SIDO PERMABANEADO!
+[04:11:44] [Server thread/INFO]: X: 291 || Y: 69 || Z: 8
+[04:11:44] [Server thread/INFO]: [Graves] Debug: Grave not created for elian because they had an empty inventory
+[04:11:44] [Server thread/INFO]: elian fell from a high place
+[04:11:46] [Server thread/INFO]: elian lost connection: Has sido PERMABANEADO
+[04:11:46] [Server thread/INFO]: [CustomItemsLib][Debug] Saving lastKnownWorldGroup: default
+[04:11:46] [Server thread/INFO]: elian ha abandonado el servidor.
+[04:11:49] [Server thread/INFO]: ¡Comienza el Death Train con duración de 1 horas!
+[04:11:49] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /pardon elian
+[04:11:49] [Server thread/INFO]: [Essentials] Player Console unbanned elian
+[04:11:58] [Server thread/INFO]: THEMONILO issued server command: /graves gui
+[04:12:01] [Server thread/INFO]: [Graves] Debug: Replacing grave block for 64ec9f63-2a59-4df5-a506-9c058fb83a1d at world, 571.5x, 24.5y, -621.5z
+[04:12:01] [Server thread/INFO]: [Graves] Debug: Removing hologram for grave 64ec9f63-2a59-4df5-a506-9c058fb83a1d
+[04:12:01] [Server thread/INFO]: [Graves] Debug: Removing hologram for grave 64ec9f63-2a59-4df5-a506-9c058fb83a1d
+[04:12:01] [Server thread/INFO]: [Graves] Debug: Removing hologram for grave 64ec9f63-2a59-4df5-a506-9c058fb83a1d
+[04:12:01] [Server thread/INFO]: [Graves] Debug: Removing grave 64ec9f63-2a59-4df5-a506-9c058fb83a1d
+[04:12:01] [Server thread/INFO]: [Graves] Debug: Grave 64ec9f63-2a59-4df5-a506-9c058fb83a1d autolooted by THEMONILO
+[04:12:08] [User Authenticator #17/INFO]: UUID of player elian is 3e97d394-1562-31e4-9172-59b2e573112d
+[04:12:08] [Server thread/INFO]: elian se ha unido al servidor.
+[04:12:08] [Server thread/INFO]: elian[/127.86.242.136:35183] logged in with entity id 236916 at ([world]273.61408298136257, 98.0, -0.6979646645713944)
+[04:12:22] [Server thread/INFO]: THEMONILO issued server command: /gms *
+[04:12:25] [Craft Scheduler Thread - 120 - nLogin/INFO]: [nLogin] The user elian has successfully logged in.
+[04:12:28] [Server thread/INFO]: THEMONILO issued server command: /tp elian THEMONILO
+[04:12:32] [Server thread/INFO]: THEMONILO issued server command: /tp elian THEMONILO
+[04:12:34] [Server thread/INFO]: THEMONILO issued server command: /gms *
+[04:13:23] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] PlayerSettings saved.
+[04:13:23] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] Saving CustomItemsLib data
+[04:14:06] [Server thread/INFO]: THEMONILO issued server command: /tnt
+[04:15:05] [Server thread/INFO]: Permadeath ➤ El jugador THEMONILO no puede dar más horas de tormenta.
+[04:15:05] [Server thread/INFO]: THEMONILO ha muerto y ahora descanza en paz.
+[04:15:05] [Server thread/INFO]: Este es el comienzo del sufrimiento eterno de THEMONILO. ¡HA SIDO PERMABANEADO!
+[04:15:05] [Server thread/INFO]: X: 564 || Y: 72 || Z: -659
+[04:15:05] [Server thread/INFO]: [Graves] Debug: Placing grave block for 5f2f25ab-fbb6-4a40-a92b-711a25d277e9 at world, 564.5x, 71.5y, -658.5z
+[04:15:05] [Server thread/INFO]: THEMONILO was slain by Lvl 13 | Zombie
+[04:15:07] [Server thread/INFO]: THEMONILO lost connection: Has sido PERMABANEADO
+[04:15:07] [Server thread/INFO]: [CustomItemsLib][Debug] Saving lastKnownWorldGroup: default
+[04:15:07] [Server thread/INFO]: THEMONILO ha abandonado el servidor.
+[04:15:12] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /pardon elian
+[04:15:12] [Server thread/INFO]: [Essentials] Player Console unbanned elian
+[04:15:14] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /pardon THEMONILO
+[04:15:14] [Server thread/INFO]: [Essentials] Player Console unbanned THEMONILO
+[04:15:20] [User Authenticator #18/INFO]: UUID of player THEMONILO is 8ce330b9-f746-3d8f-9174-9156ece89f7c
+[04:15:20] [Server thread/INFO]: THEMONILO se ha unido al servidor.
+[04:15:20] [Server thread/INFO]: THEMONILO[/127.181.188.8:51419] logged in with entity id 239945 at ([world]273.61408298136257, 98.0, -0.6979646645713944)
+[04:15:29] [Craft Scheduler Thread - 51 - nLogin/INFO]: [nLogin] The user THEMONILO has successfully logged in.
+[04:15:33] [Server thread/INFO]: THEMONILO issued server command: /gms *
+[04:15:37] [Server thread/INFO]: THEMONILO issued server command: /graves gui
+[04:15:51] [Server thread/INFO]: [Graves] Debug: Replacing grave block for 5f2f25ab-fbb6-4a40-a92b-711a25d277e9 at world, 564.5x, 71.5y, -658.5z
+[04:15:51] [Server thread/INFO]: [Graves] Debug: Removing hologram for grave 5f2f25ab-fbb6-4a40-a92b-711a25d277e9
+[04:15:51] [Server thread/INFO]: [Graves] Debug: Removing hologram for grave 5f2f25ab-fbb6-4a40-a92b-711a25d277e9
+[04:15:51] [Server thread/INFO]: [Graves] Debug: Removing hologram for grave 5f2f25ab-fbb6-4a40-a92b-711a25d277e9
+[04:15:51] [Server thread/INFO]: [Graves] Debug: Removing grave 5f2f25ab-fbb6-4a40-a92b-711a25d277e9
+[04:15:51] [Server thread/INFO]: [Graves] Debug: Grave 5f2f25ab-fbb6-4a40-a92b-711a25d277e9 autolooted by THEMONILO
+[04:15:51] [Server thread/INFO]: Permadeath ➤ El jugador THEMONILO no puede dar más horas de tormenta.
+[04:15:51] [Server thread/INFO]: THEMONILO ha muerto y ahora descanza en paz.
+[04:15:51] [Server thread/INFO]: Este es el comienzo del sufrimiento eterno de THEMONILO. ¡HA SIDO PERMABANEADO!
+[04:15:51] [Server thread/INFO]: X: 564 || Y: 71 || Z: -660
+[04:15:51] [Server thread/INFO]: [Graves] Debug: Placing grave block for 838ae246-d625-452f-8dd1-a1b5a09a71e4 at world, 564.5x, 71.5y, -659.5z
+[04:15:51] [Server thread/INFO]: THEMONILO was shot by Lvl 4 | Skeleton
+[04:15:53] [Server thread/INFO]: THEMONILO lost connection: Has sido PERMABANEADO
+[04:15:53] [Server thread/INFO]: [CustomItemsLib][Debug] Saving lastKnownWorldGroup: default
+[04:15:53] [Server thread/INFO]: THEMONILO ha abandonado el servidor.
+[04:15:57] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /pardon THEMONILO
+[04:15:57] [Server thread/INFO]: [Essentials] Player Console unbanned THEMONILO
+[04:16:00] [User Authenticator #18/INFO]: UUID of player THEMONILO is 8ce330b9-f746-3d8f-9174-9156ece89f7c
+[04:16:00] [Server thread/INFO]: THEMONILO se ha unido al servidor.
+[04:16:00] [Server thread/INFO]: THEMONILO[/127.181.188.8:40421] logged in with entity id 243010 at ([world]273.61408298136257, 98.0, -0.6979646645713944)
+[04:16:16] [Craft Scheduler Thread - 134 - nLogin/INFO]: [nLogin] The user THEMONILO has successfully logged in.
+[04:16:17] [Server thread/INFO]: THEMONILO issued server command: /gms *
+[04:16:19] [Server thread/INFO]: THEMONILO issued server command: /graves gui
+[04:16:24] [Server thread/INFO]: [Graves] Debug: Replacing grave block for 838ae246-d625-452f-8dd1-a1b5a09a71e4 at world, 564.5x, 71.5y, -659.5z
+[04:16:24] [Server thread/INFO]: [Graves] Debug: Removing hologram for grave 838ae246-d625-452f-8dd1-a1b5a09a71e4
+[04:16:24] [Server thread/INFO]: [Graves] Debug: Removing hologram for grave 838ae246-d625-452f-8dd1-a1b5a09a71e4
+[04:16:24] [Server thread/INFO]: [Graves] Debug: Removing hologram for grave 838ae246-d625-452f-8dd1-a1b5a09a71e4
+[04:16:24] [Server thread/INFO]: [Graves] Debug: Removing grave 838ae246-d625-452f-8dd1-a1b5a09a71e4
+[04:16:24] [Server thread/INFO]: [Graves] Debug: Grave 838ae246-d625-452f-8dd1-a1b5a09a71e4 autolooted by THEMONILO
+[04:17:25] [Server thread/INFO]: Set the weather to rain & thunder
+[04:17:25] [Server thread/INFO]: elian ha muerto y ahora descanza en paz.
+[04:17:25] [Server thread/INFO]: Este es el comienzo del sufrimiento eterno de elian. ¡HA SIDO PERMABANEADO!
+[04:17:25] [Server thread/INFO]: X: 571 || Y: 70 || Z: -638
+[04:17:25] [Server thread/INFO]: [Graves] Debug: Placing grave block for c1f67364-4c13-4d67-821c-287358834148 at world, 571.5x, 70.5y, -637.5z
+[04:17:25] [Server thread/INFO]: elian was shot by Lvl 6 | Skeleton
+[04:17:27] [Server thread/INFO]: elian lost connection: Has sido PERMABANEADO
+[04:17:27] [Server thread/INFO]: [CustomItemsLib][Debug] Saving lastKnownWorldGroup: default
+[04:17:27] [Server thread/INFO]: elian ha abandonado el servidor.
+[04:17:30] [Server thread/INFO]: ¡Comienza el Death Train con duración de 1 horas!
+[04:17:35] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /pardon elian
+[04:17:35] [Server thread/INFO]: [Essentials] Player Console unbanned elian
+[04:17:44] [User Authenticator #19/INFO]: UUID of player elian is 3e97d394-1562-31e4-9172-59b2e573112d
+[04:17:44] [Server thread/INFO]: elian se ha unido al servidor.
+[04:17:44] [Server thread/INFO]: elian[/127.86.242.136:49823] logged in with entity id 246392 at ([world]273.61408298136257, 98.0, -0.6979646645713944)
+[04:18:06] [Craft Scheduler Thread - 149 - nLogin/INFO]: [nLogin] The user elian has successfully logged in.
+[04:18:14] [Server thread/INFO]: THEMONILO issued server command: /tp elian THEMONILO
+[04:18:17] [Server thread/INFO]: THEMONILO issued server command: /gms *
+[04:18:19] [Server thread/INFO]: [Graves] Debug: Replacing grave block for c1f67364-4c13-4d67-821c-287358834148 at world, 571.5x, 70.5y, -637.5z
+[04:18:19] [Server thread/INFO]: [Graves] Debug: Removing hologram for grave c1f67364-4c13-4d67-821c-287358834148
+[04:18:19] [Server thread/INFO]: [Graves] Debug: Removing hologram for grave c1f67364-4c13-4d67-821c-287358834148
+[04:18:19] [Server thread/INFO]: [Graves] Debug: Removing hologram for grave c1f67364-4c13-4d67-821c-287358834148
+[04:18:19] [Server thread/INFO]: [Graves] Debug: Removing grave c1f67364-4c13-4d67-821c-287358834148
+[04:18:19] [Server thread/INFO]: [Graves] Debug: Grave c1f67364-4c13-4d67-821c-287358834148 autolooted by elian
+[04:18:23] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] PlayerSettings saved.
+[04:18:23] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] Saving CustomItemsLib data
