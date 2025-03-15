@@ -194,3 +194,6 @@
 [2025-03-15 02:45:58] [INFO   ] Calculated structure at 32,-33 
 [2025-03-15 02:47:08] [INFO   ] Large Cave at -192,7,-192 has water level > -22 with populator GenericLargeCavePopulator 
 [2025-03-15 02:47:08] [INFO   ] Calculated structure at -1,-28 
+[2025-03-15 02:48:45] [INFO   ] Generating org.terraform.structure.small.ruinedportal.RuinedPortalPopulator at chunk: 48,-5 
+[2025-03-15 02:51:51] [INFO   ] Large Cave at 832,19,320 has water level > -18 with populator LargeLushCavePopulator 
+[2025-03-15 02:51:51] [INFO   ] Calculated structure at 39,0 

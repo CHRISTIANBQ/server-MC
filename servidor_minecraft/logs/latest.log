@@ -732,3 +732,45 @@ java.lang.NullPointerException: Cannot invoke "Object.hashCode()" because "key" 
 [02:46:57] [Craft Scheduler Thread - 58 - nLogin/INFO]: [nLogin] The user THEMONILO has successfully logged in.
 [02:47:11] [Server thread/INFO]: THEMONILO issued server command: /tp elian
 [02:47:37] [Server thread/INFO]: THEMONILO issued server command: /gamemode adventure
+[02:48:23] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] PlayerSettings saved.
+[02:48:23] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] Saving CustomItemsLib data
+[02:48:35] [Server thread/INFO]: Permadeath ➤ El jugador THEMONILO no puede dar más horas de tormenta.
+[02:48:35] [Server thread/INFO]: THEMONILO ha muerto y ahora descanza en paz.
+[02:48:35] [Server thread/INFO]: Este es el comienzo del sufrimiento eterno de THEMONILO. ¡HA SIDO PERMABANEADO!
+[02:48:35] [Server thread/INFO]: X: 293 || Y: 63 || Z: -308
+[02:48:35] [Server thread/INFO]: THEMONILO was slain by Lvl 9 | Zombie
+[02:48:37] [Server thread/INFO]: THEMONILO lost connection: Has sido PERMABANEADO
+[02:48:37] [Server thread/INFO]: [CustomItemsLib][Debug] Saving lastKnownWorldGroup: default
+[02:48:37] [Server thread/INFO]: THEMONILO ha abandonado el servidor.
+[02:48:50] [User Authenticator #4/INFO]: UUID of player THEMONILO is 8ce330b9-f746-3d8f-9174-9156ece89f7c
+[02:48:50] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@45f0abab[id=8ce330b9-f746-3d8f-9174-9156ece89f7c,name=THEMONILO,properties={},legacy=false] (/127.181.188.8:33755): You are banned from this server. Reason: Has sido PERMABANEADO
+[02:48:50] [Server thread/INFO]: com.mojang.authlib.GameProfile@45f0abab[id=8ce330b9-f746-3d8f-9174-9156ece89f7c,name=THEMONILO,properties={},legacy=false] (/127.181.188.8:33755) lost connection: You are banned from this server. Reason: Has sido PERMABANEADO
+[02:49:02] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /pardon THEMONILO
+[02:49:02] [Server thread/INFO]: [Essentials] Player Console unbanned THEMONILO
+[02:49:06] [User Authenticator #4/INFO]: UUID of player THEMONILO is 8ce330b9-f746-3d8f-9174-9156ece89f7c
+[02:49:06] [Server thread/INFO]: THEMONILO se ha unido al servidor.
+[02:49:06] [Server thread/INFO]: THEMONILO[/127.181.188.8:56165] logged in with entity id 171974 at ([world]273.61408298136257, 98.0, -0.6979646645713944)
+[02:49:30] [Craft Scheduler Thread - 64 - nLogin/INFO]: [nLogin] The user THEMONILO has successfully logged in.
+[02:49:37] [Server thread/INFO]: elian has made the advancement [Stone Age]
+[02:49:56] [Server thread/INFO]: THEMONILO issued server command: /gamemode creative
+[02:49:58] [Server thread/INFO]: THEMONILO issued server command: /gamemode spectator
+[02:49:58] [Server thread/INFO]: THEMONILO issued server command: /gamemode survival
+[02:50:26] [Server thread/INFO]: THEMONILO issued server command: /graves debug 0
+[02:50:29] [Server thread/INFO]: THEMONILO issued server command: /graves debug 1
+[02:50:33] [Server thread/INFO]: THEMONILO issued server command: /graves debug 2
+[02:50:51] [Server thread/INFO]: [Graves] Debug: Replacing grave block for 05198cca-c159-48af-a30c-08fc30b3c4d3 at world, 293.5x, 63.5y, -307.5z
+[02:50:51] [Server thread/INFO]: [Graves] Debug: Removing hologram for grave 05198cca-c159-48af-a30c-08fc30b3c4d3
+[02:50:51] [Server thread/INFO]: [Graves] Debug: Removing hologram for grave 05198cca-c159-48af-a30c-08fc30b3c4d3
+[02:50:51] [Server thread/INFO]: [Graves] Debug: Removing hologram for grave 05198cca-c159-48af-a30c-08fc30b3c4d3
+[02:50:51] [Server thread/INFO]: [Graves] Debug: Removing grave 05198cca-c159-48af-a30c-08fc30b3c4d3
+[02:50:51] [Server thread/INFO]: [Graves] Debug: Grave 05198cca-c159-48af-a30c-08fc30b3c4d3 autolooted by THEMONILO
+[02:51:03] [Server thread/INFO]: THEMONILO issued server command: /tpa elian
+[02:51:07] [Server thread/INFO]: elian issued server command: /tpaccept
+[02:53:13] [Server thread/INFO]: THEMONILO issued server command: /difficulty hard
+[02:53:13] [Server thread/INFO]: [THEMONILO: The difficulty has been set to Hard]
+[02:53:23] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] PlayerSettings saved.
+[02:53:23] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] Saving CustomItemsLib data
+[02:54:47] [Server thread/INFO]: THEMONILO has made the advancement [Stone Age]
+[02:55:13] [Server thread/INFO]: THEMONILO issued server command: /tpa elian
+[02:55:20] [Server thread/INFO]: elian issued server command: /tpaccept
+[02:58:23] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] Saving CustomItemsLib data
