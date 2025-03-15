@@ -1034,3 +1034,56 @@ java.lang.NullPointerException: Cannot invoke "Object.hashCode()" because "key" 
 [03:56:34] [Server thread/INFO]: THEMONILO has made the advancement [Acquire Hardware]
 [03:56:49] [Server thread/INFO]: THEMONILO has made the advancement [Suit Up]
 [03:58:23] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] Saving CustomItemsLib data
+[03:59:12] [Server thread/INFO]: THEMONILO has made the advancement [Isn't It Iron Pick]
+[04:02:42] [Server thread/INFO]: elian has made the advancement [Fishy Business]
+[04:03:23] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] Saving CustomItemsLib data
+[04:04:36] [Server thread/INFO]: THEMONILO has made the advancement [Not Today, Thank You]
+[04:05:08] [Server thread/INFO]: Permadeath ➤ El jugador THEMONILO no puede dar más horas de tormenta.
+[04:05:08] [Server thread/INFO]: THEMONILO ha muerto y ahora descanza en paz.
+[04:05:08] [Server thread/INFO]: Este es el comienzo del sufrimiento eterno de THEMONILO. ¡HA SIDO PERMABANEADO!
+[04:05:08] [Server thread/INFO]: X: 601 || Y: 48 || Z: -634
+[04:05:08] [Server thread/INFO]: [Graves] Debug: Placing grave block for fbd08733-557f-4836-a36b-f1d46318d953 at world, 601.5x, 48.5y, -633.5z
+[04:05:08] [Server thread/INFO]: THEMONILO was shot by Lvl 9 | Skeleton
+[04:05:10] [Server thread/INFO]: THEMONILO lost connection: Has sido PERMABANEADO
+[04:05:10] [Server thread/INFO]: [CustomItemsLib][Debug] Saving lastKnownWorldGroup: default
+[04:05:10] [Server thread/INFO]: THEMONILO ha abandonado el servidor.
+[04:05:25] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /pardon THEMONILO
+[04:05:25] [Server thread/INFO]: [Essentials] Player Console unbanned THEMONILO
+[04:05:29] [User Authenticator #15/INFO]: UUID of player THEMONILO is 8ce330b9-f746-3d8f-9174-9156ece89f7c
+[04:05:29] [Server thread/INFO]: THEMONILO se ha unido al servidor.
+[04:05:29] [Server thread/INFO]: THEMONILO[/127.181.188.8:45763] logged in with entity id 215461 at ([world]273.61408298136257, 98.0, -0.6979646645713944)
+[04:05:45] [Craft Scheduler Thread - 115 - nLogin/INFO]: [nLogin] The user THEMONILO has successfully logged in.
+[04:05:49] [Server thread/INFO]: THEMONILO issued server command: /gms
+[04:05:52] [Server thread/INFO]: THEMONILO issued server command: /graves gui
+[04:05:55] [Server thread/INFO]: [Graves] Debug: Replacing grave block for fbd08733-557f-4836-a36b-f1d46318d953 at world, 601.5x, 48.5y, -633.5z
+[04:05:55] [Server thread/INFO]: [Graves] Debug: Removing hologram for grave fbd08733-557f-4836-a36b-f1d46318d953
+[04:05:55] [Server thread/INFO]: [Graves] Debug: Removing hologram for grave fbd08733-557f-4836-a36b-f1d46318d953
+[04:05:55] [Server thread/INFO]: [Graves] Debug: Removing hologram for grave fbd08733-557f-4836-a36b-f1d46318d953
+[04:05:55] [Server thread/INFO]: [Graves] Debug: Removing grave fbd08733-557f-4836-a36b-f1d46318d953
+[04:05:55] [Server thread/INFO]: [Graves] Debug: Grave fbd08733-557f-4836-a36b-f1d46318d953 autolooted by THEMONILO
+[04:06:54] [Server thread/INFO]: elian has made the advancement [Take Aim]
+[04:07:27] [Server thread/INFO]: Permadeath ➤ El jugador THEMONILO no puede dar más horas de tormenta.
+[04:07:27] [Server thread/INFO]: THEMONILO ha muerto y ahora descanza en paz.
+[04:07:27] [Server thread/INFO]: Este es el comienzo del sufrimiento eterno de THEMONILO. ¡HA SIDO PERMABANEADO!
+[04:07:27] [Server thread/INFO]: X: 597 || Y: 38 || Z: -623
+[04:07:27] [Server thread/INFO]: [Graves] Debug: Placing grave block for a09c0b6f-1d19-4cb2-aa31-5ed9a95e856d at world, 597.5x, 38.5y, -622.5z
+[04:07:27] [Server thread/INFO]: THEMONILO was shot by Lvl 6 | Skeleton
+[04:07:29] [Server thread/INFO]: THEMONILO lost connection: Has sido PERMABANEADO
+[04:07:29] [Server thread/INFO]: [CustomItemsLib][Debug] Saving lastKnownWorldGroup: default
+[04:07:29] [Server thread/INFO]: THEMONILO ha abandonado el servidor.
+[04:07:32] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /pardon THEMONILO
+[04:07:32] [Server thread/INFO]: [Essentials] Player Console unbanned THEMONILO
+[04:07:37] [User Authenticator #16/INFO]: UUID of player THEMONILO is 8ce330b9-f746-3d8f-9174-9156ece89f7c
+[04:07:37] [Server thread/INFO]: THEMONILO se ha unido al servidor.
+[04:07:37] [Server thread/INFO]: THEMONILO[/127.181.188.8:59611] logged in with entity id 218847 at ([world]273.61408298136257, 98.0, -0.6979646645713944)
+[04:07:51] [Craft Scheduler Thread - 128 - nLogin/INFO]: [nLogin] The user THEMONILO has successfully logged in.
+[04:07:52] [Server thread/INFO]: THEMONILO issued server command: /gms
+[04:08:00] [Server thread/INFO]: THEMONILO issued server command: /graves gui
+[04:08:04] [Server thread/INFO]: [Graves] Debug: Replacing grave block for a09c0b6f-1d19-4cb2-aa31-5ed9a95e856d at world, 597.5x, 38.5y, -622.5z
+[04:08:04] [Server thread/INFO]: [Graves] Debug: Removing hologram for grave a09c0b6f-1d19-4cb2-aa31-5ed9a95e856d
+[04:08:04] [Server thread/INFO]: [Graves] Debug: Removing hologram for grave a09c0b6f-1d19-4cb2-aa31-5ed9a95e856d
+[04:08:04] [Server thread/INFO]: [Graves] Debug: Removing hologram for grave a09c0b6f-1d19-4cb2-aa31-5ed9a95e856d
+[04:08:04] [Server thread/INFO]: [Graves] Debug: Removing grave a09c0b6f-1d19-4cb2-aa31-5ed9a95e856d
+[04:08:04] [Server thread/INFO]: [Graves] Debug: Grave a09c0b6f-1d19-4cb2-aa31-5ed9a95e856d autolooted by THEMONILO
+[04:08:23] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] PlayerSettings saved.
+[04:08:23] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] Saving CustomItemsLib data
