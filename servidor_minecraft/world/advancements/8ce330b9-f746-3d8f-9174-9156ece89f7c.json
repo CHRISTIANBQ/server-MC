@@ -39,6 +39,7 @@
     "criteria": {
       "minecraft:taiga": "2025-03-15 00:59:00 +0000",
       "minecraft:frozen_river": "2025-03-15 02:45:58 +0000",
+      "minecraft:birch_forest": "2025-03-15 03:35:39 +0000",
       "minecraft:bamboo_jungle": "2025-03-15 01:09:35 +0000",
       "minecraft:beach": "2025-03-15 00:46:21 +0000",
       "minecraft:river": "2025-03-15 00:45:53 +0000",
@@ -733,6 +734,18 @@
   "minecraft:recipes/misc/iron_ingot_from_blasting_raw_iron": {
     "criteria": {
       "has_raw_iron": "2025-03-15 03:04:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/sugar_from_sugar_cane": {
+    "criteria": {
+      "has_sugar_cane": "2025-03-15 03:30:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/paper": {
+    "criteria": {
+      "has_reeds": "2025-03-15 03:30:19 +0000"
     },
     "done": true
   },

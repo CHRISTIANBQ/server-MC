@@ -197,3 +197,10 @@
 [2025-03-15 02:48:45] [INFO   ] Generating org.terraform.structure.small.ruinedportal.RuinedPortalPopulator at chunk: 48,-5 
 [2025-03-15 02:51:51] [INFO   ] Large Cave at 832,19,320 has water level > -18 with populator LargeLushCavePopulator 
 [2025-03-15 02:51:51] [INFO   ] Calculated structure at 39,0 
+[2025-03-15 03:31:10] [INFO   ] Generating org.terraform.structure.caves.LargeCavePopulator at chunk: 52,-12 
+[2025-03-15 03:35:03] [INFO   ] Minecart with chest at: 813, 35, -696 
+[2025-03-15 03:35:03] [INFO   ] Minecart with chest at: 861, 20, -691 
+[2025-03-15 03:35:08] [INFO   ] Minecart with chest at: 813, 20, -706 
+[2025-03-15 03:35:08] [INFO   ] Minecart with chest at: 813, 35, -717 
+[2025-03-15 03:35:08] [INFO   ] Minecart with chest at: 828, 20, -705 
+[2025-03-15 03:35:08] [INFO   ] Generating org.terraform.structure.mineshaft.MineshaftPopulator at chunk: 52,-44 
