@@ -1,0 +1,48 @@
+# DOCUMENTATION: https://docs.artillex-studios.com/axrewards.html
+
+prefix: '&#FFEE00&lAxRewards &7» '
+
+database:
+  # supported databases:
+  # single server: h2
+  # multi server: mysql, postgresql
+  type: h2
+  
+  # you only need to touch these when using mysql/postgresql
+  address: 127.0.0.1
+  port: 3306
+  database: admin
+  username: admin
+  password: admin
+  pool:
+    maximum-pool-size: 10
+    minimum-idle: 10
+    maximum-lifetime: 1800000
+    keepalive-time: 0
+    connection-timeout: 5000
+
+# timer format for %time% placeholders
+# 1 - HH:MM:SS, for example 01:25:35
+# 2 - short format, for example 20m
+# 3 - text format, for example 01h 25m 35s
+timer-format: 1
+
+# you must define at least 1
+# you need to restart the server after changing this
+command-aliases:
+- axrewards
+- axreward
+
+# if enabled, this will update the placeholders in the gui titles
+# this is disabled by default, as this can cause the gui to be quite glitchy at times
+update-gui-title: false
+
+# should be plugin notify you if there is a new update?
+update-notifier:
+  # if enabled, it will display the message in the console
+  enabled: true
+  # if enabled, it will broadcast the update message to all players who have the <plugin-name>.update-notify permission
+  on-join: true
+
+# do not change this
+version: 5
