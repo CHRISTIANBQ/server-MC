@@ -1,0 +1,13 @@
+location: world:273.495:123.000:5.488
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&l#18b8ec ! Bienvenido &f&f%player_name% &l#18b8ec registrate/logeate de
+      esta manera:'
+    height: 0.3
+  actions: {}

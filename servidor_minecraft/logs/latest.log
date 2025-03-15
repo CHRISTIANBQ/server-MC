@@ -500,3 +500,27 @@ Caused by: java.lang.ClassNotFoundException: net.citizensnpcs.api.CitizensAPI
 [17:48:01] [Craft Scheduler Thread - 21 - nLogin/INFO]: [nLogin] The user THEMONILO has successfully registered.
 [17:48:02] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] PlayerSettings saved.
 [17:48:02] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] Saving CustomItemsLib data
+[17:53:02] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] Saving CustomItemsLib data
+[17:53:07] [Craft Scheduler Thread - 45 - nLogin/INFO]: ✔ You have successfully unregistered the player THEMONILO.
+[17:53:07] [Craft Scheduler Thread - 45 - nLogin/INFO]: 
+[17:53:07] [Craft Scheduler Thread - 45 - nLogin/INFO]: ⚑ This operation took 6.76ms.
+[17:53:07] [Server thread/INFO]: THEMONILO lost connection: Te desregistraste con éxito.
+[17:53:07] [Server thread/INFO]: [CustomItemsLib][Debug] Saving lastKnownWorldGroup: default
+[17:53:07] [Server thread/INFO]: THEMONILO ha abandonado el servidor.
+[17:53:16] [User Authenticator #2/INFO]: UUID of player THEMONILO is 8ce330b9-f746-3d8f-9174-9156ece89f7c
+[17:53:16] [Server thread/INFO]: THEMONILO se ha unido al servidor.
+[17:53:16] [Server thread/INFO]: THEMONILO[/127.181.188.8:52429] logged in with entity id 99734 at ([world]273.60276888819766, 118.0, -0.5675716046035381)
+[17:53:28] [Craft Scheduler Thread - 3 - nLogin/INFO]: [nLogin] The user THEMONILO has successfully registered.
+[17:53:34] [Server thread/INFO]: THEMONILO lost connection: Disconnected
+[17:53:34] [Server thread/INFO]: [CustomItemsLib][Debug] Saving lastKnownWorldGroup: default
+[17:53:34] [Server thread/INFO]: THEMONILO ha abandonado el servidor.
+[17:53:39] [User Authenticator #2/INFO]: UUID of player THEMONILO is 8ce330b9-f746-3d8f-9174-9156ece89f7c
+[17:53:39] [Server thread/INFO]: THEMONILO se ha unido al servidor.
+[17:53:39] [Server thread/INFO]: THEMONILO[/127.181.188.8:60199] logged in with entity id 101904 at ([world]273.60276888819766, 118.0, -0.5675716046035381)
+[17:53:55] [Craft Scheduler Thread - 42 - nLogin/INFO]: [nLogin] The user THEMONILO has successfully logged in.
+[17:58:02] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] PlayerSettings saved.
+[17:58:02] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] Saving CustomItemsLib data
+[18:00:51] [Server thread/INFO]: THEMONILO issued server command: /dh create login_register &l#18b8ec ! Bienvenido &f&f%player% &l#18b8ec registrate/logeate de esta manera:
+[18:02:20] [Server thread/INFO]: THEMONILO issued server command: /dh reload
+[18:02:20] [Craft Scheduler Thread - 12 - DecentHolograms/INFO]: [DecentHolograms] Loading holograms... 
+[18:02:20] [Craft Scheduler Thread - 12 - DecentHolograms/INFO]: [DecentHolograms] Loaded 2 holograms!
