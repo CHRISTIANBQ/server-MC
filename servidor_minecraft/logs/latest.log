@@ -1,514 +1,455 @@
-[02:18:00] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[02:18:02] [ServerMain/INFO]: Loaded 7 recipes
-[02:18:02] [Server thread/INFO]: Starting minecraft server version 1.20
-[02:18:02] [Server thread/INFO]: Loading properties
-[02:18:02] [Server thread/INFO]: This server is running Paper version git-Paper-17 (MC: 1.20) (Implementing API version 1.20-R0.1-SNAPSHOT) (Git: c287e92)
-[02:18:02] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[02:18:02] [Server thread/INFO]: Using 4 threads for Netty based IO
-[02:18:02] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[17:32:39] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[17:32:40] [ServerMain/INFO]: Loaded 7 recipes
+[17:32:41] [Server thread/INFO]: Starting minecraft server version 1.20
+[17:32:41] [Server thread/INFO]: Loading properties
+[17:32:41] [Server thread/INFO]: This server is running Paper version git-Paper-17 (MC: 1.20) (Implementing API version 1.20-R0.1-SNAPSHOT) (Git: c287e92)
+[17:32:41] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[17:32:41] [Server thread/INFO]: Using 4 threads for Netty based IO
+[17:32:41] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[02:18:02] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[02:18:02] [Server thread/INFO]: Default game type: SURVIVAL
-[02:18:02] [Server thread/INFO]: Generating keypair
-[02:18:03] [Server thread/INFO]: Starting Minecraft server on *:25565
-[02:18:03] [Server thread/INFO]: Using epoll channel type
-[02:18:03] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[02:18:03] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[02:18:03] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loading 5 libraries... please wait
-[02:18:03] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-api/4.16.0/adventure-api-4.16.0.pom
-[02:18:04] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-bom/4.16.0/adventure-bom-4.16.0.pom
-[02:18:04] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-key/4.16.0/adventure-key-4.16.0.pom
-[02:18:04] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/jetbrains/annotations/24.1.0/annotations-24.1.0.pom
-[02:18:04] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-platform-bukkit/4.3.2/adventure-platform-bukkit-4.3.2.pom
-[02:18:04] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-platform-api/4.3.2/adventure-platform-api-4.3.2.pom
-[02:18:04] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-api/4.13.1/adventure-api-4.13.1.pom
-[02:18:04] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-bom/4.13.1/adventure-bom-4.13.1.pom
-[02:18:04] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-key/4.13.1/adventure-key-4.13.1.pom
-[02:18:04] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-text-serializer-bungeecord/4.3.2/adventure-text-serializer-bungeecord-4.3.2.pom
-[02:18:04] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-text-serializer-legacy/4.13.1/adventure-text-serializer-legacy-4.13.1.pom
-[02:18:04] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-text-serializer-gson/4.13.1/adventure-text-serializer-gson-4.13.1.pom
-[02:18:04] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-nbt/4.13.1/adventure-nbt-4.13.1.pom
-[02:18:04] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-text-serializer-gson-legacy-impl/4.13.1/adventure-text-serializer-gson-legacy-impl-4.13.1.pom
-[02:18:04] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-platform-facet/4.3.2/adventure-platform-facet-4.3.2.pom
-[02:18:04] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-platform-viaversion/4.3.2/adventure-platform-viaversion-4.3.2.pom
-[02:18:04] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-text-minimessage/4.16.0/adventure-text-minimessage-4.16.0.pom
-[02:18:04] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-text-serializer-gson/4.16.0/adventure-text-serializer-gson-4.16.0.pom
-[02:18:04] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-text-serializer-json/4.16.0/adventure-text-serializer-json-4.16.0.pom
-[02:18:04] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/option/1.0.0/option-1.0.0.pom
-[02:18:04] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-text-serializer-legacy/4.16.0/adventure-text-serializer-legacy-4.16.0.pom
-[02:18:04] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-api/4.16.0/adventure-api-4.16.0.jar
-[02:18:04] [BasicRepositoryConnector-repo.maven.apache.org-0-0/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-key/4.16.0/adventure-key-4.16.0.jar
-[02:18:04] [BasicRepositoryConnector-repo.maven.apache.org-0-0/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-nbt/4.13.1/adventure-nbt-4.13.1.jar
-[02:18:04] [BasicRepositoryConnector-repo.maven.apache.org-0-1/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/jetbrains/annotations/24.1.0/annotations-24.1.0.jar
-[02:18:04] [BasicRepositoryConnector-repo.maven.apache.org-0-2/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-platform-bukkit/4.3.2/adventure-platform-bukkit-4.3.2.jar
-[02:18:04] [BasicRepositoryConnector-repo.maven.apache.org-0-3/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-platform-api/4.3.2/adventure-platform-api-4.3.2.jar
-[02:18:04] [BasicRepositoryConnector-repo.maven.apache.org-0-4/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-text-serializer-bungeecord/4.3.2/adventure-text-serializer-bungeecord-4.3.2.jar
-[02:18:04] [BasicRepositoryConnector-repo.maven.apache.org-0-3/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-platform-facet/4.3.2/adventure-platform-facet-4.3.2.jar
-[02:18:04] [BasicRepositoryConnector-repo.maven.apache.org-0-0/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-text-serializer-gson-legacy-impl/4.13.1/adventure-text-serializer-gson-legacy-impl-4.13.1.jar
-[02:18:04] [BasicRepositoryConnector-repo.maven.apache.org-0-4/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-platform-viaversion/4.3.2/adventure-platform-viaversion-4.3.2.jar
-[02:18:04] [BasicRepositoryConnector-repo.maven.apache.org-0-1/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-text-minimessage/4.16.0/adventure-text-minimessage-4.16.0.jar
-[02:18:04] [BasicRepositoryConnector-repo.maven.apache.org-0-0/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-text-serializer-gson/4.16.0/adventure-text-serializer-gson-4.16.0.jar
-[02:18:04] [BasicRepositoryConnector-repo.maven.apache.org-0-3/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-text-serializer-json/4.16.0/adventure-text-serializer-json-4.16.0.jar
-[02:18:04] [BasicRepositoryConnector-repo.maven.apache.org-0-4/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/option/1.0.0/option-1.0.0.jar
-[02:18:04] [BasicRepositoryConnector-repo.maven.apache.org-0-2/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-text-serializer-legacy/4.16.0/adventure-text-serializer-legacy-4.16.0.jar
-[02:18:04] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/net/kyori/adventure-api/4.16.0/adventure-api-4.16.0.jar
-[02:18:04] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/net/kyori/adventure-key/4.16.0/adventure-key-4.16.0.jar
-[02:18:04] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
-[02:18:04] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
-[02:18:04] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/org/jetbrains/annotations/24.1.0/annotations-24.1.0.jar
-[02:18:04] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/net/kyori/adventure-platform-bukkit/4.3.2/adventure-platform-bukkit-4.3.2.jar
-[02:18:04] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/net/kyori/adventure-platform-api/4.3.2/adventure-platform-api-4.3.2.jar
-[02:18:04] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-bungeecord/4.3.2/adventure-text-serializer-bungeecord-4.3.2.jar
-[02:18:04] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/net/kyori/adventure-nbt/4.13.1/adventure-nbt-4.13.1.jar
-[02:18:04] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson-legacy-impl/4.13.1/adventure-text-serializer-gson-legacy-impl-4.13.1.jar
-[02:18:04] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/net/kyori/adventure-platform-facet/4.3.2/adventure-platform-facet-4.3.2.jar
-[02:18:04] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/net/kyori/adventure-platform-viaversion/4.3.2/adventure-platform-viaversion-4.3.2.jar
-[02:18:04] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/net/kyori/adventure-text-minimessage/4.16.0/adventure-text-minimessage-4.16.0.jar
-[02:18:04] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson/4.16.0/adventure-text-serializer-gson-4.16.0.jar
-[02:18:04] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-json/4.16.0/adventure-text-serializer-json-4.16.0.jar
-[02:18:04] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/net/kyori/option/1.0.0/option-1.0.0.jar
-[02:18:04] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar
-[02:18:04] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-legacy/4.16.0/adventure-text-serializer-legacy-4.16.0.jar
-[02:18:04] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loading 5 libraries... please wait
-[02:18:04] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/ch/ethz/globis/phtree/phtree/2.8.1/phtree-2.8.1.pom
-[02:18:04] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/joml/joml/1.10.8/joml-1.10.8.pom
-[02:18:04] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/it/unimi/dsi/fastutil/8.5.15/fastutil-8.5.15.pom
-[02:18:04] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-platform-bukkit/4.3.3/adventure-platform-bukkit-4.3.3.pom
-[02:18:04] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-platform-api/4.3.3/adventure-platform-api-4.3.3.pom
-[02:18:04] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-text-serializer-bungeecord/4.3.3/adventure-text-serializer-bungeecord-4.3.3.pom
-[02:18:04] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-platform-facet/4.3.3/adventure-platform-facet-4.3.3.pom
-[02:18:05] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-platform-viaversion/4.3.3/adventure-platform-viaversion-4.3.3.pom
-[02:18:05] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-text-minimessage/4.17.0/adventure-text-minimessage-4.17.0.pom
-[02:18:05] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-bom/4.17.0/adventure-bom-4.17.0.pom
-[02:18:05] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-api/4.17.0/adventure-api-4.17.0.pom
-[02:18:05] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-key/4.17.0/adventure-key-4.17.0.pom
-[02:18:05] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/ch/ethz/globis/phtree/phtree/2.8.1/phtree-2.8.1.jar
-[02:18:05] [BasicRepositoryConnector-repo.maven.apache.org-1-0/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/joml/joml/1.10.8/joml-1.10.8.jar
-[02:18:05] [BasicRepositoryConnector-repo.maven.apache.org-1-2/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-platform-bukkit/4.3.3/adventure-platform-bukkit-4.3.3.jar
-[02:18:05] [BasicRepositoryConnector-repo.maven.apache.org-1-4/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-text-serializer-bungeecord/4.3.3/adventure-text-serializer-bungeecord-4.3.3.jar
-[02:18:05] [BasicRepositoryConnector-repo.maven.apache.org-1-3/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-platform-api/4.3.3/adventure-platform-api-4.3.3.jar
-[02:18:05] [BasicRepositoryConnector-repo.maven.apache.org-1-1/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/it/unimi/dsi/fastutil/8.5.15/fastutil-8.5.15.jar
-[02:18:05] [BasicRepositoryConnector-repo.maven.apache.org-1-4/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-text-serializer-legacy/4.13.1/adventure-text-serializer-legacy-4.13.1.jar
-[02:18:05] [BasicRepositoryConnector-repo.maven.apache.org-1-0/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-platform-facet/4.3.3/adventure-platform-facet-4.3.3.jar
-[02:18:05] [BasicRepositoryConnector-repo.maven.apache.org-1-3/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-text-serializer-gson/4.13.1/adventure-text-serializer-gson-4.13.1.jar
-[02:18:05] [BasicRepositoryConnector-repo.maven.apache.org-1-2/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-platform-viaversion/4.3.3/adventure-platform-viaversion-4.3.3.jar
-[02:18:05] [BasicRepositoryConnector-repo.maven.apache.org-1-4/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-text-minimessage/4.17.0/adventure-text-minimessage-4.17.0.jar
-[02:18:05] [BasicRepositoryConnector-repo.maven.apache.org-1-3/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-key/4.17.0/adventure-key-4.17.0.jar
-[02:18:05] [BasicRepositoryConnector-repo.maven.apache.org-1-2/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-api/4.17.0/adventure-api-4.17.0.jar
-[02:18:05] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/ch/ethz/globis/phtree/phtree/2.8.1/phtree-2.8.1.jar
-[02:18:05] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/org/joml/joml/1.10.8/joml-1.10.8.jar
-[02:18:05] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/it/unimi/dsi/fastutil/8.5.15/fastutil-8.5.15.jar
-[02:18:05] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/net/kyori/adventure-platform-bukkit/4.3.3/adventure-platform-bukkit-4.3.3.jar
-[02:18:05] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/net/kyori/adventure-platform-api/4.3.3/adventure-platform-api-4.3.3.jar
-[02:18:05] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-bungeecord/4.3.3/adventure-text-serializer-bungeecord-4.3.3.jar
-[02:18:05] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-legacy/4.13.1/adventure-text-serializer-legacy-4.13.1.jar
-[02:18:05] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/net/kyori/adventure-nbt/4.13.1/adventure-nbt-4.13.1.jar
-[02:18:05] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
-[02:18:05] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
-[02:18:05] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/org/jetbrains/annotations/24.0.1/annotations-24.0.1.jar
-[02:18:05] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson/4.13.1/adventure-text-serializer-gson-4.13.1.jar
-[02:18:05] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson-legacy-impl/4.13.1/adventure-text-serializer-gson-legacy-impl-4.13.1.jar
-[02:18:05] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/net/kyori/adventure-platform-facet/4.3.3/adventure-platform-facet-4.3.3.jar
-[02:18:05] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/net/kyori/adventure-platform-viaversion/4.3.3/adventure-platform-viaversion-4.3.3.jar
-[02:18:05] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/net/kyori/adventure-text-minimessage/4.17.0/adventure-text-minimessage-4.17.0.jar
-[02:18:05] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/net/kyori/adventure-api/4.17.0/adventure-api-4.17.0.jar
-[02:18:05] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/net/kyori/adventure-key/4.17.0/adventure-key-4.17.0.jar
-[02:18:05] [Server thread/INFO]: [SpigotLibraryLoader] [NexEngine] Loading 2 libraries... please wait
-[02:18:05] [Server thread/INFO]: [SpigotLibraryLoader] [NexEngine] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/com/zaxxer/HikariCP/5.0.1/HikariCP-5.0.1.jar
-[02:18:05] [Server thread/INFO]: [SpigotLibraryLoader] [NexEngine] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/it/unimi/dsi/fastutil/8.5.11/fastutil-8.5.11.jar
-[02:18:05] [Server thread/INFO]: [Minepacks] PCGF-PluginLib not installed. Switching to standalone mode!
-[02:18:05] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loading 3 libraries... please wait
-[02:18:05] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/net/kyori/adventure-api/4.14.0/adventure-api-4.14.0.jar
-[02:18:05] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/net/kyori/adventure-key/4.14.0/adventure-key-4.14.0.jar
-[02:18:05] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
-[02:18:05] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
-[02:18:05] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/org/jetbrains/annotations/24.0.1/annotations-24.0.1.jar
-[02:18:05] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson/4.14.0/adventure-text-serializer-gson-4.14.0.jar
-[02:18:05] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-json/4.14.0/adventure-text-serializer-json-4.14.0.jar
-[02:18:05] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar
-[02:18:05] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-bungeecord/4.3.0/adventure-text-serializer-bungeecord-4.3.0.jar
-[02:18:05] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-legacy/4.13.0/adventure-text-serializer-legacy-4.13.0.jar
-[02:18:05] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.2.1
-[02:18:05] [Server thread/INFO]: [ViaVersion] ViaVersion 5.2.1 is now loaded. Registering protocol transformers and injecting...
-[02:18:06] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[02:18:06] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[02:18:06] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[02:18:06] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[02:18:06] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.2.15+6463-5ca4dff
-[02:18:07] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@4736d8b]
-[02:18:07] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.6
-[02:18:07] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.3.0
-[02:18:07] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.9+5934e49
-[02:18:07] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.156
-[02:18:07] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.2.1
-[02:18:07] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
-[02:18:08] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
-[02:18:08] [Server thread/INFO]: [floodgate] Took 416ms to boot Floodgate
-[02:18:08] [Server thread/INFO]: [ItemEdit] Loading server plugin ItemEdit v3.7.0
-[02:18:08] [Server thread/INFO]: [Citizens] Loading server plugin Citizens v2.0.37-SNAPSHOT (build 3756)
-[02:18:08] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+189-eab2201
-[02:18:08] [Server thread/INFO]: [DecentHolograms] Loading server plugin DecentHolograms v2.8.15
-[02:18:08] [Server thread/INFO]: [NexEngine] Loading server plugin NexEngine v2.2.12
-[02:18:08] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.6.0
-[02:18:08] [Server thread/INFO]: [YamipaPlugin] Loading server plugin YamipaPlugin v1.3.2
-[02:18:08] [Server thread/INFO]: [Minepacks] Loading server plugin Minepacks v2.4.31.5-T20241222133724
-[02:18:08] [Server thread/INFO]: [BetterRevive] Loading server plugin BetterRevive v0.9.1-BETA
-[02:18:08] [Server thread/INFO]: [BetterRevive] Inventory title with support for more than 32 characters. Skipping..
-[02:18:08] [Server thread/INFO]: [BetterRevive] Hex colors are available! Ready for RGB..
-[02:18:08] [Server thread/INFO]: [BetterRevive] Old constructor for HoverEvent found! Using it..
-[02:18:08] [Server thread/INFO]: [BetterRevive] New sendTitle method found! Using it..
-[02:18:08] [Server thread/INFO]: [BetterRevive] New setUnbreakable method found! Using it..
-[02:18:08] [Server thread/INFO]: [BetterRevive] New isUnbreakable method found! Using it..
-[02:18:08] [Server thread/INFO]: [BetterRevive] WorldGuard found! Registering custom flag(s)..
-[02:18:08] [Server thread/INFO]: [BetterRevive] WorldGuard v7.x or newer detected. Using new methods..
-[02:18:08] [Server thread/INFO]: [BetterRevive] [WorldGuard] Successfully registered 'betterrevive-can-bleed' flag!
-[02:18:08] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.0.7
-[02:18:08] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.6.1-SNAPSHOT
-[02:18:08] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
-[02:18:08] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
-[02:18:08] [Server thread/INFO]: [ItemTag] Loading server plugin ItemTag v3.7.1
-[02:18:08] [Server thread/INFO]: [Graves] Loading server plugin Graves v4.9
-[02:18:08] [Server thread/INFO]: [Graves] Integration: Hooked into WorldGuard 7.0.9+5934e49.
-[02:18:08] [Server thread/INFO]: [nLogin] Loading server plugin nLogin v10.4.21
-[02:18:09] [Server thread/INFO]: [TerraformGenerator] Loading server plugin TerraformGenerator v18.1.2
-[02:18:09] [Server thread/INFO]: [ModelEngine] Loading server plugin ModelEngine vR4.0.8
-[02:18:09] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.21.0-dev+189-eab2201
-[02:18:09] [Server thread/INFO]: [ExcellentCrates] Loading server plugin ExcellentCrates v5.0.0
-[02:18:09] [Server thread/INFO]: [SimpleTpa] Loading server plugin SimpleTpa v7.6
-[02:18:09] [Server thread/INFO]: [LevelledMobs] Loading server plugin LevelledMobs v3.14.0 b815
-[02:18:09] [Server thread/INFO]: [Permadeath] Loading server plugin Permadeath v1.3
-[02:18:09] [Server thread/INFO]: [RealisticSeasons] Loading server plugin RealisticSeasons v11.6.7
-[02:18:09] [Server thread/INFO]: [CustomItemsLib] Loading server plugin CustomItemsLib v1.0.8
-[02:18:09] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[02:18:09] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.15+6463-5ca4dff
-[02:18:09] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[02:18:09] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[02:18:09] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R1.PaperweightAdapter as the Bukkit adapter
-[02:18:10] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.3.0
-[02:18:10] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.156
-[02:18:11] [Server thread/INFO]:         __    
-[02:18:11] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.156
-[02:18:11] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[02:18:11] [Server thread/INFO]: 
-[02:18:11] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[02:18:11] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[02:18:11] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[02:18:11] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[02:18:12] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1609ms)
-[02:18:12] [Server thread/INFO]: [NexEngine] Enabling NexEngine v2.2.12
-[02:18:12] [Server thread/INFO]: [NexEngine] Seems like we have Paper based fork here...
-[02:18:12] [Server thread/WARN]: [NexEngine] ==================================
-[02:18:12] [Server thread/WARN]: [NexEngine] WARNING: You're running an outdated/deprecated server version (1.20.1)!
-[02:18:12] [Server thread/WARN]: [NexEngine] Support for this version will be dropped soon.
-[02:18:12] [Server thread/WARN]: [NexEngine] Please, upgrade your server to at least 1.20.2.
-[02:18:12] [Server thread/WARN]: [NexEngine] ==================================
-[02:18:12] [Server thread/INFO]: [NexEngine] Plugin loaded in 53 ms!
-[02:18:12] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.6.0
-[02:18:12] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
-[02:18:12] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.20.0.
-[02:18:12] [Server thread/INFO]: [SkinsRestorer] Floodgate skin listener registered
-[02:18:13] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[02:18:13] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: skinsrestorer [15.6.0]
-[02:18:13] [Server thread/INFO]: [SkinsRestorer] PlaceholderAPI expansion registered!
-[02:18:13] [Server thread/WARN]: [SkinsRestorer] Please update your Java runtime to at least Java 21 (your version is 17).
-[02:18:13] [Server thread/WARN]: [SkinsRestorer] At some point in the future, SkinsRestorer will no longer be compatible with this version of Java.
-[02:18:13] [Server thread/INFO]: [nLogin] Enabling nLogin v10.4.21
-[02:18:13] [Server thread/INFO]: [nLogin] Successful plugin core start (took 0.52s)
-[02:18:13] [Server thread/INFO]:           __             _       
-[02:18:13] [Server thread/INFO]:   _ __   / /  ___   __ _(_)_ __  
-[02:18:13] [Server thread/INFO]:  | '_ \ / /  / _ \ / _` | | '_ \ 
-[02:18:13] [Server thread/INFO]:  | | | / /__| (_) | (_| | | | | |
-[02:18:13] [Server thread/INFO]:  |_| |_\____/\___/ \__, |_|_| |_|
-[02:18:13] [Server thread/INFO]:                   |___/            
-[02:18:13] [Server thread/INFO]:  By: www.nickuc.com - V 10.4.21
-[02:18:13] [Server thread/INFO]:  
-[02:18:14] [Server thread/INFO]: [TerraformGenerator] Enabling TerraformGenerator v18.1.2
-[02:18:14] [Server thread/INFO]: [TerraformGenerator] Custom Logger Initialized
-[02:18:14] [Server thread/INFO]: [TerraformGenerator] bStats Metrics enabled.
-[02:18:14] [Server thread/INFO]: [TerraformGenerator] Detected version: 1.20, number: 20.0
-[02:18:14] [Server thread/INFO]: [ModelEngine] Enabling ModelEngine vR4.0.8
-[02:18:14] [Server thread/WARN]: [ModelEngine] [S] Unable to read the model ID cache file. If the file is missing, ignore this warning.
-[02:18:14] [Server thread/INFO]: [Permadeath] Enabling Permadeath v1.3
-[02:18:14] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[02:18:14] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[02:18:14] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[02:18:14] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[02:18:14] [Server thread/INFO]: Preparing level "world"
-[02:18:15] [Server thread/INFO]: [TerraformGenerator] Detected world: world, commencing injection... 
-[02:18:15] [Server thread/INFO]: [TerraformGenerator] Injection success! Proceeding with generation.
-[02:18:15] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[02:18:15] [Server thread/INFO]: Time elapsed: 234 ms
-[02:18:15] [Server thread/INFO]: [TerraformGenerator] world loaded.
-[02:18:15] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[02:18:15] [Server thread/INFO]: Time elapsed: 61 ms
-[02:18:15] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[02:18:15] [Server thread/INFO]: Time elapsed: 61 ms
-[02:18:15] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.2.1
-[02:18:15] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20-1.20.1 (763)
-[02:18:15] [Server thread/WARN]: [ViaVersion] Please update your Java runtime to at least Java 21 (your version is 17.0.14).
-[02:18:15] [Server thread/WARN]: [ViaVersion] At some point in the future, ViaVersion will no longer be compatible with this version of Java.
-[02:18:15] [Server thread/INFO]: [ModelEngine] [S] Compatibility applied: ViaVersion
-[02:18:15] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
-[02:18:16] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
-[02:18:16] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.9+5934e49
-[02:18:16] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
-[02:18:16] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
-[02:18:16] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
-[02:18:16] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
-[02:18:16] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
-[02:18:16] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
-[02:18:16] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
-[02:18:16] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
-[02:18:16] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
-[02:18:16] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
-[02:18:16] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
-[02:18:16] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
-[02:18:16] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
-[02:18:16] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
-[02:18:16] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
-[02:18:16] [Server thread/INFO]: [WorldGuard] Loading region data...
-[02:18:16] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.2.1
-[02:18:16] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
-[02:18:17] [Server thread/INFO]: [ItemEdit] Enabling ItemEdit v3.7.0
-[02:18:17] [Server thread/INFO]: [ItemEdit] Hooking into MiniMessageAPI see https://webui.advntr.dev/
-[02:18:17] [Server thread/INFO]: [ItemEdit] Selected Storage Type: YAML
-[02:18:18] [Server thread/INFO]: [ItemEdit] Unable to hook into Vault
-[02:18:18] [Server thread/INFO]: [ItemEdit] Hooking into PlaceHolderAPI
-[02:18:18] [Server thread/INFO]: [ItemEdit] placeholders:
-[02:18:18] [Server thread/INFO]: [ItemEdit]   %itemedit_amount_<{itemid}>_[{slot}]_[{player}]%
-[02:18:18] [Server thread/INFO]: [ItemEdit]     shows how many itemid player has on slot
-[02:18:18] [Server thread/INFO]: [ItemEdit]     <{itemid}> for item id on serveritem
-[02:18:18] [Server thread/INFO]: [ItemEdit]     [{slot}] for the slot where the item should be counted, by default inventory
-[02:18:18] [Server thread/INFO]: [ItemEdit]       Values: inventory (include offhand), equip (include offhand), inventoryandequip (include offhand), hand, offhand, head, chest, legs, feet
-[02:18:18] [Server thread/INFO]: [ItemEdit]     [{player}] for the player, by default self
-[02:18:18] [Server thread/INFO]: [ItemEdit]     example: %itemedit_amount_{my_item_id}_{hand}%
-[02:18:18] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: itemedit [1.0]
-[02:18:18] [Server thread/INFO]: [ItemEdit] # Enabled (took 911 ms)
-[02:18:18] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.37-SNAPSHOT (build 3756)
-[02:18:18] [Server thread/ERROR]: [Citizens] v2.0.37-SNAPSHOT (build 3756) is not compatible with Minecraft v1_20_R1 - try upgrading Minecraft or Citizens. Disabling...
-[02:18:18] [Server thread/INFO]: [Citizens] Disabling Citizens v2.0.37-SNAPSHOT (build 3756)
-[02:18:18] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+189-eab2201
-[02:18:18] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
-[02:18:19] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[02:18:19] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[02:18:19] [Server thread/INFO]: [Essentials] Selected Legacy Damage Event Provider as the provider for DamageEventProvider
-[02:18:19] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
-[02:18:19] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
-[02:18:19] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
-[02:18:19] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
-[02:18:19] [Server thread/INFO]: [Essentials] Selected Reflection Sync Commands Provider as the provider for SyncCommandsProvider
-[02:18:19] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
-[02:18:19] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
-[02:18:19] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
-[02:18:19] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
-[02:18:19] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
-[02:18:19] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
-[02:18:19] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
-[02:18:19] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
-[02:18:19] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
-[02:18:19] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
-[02:18:19] [Server thread/INFO]: [Essentials] Selected Legacy InventoryView Abstract Class ABI Provider as the provider for InventoryViewProvider
-[02:18:19] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
-[02:18:19] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
-[02:18:19] [Server thread/INFO]: [Essentials] Selected 1.9-1.20.4 Potion Meta Provider as the provider for PotionMetaProvider
-[02:18:19] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
-[02:18:19] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
-[02:18:19] [Server thread/INFO]: [Essentials] Loaded 43465 items from items.json.
-[02:18:19] [Server thread/INFO]: [Essentials] Using locale en
-[02:18:19] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[02:18:19] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[02:18:19] [Server thread/WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
-[02:18:19] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
-[02:18:19] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
-[02:18:19] [Server thread/INFO]: [DecentHolograms] Enabling DecentHolograms v2.8.15
-[02:18:19] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: v1_20_R1! Trying to find NMS support
-[02:18:19] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_20_R1' loaded!
-[02:18:19] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'DecentHolograms' to create a bStats instance!
-[02:18:20] [Server thread/INFO]: [YamipaPlugin] Enabling YamipaPlugin v1.3.2
-[02:18:20] [Server thread/INFO]: [YamipaPlugin] Enabled image animation support
-[02:18:20] [Server thread/INFO]: [YamipaPlugin] [ImageRenderer] No placed fake images configuration file found
-[02:18:20] [Server thread/INFO]: [Minepacks] Enabling Minepacks v2.4.31.5-T20241222133724
-[02:18:20] [Server thread/INFO]: [Minepacks] Starting Minepacks in standalone mode!
-[02:18:20] [Server thread/INFO]: [Minepacks] File "/config.yml" extracted successfully!
-[02:18:20] [Server thread/INFO]: [Minepacks] Config file successfully loaded.
-[02:18:20] [Server thread/INFO]: [Minepacks] File "/lang/en.yml" extracted successfully!
-[02:18:20] [Server thread/INFO]: [Minepacks] Language file successfully loaded. Language: english  Author: GeorgH93
-[02:18:20] [Server thread/INFO]: [at.pcgamingfreaks.MinepacksStandalone.libs.com.zaxxer.hikari.HikariDataSource] Minepacks-Connection-Pool - Starting...
-[02:18:20] [Server thread/INFO]: [at.pcgamingfreaks.MinepacksStandalone.libs.com.zaxxer.hikari.HikariDataSource] Minepacks-Connection-Pool - Start completed.
-[02:18:21] [Thread-12/INFO]: [Minepacks] Start downloading update: 2.4.31.6-release
-[02:18:21] [Thread-12/INFO]: [Minepacks] Downloading update: 10% of 1.78 MiB
-[02:18:21] [Thread-12/INFO]: [Minepacks] Downloading update: 20% of 1.78 MiB
-[02:18:21] [Thread-12/INFO]: [Minepacks] Downloading update: 30% of 1.78 MiB
-[02:18:21] [Thread-12/INFO]: [Minepacks] Downloading update: 40% of 1.78 MiB
-[02:18:21] [Thread-12/INFO]: [Minepacks] Downloading update: 50% of 1.78 MiB
-[02:18:21] [Thread-12/INFO]: [Minepacks] Downloading update: 60% of 1.78 MiB
-[02:18:21] [Thread-12/INFO]: [Minepacks] Downloading update: 70% of 1.78 MiB
-[02:18:21] [Thread-12/INFO]: [Minepacks] Downloading update: 80% of 1.78 MiB
-[02:18:21] [Thread-12/INFO]: [Minepacks] Downloading update: 90% of 1.78 MiB
-[02:18:21] [Server thread/INFO]: [Minepacks] File "/lang/items_en.yml" extracted successfully!
-[02:18:21] [Thread-12/INFO]: [Minepacks] Downloading update: 100% of 1.78 MiB
-[02:18:21] [Thread-12/INFO]: [Minepacks] Finished updating.
-[02:18:21] [Server thread/INFO]: [Minepacks] Item name language file successfully loaded. Language: english  Author: GeorgH93
-[02:18:21] [Server thread/INFO]: [Minepacks] Loading item translations ...
-[02:18:21] [Server thread/INFO]: [Minepacks] Finished loading item translations for 828 items.
-[02:18:21] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: minepacks [2.4.31.5-T20241222133724]
-[02:18:21] [Server thread/INFO]: [Minepacks] PlaceholderAPI hook was successfully registered!
-[02:18:21] [Server thread/INFO]: [Minepacks]  Minepacks has been enabled!  :) 
-[02:18:21] [Server thread/INFO]: [BetterRevive] Enabling BetterRevive v0.9.1-BETA
-[02:18:21] [Server thread/INFO]: [BetterRevive] ================================================================================
-[02:18:21] [Server thread/INFO]: [BetterRevive] This plugin requires NBTAPI. It's needed for this plugin to work.
-[02:18:21] [Server thread/INFO]: [BetterRevive] NBTAPI couldn't be found in your server. Disabling plugin..
-[02:18:21] [Server thread/INFO]: [BetterRevive] Download latest version of NBTAPI in https://alonsoaliaga.com/NBTAPI
-[02:18:21] [Server thread/INFO]: [BetterRevive] Please install NBTAPI to use this plugin or it won't work.
-[02:18:21] [Server thread/INFO]: [BetterRevive] For more questions join us on https://alonsoaliaga.com/discord
-[02:18:21] [Server thread/INFO]: [BetterRevive] ================================================================================
-[02:18:21] [Server thread/INFO]: [BetterRevive] Disabling BetterRevive v0.9.1-BETA
-[02:18:21] [Server thread/INFO]:  
-[02:18:21] [Server thread/INFO]: [BetterRevive] Plugin has been disabled!
-[02:18:21] [Server thread/INFO]: [BetterRevive] Thank you for using my plugin!
-[02:18:21] [Server thread/INFO]:  
-[02:18:21] [Server thread/INFO]: [TAB] Enabling TAB v5.0.7
-[02:18:21] [Server thread/INFO]: [TAB] Loaded NMS hook in 98ms
-[02:18:21] [Server thread/INFO]: [TAB] Enabled in 210ms
-[02:18:21] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.6.1-SNAPSHOT
-[02:18:22] [Server thread/INFO]: [ItemTag] Enabling ItemTag v3.7.1
-[02:18:22] [Server thread/INFO]: [ItemTag] Data using Spigot PersistentDataContainer
-[02:18:22] [Server thread/INFO]: [ItemTag] Updating configuration version (5 -> 6)
-[02:18:22] [Server thread/INFO]: [ItemTag] EquipmentChangeListener
-[02:18:22] [Server thread/INFO]: [ItemTag] Hooking into PlaceholderApi
-[02:18:22] [Server thread/INFO]: [ItemTag] Hooked into PlaceHolderAPI:
-[02:18:22] [Server thread/INFO]: [ItemTag] placeholders:
-[02:18:22] [Server thread/INFO]: [ItemTag]   %itemtag_cooldown_<timeunit>_[cooldownid]%
-[02:18:22] [Server thread/INFO]: [ItemTag]     shows how much cooldown has selected cooldownid for player
-[02:18:22] [Server thread/INFO]: [ItemTag]     <timeunit> may be h, s or ms
-[02:18:22] [Server thread/INFO]: [ItemTag]     [cooldownid] for cooldown type, by default default
-[02:18:22] [Server thread/INFO]: [ItemTag]     example: %itemtag_cooldown_s_anid%
-[02:18:22] [Server thread/INFO]: [ItemTag]   %itemtag_handcooldown_<timeunit>%
-[02:18:22] [Server thread/INFO]: [ItemTag]     shows how much cooldown has player on the item in his hand
-[02:18:22] [Server thread/INFO]: [ItemTag]     <timeunit> may be h, s or ms
-[02:18:22] [Server thread/INFO]: [ItemTag]     example: %itemtag_handcooldown_s%
-[02:18:22] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: itemtag [1.0]
-[02:18:22] [Server thread/INFO]: [ItemTag] # Enabled (took 96 ms)
-[02:18:22] [Server thread/INFO]: [Graves] Enabling Graves v4.9
-[02:18:22] [Server thread/INFO]: [Graves] Integration: Hooked into ProtocolLib 5.3.0.
-[02:18:22] [Server thread/INFO]: [Graves] Integration: Hooked into WorldEdit 7.2.15+6463-5ca4dff.
-[02:18:22] [Server thread/INFO]: [Graves] Integration: Hooked into WorldGuard 7.0.9+5934e49.
-[02:18:22] [Server thread/INFO]: [Graves] Integration: Hooked into MiniMessage.
-[02:18:22] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: graves [4.9]
-[02:18:22] [Server thread/INFO]: [Graves] Integration: Hooked into PlaceholderAPI 2.11.6.
-[02:18:22] [Server thread/INFO]: [Graves] Compatibility: Essentials Detected, make sure you don't have the essentials.keepinv or essentials.keepxp permissions.
-[02:18:22] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.21.0-dev+189-eab2201
-[02:18:22] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
-[02:18:22] [Server thread/INFO]: [ExcellentCrates] Enabling ExcellentCrates v5.0.0
-[02:18:22] [Server thread/INFO]: [ExcellentCrates] Powered by: NexEngine
-[02:18:22] [Server thread/WARN]: [ExcellentCrates] ==================================
-[02:18:22] [Server thread/WARN]: [ExcellentCrates] WARNING: You're running an outdated/deprecated server version (1.20.1)!
-[02:18:22] [Server thread/WARN]: [ExcellentCrates] Support for this version will be dropped soon.
-[02:18:22] [Server thread/WARN]: [ExcellentCrates] Please, upgrade your server to at least 1.20.2.
-[02:18:22] [Server thread/WARN]: [ExcellentCrates] ==================================
-[02:18:22] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: excellentcrates [5.0.0]
-[02:18:22] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
-[02:18:23] [Server thread/INFO]: [com.zaxxer.hikari.pool.HikariPool] HikariPool-1 - Added connection org.sqlite.jdbc4.JDBC4Connection@41e8fb3c
-[02:18:23] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
-[02:18:23] [Server thread/INFO]: [ExcellentCrates] Using Internal hologram handler.
-[02:18:23] [Server thread/INFO]: [ExcellentCrates] Registered currency: xp
-[02:18:23] [Server thread/INFO]: [ExcellentCrates] Loaded 3 crate keys.
-[02:18:23] [Server thread/INFO]: [ExcellentCrates] Loaded 4 rarities!
-[02:18:23] [Server thread/INFO]: [ExcellentCrates] Loaded 3 crates.
-[02:18:23] [Server thread/ERROR]: [ExcellentCrates] Invalid crate 'diamond' in 'default' menu!
-[02:18:23] [Server thread/INFO]: [ExcellentCrates] Loaded 1 crate menus.
-[02:18:23] [Server thread/INFO]: [ExcellentCrates] Plugin loaded in 524 ms!
-[02:18:23] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v7.6
-[02:18:23] [Server thread/INFO]: [SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9
-[02:18:23] [Server thread/INFO]: [SimpleTpa] Simple Tpa has been enabled on version 7.6
-[02:18:23] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
-[02:18:23] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: SimpleTpa [7.6]
-[02:18:23] [Server thread/INFO]: [LevelledMobs] Enabling LevelledMobs v3.14.0 b815
-[02:18:23] [Server thread/INFO]: LevelledMobs: Using NMS version v1_20_R1 for nametag support
-[02:18:23] [Server thread/INFO]: LevelledMobs: File Loader: Loading files...
-[02:18:23] [Server thread/INFO]: LevelledMobs: File Loader: Loading file 'rules.yml'...
-[02:18:23] [Server thread/INFO]: LevelledMobs: Current rules hash: 8d445cc2910fb4e7e0050f24ecf91d874655be6ac43f678d9968d7191bf19576
-[02:18:23] [Server thread/INFO]: LevelledMobs: File Loader: Loading file 'settings.yml'...
-[02:18:23] [Server thread/INFO]: LevelledMobs: File Loader: Loading file 'messages.yml'...
-[02:18:23] [Server thread/INFO]: LevelledMobs: Listeners: Registering event listeners...
-[02:18:23] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: LevelledMobs [3.14.0 b815]
-[02:18:23] [Server thread/INFO]: LevelledMobs: Commands: Registering commands...
-[02:18:23] [Server thread/INFO]: LevelledMobs: Running misc procedures
-[02:18:23] [Server thread/INFO]: LevelledMobs: Tasks: Starting async nametag auto update task...
-[02:18:23] [Server thread/INFO]: LevelledMobs: File Loader: Loading file 'customdrops.yml'...
-[02:18:23] [Server thread/INFO]: LevelledMobs: Start-up complete (took 150ms)
-[02:18:23] [Server thread/INFO]: [RealisticSeasons] Enabling RealisticSeasons v11.6.7
-[02:18:23] [Server thread/INFO]: [RealisticSeasons] [STDOUT] [Spigotunlocked.com] - COSMO
-[02:18:23] [Server thread/WARN]: Nag author(s): '[]' of 'RealisticSeasons v11.6.7' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
-[02:18:23] [Server thread/INFO]: [CustomItemsLib] Enabling CustomItemsLib v1.0.8
-[02:18:23] [Server thread/INFO]: [CustomItemsLib][Debug] Loading config.yml file, version -1
-[02:18:23] [Server thread/INFO]: [CustomItemsLib][Debug] Initialize database
-[02:18:23] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] Saving CustomItemsLib data
-[02:18:23] [Server thread/INFO]: [CustomItemsLib] Enabling compatibility with ProtocolLib (5.3.0).
-[02:18:24] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
-[02:18:24] [Server thread/INFO]: 0 placeholder hook(s) registered!
-[02:18:24] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[02:18:24] [Server thread/INFO]: [Geyser-Spigot] 
-[02:18:24] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.6.1-b785 (git-master-f27290a)
-[02:18:24] [Server thread/INFO]: [Geyser-Spigot] 
-[02:18:24] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[02:18:26] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
-[02:18:27] [Server thread/INFO]: [Geyser-Spigot] Done (2.663s)! Run /geyser help for help!
-[02:18:27] [Server thread/INFO]: Running delayed init tasks
-[02:18:27] [Craft Scheduler Thread - 7 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[02:18:27] [Craft Scheduler Thread - 4 - ModelEngine/INFO]: [ModelEngine] [A] 
-[02:18:27] [Craft Scheduler Thread - 4 - ModelEngine/INFO]: [ModelEngine] [A] [Importing models]
-[02:18:27] [Craft Scheduler Thread - 9 - Essentials/INFO]: [Essentials] Fetching version information...
-[02:18:27] [Craft Scheduler Thread - 4 - ModelEngine/WARN]: [ModelEngine] [A] Unable to read the model ID cache file. If the file is missing, ignore this warning.
-[02:18:27] [Craft Scheduler Thread - 4 - ModelEngine/INFO]: [ModelEngine] [A] Generator Profiled:
-[02:18:27] [Craft Scheduler Thread - 4 - ModelEngine/INFO]: [ModelEngine] [A]  - Import Phase: 0.8ms
-[02:18:27] [Craft Scheduler Thread - 4 - ModelEngine/INFO]: [ModelEngine] [A]  - Assets Phase: 1,019,470.6ms
-[02:18:27] [Craft Scheduler Thread - 4 - ModelEngine/INFO]: [ModelEngine] [A]  - Zipping Phase: 1,019,470.6ms
-[02:18:27] [Server thread/INFO]: Permadeath ➤ No se ha encontrado una librería JDA, deberás instalar una en caso de querer utilizar un bot de Discord.
-[02:18:27] [Server thread/INFO]: Descarga aquí: https://www.spigotmc.org/resources/permadeath-%E2%98%A0%EF%B8%8F.112343/
-[02:18:27] [Server thread/INFO]: Si no puedes descargarlo allí, únete a este Discord y te daremos acceso al enlace: https://discord.gg/8evPbuxPke
-[02:18:27] [Server thread/INFO]: ------------------------------------------
-[02:18:27] [Server thread/INFO]:              PERMADEATH
-[02:18:27] [Server thread/INFO]:      - Versión: 1.3
-[02:18:27] [Server thread/INFO]:      - Versión del Servidor: v1.20
-[02:18:27] [Server thread/INFO]: ------------------------------------------
-[02:18:27] [Server thread/INFO]:  >> INFORME DE ESTADO
-[02:18:27] [Server thread/INFO]: > Estado de mundos: Overworld: world End: world_the_end
-[02:18:27] [Server thread/INFO]:     > End: world_the_end
-[02:18:27] [Server thread/INFO]:     > Overworld: world
-[02:18:27] [Server thread/INFO]: > Estado de Compatibilidad: Compatible
-[02:18:27] [Server thread/INFO]: > Software: PaperMC (Compatible)
-[02:18:27] [Server thread/INFO]: > Cambios:
-[02:18:27] [Server thread/INFO]: >   Días disponibles: 1-60
-[02:18:27] [Craft Scheduler Thread - 6 - LevelledMobs/INFO]: [WARN] LevelledMobs: LevelledMobs Update Checker Notice:
-[02:18:27] [Craft Scheduler Thread - 6 - LevelledMobs/INFO]: [WARN] LevelledMobs: Your LevelledMobs version is outdated! Please update to v4.3.0.1 as soon as possible. (You're running v3.14.0)
-[02:18:27] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer] ----------------------------------------------
-[02:18:27] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer]     +==================+
-[02:18:27] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
-[02:18:27] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer]     |------------------|
-[02:18:27] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer]     |  Standalone Mode |
-[02:18:27] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer]     +==================+
-[02:18:27] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer] ----------------------------------------------
-[02:18:27] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer]     Version: 15.6.0
-[02:18:27] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer]     Commit: dec2ffc
-[02:18:27] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer]     This is the latest version!
-[02:18:27] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer] ----------------------------------------------
-[02:18:27] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
-[02:18:27] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
-[02:18:27] [Server thread/INFO]: [RealisticSeasons] [STDOUT] [Spigotunlocked.com] - COSMO
-[02:18:27] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: rs [1.0.0]
-[02:18:27] [Server thread/INFO]: [RealisticSeasons] Total biomes registered on server: 284
-[02:18:27] [Server thread/INFO]: Done (25.025s)! For help, type "help"
-[02:18:27] [Server thread/INFO]: Timings Reset
-[02:18:27] [Craft Scheduler Thread - 9 - Permadeath/INFO]: Permadeath ➤ Versión del plugin: Versión más reciente instalada.
-[02:18:31] [User Authenticator #0/INFO]: UUID of player THEMONILO is 8ce330b9-f746-3d8f-9174-9156ece89f7c
-[02:18:31] [Server thread/ERROR]: [nLogin] Unable to verify that the player is an NPC. Most likely this is a Citizens error.
+[17:32:41] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[17:32:41] [Server thread/INFO]: Default game type: SURVIVAL
+[17:32:41] [Server thread/INFO]: Generating keypair
+[17:32:41] [Server thread/INFO]: Starting Minecraft server on *:25565
+[17:32:41] [Server thread/INFO]: Using epoll channel type
+[17:32:41] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[17:32:41] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[17:32:42] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loading 5 libraries... please wait
+[17:32:42] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/net/kyori/adventure-api/4.16.0/adventure-api-4.16.0.jar
+[17:32:42] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/net/kyori/adventure-key/4.16.0/adventure-key-4.16.0.jar
+[17:32:42] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
+[17:32:42] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
+[17:32:42] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/org/jetbrains/annotations/24.1.0/annotations-24.1.0.jar
+[17:32:42] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/net/kyori/adventure-platform-bukkit/4.3.2/adventure-platform-bukkit-4.3.2.jar
+[17:32:42] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/net/kyori/adventure-platform-api/4.3.2/adventure-platform-api-4.3.2.jar
+[17:32:42] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-bungeecord/4.3.2/adventure-text-serializer-bungeecord-4.3.2.jar
+[17:32:42] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/net/kyori/adventure-nbt/4.13.1/adventure-nbt-4.13.1.jar
+[17:32:42] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson-legacy-impl/4.13.1/adventure-text-serializer-gson-legacy-impl-4.13.1.jar
+[17:32:42] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/net/kyori/adventure-platform-facet/4.3.2/adventure-platform-facet-4.3.2.jar
+[17:32:42] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/net/kyori/adventure-platform-viaversion/4.3.2/adventure-platform-viaversion-4.3.2.jar
+[17:32:42] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/net/kyori/adventure-text-minimessage/4.16.0/adventure-text-minimessage-4.16.0.jar
+[17:32:42] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson/4.16.0/adventure-text-serializer-gson-4.16.0.jar
+[17:32:42] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-json/4.16.0/adventure-text-serializer-json-4.16.0.jar
+[17:32:42] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/net/kyori/option/1.0.0/option-1.0.0.jar
+[17:32:42] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar
+[17:32:42] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-legacy/4.16.0/adventure-text-serializer-legacy-4.16.0.jar
+[17:32:42] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loading 5 libraries... please wait
+[17:32:42] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/ch/ethz/globis/phtree/phtree/2.8.1/phtree-2.8.1.jar
+[17:32:42] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/org/joml/joml/1.10.8/joml-1.10.8.jar
+[17:32:42] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/it/unimi/dsi/fastutil/8.5.15/fastutil-8.5.15.jar
+[17:32:42] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/net/kyori/adventure-platform-bukkit/4.3.3/adventure-platform-bukkit-4.3.3.jar
+[17:32:42] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/net/kyori/adventure-platform-api/4.3.3/adventure-platform-api-4.3.3.jar
+[17:32:42] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-bungeecord/4.3.3/adventure-text-serializer-bungeecord-4.3.3.jar
+[17:32:42] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-legacy/4.13.1/adventure-text-serializer-legacy-4.13.1.jar
+[17:32:42] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/net/kyori/adventure-nbt/4.13.1/adventure-nbt-4.13.1.jar
+[17:32:42] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
+[17:32:42] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
+[17:32:42] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/org/jetbrains/annotations/24.0.1/annotations-24.0.1.jar
+[17:32:42] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson/4.13.1/adventure-text-serializer-gson-4.13.1.jar
+[17:32:42] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson-legacy-impl/4.13.1/adventure-text-serializer-gson-legacy-impl-4.13.1.jar
+[17:32:42] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/net/kyori/adventure-platform-facet/4.3.3/adventure-platform-facet-4.3.3.jar
+[17:32:42] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/net/kyori/adventure-platform-viaversion/4.3.3/adventure-platform-viaversion-4.3.3.jar
+[17:32:42] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/net/kyori/adventure-text-minimessage/4.17.0/adventure-text-minimessage-4.17.0.jar
+[17:32:42] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/net/kyori/adventure-api/4.17.0/adventure-api-4.17.0.jar
+[17:32:42] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/net/kyori/adventure-key/4.17.0/adventure-key-4.17.0.jar
+[17:32:42] [Server thread/INFO]: [SpigotLibraryLoader] [NexEngine] Loading 2 libraries... please wait
+[17:32:42] [Server thread/INFO]: [SpigotLibraryLoader] [NexEngine] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/com/zaxxer/HikariCP/5.0.1/HikariCP-5.0.1.jar
+[17:32:42] [Server thread/INFO]: [SpigotLibraryLoader] [NexEngine] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/it/unimi/dsi/fastutil/8.5.11/fastutil-8.5.11.jar
+[17:32:42] [Server thread/INFO]: [Minepacks] PCGF-PluginLib not installed. Switching to standalone mode!
+[17:32:43] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loading 3 libraries... please wait
+[17:32:43] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/net/kyori/adventure-api/4.14.0/adventure-api-4.14.0.jar
+[17:32:43] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/net/kyori/adventure-key/4.14.0/adventure-key-4.14.0.jar
+[17:32:43] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
+[17:32:43] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
+[17:32:43] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/org/jetbrains/annotations/24.0.1/annotations-24.0.1.jar
+[17:32:43] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson/4.14.0/adventure-text-serializer-gson-4.14.0.jar
+[17:32:43] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-json/4.14.0/adventure-text-serializer-json-4.14.0.jar
+[17:32:43] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar
+[17:32:43] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-bungeecord/4.3.0/adventure-text-serializer-bungeecord-4.3.0.jar
+[17:32:43] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-legacy/4.13.0/adventure-text-serializer-legacy-4.13.0.jar
+[17:32:43] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.2.1
+[17:32:43] [Server thread/INFO]: [ViaVersion] ViaVersion 5.2.1 is now loaded. Registering protocol transformers and injecting...
+[17:32:43] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[17:32:43] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[17:32:43] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[17:32:43] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[17:32:44] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.2.15+6463-5ca4dff
+[17:32:44] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@36db7f7e]
+[17:32:44] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.6
+[17:32:44] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.3.0
+[17:32:44] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.9+5934e49
+[17:32:44] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.156
+[17:32:45] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.2.1
+[17:32:45] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[17:32:45] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[17:32:45] [Server thread/INFO]: [floodgate] Took 423ms to boot Floodgate
+[17:32:45] [Server thread/INFO]: [ItemEdit] Loading server plugin ItemEdit v3.7.0
+[17:32:45] [Server thread/INFO]: [Citizens] Loading server plugin Citizens v2.0.37-SNAPSHOT (build 3756)
+[17:32:45] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+189-eab2201
+[17:32:45] [Server thread/INFO]: [DecentHolograms] Loading server plugin DecentHolograms v2.8.15
+[17:32:45] [Server thread/INFO]: [NexEngine] Loading server plugin NexEngine v2.2.12
+[17:32:45] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.6.0
+[17:32:45] [Server thread/INFO]: [YamipaPlugin] Loading server plugin YamipaPlugin v1.3.2
+[17:32:45] [Server thread/INFO]: [nAntiBot] Loading server plugin nAntiBot v6.1.28
+[17:32:45] [Server thread/INFO]: [Minepacks] Loading server plugin Minepacks v2.4.31.6-T20250103114036
+[17:32:45] [Server thread/INFO]: [BetterRevive] Loading server plugin BetterRevive v0.9.1-BETA
+[17:32:45] [Server thread/INFO]: [BetterRevive] Inventory title with support for more than 32 characters. Skipping..
+[17:32:45] [Server thread/INFO]: [BetterRevive] Hex colors are available! Ready for RGB..
+[17:32:45] [Server thread/INFO]: [BetterRevive] Old constructor for HoverEvent found! Using it..
+[17:32:45] [Server thread/INFO]: [BetterRevive] New sendTitle method found! Using it..
+[17:32:45] [Server thread/INFO]: [BetterRevive] New setUnbreakable method found! Using it..
+[17:32:45] [Server thread/INFO]: [BetterRevive] New isUnbreakable method found! Using it..
+[17:32:45] [Server thread/INFO]: [BetterRevive] WorldGuard found! Registering custom flag(s)..
+[17:32:45] [Server thread/INFO]: [BetterRevive] WorldGuard v7.x or newer detected. Using new methods..
+[17:32:45] [Server thread/INFO]: [BetterRevive] [WorldGuard] Successfully registered 'betterrevive-can-bleed' flag!
+[17:32:45] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.0.7
+[17:32:45] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.6.1-SNAPSHOT
+[17:32:46] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[17:32:46] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[17:32:46] [Server thread/INFO]: [ItemTag] Loading server plugin ItemTag v3.7.1
+[17:32:46] [Server thread/INFO]: [Graves] Loading server plugin Graves v4.9
+[17:32:46] [Server thread/INFO]: [Graves] Integration: Hooked into WorldGuard 7.0.9+5934e49.
+[17:32:46] [Server thread/INFO]: [nLogin] Loading server plugin nLogin v10.4.21
+[17:32:46] [Server thread/INFO]: [TerraformGenerator] Loading server plugin TerraformGenerator v18.1.2
+[17:32:46] [Server thread/INFO]: [ModelEngine] Loading server plugin ModelEngine vR4.0.8
+[17:32:46] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.21.0-dev+189-eab2201
+[17:32:46] [Server thread/INFO]: [ExcellentCrates] Loading server plugin ExcellentCrates v5.0.0
+[17:32:46] [Server thread/INFO]: [SimpleTpa] Loading server plugin SimpleTpa v7.6
+[17:32:46] [Server thread/INFO]: [LevelledMobs] Loading server plugin LevelledMobs v3.14.0 b815
+[17:32:46] [Server thread/INFO]: [Permadeath] Loading server plugin Permadeath v1.3
+[17:32:46] [Server thread/INFO]: [RealisticSeasons] Loading server plugin RealisticSeasons v11.6.7
+[17:32:46] [Server thread/INFO]: [CustomItemsLib] Loading server plugin CustomItemsLib v1.0.8
+[17:32:46] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[17:32:46] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.15+6463-5ca4dff
+[17:32:46] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[17:32:47] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[17:32:47] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R1.PaperweightAdapter as the Bukkit adapter
+[17:32:48] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.3.0
+[17:32:48] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.156
+[17:32:48] [Server thread/INFO]:         __    
+[17:32:48] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.156
+[17:32:48] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[17:32:48] [Server thread/INFO]: 
+[17:32:48] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[17:32:49] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[17:32:49] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[17:32:49] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[17:32:49] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1792ms)
+[17:32:49] [Server thread/INFO]: [NexEngine] Enabling NexEngine v2.2.12
+[17:32:49] [Server thread/INFO]: [NexEngine] Seems like we have Paper based fork here...
+[17:32:49] [Server thread/WARN]: [NexEngine] ==================================
+[17:32:49] [Server thread/WARN]: [NexEngine] WARNING: You're running an outdated/deprecated server version (1.20.1)!
+[17:32:49] [Server thread/WARN]: [NexEngine] Support for this version will be dropped soon.
+[17:32:49] [Server thread/WARN]: [NexEngine] Please, upgrade your server to at least 1.20.2.
+[17:32:49] [Server thread/WARN]: [NexEngine] ==================================
+[17:32:49] [Server thread/INFO]: [NexEngine] Plugin loaded in 75 ms!
+[17:32:49] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.6.0
+[17:32:50] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
+[17:32:50] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.20.0.
+[17:32:50] [Server thread/INFO]: [SkinsRestorer] Floodgate skin listener registered
+[17:32:51] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[17:32:51] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: skinsrestorer [15.6.0]
+[17:32:51] [Server thread/INFO]: [SkinsRestorer] PlaceholderAPI expansion registered!
+[17:32:51] [Server thread/WARN]: [SkinsRestorer] Please update your Java runtime to at least Java 21 (your version is 17).
+[17:32:51] [Server thread/WARN]: [SkinsRestorer] At some point in the future, SkinsRestorer will no longer be compatible with this version of Java.
+[17:32:51] [Server thread/INFO]: [nAntiBot] Enabling nAntiBot v6.1.28
+[17:32:51] [Server thread/INFO]: [nAntiBot] Successful plugin core start (took 0.44s)
+[17:32:51] [Server thread/INFO]:           _         _   _   ___       _   
+[17:32:51] [Server thread/INFO]:   _ __   /_\  _ __ | |_(_) / __\ ___ | |_ 
+[17:32:51] [Server thread/INFO]:  | '_ \ //_\\| '_ \| __| |/__\/// _ \| __|
+[17:32:51] [Server thread/INFO]:  | | | /  _  \ | | | |_| / \/  \ (_) | |_ 
+[17:32:51] [Server thread/INFO]:  |_| |_\_/ \_/_| |_|\__|_\_____/\___/ \__|
+[17:32:51] [Server thread/INFO]:                                          
+[17:32:51] [Server thread/INFO]:  By: www.nickuc.com - V 6.1.28 DEVELOPMENT
+[17:32:51] [Server thread/INFO]: 
+[17:32:52] [Server thread/INFO]: [nLogin] Enabling nLogin v10.4.21
+[17:32:52] [Server thread/INFO]: [nLogin] Successful plugin core start (took 0.39s)
+[17:32:52] [Server thread/INFO]:           __             _       
+[17:32:52] [Server thread/INFO]:   _ __   / /  ___   __ _(_)_ __  
+[17:32:52] [Server thread/INFO]:  | '_ \ / /  / _ \ / _` | | '_ \ 
+[17:32:52] [Server thread/INFO]:  | | | / /__| (_) | (_| | | | | |
+[17:32:52] [Server thread/INFO]:  |_| |_\____/\___/ \__, |_|_| |_|
+[17:32:52] [Server thread/INFO]:                   |___/            
+[17:32:52] [Server thread/INFO]:  By: www.nickuc.com - V 10.4.21
+[17:32:52] [Server thread/INFO]:  
+[17:32:53] [Server thread/INFO]: [TerraformGenerator] Enabling TerraformGenerator v18.1.2
+[17:32:53] [Server thread/INFO]: [TerraformGenerator] Custom Logger Initialized
+[17:32:53] [Server thread/INFO]: [TerraformGenerator] bStats Metrics enabled.
+[17:32:53] [Server thread/INFO]: [TerraformGenerator] Detected version: 1.20, number: 20.0
+[17:32:53] [Server thread/INFO]: [ModelEngine] Enabling ModelEngine vR4.0.8
+[17:32:53] [Server thread/WARN]: [ModelEngine] [S] Unable to read the model ID cache file. If the file is missing, ignore this warning.
+[17:32:53] [Server thread/INFO]: [Permadeath] Enabling Permadeath v1.3
+[17:32:53] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[17:32:53] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[17:32:53] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[17:32:53] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[17:32:53] [Server thread/INFO]: Preparing level "world"
+[17:32:54] [Server thread/INFO]: [TerraformGenerator] Detected world: world, commencing injection... 
+[17:32:54] [Server thread/INFO]: [TerraformGenerator] Injection success! Proceeding with generation.
+[17:32:54] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[17:32:54] [Server thread/INFO]: Time elapsed: 224 ms
+[17:32:54] [Server thread/INFO]: [TerraformGenerator] world loaded.
+[17:32:54] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[17:32:54] [Server thread/INFO]: Time elapsed: 65 ms
+[17:32:54] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[17:32:54] [Server thread/INFO]: Time elapsed: 68 ms
+[17:32:54] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.2.1
+[17:32:54] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20-1.20.1 (763)
+[17:32:54] [Server thread/WARN]: [ViaVersion] Please update your Java runtime to at least Java 21 (your version is 17.0.14).
+[17:32:54] [Server thread/WARN]: [ViaVersion] At some point in the future, ViaVersion will no longer be compatible with this version of Java.
+[17:32:54] [Server thread/INFO]: [ModelEngine] [S] Compatibility applied: ViaVersion
+[17:32:54] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
+[17:32:55] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[17:32:55] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.9+5934e49
+[17:32:55] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[17:32:55] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[17:32:55] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[17:32:55] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[17:32:55] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[17:32:55] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[17:32:55] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[17:32:55] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[17:32:55] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[17:32:55] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[17:32:55] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[17:32:55] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[17:32:55] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[17:32:55] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[17:32:55] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[17:32:55] [Server thread/INFO]: [WorldGuard] Loading region data...
+[17:32:55] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.2.1
+[17:32:55] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[17:32:56] [Server thread/INFO]: [ItemEdit] Enabling ItemEdit v3.7.0
+[17:32:56] [Server thread/INFO]: [ItemEdit] Hooking into MiniMessageAPI see https://webui.advntr.dev/
+[17:32:56] [Server thread/INFO]: [ItemEdit] Selected Storage Type: YAML
+[17:32:56] [Server thread/INFO]: [ItemEdit] Unable to hook into Vault
+[17:32:56] [Server thread/INFO]: [ItemEdit] Hooking into PlaceHolderAPI
+[17:32:56] [Server thread/INFO]: [ItemEdit] placeholders:
+[17:32:56] [Server thread/INFO]: [ItemEdit]   %itemedit_amount_<{itemid}>_[{slot}]_[{player}]%
+[17:32:56] [Server thread/INFO]: [ItemEdit]     shows how many itemid player has on slot
+[17:32:56] [Server thread/INFO]: [ItemEdit]     <{itemid}> for item id on serveritem
+[17:32:56] [Server thread/INFO]: [ItemEdit]     [{slot}] for the slot where the item should be counted, by default inventory
+[17:32:56] [Server thread/INFO]: [ItemEdit]       Values: inventory (include offhand), equip (include offhand), inventoryandequip (include offhand), hand, offhand, head, chest, legs, feet
+[17:32:56] [Server thread/INFO]: [ItemEdit]     [{player}] for the player, by default self
+[17:32:56] [Server thread/INFO]: [ItemEdit]     example: %itemedit_amount_{my_item_id}_{hand}%
+[17:32:56] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: itemedit [1.0]
+[17:32:56] [Server thread/INFO]: [ItemEdit] # Enabled (took 157 ms)
+[17:32:56] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.37-SNAPSHOT (build 3756)
+[17:32:56] [Server thread/ERROR]: [Citizens] v2.0.37-SNAPSHOT (build 3756) is not compatible with Minecraft v1_20_R1 - try upgrading Minecraft or Citizens. Disabling...
+[17:32:56] [Server thread/INFO]: [Citizens] Disabling Citizens v2.0.37-SNAPSHOT (build 3756)
+[17:32:56] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+189-eab2201
+[17:32:57] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[17:32:57] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[17:32:57] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[17:32:57] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[17:32:57] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[17:32:57] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[17:32:57] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[17:32:57] [Server thread/INFO]: [Essentials] Selected Legacy InventoryView Abstract Class ABI Provider as the provider for InventoryViewProvider
+[17:32:57] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[17:32:57] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[17:32:57] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[17:32:57] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[17:32:57] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[17:32:57] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[17:32:57] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[17:32:57] [Server thread/INFO]: [Essentials] Selected 1.9-1.20.4 Potion Meta Provider as the provider for PotionMetaProvider
+[17:32:57] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[17:32:57] [Server thread/INFO]: [Essentials] Selected Legacy Damage Event Provider as the provider for DamageEventProvider
+[17:32:57] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[17:32:57] [Server thread/INFO]: [Essentials] Selected Reflection Sync Commands Provider as the provider for SyncCommandsProvider
+[17:32:57] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+[17:32:57] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[17:32:57] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[17:32:57] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[17:32:57] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[17:32:58] [Server thread/INFO]: [Essentials] Loaded 43465 items from items.json.
+[17:32:58] [Server thread/INFO]: [Essentials] Using locale en
+[17:32:58] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[17:32:58] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[17:32:58] [Server thread/WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
+[17:32:58] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
+[17:32:58] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[17:32:58] [Server thread/INFO]: [DecentHolograms] Enabling DecentHolograms v2.8.15
+[17:32:58] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: v1_20_R1! Trying to find NMS support
+[17:32:58] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_20_R1' loaded!
+[17:32:58] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'DecentHolograms' to create a bStats instance!
+[17:32:58] [Server thread/INFO]: [YamipaPlugin] Enabling YamipaPlugin v1.3.2
+[17:32:58] [Server thread/INFO]: [YamipaPlugin] Enabled image animation support
+[17:32:58] [Server thread/INFO]: [YamipaPlugin] [ImageRenderer] No placed fake images configuration file found
+[17:32:58] [Server thread/INFO]: [Minepacks] Enabling Minepacks v2.4.31.6-T20250103114036
+[17:32:58] [Server thread/INFO]: [Minepacks] Starting Minepacks in standalone mode!
+[17:32:59] [Server thread/INFO]: [Minepacks] Config file successfully loaded.
+[17:32:59] [Server thread/INFO]: [Minepacks] Language file successfully loaded. Language: english  Author: GeorgH93
+[17:32:59] [Server thread/INFO]: [at.pcgamingfreaks.MinepacksStandalone.libs.com.zaxxer.hikari.HikariDataSource] Minepacks-Connection-Pool - Starting...
+[17:32:59] [Server thread/INFO]: [at.pcgamingfreaks.MinepacksStandalone.libs.com.zaxxer.hikari.HikariDataSource] Minepacks-Connection-Pool - Start completed.
+[17:32:59] [Server thread/INFO]: [Minepacks] Item name language file successfully loaded. Language: english  Author: GeorgH93
+[17:32:59] [Server thread/INFO]: [Minepacks] Loading item translations ...
+[17:32:59] [Server thread/INFO]: [Minepacks] Finished loading item translations for 828 items.
+[17:32:59] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: minepacks [2.4.31.6-T20250103114036]
+[17:32:59] [Server thread/INFO]: [Minepacks] PlaceholderAPI hook was successfully registered!
+[17:32:59] [Server thread/INFO]: [Minepacks]  Minepacks has been enabled!  :) 
+[17:32:59] [Server thread/INFO]: [BetterRevive] Enabling BetterRevive v0.9.1-BETA
+[17:32:59] [Server thread/INFO]: [BetterRevive] ================================================================================
+[17:32:59] [Server thread/INFO]: [BetterRevive] This plugin requires NBTAPI. It's needed for this plugin to work.
+[17:32:59] [Server thread/INFO]: [BetterRevive] NBTAPI couldn't be found in your server. Disabling plugin..
+[17:32:59] [Server thread/INFO]: [BetterRevive] Download latest version of NBTAPI in https://alonsoaliaga.com/NBTAPI
+[17:32:59] [Server thread/INFO]: [BetterRevive] Please install NBTAPI to use this plugin or it won't work.
+[17:32:59] [Server thread/INFO]: [BetterRevive] For more questions join us on https://alonsoaliaga.com/discord
+[17:32:59] [Server thread/INFO]: [BetterRevive] ================================================================================
+[17:32:59] [Server thread/INFO]: [BetterRevive] Disabling BetterRevive v0.9.1-BETA
+[17:32:59] [Server thread/INFO]:  
+[17:32:59] [Server thread/INFO]: [BetterRevive] Plugin has been disabled!
+[17:32:59] [Server thread/INFO]: [BetterRevive] Thank you for using my plugin!
+[17:32:59] [Server thread/INFO]:  
+[17:32:59] [Server thread/INFO]: [TAB] Enabling TAB v5.0.7
+[17:32:59] [Server thread/INFO]: [TAB] Loaded NMS hook in 104ms
+[17:33:00] [Server thread/INFO]: [TAB] Enabled in 213ms
+[17:33:00] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.6.1-SNAPSHOT
+[17:33:00] [Server thread/INFO]: [ItemTag] Enabling ItemTag v3.7.1
+[17:33:00] [Server thread/INFO]: [ItemTag] Data using Spigot PersistentDataContainer
+[17:33:00] [Server thread/INFO]: [ItemTag] EquipmentChangeListener
+[17:33:00] [Server thread/INFO]: [ItemTag] Hooking into PlaceholderApi
+[17:33:00] [Server thread/INFO]: [ItemTag] Hooked into PlaceHolderAPI:
+[17:33:00] [Server thread/INFO]: [ItemTag] placeholders:
+[17:33:00] [Server thread/INFO]: [ItemTag]   %itemtag_cooldown_<timeunit>_[cooldownid]%
+[17:33:00] [Server thread/INFO]: [ItemTag]     shows how much cooldown has selected cooldownid for player
+[17:33:00] [Server thread/INFO]: [ItemTag]     <timeunit> may be h, s or ms
+[17:33:00] [Server thread/INFO]: [ItemTag]     [cooldownid] for cooldown type, by default default
+[17:33:00] [Server thread/INFO]: [ItemTag]     example: %itemtag_cooldown_s_anid%
+[17:33:00] [Server thread/INFO]: [ItemTag]   %itemtag_handcooldown_<timeunit>%
+[17:33:00] [Server thread/INFO]: [ItemTag]     shows how much cooldown has player on the item in his hand
+[17:33:00] [Server thread/INFO]: [ItemTag]     <timeunit> may be h, s or ms
+[17:33:00] [Server thread/INFO]: [ItemTag]     example: %itemtag_handcooldown_s%
+[17:33:00] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: itemtag [1.0]
+[17:33:00] [Server thread/INFO]: [ItemTag] # Enabled (took 59 ms)
+[17:33:00] [Server thread/INFO]: [Graves] Enabling Graves v4.9
+[17:33:00] [Server thread/INFO]: [Graves] Integration: Hooked into ProtocolLib 5.3.0.
+[17:33:01] [Server thread/INFO]: [Graves] Integration: Hooked into WorldEdit 7.2.15+6463-5ca4dff.
+[17:33:01] [Server thread/INFO]: [Graves] Integration: Hooked into WorldGuard 7.0.9+5934e49.
+[17:33:01] [Server thread/INFO]: [Graves] Integration: Hooked into MiniMessage.
+[17:33:01] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: graves [4.9]
+[17:33:01] [Server thread/INFO]: [Graves] Integration: Hooked into PlaceholderAPI 2.11.6.
+[17:33:01] [Server thread/INFO]: [Graves] Compatibility: Essentials Detected, make sure you don't have the essentials.keepinv or essentials.keepxp permissions.
+[17:33:01] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.21.0-dev+189-eab2201
+[17:33:01] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[17:33:01] [Server thread/INFO]: [ExcellentCrates] Enabling ExcellentCrates v5.0.0
+[17:33:01] [Server thread/INFO]: [ExcellentCrates] Powered by: NexEngine
+[17:33:01] [Server thread/WARN]: [ExcellentCrates] ==================================
+[17:33:01] [Server thread/WARN]: [ExcellentCrates] WARNING: You're running an outdated/deprecated server version (1.20.1)!
+[17:33:01] [Server thread/WARN]: [ExcellentCrates] Support for this version will be dropped soon.
+[17:33:01] [Server thread/WARN]: [ExcellentCrates] Please, upgrade your server to at least 1.20.2.
+[17:33:01] [Server thread/WARN]: [ExcellentCrates] ==================================
+[17:33:01] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: excellentcrates [5.0.0]
+[17:33:01] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+[17:33:01] [Server thread/INFO]: [com.zaxxer.hikari.pool.HikariPool] HikariPool-1 - Added connection org.sqlite.jdbc4.JDBC4Connection@2ed800a4
+[17:33:01] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+[17:33:01] [Server thread/INFO]: [ExcellentCrates] Using Internal hologram handler.
+[17:33:01] [Server thread/INFO]: [ExcellentCrates] Registered currency: xp
+[17:33:01] [Server thread/INFO]: [ExcellentCrates] Loaded 3 crate keys.
+[17:33:01] [Server thread/INFO]: [ExcellentCrates] Loaded 4 rarities!
+[17:33:01] [Server thread/INFO]: [ExcellentCrates] Loaded 3 crates.
+[17:33:01] [Server thread/ERROR]: [ExcellentCrates] Invalid crate 'diamond' in 'default' menu!
+[17:33:01] [Server thread/INFO]: [ExcellentCrates] Loaded 1 crate menus.
+[17:33:01] [Server thread/INFO]: [ExcellentCrates] Plugin loaded in 503 ms!
+[17:33:01] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v7.6
+[17:33:01] [Server thread/INFO]: [SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9
+[17:33:01] [Server thread/INFO]: [SimpleTpa] Simple Tpa has been enabled on version 7.6
+[17:33:01] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
+[17:33:01] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: SimpleTpa [7.6]
+[17:33:01] [Server thread/INFO]: [LevelledMobs] Enabling LevelledMobs v3.14.0 b815
+[17:33:02] [Server thread/INFO]: LevelledMobs: Using NMS version v1_20_R1 for nametag support
+[17:33:02] [Server thread/INFO]: LevelledMobs: File Loader: Loading files...
+[17:33:02] [Server thread/INFO]: LevelledMobs: File Loader: Loading file 'rules.yml'...
+[17:33:02] [Server thread/INFO]: LevelledMobs: Current rules hash: 8d445cc2910fb4e7e0050f24ecf91d874655be6ac43f678d9968d7191bf19576
+[17:33:02] [Server thread/INFO]: LevelledMobs: File Loader: Loading file 'settings.yml'...
+[17:33:02] [Server thread/INFO]: LevelledMobs: File Loader: Loading file 'messages.yml'...
+[17:33:02] [Server thread/INFO]: LevelledMobs: Listeners: Registering event listeners...
+[17:33:02] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: LevelledMobs [3.14.0 b815]
+[17:33:02] [Server thread/INFO]: LevelledMobs: Commands: Registering commands...
+[17:33:02] [Server thread/INFO]: LevelledMobs: Running misc procedures
+[17:33:02] [Server thread/INFO]: LevelledMobs: Tasks: Starting async nametag auto update task...
+[17:33:02] [Server thread/INFO]: LevelledMobs: File Loader: Loading file 'customdrops.yml'...
+[17:33:02] [Server thread/INFO]: LevelledMobs: Start-up complete (took 308ms)
+[17:33:02] [Server thread/INFO]: [RealisticSeasons] Enabling RealisticSeasons v11.6.7
+[17:33:02] [Server thread/INFO]: [RealisticSeasons] [STDOUT] [Spigotunlocked.com] - COSMO
+[17:33:02] [Server thread/WARN]: Nag author(s): '[]' of 'RealisticSeasons v11.6.7' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
+[17:33:02] [Server thread/INFO]: [CustomItemsLib] Enabling CustomItemsLib v1.0.8
+[17:33:02] [Server thread/INFO]: [CustomItemsLib][Debug] Loading config.yml file, version -1
+[17:33:02] [Server thread/INFO]: [CustomItemsLib][Debug] Initialize database
+[17:33:02] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] Saving CustomItemsLib data
+[17:33:02] [Server thread/INFO]: [CustomItemsLib] Enabling compatibility with ProtocolLib (5.3.0).
+[17:33:03] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[17:33:03] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[17:33:03] [Server thread/INFO]: [Geyser-Spigot] 
+[17:33:03] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.6.1-b785 (git-master-f27290a)
+[17:33:03] [Server thread/INFO]: [Geyser-Spigot] 
+[17:33:03] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[17:33:05] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
+[17:33:05] [Server thread/INFO]: [Geyser-Spigot] Done (2.784s)! Run /geyser help for help!
+[17:33:06] [Server thread/INFO]: Running delayed init tasks
+[17:33:06] [Craft Scheduler Thread - 0 - nAntiBot/INFO]: [nAntiBot] Connecting to the remote server antibot.nickuc.com...
+[17:33:06] [Craft Scheduler Thread - 7 - ModelEngine/INFO]: [ModelEngine] [A] 
+[17:33:06] [Craft Scheduler Thread - 7 - ModelEngine/INFO]: [ModelEngine] [A] [Importing models]
+[17:33:06] [Craft Scheduler Thread - 7 - ModelEngine/WARN]: [ModelEngine] [A] Unable to read the model ID cache file. If the file is missing, ignore this warning.
+[17:33:06] [Craft Scheduler Thread - 7 - ModelEngine/INFO]: [ModelEngine] [A] Generator Profiled:
+[17:33:06] [Craft Scheduler Thread - 7 - ModelEngine/INFO]: [ModelEngine] [A]  - Import Phase: 0.9ms
+[17:33:06] [Craft Scheduler Thread - 7 - ModelEngine/INFO]: [ModelEngine] [A]  - Assets Phase: 649,401.9ms
+[17:33:06] [Craft Scheduler Thread - 8 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[17:33:06] [Craft Scheduler Thread - 7 - ModelEngine/INFO]: [ModelEngine] [A]  - Zipping Phase: 649,401.9ms
+[17:33:06] [Craft Scheduler Thread - 8 - Essentials/INFO]: [Essentials] Fetching version information...
+[17:33:06] [Craft Scheduler Thread - 7 - DecentHolograms/INFO]: [DecentHolograms] Loading holograms... 
+[17:33:06] [Server thread/INFO]: Permadeath ➤ No se ha encontrado una librería JDA, deberás instalar una en caso de querer utilizar un bot de Discord.
+[17:33:06] [Server thread/INFO]: Descarga aquí: https://www.spigotmc.org/resources/permadeath-%E2%98%A0%EF%B8%8F.112343/
+[17:33:06] [Server thread/INFO]: Si no puedes descargarlo allí, únete a este Discord y te daremos acceso al enlace: https://discord.gg/8evPbuxPke
+[17:33:06] [Craft Scheduler Thread - 7 - DecentHolograms/INFO]: [DecentHolograms] Loaded 1 holograms!
+[17:33:06] [Craft Scheduler Thread - 18 - LevelledMobs/INFO]: [WARN] LevelledMobs: LevelledMobs Update Checker Notice:
+[17:33:06] [Server thread/INFO]: ------------------------------------------
+[17:33:06] [Server thread/INFO]:              PERMADEATH
+[17:33:06] [Server thread/INFO]:      - Versión: 1.3
+[17:33:06] [Server thread/INFO]:      - Versión del Servidor: v1.20
+[17:33:06] [Server thread/INFO]: ------------------------------------------
+[17:33:06] [Server thread/INFO]:  >> INFORME DE ESTADO
+[17:33:06] [Craft Scheduler Thread - 18 - LevelledMobs/INFO]: [WARN] LevelledMobs: Your LevelledMobs version is outdated! Please update to v4.3.0.1 as soon as possible. (You're running v3.14.0)
+[17:33:06] [Server thread/INFO]: > Estado de mundos: Overworld: world End: world_the_end
+[17:33:06] [Server thread/INFO]:     > End: world_the_end
+[17:33:06] [Server thread/INFO]:     > Overworld: world
+[17:33:06] [Server thread/INFO]: > Estado de Compatibilidad: Compatible
+[17:33:06] [Server thread/INFO]: > Software: PaperMC (Compatible)
+[17:33:06] [Server thread/INFO]: > Cambios:
+[17:33:06] [Server thread/INFO]: >   Días disponibles: 1-60
+[17:33:06] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer] ----------------------------------------------
+[17:33:06] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer]     +==================+
+[17:33:06] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[17:33:06] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer]     |------------------|
+[17:33:06] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[17:33:06] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer]     +==================+
+[17:33:06] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer] ----------------------------------------------
+[17:33:06] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer]     Version: 15.6.0
+[17:33:06] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer]     Commit: dec2ffc
+[17:33:06] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer]     This is the latest version!
+[17:33:06] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer] ----------------------------------------------
+[17:33:06] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[17:33:06] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[17:33:06] [Server thread/INFO]: [RealisticSeasons] [STDOUT] [Spigotunlocked.com] - COSMO
+[17:33:06] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: rs [1.0.0]
+[17:33:06] [Server thread/INFO]: [RealisticSeasons] Total biomes registered on server: 284
+[17:33:06] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: player [2.0.8]
+[17:33:06] [Server thread/WARN]: [PlaceholderAPI] Cannot load expansion vault due to a missing plugin: Vault
+[17:33:06] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: localtime [1.2]
+[17:33:06] [Server thread/INFO]: 2 placeholder hook(s) registered!
+[17:33:06] [Server thread/INFO]: Done (25.885s)! For help, type "help"
+[17:33:06] [Server thread/INFO]: Timings Reset
+[17:33:07] [Craft Scheduler Thread - 10 - Permadeath/INFO]: Permadeath ➤ Versión del plugin: Versión más reciente instalada.
+[17:33:10] [pool-26-thread-4/INFO]: [nAntiBot] [Captcha] Captchas generated successfully. (RAM usage ≃ 8 MB [static only], total = 500, protocol count = 45, threads = 4, took 18.63s)
+[17:34:01] [User Authenticator #0/INFO]: UUID of player THEMONILO is 8ce330b9-f746-3d8f-9174-9156ece89f7c
+[17:34:01] [Server thread/ERROR]: [nLogin] Unable to verify that the player is an NPC. Most likely this is a Citizens error.
 java.lang.NoClassDefFoundError: net/citizensnpcs/api/CitizensAPI
 	at com.nickuc.login.ΠρβυουξΣφετχε.b(:23) ~[?:?]
 	at com.nickuc.login.ΩιιφΔβχυ.c(:125) ~[?:?]
 	at com.nickuc.login.ηεΨχΩνμψφ.a(:60) ~[?:?]
-	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor76.execute(Unknown Source) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor86.execute(Unknown Source) ~[?:?]
 	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[paper-api-1.20-R0.1-SNAPSHOT.jar:?]
 	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:81) ~[paper-api-1.20-R0.1-SNAPSHOT.jar:git-Paper-17]
 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.20-R0.1-SNAPSHOT.jar:?]
@@ -532,725 +473,15 @@ Caused by: java.lang.ClassNotFoundException: net.citizensnpcs.api.CitizensAPI
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:592) ~[?:?]
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
 	... 21 more
-[02:18:35] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] Player THEMONILO loaded. Texture=null
-[02:18:35] [Server thread/INFO]: THEMONILO se ha unido al servidor.
-[02:18:35] [Server thread/INFO]: THEMONILO[/127.181.188.8:40907] logged in with entity id 186 at ([world]182.01242671982604, 82.0, -108.81484417354459)
-[02:18:35] [Server thread/INFO]: [CustomItemsLib][Debug] Store THEMONILO's skin in CustomItemsLib Skin Cache
-[02:18:36] [Server thread/INFO]: 
-[02:18:36] [Server thread/INFO]:  Thank you so much for choosing nLogin! <3
-[02:18:36] [Server thread/INFO]: 
-[02:18:36] [Server thread/INFO]:  For your safety, please read the message below:
-[02:18:36] [Server thread/INFO]:   Never download nLogin from unknown sources.
-[02:18:36] [Server thread/INFO]:   A modified version may contain malicious software.
-[02:18:36] [Server thread/INFO]: 
-[02:18:36] [Server thread/INFO]:  Trusted sources:
-[02:18:36] [Server thread/INFO]:   www.nickuc.com
-[02:18:36] [Server thread/INFO]:   www.github.com/nickuc
-[02:18:36] [Server thread/INFO]:   OpeNLogin installer (from Spigot or GitHub)
-[02:18:36] [Server thread/INFO]: 
-[02:18:36] [Server thread/INFO]:  Official support channels:
-[02:18:36] [Server thread/INFO]:   Discord group: www.nickuc.com/discord
-[02:18:36] [Server thread/INFO]:   Documentation: docs.nickuc.com/nlogin/
-[02:18:36] [Server thread/INFO]:   Email: support@nickuc.com
-[02:18:36] [Server thread/INFO]:   YouTube: youtube.com/nickuc
-[02:18:36] [Server thread/INFO]: 
-[02:18:36] [Server thread/INFO]:  To remove this warning, log in with "nlogin.admin" permission on the server
-[02:18:36] [Server thread/INFO]:  and click the "Setup plugin" button to configure your plugin.
-[02:18:36] [Server thread/INFO]: 
-[02:18:51] [Craft Scheduler Thread - 10 - nLogin/INFO]: [nLogin] The user THEMONILO has successfully logged in.
-[02:19:04] [Server thread/INFO]: THEMONILO issued server command: /spawn
-[02:19:24] [Server thread/INFO]: THEMONILO issued server command: //replace air light
-[02:19:31] [Server thread/INFO]: THEMONILO issued server command: //replace air light
-[02:19:38] [Server thread/INFO]: THEMONILO issued server command: //replace air light
-[02:19:42] [Server thread/INFO]: THEMONILO issued server command: //replace air light
-[02:20:00] [Server thread/INFO]: THEMONILO issued server command: /dh create hola
-[02:21:09] [Server thread/INFO]: THEMONILO issued server command: /dh reload
-[02:21:09] [Craft Scheduler Thread - 6 - DecentHolograms/INFO]: [DecentHolograms] Loading holograms... 
-[02:21:09] [Craft Scheduler Thread - 6 - DecentHolograms/WARN]: [DecentHolograms] Failed to reload config file at path 'holograms/hola.yml'.
-[02:21:09] [Craft Scheduler Thread - 6 - DecentHolograms/WARN]: [DecentHolograms] Failed to load hologram from file 'hola.yml'!
-java.lang.NullPointerException: location is marked non-null but is null
-	at eu.decentsoftware.holograms.api.holograms.objects.HologramObject.<init>(HologramObject.java:37) ~[DecentHolograms-2.8.15.jar:?]
-	at eu.decentsoftware.holograms.api.holograms.objects.UpdatingHologramObject.<init>(UpdatingHologramObject.java:26) ~[DecentHolograms-2.8.15.jar:?]
-	at eu.decentsoftware.holograms.api.holograms.Hologram.<init>(Hologram.java:329) ~[DecentHolograms-2.8.15.jar:?]
-	at eu.decentsoftware.holograms.api.holograms.Hologram.<init>(Hologram.java:316) ~[DecentHolograms-2.8.15.jar:?]
-	at eu.decentsoftware.holograms.api.holograms.Hologram.fromFile(Hologram.java:131) ~[DecentHolograms-2.8.15.jar:?]
-	at eu.decentsoftware.holograms.api.holograms.HologramManager.loadHolograms(HologramManager.java:193) ~[DecentHolograms-2.8.15.jar:?]
-	at eu.decentsoftware.holograms.api.holograms.HologramManager.reload(HologramManager.java:174) ~[DecentHolograms-2.8.15.jar:?]
-	at eu.decentsoftware.holograms.api.DecentHolograms.reload(DecentHolograms.java:103) ~[DecentHolograms-2.8.15.jar:?]
-	at eu.decentsoftware.holograms.plugin.commands.HologramsCommand$ReloadSubCommand.lambda$null$0(HologramsCommand.java:157) ~[DecentHolograms-2.8.15.jar:?]
-	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.jar:git-Paper-17]
-	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57) ~[paper-1.20.jar:git-Paper-17]
-	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[paper-1.20.jar:?]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
-	at java.lang.Thread.run(Thread.java:840) ~[?:?]
-[02:21:09] [Craft Scheduler Thread - 6 - DecentHolograms/INFO]: [DecentHolograms] Loaded 0 holograms!
-[02:21:26] [Server thread/INFO]: THEMONILO issued server command: /dh reload
-[02:21:26] [Craft Scheduler Thread - 1 - DecentHolograms/INFO]: [DecentHolograms] Loading holograms... 
-[02:21:26] [Craft Scheduler Thread - 1 - DecentHolograms/WARN]: [DecentHolograms] Plugin DecentHolograms v2.8.15 generated an exception while executing task 6353
-java.lang.NullPointerException: Cannot invoke "Object.hashCode()" because "key" is null
-	at java.util.concurrent.ConcurrentHashMap.get(ConcurrentHashMap.java:936) ~[?:?]
-	at java.util.concurrent.ConcurrentHashMap.containsKey(ConcurrentHashMap.java:964) ~[?:?]
-	at eu.decentsoftware.holograms.api.holograms.HologramManager.loadHolograms(HologramManager.java:198) ~[DecentHolograms-2.8.15.jar:?]
-	at eu.decentsoftware.holograms.api.holograms.HologramManager.reload(HologramManager.java:174) ~[DecentHolograms-2.8.15.jar:?]
-	at eu.decentsoftware.holograms.api.DecentHolograms.reload(DecentHolograms.java:103) ~[DecentHolograms-2.8.15.jar:?]
-	at eu.decentsoftware.holograms.plugin.commands.HologramsCommand$ReloadSubCommand.lambda$null$0(HologramsCommand.java:157) ~[DecentHolograms-2.8.15.jar:?]
-	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.jar:git-Paper-17]
-	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57) ~[paper-1.20.jar:git-Paper-17]
-	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[paper-1.20.jar:?]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
-	at java.lang.Thread.run(Thread.java:840) ~[?:?]
-[02:21:37] [Server thread/INFO]: THEMONILO issued server command: /dh reload
-[02:21:37] [Craft Scheduler Thread - 17 - DecentHolograms/INFO]: [DecentHolograms] Loading holograms... 
-[02:21:37] [Craft Scheduler Thread - 17 - DecentHolograms/INFO]: [DecentHolograms] Loaded 1 holograms!
-[02:22:04] [Server thread/INFO]: THEMONILO issued server command: /dh reload
-[02:22:04] [Craft Scheduler Thread - 6 - DecentHolograms/INFO]: [DecentHolograms] Loading holograms... 
-[02:22:04] [Craft Scheduler Thread - 6 - DecentHolograms/INFO]: [DecentHolograms] Loaded 1 holograms!
-[02:22:17] [Server thread/INFO]: THEMONILO issued server command: /papi ecloud download player
-[02:22:18] [placeholderapi-io-#1/INFO]: [PlaceholderAPI] Fetching available expansion information...
-[02:22:21] [Server thread/INFO]: THEMONILO issued server command: /papi reload
-[02:22:21] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
-[02:22:21] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
-[02:22:21] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: player [2.0.8]
-[02:22:52] [Server thread/INFO]: THEMONILO issued server command: /dh reload
-[02:22:52] [Craft Scheduler Thread - 12 - DecentHolograms/INFO]: [DecentHolograms] Loading holograms... 
-[02:22:52] [Craft Scheduler Thread - 12 - DecentHolograms/INFO]: [DecentHolograms] Loaded 1 holograms!
-[02:23:23] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] Saving CustomItemsLib data
-[02:25:55] [Server thread/INFO]: THEMONILO issued server command: /dh reload
-[02:25:55] [Craft Scheduler Thread - 3 - DecentHolograms/INFO]: [DecentHolograms] Loading holograms... 
-[02:25:55] [Craft Scheduler Thread - 3 - DecentHolograms/INFO]: [DecentHolograms] Loaded 1 holograms!
-[02:28:23] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] Saving CustomItemsLib data
-[02:32:04] [User Authenticator #1/INFO]: [ExcellentCrates] Created new user data for: '3e97d394-1562-31e4-9172-59b2e573112d'
-[02:32:04] [User Authenticator #1/INFO]: UUID of player elian is 3e97d394-1562-31e4-9172-59b2e573112d
-[02:32:04] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] Creating new PlayerSettings for elian in the CustomItemsLib database.
-[02:32:04] [Server thread/INFO]: elian se ha unido al servidor.
-[02:32:04] [Server thread/INFO]: elian[/127.86.242.136:49353] logged in with entity id 125976 at ([world]3.5, 65.0, -6.5)
-[02:32:04] [Server thread/INFO]: [CustomItemsLib][Debug] Store elian's skin in CustomItemsLib Skin Cache
-[02:32:05] [Server thread/INFO]: elian has made the advancement [Getting an Upgrade]
-[02:32:49] [Server thread/INFO]: elian lost connection: Te has tardado mucho en registrarte.
-[02:32:49] [Server thread/INFO]: [CustomItemsLib][Debug] Saving lastKnownWorldGroup: default
-[02:32:49] [Server thread/INFO]: elian ha abandonado el servidor.
-[02:32:56] [User Authenticator #1/INFO]: UUID of player elian is 3e97d394-1562-31e4-9172-59b2e573112d
-[02:32:56] [Server thread/INFO]: elian se ha unido al servidor.
-[02:32:56] [Server thread/INFO]: elian[/127.86.242.136:60967] logged in with entity id 134257 at ([world]273.5, 98.0, -0.5)
-[02:33:23] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] PlayerSettings saved.
-[02:33:23] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] Saving CustomItemsLib data
-[02:33:24] [Server thread/INFO]: THEMONILO issued server command: /papi ecloud download LocalTime
-[02:33:24] [placeholderapi-io-#3/INFO]: [PlaceholderAPI] Fetching available expansion information...
-[02:33:26] [Server thread/INFO]: THEMONILO issued server command: /dh reload
-[02:33:26] [Craft Scheduler Thread - 32 - DecentHolograms/INFO]: [DecentHolograms] Loading holograms... 
-[02:33:26] [Craft Scheduler Thread - 32 - DecentHolograms/INFO]: [DecentHolograms] Loaded 1 holograms!
-[02:33:28] [Server thread/INFO]: THEMONILO issued server command: /dh reload
-[02:33:28] [Craft Scheduler Thread - 25 - DecentHolograms/INFO]: [DecentHolograms] Loading holograms... 
-[02:33:28] [Craft Scheduler Thread - 25 - DecentHolograms/INFO]: [DecentHolograms] Loaded 1 holograms!
-[02:33:31] [Server thread/INFO]: THEMONILO issued server command: /papi reload
-[02:33:31] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
-[02:33:31] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
-[02:33:31] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: player [2.0.8]
-[02:33:31] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: localtime [1.2]
-[02:33:40] [Server thread/INFO]: elian lost connection: Te has tardado mucho en registrarte.
-[02:33:40] [Server thread/INFO]: [CustomItemsLib][Debug] Saving lastKnownWorldGroup: default
-[02:33:40] [Server thread/INFO]: elian ha abandonado el servidor.
-[02:33:49] [User Authenticator #1/INFO]: UUID of player elian is 3e97d394-1562-31e4-9172-59b2e573112d
-[02:33:49] [Server thread/INFO]: elian se ha unido al servidor.
-[02:33:49] [Server thread/INFO]: elian[/127.86.242.136:58941] logged in with entity id 142857 at ([world]273.5, 98.0, -0.5)
-[02:33:53] [Server thread/INFO]: THEMONILO issued server command: /papi ecloud download va
-[02:33:57] [Server thread/INFO]: THEMONILO issued server command: /papi ecloud download Vault
-[02:33:57] [placeholderapi-io-#4/INFO]: [PlaceholderAPI] Fetching available expansion information...
-[02:34:01] [Server thread/INFO]: THEMONILO issued server command: /papi reload
-[02:34:01] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
-[02:34:01] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
-[02:34:02] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: player [2.0.8]
-[02:34:02] [Server thread/WARN]: [PlaceholderAPI] Cannot load expansion vault due to a missing plugin: Vault
-[02:34:02] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: localtime [1.2]
-[02:34:08] [Server thread/INFO]: THEMONILO issued server command: /dh reload
-[02:34:08] [Craft Scheduler Thread - 29 - DecentHolograms/INFO]: [DecentHolograms] Loading holograms... 
-[02:34:08] [Craft Scheduler Thread - 29 - DecentHolograms/INFO]: [DecentHolograms] Loaded 1 holograms!
-[02:34:12] [Craft Scheduler Thread - 7 - nLogin/INFO]: [nLogin] The user elian has successfully registered.
-[02:34:55] [Server thread/INFO]: THEMONILO issued server command: /speed 21 elian
-[02:35:01] [Server thread/INFO]: THEMONILO issued server command: /speed 21 1 elian
-[02:35:08] [Server thread/INFO]: THEMONILO issued server command: /speed 21 1 elian
-[02:35:20] [Server thread/INFO]: THEMONILO issued server command: /speed 4 1 elian
-[02:35:50] [Server thread/INFO]: THEMONILO issued server command: /lp group default permission set backpack.user
-[02:35:50] [luckperms-command-executor/INFO]: [LP] LOG > (THEMONILO) [G] (default)
-[02:35:50] [luckperms-command-executor/INFO]: [LP] LOG > permission set backpack.user true
-[02:35:58] [Server thread/INFO]: THEMONILO issued server command: /lp group default permission set backpack.size.6
-[02:35:58] [luckperms-command-executor/INFO]: [LP] LOG > (THEMONILO) [G] (default)
-[02:35:58] [luckperms-command-executor/INFO]: [LP] LOG > permission set backpack.size.6 true
-[02:36:21] [Server thread/INFO]: THEMONILO issued server command: /gms
-[02:36:58] [Server thread/INFO]: THEMONILO issued server command: /kits firework
-[02:36:58] [Tuinity Chunk System Worker #0/WARN]: [ChunkUpgradeGenericStatusTask] Future status not complete after scheduling: minecraft:biomes, generate: true
-[02:37:04] [Server thread/INFO]: THEMONILO issued server command: /kits tools
-[02:38:04] [Server thread/INFO]: THEMONILO issued server command: /backpack
-[02:38:23] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] PlayerSettings saved.
-[02:38:23] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] Saving CustomItemsLib data
-[02:38:25] [Server thread/INFO]: THEMONILO issued server command: /lp group default permission set essentials.home
-[02:38:25] [luckperms-command-executor/INFO]: [LP] LOG > (THEMONILO) [G] (default)
-[02:38:25] [luckperms-command-executor/INFO]: [LP] LOG > permission set essentials.home true
-[02:38:29] [Server thread/INFO]: THEMONILO issued server command: /lp group default permission set essentials.sethome
-[02:38:29] [luckperms-command-executor/INFO]: [LP] LOG > (THEMONILO) [G] (default)
-[02:38:29] [luckperms-command-executor/INFO]: [LP] LOG > permission set essentials.sethome true
-[02:38:33] [Server thread/INFO]: THEMONILO issued server command: /lp group default permission set essentials.spawn
-[02:38:33] [luckperms-command-executor/INFO]: [LP] LOG > (THEMONILO) [G] (default)
-[02:38:33] [luckperms-command-executor/INFO]: [LP] LOG > permission set essentials.spawn true
-[02:38:35] [Server thread/INFO]: Set the weather to rain & thunder
-[02:38:35] [Server thread/INFO]: elian ha muerto y ahora descanza en paz.
-[02:38:35] [Server thread/INFO]: Este es el comienzo del sufrimiento eterno de elian. ¡HA SIDO PERMABANEADO!
-[02:38:35] [Server thread/INFO]: X: 231 || Y: 71 || Z: -163
-[02:38:35] [Server thread/INFO]: elian was slain by Lvl 5 | Zombie
-[02:38:37] [Server thread/INFO]: elian lost connection: Has sido PERMABANEADO
-[02:38:37] [Server thread/INFO]: [CustomItemsLib][Debug] Saving lastKnownWorldGroup: default
-[02:38:37] [Server thread/INFO]: elian ha abandonado el servidor.
-[02:38:40] [Server thread/INFO]: ¡Comienza el Death Train con duración de 1 horas!
-[02:38:49] [Server thread/INFO]: THEMONILO has made the advancement [Monster Hunter]
-[02:38:56] [Server thread/INFO]: THEMONILO issued server command: /pardon elian
-[02:38:56] [Server thread/INFO]: [Essentials] Player THEMONILO unbanned elian
-[02:41:26] [User Authenticator #2/INFO]: UUID of player elian is 3e97d394-1562-31e4-9172-59b2e573112d
-[02:41:26] [Server thread/INFO]: elian se ha unido al servidor.
-[02:41:26] [Server thread/INFO]: elian[/127.86.242.136:36677] logged in with entity id 155522 at ([world]273.61408298136257, 98.0, -0.6979646645713944)
-[02:41:44] [Craft Scheduler Thread - 46 - nLogin/INFO]: [nLogin] The user elian has successfully logged in.
-[02:41:57] [Server thread/INFO]: THEMONILO issued server command: /spawn
-[02:42:41] [Server thread/INFO]: THEMONILO issued server command: /gms elian
-[02:43:14] [Server thread/INFO]: elian has made the advancement [Monster Hunter]
-[02:43:23] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] PlayerSettings saved.
-[02:43:23] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] Saving CustomItemsLib data
-[02:43:34] [Server thread/INFO]: THEMONILO issued server command: /pl
-[02:45:57] [Server thread/INFO]: Permadeath ➤ El jugador THEMONILO no puede dar más horas de tormenta.
-[02:45:57] [Server thread/INFO]: THEMONILO ha muerto y ahora descanza en paz.
-[02:45:57] [Server thread/INFO]: Este es el comienzo del sufrimiento eterno de THEMONILO. ¡HA SIDO PERMABANEADO!
-[02:45:57] [Server thread/INFO]: X: 306 || Y: 65 || Z: -308
-[02:45:57] [Server thread/INFO]: THEMONILO fell from a high place
-[02:45:59] [Server thread/INFO]: THEMONILO lost connection: Has sido PERMABANEADO
-[02:45:59] [Server thread/INFO]: [CustomItemsLib][Debug] Saving lastKnownWorldGroup: default
-[02:45:59] [Server thread/INFO]: THEMONILO ha abandonado el servidor.
-[02:46:23] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /pardon THEMONILO
-[02:46:23] [Server thread/INFO]: [Essentials] Player Console unbanned THEMONILO
-[02:46:27] [User Authenticator #3/INFO]: UUID of player THEMONILO is 8ce330b9-f746-3d8f-9174-9156ece89f7c
-[02:46:27] [Server thread/INFO]: THEMONILO se ha unido al servidor.
-[02:46:27] [Server thread/INFO]: THEMONILO[/127.181.188.8:47027] logged in with entity id 166143 at ([world]273.61408298136257, 98.0, -0.6979646645713944)
-[02:46:57] [Craft Scheduler Thread - 58 - nLogin/INFO]: [nLogin] The user THEMONILO has successfully logged in.
-[02:47:11] [Server thread/INFO]: THEMONILO issued server command: /tp elian
-[02:47:37] [Server thread/INFO]: THEMONILO issued server command: /gamemode adventure
-[02:48:23] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] PlayerSettings saved.
-[02:48:23] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] Saving CustomItemsLib data
-[02:48:35] [Server thread/INFO]: Permadeath ➤ El jugador THEMONILO no puede dar más horas de tormenta.
-[02:48:35] [Server thread/INFO]: THEMONILO ha muerto y ahora descanza en paz.
-[02:48:35] [Server thread/INFO]: Este es el comienzo del sufrimiento eterno de THEMONILO. ¡HA SIDO PERMABANEADO!
-[02:48:35] [Server thread/INFO]: X: 293 || Y: 63 || Z: -308
-[02:48:35] [Server thread/INFO]: THEMONILO was slain by Lvl 9 | Zombie
-[02:48:37] [Server thread/INFO]: THEMONILO lost connection: Has sido PERMABANEADO
-[02:48:37] [Server thread/INFO]: [CustomItemsLib][Debug] Saving lastKnownWorldGroup: default
-[02:48:37] [Server thread/INFO]: THEMONILO ha abandonado el servidor.
-[02:48:50] [User Authenticator #4/INFO]: UUID of player THEMONILO is 8ce330b9-f746-3d8f-9174-9156ece89f7c
-[02:48:50] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@45f0abab[id=8ce330b9-f746-3d8f-9174-9156ece89f7c,name=THEMONILO,properties={},legacy=false] (/127.181.188.8:33755): You are banned from this server. Reason: Has sido PERMABANEADO
-[02:48:50] [Server thread/INFO]: com.mojang.authlib.GameProfile@45f0abab[id=8ce330b9-f746-3d8f-9174-9156ece89f7c,name=THEMONILO,properties={},legacy=false] (/127.181.188.8:33755) lost connection: You are banned from this server. Reason: Has sido PERMABANEADO
-[02:49:02] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /pardon THEMONILO
-[02:49:02] [Server thread/INFO]: [Essentials] Player Console unbanned THEMONILO
-[02:49:06] [User Authenticator #4/INFO]: UUID of player THEMONILO is 8ce330b9-f746-3d8f-9174-9156ece89f7c
-[02:49:06] [Server thread/INFO]: THEMONILO se ha unido al servidor.
-[02:49:06] [Server thread/INFO]: THEMONILO[/127.181.188.8:56165] logged in with entity id 171974 at ([world]273.61408298136257, 98.0, -0.6979646645713944)
-[02:49:30] [Craft Scheduler Thread - 64 - nLogin/INFO]: [nLogin] The user THEMONILO has successfully logged in.
-[02:49:37] [Server thread/INFO]: elian has made the advancement [Stone Age]
-[02:49:56] [Server thread/INFO]: THEMONILO issued server command: /gamemode creative
-[02:49:58] [Server thread/INFO]: THEMONILO issued server command: /gamemode spectator
-[02:49:58] [Server thread/INFO]: THEMONILO issued server command: /gamemode survival
-[02:50:26] [Server thread/INFO]: THEMONILO issued server command: /graves debug 0
-[02:50:29] [Server thread/INFO]: THEMONILO issued server command: /graves debug 1
-[02:50:33] [Server thread/INFO]: THEMONILO issued server command: /graves debug 2
-[02:50:51] [Server thread/INFO]: [Graves] Debug: Replacing grave block for 05198cca-c159-48af-a30c-08fc30b3c4d3 at world, 293.5x, 63.5y, -307.5z
-[02:50:51] [Server thread/INFO]: [Graves] Debug: Removing hologram for grave 05198cca-c159-48af-a30c-08fc30b3c4d3
-[02:50:51] [Server thread/INFO]: [Graves] Debug: Removing hologram for grave 05198cca-c159-48af-a30c-08fc30b3c4d3
-[02:50:51] [Server thread/INFO]: [Graves] Debug: Removing hologram for grave 05198cca-c159-48af-a30c-08fc30b3c4d3
-[02:50:51] [Server thread/INFO]: [Graves] Debug: Removing grave 05198cca-c159-48af-a30c-08fc30b3c4d3
-[02:50:51] [Server thread/INFO]: [Graves] Debug: Grave 05198cca-c159-48af-a30c-08fc30b3c4d3 autolooted by THEMONILO
-[02:51:03] [Server thread/INFO]: THEMONILO issued server command: /tpa elian
-[02:51:07] [Server thread/INFO]: elian issued server command: /tpaccept
-[02:53:13] [Server thread/INFO]: THEMONILO issued server command: /difficulty hard
-[02:53:13] [Server thread/INFO]: [THEMONILO: The difficulty has been set to Hard]
-[02:53:23] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] PlayerSettings saved.
-[02:53:23] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] Saving CustomItemsLib data
-[02:54:47] [Server thread/INFO]: THEMONILO has made the advancement [Stone Age]
-[02:55:13] [Server thread/INFO]: THEMONILO issued server command: /tpa elian
-[02:55:20] [Server thread/INFO]: elian issued server command: /tpaccept
-[02:58:23] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] Saving CustomItemsLib data
-[02:59:48] [Server thread/INFO]: elian lost connection: Timed out
-[02:59:48] [Server thread/INFO]: [CustomItemsLib][Debug] Saving lastKnownWorldGroup: default
-[02:59:48] [Server thread/INFO]: elian ha abandonado el servidor.
-[03:00:50] [User Authenticator #5/INFO]: UUID of player elian is 3e97d394-1562-31e4-9172-59b2e573112d
-[03:00:50] [Server thread/INFO]: elian se ha unido al servidor.
-[03:00:50] [Server thread/INFO]: elian[/127.86.242.136:42823] logged in with entity id 178740 at ([world]579.0813197793199, 61.0, -206.30000001192093)
-[03:01:14] [Craft Scheduler Thread - 85 - nLogin/INFO]: [nLogin] The user elian has successfully logged in.
-[03:03:23] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] PlayerSettings saved.
-[03:03:23] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] Saving CustomItemsLib data
-[03:06:26] [Server thread/INFO]: THEMONILO lost connection: Timed out
-[03:06:26] [Server thread/INFO]: [CustomItemsLib][Debug] Saving lastKnownWorldGroup: default
-[03:06:26] [Server thread/INFO]: THEMONILO ha abandonado el servidor.
-[03:07:51] [Server thread/INFO]: elian has made the advancement [Acquire Hardware]
-[03:08:23] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] PlayerSettings saved.
-[03:08:23] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] Removing THEMONILO from PlayerSettings cache
-[03:08:23] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] Saving CustomItemsLib data
-[03:09:03] [User Authenticator #6/INFO]: UUID of player THEMONILO is 8ce330b9-f746-3d8f-9174-9156ece89f7c
-[03:09:03] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] Player THEMONILO loaded. Texture=null
-[03:09:03] [Server thread/INFO]: THEMONILO se ha unido al servidor.
-[03:09:03] [Server thread/INFO]: THEMONILO[/127.181.188.8:60859] logged in with entity id 179976 at ([world]580.6999999880791, 50.0, -205.30000001192093)
-[03:09:03] [Server thread/INFO]: [CustomItemsLib][Debug] Store THEMONILO's skin in CustomItemsLib Skin Cache
-[03:09:47] [Server thread/INFO]: THEMONILO lost connection: Te has tardado mucho en iniciar sesión.
-[03:09:47] [Server thread/INFO]: [CustomItemsLib][Debug] Saving lastKnownWorldGroup: default
-[03:09:47] [Server thread/INFO]: THEMONILO ha abandonado el servidor.
-[03:10:07] [Server thread/INFO]: elian has made the advancement [Isn't It Iron Pick]
-[03:10:09] [User Authenticator #7/INFO]: UUID of player THEMONILO is 8ce330b9-f746-3d8f-9174-9156ece89f7c
-[03:10:09] [Server thread/INFO]: THEMONILO se ha unido al servidor.
-[03:10:09] [Server thread/INFO]: THEMONILO[/127.181.188.8:49811] logged in with entity id 180105 at ([world]580.6999999880791, 50.0, -205.30000001192093)
-[03:10:37] [Craft Scheduler Thread - 51 - nLogin/INFO]: [nLogin] The user THEMONILO has successfully logged in.
-[03:13:23] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] PlayerSettings saved.
-[03:13:23] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] Saving CustomItemsLib data
-[03:17:23] [Server thread/INFO]: THEMONILO issued server command: /gamemode creative
-[03:17:24] [Server thread/INFO]: THEMONILO issued server command: /gamemode survival
-[03:18:23] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] Saving CustomItemsLib data
-[03:18:33] [Server thread/INFO]: elian has made the advancement [Suit Up]
-[03:19:34] [Server thread/INFO]: THEMONILO issued server command: /tpa elian
-[03:19:42] [Server thread/INFO]: elian issued server command: /tpaccept
-[03:23:23] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] Saving CustomItemsLib data
-[03:28:23] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] Saving CustomItemsLib data
-[03:31:33] [Server thread/INFO]: THEMONILO issued server command: /tpahere elian
-[03:31:37] [Server thread/INFO]: elian issued server command: /tpaccept
-[03:33:23] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] Saving CustomItemsLib data
-[03:33:40] [Server thread/INFO]: Permadeath ➤ El jugador THEMONILO no puede dar más horas de tormenta.
-[03:33:40] [Server thread/INFO]: THEMONILO ha muerto y ahora descanza en paz.
-[03:33:40] [Server thread/INFO]: Este es el comienzo del sufrimiento eterno de THEMONILO. ¡HA SIDO PERMABANEADO!
-[03:33:40] [Server thread/INFO]: X: 722 || Y: 77 || Z: -388
-[03:33:40] [Server thread/INFO]: [Graves] Debug: Placing grave block for 12c61fd5-4f59-417d-ab99-1be88b659232 at world, 722.5x, 77.5y, -387.5z
-[03:33:40] [Server thread/INFO]: THEMONILO fell from a high place
-[03:33:42] [Server thread/INFO]: THEMONILO lost connection: Has sido PERMABANEADO
-[03:33:42] [Server thread/INFO]: [CustomItemsLib][Debug] Saving lastKnownWorldGroup: default
-[03:33:42] [Server thread/INFO]: THEMONILO ha abandonado el servidor.
-[03:34:00] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /pardon THEMONILO
-[03:34:00] [Server thread/INFO]: [Essentials] Player Console unbanned THEMONILO
-[03:34:05] [User Authenticator #8/INFO]: UUID of player THEMONILO is 8ce330b9-f746-3d8f-9174-9156ece89f7c
-[03:34:05] [Server thread/INFO]: THEMONILO se ha unido al servidor.
-[03:34:05] [Server thread/INFO]: THEMONILO[/127.181.188.8:46773] logged in with entity id 183191 at ([world]273.61408298136257, 98.0, -0.6979646645713944)
-[03:34:14] [Craft Scheduler Thread - 93 - nLogin/INFO]: [nLogin] The user THEMONILO has successfully logged in.
-[03:34:18] [Server thread/INFO]: THEMONILO issued server command: /gamemode creative
-[03:34:19] [Server thread/INFO]: THEMONILO issued server command: /gamemode survival
-[03:34:36] [Server thread/INFO]: THEMONILO issued server command: /graves gui
-[03:34:42] [Server thread/INFO]: [Graves] Debug: Replacing grave block for 12c61fd5-4f59-417d-ab99-1be88b659232 at world, 722.5x, 77.5y, -387.5z
-[03:34:42] [Server thread/INFO]: [Graves] Debug: Removing hologram for grave 12c61fd5-4f59-417d-ab99-1be88b659232
-[03:34:42] [Server thread/INFO]: [Graves] Debug: Removing hologram for grave 12c61fd5-4f59-417d-ab99-1be88b659232
-[03:34:42] [Server thread/INFO]: [Graves] Debug: Removing hologram for grave 12c61fd5-4f59-417d-ab99-1be88b659232
-[03:34:42] [Server thread/INFO]: [Graves] Debug: Removing grave 12c61fd5-4f59-417d-ab99-1be88b659232
-[03:34:42] [Server thread/INFO]: [Graves] Debug: Grave 12c61fd5-4f59-417d-ab99-1be88b659232 autolooted by THEMONILO
-[03:35:25] [Server thread/INFO]: THEMONILO issued server command: /tpa elian
-[03:35:31] [Server thread/INFO]: elian issued server command: /tpaccept
-[03:36:00] [Server thread/INFO]: Permadeath ➤ El jugador THEMONILO no puede dar más horas de tormenta.
-[03:36:00] [Server thread/INFO]: THEMONILO ha muerto y ahora descanza en paz.
-[03:36:00] [Server thread/INFO]: Este es el comienzo del sufrimiento eterno de THEMONILO. ¡HA SIDO PERMABANEADO!
-[03:36:00] [Server thread/INFO]: X: 704 || Y: 122 || Z: -495
-[03:36:00] [Server thread/INFO]: [Graves] Debug: Placing grave block for d736b435-6fc5-4c47-b2d3-8c7ca47d0e61 at world, 704.5x, 122.5y, -494.5z
-[03:36:00] [Server thread/INFO]: THEMONILO was shot by Lvl 3 | Skeleton
-[03:36:02] [Server thread/INFO]: THEMONILO lost connection: Has sido PERMABANEADO
-[03:36:02] [Server thread/INFO]: [CustomItemsLib][Debug] Saving lastKnownWorldGroup: default
-[03:36:02] [Server thread/INFO]: THEMONILO ha abandonado el servidor.
-[03:36:07] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /pardon THEMONILO
-[03:36:07] [Server thread/INFO]: [Essentials] Player Console unbanned THEMONILO
-[03:36:12] [User Authenticator #9/INFO]: UUID of player THEMONILO is 8ce330b9-f746-3d8f-9174-9156ece89f7c
-[03:36:12] [Server thread/INFO]: THEMONILO se ha unido al servidor.
-[03:36:12] [Server thread/INFO]: THEMONILO[/127.181.188.8:41169] logged in with entity id 188559 at ([world]273.61408298136257, 98.0, -0.6979646645713944)
-[03:36:13] [Server thread/INFO]: elian has made the advancement [Not Today, Thank You]
-[03:36:23] [Craft Scheduler Thread - 103 - nLogin/INFO]: [nLogin] The user THEMONILO has successfully logged in.
-[03:36:25] [Server thread/INFO]: THEMONILO issued server command: /graves gui
-[03:36:29] [Server thread/INFO]: Set the weather to rain & thunder
-[03:36:29] [Server thread/INFO]: elian ha muerto y ahora descanza en paz.
-[03:36:29] [Server thread/INFO]: Este es el comienzo del sufrimiento eterno de elian. ¡HA SIDO PERMABANEADO!
-[03:36:29] [Server thread/INFO]: X: 714 || Y: 120 || Z: -499
-[03:36:29] [Server thread/INFO]: [Graves] Debug: Placing grave block for 35cd6b7c-8d5b-404d-bf87-8ea06186e627 at world, 714.5x, 120.5y, -498.5z
-[03:36:29] [Server thread/INFO]: elian was shot by Lvl 3 | Skeleton
-[03:36:31] [Server thread/INFO]: elian lost connection: Has sido PERMABANEADO
-[03:36:31] [Server thread/INFO]: [CustomItemsLib][Debug] Saving lastKnownWorldGroup: default
-[03:36:31] [Server thread/INFO]: elian ha abandonado el servidor.
-[03:36:34] [Server thread/INFO]: ¡Comienza el Death Train con duración de 1 horas!
-[03:36:38] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /pardon elian
-[03:36:38] [Server thread/INFO]: [Essentials] Player Console unbanned elian
-[03:36:50] [Server thread/INFO]: THEMONILO issued server command: /gms
-[03:36:56] [Server thread/INFO]: THEMONILO issued server command: /graves gui
-[03:37:00] [Server thread/INFO]: [Graves] Debug: Replacing grave block for d736b435-6fc5-4c47-b2d3-8c7ca47d0e61 at world, 704.5x, 122.5y, -494.5z
-[03:37:00] [Server thread/INFO]: [Graves] Debug: Removing hologram for grave d736b435-6fc5-4c47-b2d3-8c7ca47d0e61
-[03:37:00] [Server thread/INFO]: [Graves] Debug: Removing hologram for grave d736b435-6fc5-4c47-b2d3-8c7ca47d0e61
-[03:37:00] [Server thread/INFO]: [Graves] Debug: Removing hologram for grave d736b435-6fc5-4c47-b2d3-8c7ca47d0e61
-[03:37:00] [Server thread/INFO]: [Graves] Debug: Removing grave d736b435-6fc5-4c47-b2d3-8c7ca47d0e61
-[03:37:00] [Server thread/INFO]: [Graves] Debug: Grave d736b435-6fc5-4c47-b2d3-8c7ca47d0e61 autolooted by THEMONILO
-[03:37:32] [Server thread/INFO]: Permadeath ➤ El jugador THEMONILO no puede dar más horas de tormenta.
-[03:37:32] [Server thread/INFO]: THEMONILO ha muerto y ahora descanza en paz.
-[03:37:32] [Server thread/INFO]: Este es el comienzo del sufrimiento eterno de THEMONILO. ¡HA SIDO PERMABANEADO!
-[03:37:32] [Server thread/INFO]: X: 767 || Y: 124 || Z: -479
-[03:37:32] [Server thread/INFO]: [Graves] Debug: Placing grave block for 69c8e050-4b18-43cd-a46d-15330434dd7b at world, 767.5x, 124.5y, -478.5z
-[03:37:32] [Server thread/INFO]: THEMONILO was shot by Lvl 15 | Skeleton
-[03:37:34] [Server thread/INFO]: THEMONILO lost connection: Has sido PERMABANEADO
-[03:37:34] [Server thread/INFO]: [CustomItemsLib][Debug] Saving lastKnownWorldGroup: default
-[03:37:34] [Server thread/INFO]: THEMONILO ha abandonado el servidor.
-[03:37:38] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /pardon elian
-[03:37:38] [Server thread/INFO]: [Essentials] Player Console unbanned elian
-[03:37:43] [User Authenticator #10/INFO]: UUID of player THEMONILO is 8ce330b9-f746-3d8f-9174-9156ece89f7c
-[03:37:43] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@175cee98[id=8ce330b9-f746-3d8f-9174-9156ece89f7c,name=THEMONILO,properties={},legacy=false] (/127.181.188.8:51137): You are banned from this server. Reason: Has sido PERMABANEADO
-[03:37:43] [Server thread/INFO]: com.mojang.authlib.GameProfile@175cee98[id=8ce330b9-f746-3d8f-9174-9156ece89f7c,name=THEMONILO,properties={},legacy=false] (/127.181.188.8:51137) lost connection: You are banned from this server. Reason: Has sido PERMABANEADO
-[03:37:47] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /pardon THEMONILO
-[03:37:47] [Server thread/INFO]: [Essentials] Player Console unbanned THEMONILO
-[03:37:50] [User Authenticator #10/INFO]: UUID of player THEMONILO is 8ce330b9-f746-3d8f-9174-9156ece89f7c
-[03:37:50] [Server thread/INFO]: THEMONILO se ha unido al servidor.
-[03:37:50] [Server thread/INFO]: THEMONILO[/127.181.188.8:54979] logged in with entity id 191809 at ([world]273.61408298136257, 98.0, -0.6979646645713944)
-[03:38:02] [Craft Scheduler Thread - 59 - nLogin/INFO]: [nLogin] The user THEMONILO has successfully logged in.
-[03:38:08] [Server thread/INFO]: THEMONILO issued server command: /pdc dias
-[03:38:14] [Server thread/INFO]: THEMONILO issued server command: /gamemode adventure
-[03:38:20] [User Authenticator #10/INFO]: UUID of player elian is 3e97d394-1562-31e4-9172-59b2e573112d
-[03:38:20] [Server thread/INFO]: elian se ha unido al servidor.
-[03:38:20] [Server thread/INFO]: elian[/127.86.242.136:40023] logged in with entity id 194844 at ([world]273.61408298136257, 98.0, -0.6979646645713944)
-[03:38:23] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] PlayerSettings saved.
-[03:38:23] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] Saving CustomItemsLib data
-[03:38:41] [Craft Scheduler Thread - 43 - nLogin/INFO]: [nLogin] The user elian has successfully logged in.
-[03:38:51] [Server thread/INFO]: THEMONILO issued server command: /graves gui
-[03:38:54] [Server thread/INFO]: [Graves] Debug: Replacing grave block for 69c8e050-4b18-43cd-a46d-15330434dd7b at world, 767.5x, 124.5y, -478.5z
-[03:38:54] [Server thread/INFO]: [Graves] Debug: Removing hologram for grave 69c8e050-4b18-43cd-a46d-15330434dd7b
-[03:38:54] [Server thread/INFO]: [Graves] Debug: Removing hologram for grave 69c8e050-4b18-43cd-a46d-15330434dd7b
-[03:38:54] [Server thread/INFO]: [Graves] Debug: Removing hologram for grave 69c8e050-4b18-43cd-a46d-15330434dd7b
-[03:38:54] [Server thread/INFO]: [Graves] Debug: Removing grave 69c8e050-4b18-43cd-a46d-15330434dd7b
-[03:38:54] [Server thread/INFO]: [Graves] Debug: Grave 69c8e050-4b18-43cd-a46d-15330434dd7b autolooted by THEMONILO
-[03:39:09] [Server thread/INFO]: Permadeath ➤ El jugador THEMONILO no puede dar más horas de tormenta.
-[03:39:09] [Server thread/INFO]: THEMONILO ha muerto y ahora descanza en paz.
-[03:39:09] [Server thread/INFO]: Este es el comienzo del sufrimiento eterno de THEMONILO. ¡HA SIDO PERMABANEADO!
-[03:39:09] [Server thread/INFO]: X: 811 || Y: 72 || Z: -492
-[03:39:09] [Server thread/INFO]: [Graves] Debug: Placing grave block for 9b7160e2-8f41-46dd-9608-3af8df6003d3 at world, 811.5x, 72.5y, -491.5z
-[03:39:09] [Server thread/INFO]: THEMONILO was doomed to fall by Skeleton
-[03:39:11] [Server thread/INFO]: THEMONILO lost connection: Has sido PERMABANEADO
-[03:39:11] [Server thread/INFO]: [CustomItemsLib][Debug] Saving lastKnownWorldGroup: default
-[03:39:11] [Server thread/INFO]: THEMONILO ha abandonado el servidor.
-[03:39:16] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /pardon THEMONILO
-[03:39:16] [Server thread/INFO]: [Essentials] Player Console unbanned THEMONILO
-[03:39:20] [User Authenticator #10/INFO]: UUID of player THEMONILO is 8ce330b9-f746-3d8f-9174-9156ece89f7c
-[03:39:20] [Server thread/INFO]: THEMONILO se ha unido al servidor.
-[03:39:20] [Server thread/INFO]: THEMONILO[/127.181.188.8:41161] logged in with entity id 201010 at ([world]273.61408298136257, 98.0, -0.6979646645713944)
-[03:39:31] [Craft Scheduler Thread - 102 - nLogin/INFO]: [nLogin] The user THEMONILO has successfully logged in.
-[03:39:38] [Server thread/INFO]: THEMONILO issued server command: /gms
-[03:39:43] [Server thread/INFO]: THEMONILO issued server command: /graves gui
-[03:39:47] [Server thread/INFO]: [Graves] Debug: Replacing grave block for 9b7160e2-8f41-46dd-9608-3af8df6003d3 at world, 811.5x, 72.5y, -491.5z
-[03:39:47] [Server thread/INFO]: [Graves] Debug: Removing hologram for grave 9b7160e2-8f41-46dd-9608-3af8df6003d3
-[03:39:47] [Server thread/INFO]: [Graves] Debug: Removing hologram for grave 9b7160e2-8f41-46dd-9608-3af8df6003d3
-[03:39:47] [Server thread/INFO]: [Graves] Debug: Removing hologram for grave 9b7160e2-8f41-46dd-9608-3af8df6003d3
-[03:39:47] [Server thread/INFO]: [Graves] Debug: Removing grave 9b7160e2-8f41-46dd-9608-3af8df6003d3
-[03:39:47] [Server thread/INFO]: [Graves] Debug: Grave 9b7160e2-8f41-46dd-9608-3af8df6003d3 autolooted by THEMONILO
-[03:39:56] [Server thread/INFO]: THEMONILO issued server command: /graves gui elian
-[03:40:02] [Server thread/INFO]: THEMONILO issued server command: /tp elian THEMONILO
-[03:40:27] [Server thread/INFO]: THEMONILO issued server command: /gms elian
-[03:40:34] [Server thread/INFO]: Set the weather to rain & thunder
-[03:40:34] [Server thread/INFO]: elian ha muerto y ahora descanza en paz.
-[03:40:34] [Server thread/INFO]: Este es el comienzo del sufrimiento eterno de elian. ¡HA SIDO PERMABANEADO!
-[03:40:34] [Server thread/INFO]: X: 702 || Y: 121 || Z: -523
-[03:40:34] [Server thread/INFO]: [Graves] Debug: Placing grave block for 9446d560-e183-4694-ba5c-4a36a57507fd at world, 702.5x, 121.5y, -522.5z
-[03:40:34] [Server thread/INFO]: elian was shot by Lvl 3 | Skeleton
-[03:40:36] [Server thread/INFO]: elian lost connection: Has sido PERMABANEADO
-[03:40:36] [Server thread/INFO]: [CustomItemsLib][Debug] Saving lastKnownWorldGroup: default
-[03:40:36] [Server thread/INFO]: elian ha abandonado el servidor.
-[03:40:39] [Server thread/INFO]: ¡Comienza el Death Train con duración de 1 horas!
-[03:41:21] [Server thread/INFO]: THEMONILO issued server command: /pardon elian
-[03:41:21] [Server thread/INFO]: [Essentials] Player THEMONILO unbanned elian
-[03:41:54] [User Authenticator #11/INFO]: UUID of player elian is 3e97d394-1562-31e4-9172-59b2e573112d
-[03:41:54] [Server thread/INFO]: elian se ha unido al servidor.
-[03:41:54] [Server thread/INFO]: elian[/127.86.242.136:33289] logged in with entity id 204678 at ([world]273.61408298136257, 98.0, -0.6979646645713944)
-[03:42:05] [Craft Scheduler Thread - 111 - nLogin/INFO]: [nLogin] The user elian has successfully logged in.
-[03:42:13] [Server thread/INFO]: THEMONILO issued server command: /tp elian THEMONILO
-[03:42:17] [Server thread/INFO]: THEMONILO issued server command: /gms elian
-[03:42:34] [Server thread/INFO]: [Graves] Debug: Replacing grave block for 35cd6b7c-8d5b-404d-bf87-8ea06186e627 at world, 714.5x, 120.5y, -498.5z
-[03:42:34] [Server thread/INFO]: [Graves] Debug: Removing hologram for grave 35cd6b7c-8d5b-404d-bf87-8ea06186e627
-[03:42:34] [Server thread/INFO]: [Graves] Debug: Removing hologram for grave 35cd6b7c-8d5b-404d-bf87-8ea06186e627
-[03:42:34] [Server thread/INFO]: [Graves] Debug: Removing hologram for grave 35cd6b7c-8d5b-404d-bf87-8ea06186e627
-[03:42:34] [Server thread/INFO]: [Graves] Debug: Removing grave 35cd6b7c-8d5b-404d-bf87-8ea06186e627
-[03:42:34] [Server thread/INFO]: [Graves] Debug: Grave 35cd6b7c-8d5b-404d-bf87-8ea06186e627 autolooted by elian
-[03:43:04] [Server thread/INFO]: [Graves] Debug: Zombie type elian's Zombie spawned for grave 9446d560-e183-4694-ba5c-4a36a57507fd
-[03:43:04] [Server thread/INFO]: [Graves] Debug: Replacing grave block for 9446d560-e183-4694-ba5c-4a36a57507fd at world, 702.5x, 121.5y, -522.5z
-[03:43:04] [Server thread/INFO]: [Graves] Debug: Removing hologram for grave 9446d560-e183-4694-ba5c-4a36a57507fd
-[03:43:04] [Server thread/INFO]: [Graves] Debug: Removing hologram for grave 9446d560-e183-4694-ba5c-4a36a57507fd
-[03:43:04] [Server thread/INFO]: [Graves] Debug: Removing hologram for grave 9446d560-e183-4694-ba5c-4a36a57507fd
-[03:43:04] [Server thread/INFO]: [Graves] Debug: Removing grave 9446d560-e183-4694-ba5c-4a36a57507fd
-[03:43:23] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] PlayerSettings saved.
-[03:43:23] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] Saving CustomItemsLib data
-[03:43:24] [Server thread/INFO]: Named entity EntityZombie['elian's Zombie'/206563, uuid='b2d2583a-a346-499d-bb34-804564feed44', l='ServerLevel[world]', x=703.27, y=123.00, z=-507.84, cpos=[43, -32], tl=390, v=true] died: elian's Zombie was slain by THEMONILO
-[03:45:39] [Server thread/WARN]: elian was kicked due to keepalive timeout!
-[03:45:39] [Server thread/INFO]: elian lost connection: Timed out
-[03:45:39] [Server thread/INFO]: [CustomItemsLib][Debug] Saving lastKnownWorldGroup: default
-[03:45:39] [Server thread/INFO]: elian ha abandonado el servidor.
-[03:46:25] [User Authenticator #12/INFO]: UUID of player elian is 3e97d394-1562-31e4-9172-59b2e573112d
-[03:46:25] [Server thread/INFO]: elian se ha unido al servidor.
-[03:46:25] [Server thread/INFO]: elian[/127.86.242.136:41909] logged in with entity id 207364 at ([world]715.9609063757158, 67.0, -599.5669494834624)
-[03:46:40] [Craft Scheduler Thread - 130 - nLogin/INFO]: [nLogin] The user elian has successfully logged in.
-[03:46:40] [Server thread/INFO]: THEMONILO issued server command: /tpahere elian
-[03:47:01] [Server thread/INFO]: elian issued server command: /tpaccept
-[03:47:30] [Server thread/INFO]: Set the weather to rain & thunder
-[03:47:30] [Server thread/INFO]: elian ha muerto y ahora descanza en paz.
-[03:47:30] [Server thread/INFO]: Este es el comienzo del sufrimiento eterno de elian. ¡HA SIDO PERMABANEADO!
-[03:47:30] [Server thread/INFO]: X: 628 || Y: 47 || Z: -773
-[03:47:30] [Server thread/INFO]: [Graves] Debug: Placing grave block for ce36b7c6-09f1-4658-ac0c-e8f0f485a805 at world, 628.5x, 45.5y, -772.5z
-[03:47:30] [Server thread/INFO]: elian fell from a high place
-[03:47:32] [Server thread/INFO]: elian lost connection: Has sido PERMABANEADO
-[03:47:32] [Server thread/INFO]: [CustomItemsLib][Debug] Saving lastKnownWorldGroup: default
-[03:47:32] [Server thread/INFO]: elian ha abandonado el servidor.
-[03:47:35] [Server thread/INFO]: ¡Comienza el Death Train con duración de 1 horas!
-[03:47:39] [Server thread/INFO]: THEMONILO issued server command: /pardon elian
-[03:47:39] [Server thread/INFO]: [Essentials] Player THEMONILO unbanned elian
-[03:47:58] [User Authenticator #13/INFO]: UUID of player elian is 3e97d394-1562-31e4-9172-59b2e573112d
-[03:47:58] [Server thread/INFO]: elian se ha unido al servidor.
-[03:47:58] [Server thread/INFO]: elian[/127.86.242.136:46923] logged in with entity id 207651 at ([world]273.61408298136257, 98.0, -0.6979646645713944)
-[03:48:09] [Craft Scheduler Thread - 80 - nLogin/INFO]: [nLogin] The user elian has successfully logged in.
-[03:48:22] [Server thread/INFO]: THEMONILO issued server command: /gms elian
-[03:48:23] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] PlayerSettings saved.
-[03:48:23] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] Saving CustomItemsLib data
-[03:48:28] [Server thread/INFO]: THEMONILO issued server command: /tp elian THEMONILO
-[03:50:35] [Server thread/INFO]: Permadeath ➤ El jugador THEMONILO no puede dar más horas de tormenta.
-[03:50:35] [Server thread/INFO]: THEMONILO ha muerto y ahora descanza en paz.
-[03:50:35] [Server thread/INFO]: Este es el comienzo del sufrimiento eterno de THEMONILO. ¡HA SIDO PERMABANEADO!
-[03:50:35] [Server thread/INFO]: X: 627 || Y: 43 || Z: -746
-[03:50:35] [Server thread/INFO]: [Graves] Debug: Placing grave block for d0bd4b66-cc96-4ba1-a621-055f6d500550 at world, 627.5x, 43.5y, -745.5z
-[03:50:35] [Server thread/INFO]: THEMONILO was slain by Lvl 7 | Spider
-[03:50:37] [Server thread/INFO]: THEMONILO lost connection: Has sido PERMABANEADO
-[03:50:37] [Server thread/INFO]: [CustomItemsLib][Debug] Saving lastKnownWorldGroup: default
-[03:50:37] [Server thread/INFO]: THEMONILO ha abandonado el servidor.
-[03:50:40] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /pardon THEMONILO
-[03:50:40] [Server thread/INFO]: [Essentials] Player Console unbanned THEMONILO
-[03:50:46] [User Authenticator #14/INFO]: UUID of player THEMONILO is 8ce330b9-f746-3d8f-9174-9156ece89f7c
-[03:50:46] [Server thread/INFO]: THEMONILO se ha unido al servidor.
-[03:50:46] [Server thread/INFO]: THEMONILO[/127.181.188.8:59391] logged in with entity id 210346 at ([world]273.61408298136257, 98.0, -0.6979646645713944)
-[03:50:57] [Craft Scheduler Thread - 107 - nLogin/INFO]: [nLogin] The user THEMONILO has successfully logged in.
-[03:51:06] [Server thread/INFO]: THEMONILO issued server command: /tp THEMONILO
-[03:51:12] [Server thread/INFO]: THEMONILO issued server command: /gms
-[03:51:15] [Server thread/INFO]: THEMONILO issued server command: /tp THEMONILO
-[03:51:18] [Server thread/INFO]: THEMONILO issued server command: /tp THEMONILO elian
-[03:51:31] [Server thread/INFO]: THEMONILO issued server command: /graves gui
-[03:51:35] [Server thread/INFO]: [Graves] Debug: Replacing grave block for d0bd4b66-cc96-4ba1-a621-055f6d500550 at world, 627.5x, 43.5y, -745.5z
-[03:51:35] [Server thread/INFO]: [Graves] Debug: Removing hologram for grave d0bd4b66-cc96-4ba1-a621-055f6d500550
-[03:51:35] [Server thread/INFO]: [Graves] Debug: Removing hologram for grave d0bd4b66-cc96-4ba1-a621-055f6d500550
-[03:51:35] [Server thread/INFO]: [Graves] Debug: Removing hologram for grave d0bd4b66-cc96-4ba1-a621-055f6d500550
-[03:51:35] [Server thread/INFO]: [Graves] Debug: Removing grave d0bd4b66-cc96-4ba1-a621-055f6d500550
-[03:51:35] [Server thread/INFO]: [Graves] Debug: Grave d0bd4b66-cc96-4ba1-a621-055f6d500550 autolooted by THEMONILO
-[03:53:23] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] PlayerSettings saved.
-[03:53:23] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] Saving CustomItemsLib data
-[03:56:34] [Server thread/INFO]: THEMONILO has made the advancement [Acquire Hardware]
-[03:56:49] [Server thread/INFO]: THEMONILO has made the advancement [Suit Up]
-[03:58:23] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] Saving CustomItemsLib data
-[03:59:12] [Server thread/INFO]: THEMONILO has made the advancement [Isn't It Iron Pick]
-[04:02:42] [Server thread/INFO]: elian has made the advancement [Fishy Business]
-[04:03:23] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] Saving CustomItemsLib data
-[04:04:36] [Server thread/INFO]: THEMONILO has made the advancement [Not Today, Thank You]
-[04:05:08] [Server thread/INFO]: Permadeath ➤ El jugador THEMONILO no puede dar más horas de tormenta.
-[04:05:08] [Server thread/INFO]: THEMONILO ha muerto y ahora descanza en paz.
-[04:05:08] [Server thread/INFO]: Este es el comienzo del sufrimiento eterno de THEMONILO. ¡HA SIDO PERMABANEADO!
-[04:05:08] [Server thread/INFO]: X: 601 || Y: 48 || Z: -634
-[04:05:08] [Server thread/INFO]: [Graves] Debug: Placing grave block for fbd08733-557f-4836-a36b-f1d46318d953 at world, 601.5x, 48.5y, -633.5z
-[04:05:08] [Server thread/INFO]: THEMONILO was shot by Lvl 9 | Skeleton
-[04:05:10] [Server thread/INFO]: THEMONILO lost connection: Has sido PERMABANEADO
-[04:05:10] [Server thread/INFO]: [CustomItemsLib][Debug] Saving lastKnownWorldGroup: default
-[04:05:10] [Server thread/INFO]: THEMONILO ha abandonado el servidor.
-[04:05:25] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /pardon THEMONILO
-[04:05:25] [Server thread/INFO]: [Essentials] Player Console unbanned THEMONILO
-[04:05:29] [User Authenticator #15/INFO]: UUID of player THEMONILO is 8ce330b9-f746-3d8f-9174-9156ece89f7c
-[04:05:29] [Server thread/INFO]: THEMONILO se ha unido al servidor.
-[04:05:29] [Server thread/INFO]: THEMONILO[/127.181.188.8:45763] logged in with entity id 215461 at ([world]273.61408298136257, 98.0, -0.6979646645713944)
-[04:05:45] [Craft Scheduler Thread - 115 - nLogin/INFO]: [nLogin] The user THEMONILO has successfully logged in.
-[04:05:49] [Server thread/INFO]: THEMONILO issued server command: /gms
-[04:05:52] [Server thread/INFO]: THEMONILO issued server command: /graves gui
-[04:05:55] [Server thread/INFO]: [Graves] Debug: Replacing grave block for fbd08733-557f-4836-a36b-f1d46318d953 at world, 601.5x, 48.5y, -633.5z
-[04:05:55] [Server thread/INFO]: [Graves] Debug: Removing hologram for grave fbd08733-557f-4836-a36b-f1d46318d953
-[04:05:55] [Server thread/INFO]: [Graves] Debug: Removing hologram for grave fbd08733-557f-4836-a36b-f1d46318d953
-[04:05:55] [Server thread/INFO]: [Graves] Debug: Removing hologram for grave fbd08733-557f-4836-a36b-f1d46318d953
-[04:05:55] [Server thread/INFO]: [Graves] Debug: Removing grave fbd08733-557f-4836-a36b-f1d46318d953
-[04:05:55] [Server thread/INFO]: [Graves] Debug: Grave fbd08733-557f-4836-a36b-f1d46318d953 autolooted by THEMONILO
-[04:06:54] [Server thread/INFO]: elian has made the advancement [Take Aim]
-[04:07:27] [Server thread/INFO]: Permadeath ➤ El jugador THEMONILO no puede dar más horas de tormenta.
-[04:07:27] [Server thread/INFO]: THEMONILO ha muerto y ahora descanza en paz.
-[04:07:27] [Server thread/INFO]: Este es el comienzo del sufrimiento eterno de THEMONILO. ¡HA SIDO PERMABANEADO!
-[04:07:27] [Server thread/INFO]: X: 597 || Y: 38 || Z: -623
-[04:07:27] [Server thread/INFO]: [Graves] Debug: Placing grave block for a09c0b6f-1d19-4cb2-aa31-5ed9a95e856d at world, 597.5x, 38.5y, -622.5z
-[04:07:27] [Server thread/INFO]: THEMONILO was shot by Lvl 6 | Skeleton
-[04:07:29] [Server thread/INFO]: THEMONILO lost connection: Has sido PERMABANEADO
-[04:07:29] [Server thread/INFO]: [CustomItemsLib][Debug] Saving lastKnownWorldGroup: default
-[04:07:29] [Server thread/INFO]: THEMONILO ha abandonado el servidor.
-[04:07:32] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /pardon THEMONILO
-[04:07:32] [Server thread/INFO]: [Essentials] Player Console unbanned THEMONILO
-[04:07:37] [User Authenticator #16/INFO]: UUID of player THEMONILO is 8ce330b9-f746-3d8f-9174-9156ece89f7c
-[04:07:37] [Server thread/INFO]: THEMONILO se ha unido al servidor.
-[04:07:37] [Server thread/INFO]: THEMONILO[/127.181.188.8:59611] logged in with entity id 218847 at ([world]273.61408298136257, 98.0, -0.6979646645713944)
-[04:07:51] [Craft Scheduler Thread - 128 - nLogin/INFO]: [nLogin] The user THEMONILO has successfully logged in.
-[04:07:52] [Server thread/INFO]: THEMONILO issued server command: /gms
-[04:08:00] [Server thread/INFO]: THEMONILO issued server command: /graves gui
-[04:08:04] [Server thread/INFO]: [Graves] Debug: Replacing grave block for a09c0b6f-1d19-4cb2-aa31-5ed9a95e856d at world, 597.5x, 38.5y, -622.5z
-[04:08:04] [Server thread/INFO]: [Graves] Debug: Removing hologram for grave a09c0b6f-1d19-4cb2-aa31-5ed9a95e856d
-[04:08:04] [Server thread/INFO]: [Graves] Debug: Removing hologram for grave a09c0b6f-1d19-4cb2-aa31-5ed9a95e856d
-[04:08:04] [Server thread/INFO]: [Graves] Debug: Removing hologram for grave a09c0b6f-1d19-4cb2-aa31-5ed9a95e856d
-[04:08:04] [Server thread/INFO]: [Graves] Debug: Removing grave a09c0b6f-1d19-4cb2-aa31-5ed9a95e856d
-[04:08:04] [Server thread/INFO]: [Graves] Debug: Grave a09c0b6f-1d19-4cb2-aa31-5ed9a95e856d autolooted by THEMONILO
-[04:08:23] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] PlayerSettings saved.
-[04:08:23] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] Saving CustomItemsLib data
-[04:10:16] [Server thread/INFO]: Set the weather to rain & thunder
-[04:10:16] [Server thread/INFO]: elian ha muerto y ahora descanza en paz.
-[04:10:16] [Server thread/INFO]: Este es el comienzo del sufrimiento eterno de elian. ¡HA SIDO PERMABANEADO!
-[04:10:16] [Server thread/INFO]: X: 569 || Y: 24 || Z: -626
-[04:10:16] [Server thread/INFO]: [Graves] Debug: Placing grave block for 8f3938b7-c3bb-499b-bbb6-e3db6a4a46b4 at world, 569.5x, 24.5y, -625.5z
-[04:10:16] [Server thread/INFO]: elian was shot by Lvl 6 | Skeleton
-[04:10:18] [Server thread/INFO]: elian lost connection: Has sido PERMABANEADO
-[04:10:18] [Server thread/INFO]: [CustomItemsLib][Debug] Saving lastKnownWorldGroup: default
-[04:10:18] [Server thread/INFO]: elian ha abandonado el servidor.
-[04:10:20] [Server thread/INFO]: Permadeath ➤ El jugador THEMONILO no puede dar más horas de tormenta.
-[04:10:20] [Server thread/INFO]: THEMONILO ha muerto y ahora descanza en paz.
-[04:10:20] [Server thread/INFO]: Este es el comienzo del sufrimiento eterno de THEMONILO. ¡HA SIDO PERMABANEADO!
-[04:10:20] [Server thread/INFO]: X: 580 || Y: 24 || Z: -630
-[04:10:20] [Server thread/INFO]: [Graves] Debug: Placing grave block for d142c124-2fce-42d6-997d-fb2b88725332 at world, 580.5x, 24.5y, -629.5z
-[04:10:20] [Server thread/INFO]: THEMONILO was shot by Lvl 6 | Skeleton
-[04:10:21] [Server thread/INFO]: ¡Comienza el Death Train con duración de 1 horas!
-[04:10:22] [Server thread/INFO]: THEMONILO lost connection: Has sido PERMABANEADO
-[04:10:22] [Server thread/INFO]: [CustomItemsLib][Debug] Saving lastKnownWorldGroup: default
-[04:10:22] [Server thread/INFO]: THEMONILO ha abandonado el servidor.
-[04:10:30] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /pardon THEMONILO
-[04:10:30] [Server thread/INFO]: [Essentials] Player Console unbanned THEMONILO
-[04:10:32] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /pardon elian
-[04:10:32] [Server thread/INFO]: [Essentials] Player Console unbanned elian
-[04:10:35] [User Authenticator #17/INFO]: UUID of player THEMONILO is 8ce330b9-f746-3d8f-9174-9156ece89f7c
-[04:10:35] [Server thread/INFO]: THEMONILO se ha unido al servidor.
-[04:10:35] [Server thread/INFO]: THEMONILO[/127.181.188.8:53431] logged in with entity id 222848 at ([world]273.61408298136257, 98.0, -0.6979646645713944)
-[04:10:43] [User Authenticator #17/INFO]: UUID of player elian is 3e97d394-1562-31e4-9172-59b2e573112d
-[04:10:43] [Server thread/INFO]: elian se ha unido al servidor.
-[04:10:43] [Server thread/INFO]: elian[/127.86.242.136:37235] logged in with entity id 224106 at ([world]273.61408298136257, 98.0, -0.6979646645713944)
-[04:10:46] [Craft Scheduler Thread - 143 - nLogin/INFO]: [nLogin] The user THEMONILO has successfully logged in.
-[04:10:47] [Server thread/INFO]: THEMONILO issued server command: /gms
-[04:10:55] [Server thread/INFO]: THEMONILO issued server command: /gms *
-[04:10:56] [Server thread/INFO]: elian lost connection: La contraseña ingresada es incorrecta.
-[04:10:56] [Server thread/INFO]: [CustomItemsLib][Debug] Saving lastKnownWorldGroup: default
-[04:10:56] [Server thread/INFO]: elian ha abandonado el servidor.
-[04:11:00] [Server thread/INFO]: THEMONILO issued server command: /gms *
-[04:11:07] [Server thread/INFO]: THEMONILO issued server command: /graves gui
-[04:11:10] [User Authenticator #17/INFO]: UUID of player elian is 3e97d394-1562-31e4-9172-59b2e573112d
-[04:11:10] [Server thread/INFO]: elian se ha unido al servidor.
-[04:11:10] [Server thread/INFO]: elian[/127.86.242.136:39751] logged in with entity id 228890 at ([world]273.61921202073256, 97.92159999847412, -0.635778013530491)
-[04:11:14] [Server thread/INFO]: [Graves] Debug: Replacing grave block for d142c124-2fce-42d6-997d-fb2b88725332 at world, 580.5x, 24.5y, -629.5z
-[04:11:14] [Server thread/INFO]: [Graves] Debug: Removing hologram for grave d142c124-2fce-42d6-997d-fb2b88725332
-[04:11:14] [Server thread/INFO]: [Graves] Debug: Removing hologram for grave d142c124-2fce-42d6-997d-fb2b88725332
-[04:11:14] [Server thread/INFO]: [Graves] Debug: Removing hologram for grave d142c124-2fce-42d6-997d-fb2b88725332
-[04:11:14] [Server thread/INFO]: [Graves] Debug: Removing grave d142c124-2fce-42d6-997d-fb2b88725332
-[04:11:14] [Server thread/INFO]: [Graves] Debug: Grave d142c124-2fce-42d6-997d-fb2b88725332 autolooted by THEMONILO
-[04:11:21] [Server thread/INFO]: Permadeath ➤ El jugador THEMONILO no puede dar más horas de tormenta.
-[04:11:21] [Server thread/INFO]: THEMONILO ha muerto y ahora descanza en paz.
-[04:11:21] [Server thread/INFO]: Este es el comienzo del sufrimiento eterno de THEMONILO. ¡HA SIDO PERMABANEADO!
-[04:11:21] [Server thread/INFO]: X: 571 || Y: 24 || Z: -622
-[04:11:21] [Server thread/INFO]: [Graves] Debug: Placing grave block for 64ec9f63-2a59-4df5-a506-9c058fb83a1d at world, 571.5x, 24.5y, -621.5z
-[04:11:21] [Server thread/INFO]: THEMONILO was shot by Lvl 6 | Skeleton
-[04:11:23] [Server thread/INFO]: THEMONILO lost connection: Has sido PERMABANEADO
-[04:11:23] [Server thread/INFO]: [CustomItemsLib][Debug] Saving lastKnownWorldGroup: default
-[04:11:23] [Server thread/INFO]: THEMONILO ha abandonado el servidor.
-[04:11:26] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /pardon THEMONILO
-[04:11:26] [Server thread/INFO]: [Essentials] Player Console unbanned THEMONILO
-[04:11:27] [Craft Scheduler Thread - 142 - nLogin/INFO]: [nLogin] The user elian has successfully logged in.
-[04:11:29] [User Authenticator #17/INFO]: UUID of player THEMONILO is 8ce330b9-f746-3d8f-9174-9156ece89f7c
-[04:11:29] [Server thread/INFO]: THEMONILO se ha unido al servidor.
-[04:11:29] [Server thread/INFO]: THEMONILO[/127.181.188.8:54623] logged in with entity id 231694 at ([world]273.61408298136257, 98.0, -0.6979646645713944)
-[04:11:40] [Craft Scheduler Thread - 141 - nLogin/INFO]: [nLogin] The user THEMONILO has successfully logged in.
-[04:11:42] [Server thread/INFO]: THEMONILO issued server command: /gms *
-[04:11:44] [Server thread/INFO]: Set the weather to rain & thunder
-[04:11:44] [Server thread/INFO]: elian ha muerto y ahora descanza en paz.
-[04:11:44] [Server thread/INFO]: Este es el comienzo del sufrimiento eterno de elian. ¡HA SIDO PERMABANEADO!
-[04:11:44] [Server thread/INFO]: X: 291 || Y: 69 || Z: 8
-[04:11:44] [Server thread/INFO]: [Graves] Debug: Grave not created for elian because they had an empty inventory
-[04:11:44] [Server thread/INFO]: elian fell from a high place
-[04:11:46] [Server thread/INFO]: elian lost connection: Has sido PERMABANEADO
-[04:11:46] [Server thread/INFO]: [CustomItemsLib][Debug] Saving lastKnownWorldGroup: default
-[04:11:46] [Server thread/INFO]: elian ha abandonado el servidor.
-[04:11:49] [Server thread/INFO]: ¡Comienza el Death Train con duración de 1 horas!
-[04:11:49] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /pardon elian
-[04:11:49] [Server thread/INFO]: [Essentials] Player Console unbanned elian
-[04:11:58] [Server thread/INFO]: THEMONILO issued server command: /graves gui
-[04:12:01] [Server thread/INFO]: [Graves] Debug: Replacing grave block for 64ec9f63-2a59-4df5-a506-9c058fb83a1d at world, 571.5x, 24.5y, -621.5z
-[04:12:01] [Server thread/INFO]: [Graves] Debug: Removing hologram for grave 64ec9f63-2a59-4df5-a506-9c058fb83a1d
-[04:12:01] [Server thread/INFO]: [Graves] Debug: Removing hologram for grave 64ec9f63-2a59-4df5-a506-9c058fb83a1d
-[04:12:01] [Server thread/INFO]: [Graves] Debug: Removing hologram for grave 64ec9f63-2a59-4df5-a506-9c058fb83a1d
-[04:12:01] [Server thread/INFO]: [Graves] Debug: Removing grave 64ec9f63-2a59-4df5-a506-9c058fb83a1d
-[04:12:01] [Server thread/INFO]: [Graves] Debug: Grave 64ec9f63-2a59-4df5-a506-9c058fb83a1d autolooted by THEMONILO
-[04:12:08] [User Authenticator #17/INFO]: UUID of player elian is 3e97d394-1562-31e4-9172-59b2e573112d
-[04:12:08] [Server thread/INFO]: elian se ha unido al servidor.
-[04:12:08] [Server thread/INFO]: elian[/127.86.242.136:35183] logged in with entity id 236916 at ([world]273.61408298136257, 98.0, -0.6979646645713944)
-[04:12:22] [Server thread/INFO]: THEMONILO issued server command: /gms *
-[04:12:25] [Craft Scheduler Thread - 120 - nLogin/INFO]: [nLogin] The user elian has successfully logged in.
-[04:12:28] [Server thread/INFO]: THEMONILO issued server command: /tp elian THEMONILO
-[04:12:32] [Server thread/INFO]: THEMONILO issued server command: /tp elian THEMONILO
-[04:12:34] [Server thread/INFO]: THEMONILO issued server command: /gms *
-[04:13:23] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] PlayerSettings saved.
-[04:13:23] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] Saving CustomItemsLib data
-[04:14:06] [Server thread/INFO]: THEMONILO issued server command: /tnt
-[04:15:05] [Server thread/INFO]: Permadeath ➤ El jugador THEMONILO no puede dar más horas de tormenta.
-[04:15:05] [Server thread/INFO]: THEMONILO ha muerto y ahora descanza en paz.
-[04:15:05] [Server thread/INFO]: Este es el comienzo del sufrimiento eterno de THEMONILO. ¡HA SIDO PERMABANEADO!
-[04:15:05] [Server thread/INFO]: X: 564 || Y: 72 || Z: -659
-[04:15:05] [Server thread/INFO]: [Graves] Debug: Placing grave block for 5f2f25ab-fbb6-4a40-a92b-711a25d277e9 at world, 564.5x, 71.5y, -658.5z
-[04:15:05] [Server thread/INFO]: THEMONILO was slain by Lvl 13 | Zombie
-[04:15:07] [Server thread/INFO]: THEMONILO lost connection: Has sido PERMABANEADO
-[04:15:07] [Server thread/INFO]: [CustomItemsLib][Debug] Saving lastKnownWorldGroup: default
-[04:15:07] [Server thread/INFO]: THEMONILO ha abandonado el servidor.
-[04:15:12] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /pardon elian
-[04:15:12] [Server thread/INFO]: [Essentials] Player Console unbanned elian
-[04:15:14] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /pardon THEMONILO
-[04:15:14] [Server thread/INFO]: [Essentials] Player Console unbanned THEMONILO
-[04:15:20] [User Authenticator #18/INFO]: UUID of player THEMONILO is 8ce330b9-f746-3d8f-9174-9156ece89f7c
-[04:15:20] [Server thread/INFO]: THEMONILO se ha unido al servidor.
-[04:15:20] [Server thread/INFO]: THEMONILO[/127.181.188.8:51419] logged in with entity id 239945 at ([world]273.61408298136257, 98.0, -0.6979646645713944)
-[04:15:29] [Craft Scheduler Thread - 51 - nLogin/INFO]: [nLogin] The user THEMONILO has successfully logged in.
-[04:15:33] [Server thread/INFO]: THEMONILO issued server command: /gms *
-[04:15:37] [Server thread/INFO]: THEMONILO issued server command: /graves gui
-[04:15:51] [Server thread/INFO]: [Graves] Debug: Replacing grave block for 5f2f25ab-fbb6-4a40-a92b-711a25d277e9 at world, 564.5x, 71.5y, -658.5z
-[04:15:51] [Server thread/INFO]: [Graves] Debug: Removing hologram for grave 5f2f25ab-fbb6-4a40-a92b-711a25d277e9
-[04:15:51] [Server thread/INFO]: [Graves] Debug: Removing hologram for grave 5f2f25ab-fbb6-4a40-a92b-711a25d277e9
-[04:15:51] [Server thread/INFO]: [Graves] Debug: Removing hologram for grave 5f2f25ab-fbb6-4a40-a92b-711a25d277e9
-[04:15:51] [Server thread/INFO]: [Graves] Debug: Removing grave 5f2f25ab-fbb6-4a40-a92b-711a25d277e9
-[04:15:51] [Server thread/INFO]: [Graves] Debug: Grave 5f2f25ab-fbb6-4a40-a92b-711a25d277e9 autolooted by THEMONILO
-[04:15:51] [Server thread/INFO]: Permadeath ➤ El jugador THEMONILO no puede dar más horas de tormenta.
-[04:15:51] [Server thread/INFO]: THEMONILO ha muerto y ahora descanza en paz.
-[04:15:51] [Server thread/INFO]: Este es el comienzo del sufrimiento eterno de THEMONILO. ¡HA SIDO PERMABANEADO!
-[04:15:51] [Server thread/INFO]: X: 564 || Y: 71 || Z: -660
-[04:15:51] [Server thread/INFO]: [Graves] Debug: Placing grave block for 838ae246-d625-452f-8dd1-a1b5a09a71e4 at world, 564.5x, 71.5y, -659.5z
-[04:15:51] [Server thread/INFO]: THEMONILO was shot by Lvl 4 | Skeleton
-[04:15:53] [Server thread/INFO]: THEMONILO lost connection: Has sido PERMABANEADO
-[04:15:53] [Server thread/INFO]: [CustomItemsLib][Debug] Saving lastKnownWorldGroup: default
-[04:15:53] [Server thread/INFO]: THEMONILO ha abandonado el servidor.
-[04:15:57] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /pardon THEMONILO
-[04:15:57] [Server thread/INFO]: [Essentials] Player Console unbanned THEMONILO
-[04:16:00] [User Authenticator #18/INFO]: UUID of player THEMONILO is 8ce330b9-f746-3d8f-9174-9156ece89f7c
-[04:16:00] [Server thread/INFO]: THEMONILO se ha unido al servidor.
-[04:16:00] [Server thread/INFO]: THEMONILO[/127.181.188.8:40421] logged in with entity id 243010 at ([world]273.61408298136257, 98.0, -0.6979646645713944)
-[04:16:16] [Craft Scheduler Thread - 134 - nLogin/INFO]: [nLogin] The user THEMONILO has successfully logged in.
-[04:16:17] [Server thread/INFO]: THEMONILO issued server command: /gms *
-[04:16:19] [Server thread/INFO]: THEMONILO issued server command: /graves gui
-[04:16:24] [Server thread/INFO]: [Graves] Debug: Replacing grave block for 838ae246-d625-452f-8dd1-a1b5a09a71e4 at world, 564.5x, 71.5y, -659.5z
-[04:16:24] [Server thread/INFO]: [Graves] Debug: Removing hologram for grave 838ae246-d625-452f-8dd1-a1b5a09a71e4
-[04:16:24] [Server thread/INFO]: [Graves] Debug: Removing hologram for grave 838ae246-d625-452f-8dd1-a1b5a09a71e4
-[04:16:24] [Server thread/INFO]: [Graves] Debug: Removing hologram for grave 838ae246-d625-452f-8dd1-a1b5a09a71e4
-[04:16:24] [Server thread/INFO]: [Graves] Debug: Removing grave 838ae246-d625-452f-8dd1-a1b5a09a71e4
-[04:16:24] [Server thread/INFO]: [Graves] Debug: Grave 838ae246-d625-452f-8dd1-a1b5a09a71e4 autolooted by THEMONILO
-[04:17:25] [Server thread/INFO]: Set the weather to rain & thunder
-[04:17:25] [Server thread/INFO]: elian ha muerto y ahora descanza en paz.
-[04:17:25] [Server thread/INFO]: Este es el comienzo del sufrimiento eterno de elian. ¡HA SIDO PERMABANEADO!
-[04:17:25] [Server thread/INFO]: X: 571 || Y: 70 || Z: -638
-[04:17:25] [Server thread/INFO]: [Graves] Debug: Placing grave block for c1f67364-4c13-4d67-821c-287358834148 at world, 571.5x, 70.5y, -637.5z
-[04:17:25] [Server thread/INFO]: elian was shot by Lvl 6 | Skeleton
-[04:17:27] [Server thread/INFO]: elian lost connection: Has sido PERMABANEADO
-[04:17:27] [Server thread/INFO]: [CustomItemsLib][Debug] Saving lastKnownWorldGroup: default
-[04:17:27] [Server thread/INFO]: elian ha abandonado el servidor.
-[04:17:30] [Server thread/INFO]: ¡Comienza el Death Train con duración de 1 horas!
-[04:17:35] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /pardon elian
-[04:17:35] [Server thread/INFO]: [Essentials] Player Console unbanned elian
-[04:17:44] [User Authenticator #19/INFO]: UUID of player elian is 3e97d394-1562-31e4-9172-59b2e573112d
-[04:17:44] [Server thread/INFO]: elian se ha unido al servidor.
-[04:17:44] [Server thread/INFO]: elian[/127.86.242.136:49823] logged in with entity id 246392 at ([world]273.61408298136257, 98.0, -0.6979646645713944)
-[04:18:06] [Craft Scheduler Thread - 149 - nLogin/INFO]: [nLogin] The user elian has successfully logged in.
-[04:18:14] [Server thread/INFO]: THEMONILO issued server command: /tp elian THEMONILO
-[04:18:17] [Server thread/INFO]: THEMONILO issued server command: /gms *
-[04:18:19] [Server thread/INFO]: [Graves] Debug: Replacing grave block for c1f67364-4c13-4d67-821c-287358834148 at world, 571.5x, 70.5y, -637.5z
-[04:18:19] [Server thread/INFO]: [Graves] Debug: Removing hologram for grave c1f67364-4c13-4d67-821c-287358834148
-[04:18:19] [Server thread/INFO]: [Graves] Debug: Removing hologram for grave c1f67364-4c13-4d67-821c-287358834148
-[04:18:19] [Server thread/INFO]: [Graves] Debug: Removing hologram for grave c1f67364-4c13-4d67-821c-287358834148
-[04:18:19] [Server thread/INFO]: [Graves] Debug: Removing grave c1f67364-4c13-4d67-821c-287358834148
-[04:18:19] [Server thread/INFO]: [Graves] Debug: Grave c1f67364-4c13-4d67-821c-287358834148 autolooted by elian
-[04:18:23] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] PlayerSettings saved.
-[04:18:23] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] Saving CustomItemsLib data
+[17:34:05] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] Player THEMONILO loaded. Texture=null
+[17:34:05] [Server thread/INFO]: THEMONILO se ha unido al servidor.
+[17:34:05] [Server thread/INFO]: THEMONILO[/127.181.188.8:45357] logged in with entity id 125 at ([world]-164.30000001192093, 63.9375, 868.6999999880791)
+[17:34:05] [Server thread/INFO]: [CustomItemsLib][Debug] Store THEMONILO's skin in CustomItemsLib Skin Cache
+[17:34:29] [Craft Scheduler Thread - 9 - nLogin/INFO]: [nLogin] The user THEMONILO has successfully logged in.
+[17:34:42] [Tuinity Chunk System Worker #0/WARN]: [ChunkUpgradeGenericStatusTask] Future status not complete after scheduling: minecraft:biomes, generate: true
+[17:34:45] [Server thread/INFO]: THEMONILO issued server command: /gamemode creative
+[17:38:02] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] Saving CustomItemsLib data
+[17:39:51] [Server thread/INFO]: THEMONILO issued server command: /sethome casa
+[17:39:59] [Server thread/INFO]: THEMONILO issued server command: /spawb
+[17:40:01] [Server thread/INFO]: THEMONILO issued server command: /spawn
+[17:40:36] [Server thread/INFO]: THEMONILO issued server command: /pl

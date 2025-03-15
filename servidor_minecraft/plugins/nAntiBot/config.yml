@@ -1,0 +1,380 @@
+####################################################################################################
+# +----------------------------------------------------------------------------------------------+ #
+# |                                      _         _   _   ___       _                           | #
+# |                             _ __   /_\  _ __ | |_(_) / __\ ___ | |_                          | #
+# |                            | '_ \ //_\\| '_ \| __| |/__\/// _ \| __|                         | #
+# |                            | | | /  _  \ | | | |_| / \/  \ (_) | |_                          | #
+# |                            |_| |_\_/ \_/_| |_|\__|_\_____/\___/ \__|                         | #             #############################################
+# |                                                                                              | #             # +---------------------------------------+ #
+# |                             Un plugin de antibot listo para usar                             | #             # | Creditos de la traducción a Avatar ^^ | #
+# |                                                                                              | #             # | Discord: Avatar#9999                  | #
+# |                                © 2025 - Creado por nickuc.com                                | #             # +---------------------------------------+ #
+# |                                                                                              | #             #############################################
+# |                                                                                              | #
+# |  Para una mejor comprensión de este archivo, consulte nuestra documentación:                 | #                              ██╗██████╗
+# |   ==> https://docs.nickuc.com/nantibot/                                                      | #                             ██╔╝╚════██╗
+# |                                                                                              | #                            ██╔╝  █████╔╝
+# |  Las nuevas opciones no se agregan automáticamente en este archivo.                          | #                            ╚██╗  ╚═══██╗
+# |  Se utilizan valores predeterminados si no se encuentra una opción.                          | #                             ╚██╗██████╔╝
+# +----------------------------------------------------------------------------------------------+ #                              ╚═╝╚═════╝
+####################################################################################################
+
+# Establece la versión del archivo.
+language-version: 4
+
+# Establece el modo "debug".
+# - Esta opción se utiliza para encontrar problemas en el plugin.
+debug: false
+
+# Establecer el idioma del plugin
+#
+# - Traducciones disponibles:
+#
+#  |=> Portugués: messages_br.yml
+#  |=> Chino: messages_cn.yml
+#  |=> Checo: messages_cz.yml
+#  |=> Ingles: messages_en.yml
+#  |=> Español: messages_es.yml
+#  |=> Húngaro: messages_hu.yml
+#  |=> Italiano: messages_it.yml
+#  |=> Lituano: messages_lt.yml
+#  |=> Polaco: messages_pl.yml
+#  |=> Rumano: messages_ro.yml
+#  |=> Ruso: messages_ru.yml
+#  |=> Turco: messages_tr.yml
+#  |=> Ucrania: messages_ua.yml
+#  |=> Vietnamita: messages_vn.yml
+#
+# - Al cambiar el idioma, el archivo actual se puede restablecer.
+language-file: 'messages_es.yml'
+
+# ███╗░░██╗██╗░░░██╗██████╗░███████╗
+# ████╗░██║██║░░░██║██╔══██╗██╔════╝
+# ██╔██╗██║██║░░░██║██████╦╝█████╗░░
+# ██║╚████║██║░░░██║██╔══██╗██╔══╝░░
+# ██║░╚███║╚██████╔╝██████╦╝███████╗
+# ╚═╝░░╚══╝░╚═════╝░╚═════╝░╚══════╝
+
+# - Verificación en Nube.
+cloud:
+  # Define si el antibot puede recoger información extra para mejorar la verificación para todos.
+  # - La información extra recopilada puede incluir, entre otros, muestras de: paquetes,
+  #   mensajes y comandos recibidos de los jugadores.
+  #
+  # - Tenga en cuenta que al desactivar la opción de abajo, NO se desactivará la información necesaria,
+  #   ya que afecta completamente al funcionamiento de la protección proporcionada.
+  #
+  collect-data: true
+
+  direct-login:
+    # Establece el tiempo máximo de espera (en milisegundos) para que la IP sea verificada en la nube.
+    # - Por defecto, el servidor esperará 1 segundo.
+    #
+    # - Si se recibe la respuesta, el jugador iniciará sesión directamente en el servidor, es decir, sin
+    #   necesidad de volver a reconectar.
+    # - Sin embargo, si no se recibe la respuesta, el jugador deberá volver a reconectarse al servidor.
+    #
+    wait: 1000
+
+    # Define el número máximo de jugadores que pueden beneficiarse de esta característica al mismo tiempo.
+    # - la limitación de esta función tiene como objetivo evitar el agotamiento de los recursos informáticos del servidor
+    #   en un ataque de bots
+    max: 25
+
+  country:
+    # Establece si las reglas del país se pueden omitir al realizar captcha en línea.
+    # - Se recomienda activar esta opción para evitar fallas en la detección de países
+    #   y para evitar que los jugadores extranjeros no puedan acceder al servidor.
+    skip-via-captcha: true
+
+    # Establece si las reglas del país solo se aplicarán si el servidor está bajo ataque.
+    # - Se recomienda habilitar esta opción para evitar que los jugadores queden sueltos.
+    only-check-during-attacks: true
+
+    # Define el modo de operación de la regla del país.
+    #
+    # - Modos válidos:
+    # |=> 0: deshabilita las reglas del país. [no recomendado]
+    # |=> 1: permite los países incluidos en las reglas.
+    # |=> 2: bloquea los países incluidos en las reglas.
+    mode: 1
+
+    # Define los países que respetarán la regla establecida anteriormente.
+    # - Debe ingresar el código del país, según la norma ISO 3166.
+    #
+    # - Código de Paises:
+    #  => https://en.wikipedia.org/wiki/List_of_ISO_3166_country_codes
+    list:
+      - "AR"
+      - "AT"
+      - "BA"
+      - "BR"
+      - "CZ"
+      - "DE"
+      - "FR"
+      - "GB"
+      - "HR"
+      - "HU"
+      - "IL"
+      - "IT"
+      - "MK"
+      - "PT"
+      - "RO"
+      - "RS"
+      - "SK"
+      - "TR"
+      - "US"
+      - "UY"
+
+  captcha:
+    # Define la URL utilizada por el captcha en línea.
+    # - Esta característica solo está disponible para versiones pagas (premium).
+    #   si no está utilizando la versión premium, se ignorará el valor establecido a continuación.
+    url: "ab.nickuc.com"
+
+    # Define el idioma utilizado por el captcha en línea.
+    # - Si deja esta opción como "", se detectará el idioma
+    #   por el país de la conexión IP (recomendado).
+    lang: ""
+
+
+# ░█████╗░░█████╗░██████╗░████████╗░█████╗░███████╗██╗░░░██╗███████╗░██████╗░░█████╗░░██████╗
+# ██╔══██╗██╔══██╗██╔══██╗╚══██╔══╝██╔══██╗██╔════╝██║░░░██║██╔════╝██╔════╝░██╔══██╗██╔════╝
+# ██║░░╚═╝██║░░██║██████╔╝░░░██║░░░███████║█████╗░░██║░░░██║█████╗░░██║░░██╗░██║░░██║╚█████╗░
+# ██║░░██╗██║░░██║██╔══██╗░░░██║░░░██╔══██║██╔══╝░░██║░░░██║██╔══╝░░██║░░╚██╗██║░░██║░╚═══██╗
+# ╚█████╔╝╚█████╔╝██║░░██║░░░██║░░░██║░░██║██║░░░░░╚██████╔╝███████╗╚██████╔╝╚█████╔╝██████╔╝
+# ░╚════╝░░╚════╝░╚═╝░░╚═╝░░░╚═╝░░░╚═╝░░╚═╝╚═╝░░░░░░╚═════╝░╚══════╝░╚═════╝░░╚════╝░╚═════╝░
+
+# - Configuración del cortafuegos.
+firewall:
+  # Establece la duración del bloqueo (en segundos) del cortafuegos.
+  # - El bloqueo de IP solo se realiza en clientes TCP extremadamente
+  #   sospechosos e insistentes durante un ataque de bot.
+  # - La lista de bloqueo siempre se restablece al reiniciar el servidor.
+  duration: 90
+
+  throttle:
+    # Establece la duración (en milisegundos) del contador de conexiones.
+    duration: 2000
+
+    # Establece el número máximo de conexiones para que la IP sea rechazada.
+    # - La IP podrá volver a conectarse una vez que expire el contador de conexión.
+    # La vida útil del contador se puede configurar en la opción anterior.
+    refuse: 3
+
+    # Establece el número máximo de conexiones para que la IP sea bloqueada temporalmente.
+    #
+    #   (!) El bloqueo solo ocurrirá si hay un ataque en curso.
+    #
+    block: 10
+
+  os:
+    #
+    # Define si se debe utilizar el cortafuegos del sistema operativo, si está disponible.
+    #
+    # - Exclusivo de nAntiBot Premium ⭐
+    #
+    # - Limitaciones:
+    #   * Necesitas tener acceso de superusuario.
+    #   * Necesita ejecutar su servidor en un sistema basado en Linux.
+    #   * Los hosts compartidos son incompatibles por el momento.
+    #
+    enable-if-available: true
+
+    commands:
+      # Define el nombre de la cadena utilizada por las reglas del cortafuegos.
+      # - Esto sustituirá al marcador de posición "{chain}" en los comandos.
+      chain-name: "nantibot"
+
+      # Establece el comando para instalar los programas necesarios.
+      install: "sudo apt-get install -y iptables ipset"
+
+      # Define los comandos de inicio.
+      start:
+        - "sudo ipset create {chain} hash:ip timeout {time} maxelem 4294967295" # crear conjunto
+        - "sudo iptables -t raw -I PREROUTING -m set --match-set {chain} src -j DROP" # agregar salto
+
+      # Define los comandos de apagado.
+      # - Se recomienda eliminar siempre todas las reglas agregadas durante la opción "iniciar".
+      stop:
+        - "sudo iptables -t raw -D PREROUTING -m set --match-set {chain} src -j DROP" # eliminar salto
+        - "sudo ipset x {chain}" # eliminar conjunto
+
+      # Define los comandos al bloquear una ip.
+      block:
+        - "sudo ipset add {chain} {address}"
+
+#                                                                      ██
+# ██╗░░░██╗███████╗██████╗░██╗███████╗██╗░█████╗░░█████╗░░█████╗░██╗░█████╗░███╗░░██╗
+# ██║░░░██║██╔════╝██╔══██╗██║██╔════╝██║██╔══██╗██╔══██╗██╔══██╗██║██╔══██╗████╗░██║
+# ╚██╗░██╔╝█████╗░░██████╔╝██║█████╗░░██║██║░░╚═╝███████║██║░░╚═╝██║██║░░██║██╔██╗██║
+# ░╚████╔╝░██╔══╝░░██╔══██╗██║██╔══╝░░██║██║░░██╗██╔══██║██║░░██╗██║██║░░██║██║╚████║
+# ░░╚██╔╝░░███████╗██║░░██║██║██║░░░░░██║╚█████╔╝██║░░██║╚█████╔╝██║╚█████╔╝██║░╚███║
+# ░░░╚═╝░░░╚══════╝╚═╝░░╚═╝╚═╝╚═╝░░░░░╚═╝░╚════╝░╚═╝░░╚═╝░╚════╝░╚═╝░╚════╝░╚═╝░░╚══╝
+
+# - Configuración de escaneo sin conexión.
+verification:
+  delay:
+    # Establezca el retraso (en milisegundos) para las uniones IP.
+    join: 1500
+
+    # Establece el retraso (en milisegundos) para los pings de ip.
+    ping: 1000
+
+  limit:
+    # Establece la cantidad mínima de conexiones nuevas por segundo.
+    # - Cuando se alcance este límite, el sistema de protección se activará.
+    connection: 30
+
+    # Establece el número mínimo de apretones de manos por segundo.
+    # - Cuando se alcance este límite, el sistema de protección se activará.
+    handshake: 20
+
+    # Establece el número mínimo de inicios de sesión por segundo.
+    # - Cuando se alcance este límite, el sistema de protección se activará.
+    join: 5
+
+    # Establece la cantidad mínima de pings por segundo.
+    # - Cuando se alcance este límite, el sistema de protección se activará.
+    ping: 15
+
+    # Establece el número máximo de cuentas por ip.
+    # - Cuando se alcance este límite, se cerrará la sesión del jugador.
+    account-per-ip: 3
+
+  duration:
+    # Establece el tiempo (en milisegundos) para que el modo de ataque JOIN permanezca activo.
+    join: 10000
+
+    # Establece el tiempo (en milisegundos) para que el modo de ataque PING permanezca activo.
+    ping: 5000
+
+    # Establece el tiempo (en milisegundos) para el castigo.
+    # - Los castigos sólo son válidos durante los ataques.
+    punishment: 45000
+
+  type:
+    nickname:
+      # Define la regex de apodos válidos.
+      # - Si el apodo de un jugador no es válido, el plugin puede bloquearlo temporalmente.
+      valid-regex: "([a-zA-Z0-9_]{3,16})"
+
+      # Establece la expresión regular de apodos extraños.
+      # - La expresión regular predeterminada prohíbe a los jugadores usar nombres sospechosos,
+      #   incluidos los que están en los servicios de botnet y/o JAR de botters.
+      strange-regex: "^(?i)(MC)(_)?(Storm|Down|Spam).*|(?i).*(FLEX)(_)?(BOT|OK).*|(Craft|Beach|Actor|Games|Tower|Elder|Mine|Nitro|Worms|Build|Plays|Hyper|Crazy|Super|_Itz|Slime)(Craft|Beach|Actor|Games|Tower|Elder|Mine|Nitro|Worms|Build|Plays|Hyper|Crazy|Super|_Itz|Slime)(11|50|69|99|88|HD|LP|XD|YT)"
+
+    captcha:
+      # Define bajo qué condiciones se debe solicitar el captcha.
+      #
+      # - Modos validos:
+      #  |=> 0: solicitud sólo durante los ataques.
+      #  |=> 1: siempre solicitado.
+      #  |=> 2: solicitud durante los ataques o si se recomienda.
+      #
+      mode: 2
+
+      map:
+        # Define si se debe usar el captcha del mapa si está disponible.
+        # - En ciertos escenarios (por ejemplo, con muchos bots por segundo)
+        #   el captcha puede no estar disponible.
+        # - Si esta opción está deshabilitada, se usará el captcha online en su lugar.
+        enable-if-available: true
+
+        # Establece el tiempo de espera (en segundos) para completar el captcha.
+        timeout: 15
+
+        # Establece el número máximo de conexiones que se pueden escanear al mismo tiempo.
+        # - El captcha en línea se utilizará si se alcanza este límite.
+        max-sessions: 2000
+
+        # El captcha en línea se usará si se alcanza este límite.
+        # Establece si se debe usar el captcha en línea si falla la verificación del captcha del mapa
+        # - Esta función es útil para evitar que los bots ocupen ranuras de sesión de captcha.
+        # Si esta opción está deshabilitada, las conexiones fallidas anteriormente continuarán para agregar a la lista de sesiones.
+        #
+        #  (!) La verificación en línea solo se utilizará durante los ataques.
+        #
+        cloud-after-fail: true
+
+
+# ░█████╗░██╗░░░██╗░█████╗░███╗░░██╗███████╗░█████╗░██████╗░░█████╗░
+# ██╔══██╗██║░░░██║██╔══██╗████╗░██║╚════██║██╔══██╗██╔══██╗██╔══██╗
+# ███████║╚██╗░██╔╝███████║██╔██╗██║░░███╔═╝███████║██║░░██║██║░░██║
+# ██╔══██║░╚████╔╝░██╔══██║██║╚████║██╔══╝░░██╔══██║██║░░██║██║░░██║
+# ██║░░██║░░╚██╔╝░░██║░░██║██║░╚███║███████╗██║░░██║██████╔╝╚█████╔╝
+# ╚═╝░░╚═╝░░░╚═╝░░░╚═╝░░╚═╝╚═╝░░╚══╝╚══════╝╚═╝░░╚═╝╚═════╝░░╚════╝░
+
+# - Configuración Avanzada.
+advanced:
+  # Establece la cantidad de actualizaciones de la barra de acción (por segundo).
+  # - Valores válidos: todos los máximos comunes divisores del número 20 (1, 2, 4, 5, 10 y 20).
+  update-ticks: 10
+
+  address:
+    # Define si las ips locales deben ignorar las verificaciones antibot.
+    # - Las IPs locales, como 127.0.0.1 serán permitidas.
+    local-unrestricted: true
+
+    # Define ips que omitirán cualquier control antibot.
+    # - Opción recomendada si utiliza algún servicio remoto que falla con nAntiBot instalado.
+    #
+    #   (!) En algunos paneles, la información sobre los jugadores en línea se proporciona mediante un ping.
+    #   En este caso, se recomienda agregar la IP de su máquina en caso de que la función no funcione correctamente.
+    #   Sin embargo, esto puede abrir brechas para ataques desde la misma IP configurada (por ejemplo, en hosts compartidos).
+    #
+    unrestricted: []
+
+  adapters:
+    handshake-data-passthrough:
+      # Define si los datos se transmitirán mediante protocolo de enlace.
+      enabled: false
+
+      # Establece el límite (en bytes) de los datos transmitidos a través del protocolo de enlace.
+      # - El valor "-1" desactiva el límite de bytes.
+      limit: 400
+
+    haproxy:
+      # Define si se está utilizando HAProxy.
+      # - Este recurso se utiliza internamente para identificar
+      #   la IP real del cliente TCP.
+      #
+      # => No olvide configurar correctamente las direcciones IP de origen en el campo `de confianza` a continuación.
+      enabled: false
+
+      # Define si las direcciones IP que no son de confianza pueden acceder al servidor.
+      # - Se recomienda habilitar esta opción para evitar la IP real de su servidor de ser descubierto.
+      deny-untrusted: true
+
+      # Define la lista de direcciones IP de confianza.
+      # - Solo se procesarán los mensajes HAProxy enviados por estas IP.
+      #
+      # - Valores válidos:
+      #  * IPs (e.g. 192.0.2.146)
+      #  * CIDR (e.g. 172.16.0.0/24)
+      #  * URLs (e.g. https://www.cloudflare.com/ips-v4)
+      #
+      trusted:
+        #- "https://api.neoprotect.net/v2/public/servers/txt" # NeoProtect
+        #- "https://tcpshield.com/v4/" # TCPShield
+
+    geyser:
+      # Define si se está utilizando Geyser independientemente.
+      # - Solo habilite esta función si está utilizando
+      #   la versión independiente de Geyser.
+      #
+      # => No olvide configurar correctamente las direcciones IP de origen en el campo `de confianza` a continuación.
+      enabled: false
+
+      # Define la lista de direcciones IP de confianza.
+      # - Solo se procesarán las conexiones de Geyser desde estas direcciones IP.
+      #
+      # - Valores válidos:
+      #  * IPs (e.g. 192.0.2.146)
+      #  * CIDR (e.g. 172.16.0.0/24)
+      #  * URLs (e.g. https://www.cloudflare.com/ips-v4)
+      #
+      trusted:
+        - "10.0.0.0/8"
+        - "172.16.0.0/12"
+        - "192.168.0.0/16"
