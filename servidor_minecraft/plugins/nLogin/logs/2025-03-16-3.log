@@ -1,0 +1,23 @@
+[2025/03/16 02:18:40]: §9          __             _       
+[2025/03/16 02:18:40]: §9  _ __   / /  ___   __ _(_)_ __  
+[2025/03/16 02:18:40]: §9 | '_ \ / /  / _ \ / _` | | '_ \ 
+[2025/03/16 02:18:40]: §9 | | | / /__| (_) | (_| | | | | |
+[2025/03/16 02:18:40]: §9 |_| |_\____/\___/ \__, |_|_| |_|
+[2025/03/16 02:18:41]: §9                  |___/            
+[2025/03/16 02:18:41]: §9 By: www.nickuc.com - V 10.4.21
+[2025/03/16 02:18:41]: §9 
+[2025/03/16 02:18:41]: §3[nLogin] [DEBUG] All settings were loaded in 108 ms.
+[2025/03/16 02:18:41]: §3[nLogin] [DEBUG] Loading the messages_es.yml message file...
+[2025/03/16 02:18:41]: §3[nLogin] [DEBUG] All plugin messages were loaded in 74 ms (languageByClient=false).
+[2025/03/16 02:18:41]: §3[nLogin] [DEBUG] All proxy settings were loaded in 2 ms.
+[2025/03/16 02:18:41]: §3[nLogin] [DEBUG] Loading database...
+[2025/03/16 02:18:41]: §3[nLogin] [DEBUG] Starting logger filter...
+[2025/03/16 02:19:35]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'elian', `unique_id` = 3e97d394156231e4917259b2e573112d,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$sDD6e9/d6KItD1dMyg2tp.3y0PbraHB2ST6QYJ5lyl8mZKsleC5n2', `last_ip` = '127.86.242.136', `creation_date` = 2025-03-15 02:34:12.427, `last_seen` = 2025-03-16 02:19:35.946, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"es","key":"language"}],"version":0}' WHERE `ai` = 2" (applied to [last_ip, last_seen, settings] columns)
+[2025/03/16 02:19:36]: [nLogin] The user elian has successfully logged in.
+[2025/03/16 02:19:41]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'dx_monilo_', `unique_id` = c1ac826b37863b6da92b8400553dd72d,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$cnVH/3q0gZ.rv73pMADLmOZLjom8Bvq6gmkKYx0zCYwlRdMhWqDQq', `last_ip` = '127.181.188.8', `creation_date` = 2025-03-16 01:30:47.943, `last_seen` = 2025-03-16 02:19:41.844, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"es","key":"language"}],"version":0}' WHERE `ai` = 3" (applied to [last_ip, last_seen, settings] columns)
+[2025/03/16 02:19:41]: [nLogin] The user dx_monilo_ has successfully logged in.
+[2025/03/16 02:19:50]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = '1Kennethe', `unique_id` = 58ded296153e304a9f19127df9f5730f,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$ixE54pHDWDJ59v2dFXmP.ODGPt1XQ7A1eYMKxYrCULTZUjWvHKtFy', `last_ip` = '127.166.241.202', `creation_date` = 2025-03-16 01:33:26.687, `last_seen` = 2025-03-16 02:19:50.907, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"es","key":"language"}],"version":0}' WHERE `ai` = 4" (applied to [last_ip, last_seen, settings] columns)
+[2025/03/16 02:19:50]: [nLogin] The user 1Kennethe has successfully logged in.
+[2025/03/16 02:22:38]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'dx_monilo_', `unique_id` = c1ac826b37863b6da92b8400553dd72d,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$cnVH/3q0gZ.rv73pMADLmOZLjom8Bvq6gmkKYx0zCYwlRdMhWqDQq', `last_ip` = '127.181.188.8', `creation_date` = 2025-03-16 01:30:47.943, `last_seen` = 2025-03-16 02:22:38.722, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"es","key":"language"}],"version":0}' WHERE `ai` = 3" (applied to [last_seen, settings] columns)
+[2025/03/16 02:23:55]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'dx_monilo_', `unique_id` = c1ac826b37863b6da92b8400553dd72d,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$cnVH/3q0gZ.rv73pMADLmOZLjom8Bvq6gmkKYx0zCYwlRdMhWqDQq', `last_ip` = '127.181.188.8', `creation_date` = 2025-03-16 01:30:47.943, `last_seen` = 2025-03-16 02:23:55.043, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"es","key":"language"}],"version":0}' WHERE `ai` = 3" (applied to [last_ip, last_seen, settings] columns)
+[2025/03/16 02:23:55]: [nLogin] The user dx_monilo_ has successfully logged in.

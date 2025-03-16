@@ -1,0 +1,4 @@
+[16/03/2025] 01:29:44 Se ha activado el plugin.
+[16/03/2025] 02:08:37 Se ha activado el plugin.
+[16/03/2025] 02:12:21 Se ha recargado el plugin
+[16/03/2025] 02:19:07 Se ha activado el plugin.

@@ -1,0 +1,95 @@
+# DOCUMENTATION: https://docs.artillex-studios.com/axrewards.html
+# ITEM BUILDER: https://docs.artillex-studios.com/item-builder.html
+
+# ----- SETTINGS -----
+
+title: "&0Rewards"
+# a gui can only have 1-6 rows
+rows: 3
+# valid values: CHEST, WORKBENCH, HOPPER, DISPENSER, BREWING
+type: CHEST
+
+# this probably won't update when the plugin is reloaded, so try restarting the server
+# you can try to update it manually with '/axrewards reload commands' but it can be unstable
+open-commands:
+  - "reward"
+  - "rewards"
+
+# ----- ITEMS -----
+
+close:
+  slot: 22
+  material: "BARRIER"
+  name: "&#FFEE00&lᴄʟᴏsᴇ"
+  lore:
+    - " "
+    - "&#FFEE00&lClick &#DDDDDD» &#FFEEAAClose Gui"
+
+example:
+  slot: 11
+  # in seconds
+  # you can set it to -1 for it to never automatically refresh
+  cooldown: 86400
+  # you can create as many item/command rewards as you would like!
+  # these will be run/given when a player claims this reward
+  claim-commands:
+    - "say %player% has claimed their daily reward!"
+  claim-items:
+    - material: IRON_INGOT
+      amount: 1
+  claimable:
+    material: "CHEST_MINECART"
+    name: "&#FFEE00&lᴇxᴀᴍᴘʟᴇ ʀᴇᴡᴀʀᴅ"
+    lore:
+      - " "
+      - "&#FFEE00Rewards:"
+      - " &7- &f1x Iron Ingot"
+      - " "
+      - "&#FFEE00&lClick &#DDDDDD» &#FFEEAAClaim"
+  unclaimable:
+    material: "MINECART"
+    name: "&#FFEE00&lᴇxᴀᴍᴘʟᴇ ʀᴇᴡᴀʀᴅ"
+    lore:
+      - " "
+      - "&#FFEE00Rewards:"
+      - " &7- &f1x Iron Ingot"
+      - " "
+      - "&#FFEE00&lCooldown &#DDDDDD» &#FFEEAA%time%"
+
+permission-example:
+  slot: 15
+  cooldown: 86400
+  # you can set the permission to any value, it does not have to start with axrewards
+  permission: "axrewards.permissionreward"
+  claim-commands:
+    - "say %player% has claimed their premium daily reward!"
+  claim-items:
+    - material: DIAMOND
+      amount: 1
+  claimable:
+    material: "CHEST_MINECART"
+    name: "&#FFEE00&lᴇxᴀᴍᴘʟᴇ ᴘᴇʀᴍɪssɪᴏɴ ʀᴇᴡᴀʀᴅ"
+    lore:
+      - " "
+      - "&#FFEE00Rewards:"
+      - " &7- &f1x Diamond"
+      - " "
+      - "&#FFEE00&lClick &#DDDDDD» &#FFEEAAClaim"
+  unclaimable:
+    material: "MINECART"
+    name: "&#FFEE00&lᴇxᴀᴍᴘʟᴇ ᴘᴇʀᴍɪssɪᴏɴ ʀᴇᴡᴀʀᴅ"
+    lore:
+      - " "
+      - "&#FFEE00Rewards:"
+      - " &7- &f1x Diamond"
+      - " "
+      - "&#FFEE00&lCooldown &#DDDDDD» &#FFEEAA%time%"
+  no-permission:
+    material: "BARRIER"
+    name: "&#FFEE00&lᴇxᴀᴍᴘʟᴇ ᴘᴇʀᴍɪssɪᴏɴ ʀᴇᴡᴀʀᴅ"
+    lore:
+      - " "
+      - "&#FFEE00Rewards:"
+      - " &7- &f1x Diamond"
+      - " "
+      - "&#FFEE00&lRequired permission &#DDDDDD» &#FFEEAA%permission%"

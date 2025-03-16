@@ -1,0 +1,38 @@
+[2025/03/15 00:45:30]: §9          __             _       
+[2025/03/15 00:45:30]: §9  _ __   / /  ___   __ _(_)_ __  
+[2025/03/15 00:45:30]: §9 | '_ \ / /  / _ \ / _` | | '_ \ 
+[2025/03/15 00:45:30]: §9 | | | / /__| (_) | (_| | | | | |
+[2025/03/15 00:45:30]: §9 |_| |_\____/\___/ \__, |_|_| |_|
+[2025/03/15 00:45:30]: §9                  |___/            
+[2025/03/15 00:45:30]: §9 By: www.nickuc.com - V 10.4.21
+[2025/03/15 00:45:30]: §9 
+[2025/03/15 00:45:30]: §3[nLogin] [DEBUG] All settings were loaded in 56 ms.
+[2025/03/15 00:45:30]: §3[nLogin] [DEBUG] Loading the messages_es.yml message file...
+[2025/03/15 00:45:30]: §3[nLogin] [DEBUG] All plugin messages were loaded in 31 ms (languageByClient=false).
+[2025/03/15 00:45:30]: §3[nLogin] [DEBUG] All proxy settings were loaded in 1 ms.
+[2025/03/15 00:45:30]: §3[nLogin] [DEBUG] Loading database...
+[2025/03/15 00:45:31]: §3[nLogin] [DEBUG] Starting logger filter...
+[2025/03/15 00:45:47]: 
+[2025/03/15 00:45:47]:  §bThank you so much for choosing nLogin! §4<3
+[2025/03/15 00:45:47]: 
+[2025/03/15 00:45:47]:  §4For your safety, please read the message below:
+[2025/03/15 00:45:47]:   §cNever download nLogin from unknown sources.
+[2025/03/15 00:45:47]:   §cA modified version may contain malicious software.
+[2025/03/15 00:45:47]: 
+[2025/03/15 00:45:47]:  §3Trusted sources:
+[2025/03/15 00:45:47]:   §bwww.nickuc.com
+[2025/03/15 00:45:47]:   §bwww.github.com/nickuc
+[2025/03/15 00:45:47]:   §bOpeNLogin installer (from Spigot or GitHub)
+[2025/03/15 00:45:47]: 
+[2025/03/15 00:45:47]:  §3Official support channels:
+[2025/03/15 00:45:47]:   §bDiscord group: §fwww.nickuc.com/discord
+[2025/03/15 00:45:47]:   §bDocumentation: §fdocs.nickuc.com/nlogin/
+[2025/03/15 00:45:47]:   §bEmail: §fsupport@nickuc.com
+[2025/03/15 00:45:47]:   §bYouTube: §fyoutube.com/nickuc
+[2025/03/15 00:45:47]: 
+[2025/03/15 00:45:47]:  §eTo remove this warning, log in with "nlogin.admin" permission on the server
+[2025/03/15 00:45:47]:  §eand click the "Setup plugin" button to configure your plugin.
+[2025/03/15 00:45:47]: 
+[2025/03/15 00:46:20]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'THEMONILO', `unique_id` = 8ce330b9f7463d8f91749156ece89f7c,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$m3m7G6PbWRkHZz5VJwj4qeoIo30kzN0d5tjE3ifmfYVIbYaJUacFO', `last_ip` = '127.181.188.8', `creation_date` = 2025-03-15 00:43:37.495, `last_seen` = 2025-03-15 00:46:20.785, `email` = null, `discord` = null, `settings` = null WHERE `ai` = 1" (applied to [last_ip, last_seen, settings] columns)
+[2025/03/15 00:46:20]: [nLogin] The user THEMONILO has successfully logged in.
+[2025/03/15 01:19:27]: [nLogin] Successful plugin core shutdown (took 0.00s)

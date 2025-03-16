@@ -1,34 +1,494 @@
-[21:40:36] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[21:40:36] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
-[21:40:38] [ServerMain/INFO]: Loaded 7 recipes
-[21:40:39] [Server thread/INFO]: Starting minecraft server version 1.20
-[21:40:39] [Server thread/INFO]: Loading properties
-[21:40:39] [Server thread/INFO]: This server is running Paper version git-Paper-17 (MC: 1.20) (Implementing API version 1.20-R0.1-SNAPSHOT) (Git: c287e92)
-[21:40:39] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[21:40:39] [Server thread/INFO]: Using 4 threads for Netty based IO
-[21:40:39] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[02:18:15] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[02:18:18] [ServerMain/INFO]: Loaded 7 recipes
+[02:18:19] [Server thread/INFO]: Starting minecraft server version 1.20
+[02:18:19] [Server thread/INFO]: Loading properties
+[02:18:19] [Server thread/INFO]: This server is running Paper version git-Paper-17 (MC: 1.20) (Implementing API version 1.20-R0.1-SNAPSHOT) (Git: c287e92)
+[02:18:19] [Server thread/INFO]: Using 4 threads for Netty based IO
+[02:18:19] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[02:18:19] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[21:40:39] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[21:40:39] [Server thread/INFO]: Default game type: SURVIVAL
-[21:40:39] [Server thread/INFO]: Generating keypair
-[21:40:39] [Server thread/INFO]: Starting Minecraft server on *:25565
-[21:40:39] [Server thread/INFO]: Using epoll channel type
-[21:40:39] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[21:40:39] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[21:40:39] [Server thread/WARN]: **** FAILED TO BIND TO PORT!
-[21:40:39] [Server thread/WARN]: The exception was: io.netty.channel.unix.Errors$NativeIoException: bind(..) failed: Address already in use
-[21:40:39] [Server thread/WARN]: Perhaps a server is already running on that port?
-[21:40:39] [Server thread/ERROR]: Encountered an unexpected exception
-java.lang.IllegalStateException: Failed to initialize server
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1102) ~[paper-1.20.jar:git-Paper-17]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318) ~[paper-1.20.jar:git-Paper-17]
-	at java.lang.Thread.run(Thread.java:840) ~[?:?]
-[21:40:39] [Server thread/ERROR]: This crash report has been saved to: /workspaces/server-MC/servidor_minecraft/./crash-reports/crash-2025-03-15_21.40.39-server.txt
-[21:40:39] [Server thread/INFO]: Stopping server
-[21:40:39] [Server thread/INFO]: Saving players
-[21:40:39] [Server thread/INFO]: Saving worlds
-[21:40:39] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[21:40:39] [Server thread/INFO]: Flushing Chunk IO
-[21:40:39] [Server thread/INFO]: Closing Thread Pool
-[21:40:39] [Server thread/INFO]: Closing Server
+[02:18:19] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[02:18:20] [Server thread/INFO]: Default game type: SURVIVAL
+[02:18:20] [Server thread/INFO]: Generating keypair
+[02:18:20] [Server thread/INFO]: Starting Minecraft server on *:25565
+[02:18:20] [Server thread/INFO]: Using epoll channel type
+[02:18:20] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[02:18:20] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[02:18:21] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loading 5 libraries... please wait
+[02:18:21] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/net/kyori/adventure-api/4.16.0/adventure-api-4.16.0.jar
+[02:18:21] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/net/kyori/adventure-key/4.16.0/adventure-key-4.16.0.jar
+[02:18:21] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
+[02:18:21] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
+[02:18:21] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/org/jetbrains/annotations/24.1.0/annotations-24.1.0.jar
+[02:18:21] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/net/kyori/adventure-platform-bukkit/4.3.2/adventure-platform-bukkit-4.3.2.jar
+[02:18:21] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/net/kyori/adventure-platform-api/4.3.2/adventure-platform-api-4.3.2.jar
+[02:18:21] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-bungeecord/4.3.2/adventure-text-serializer-bungeecord-4.3.2.jar
+[02:18:21] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/net/kyori/adventure-nbt/4.13.1/adventure-nbt-4.13.1.jar
+[02:18:21] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson-legacy-impl/4.13.1/adventure-text-serializer-gson-legacy-impl-4.13.1.jar
+[02:18:21] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/net/kyori/adventure-platform-facet/4.3.2/adventure-platform-facet-4.3.2.jar
+[02:18:21] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/net/kyori/adventure-platform-viaversion/4.3.2/adventure-platform-viaversion-4.3.2.jar
+[02:18:21] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/net/kyori/adventure-text-minimessage/4.16.0/adventure-text-minimessage-4.16.0.jar
+[02:18:21] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson/4.16.0/adventure-text-serializer-gson-4.16.0.jar
+[02:18:21] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-json/4.16.0/adventure-text-serializer-json-4.16.0.jar
+[02:18:21] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/net/kyori/option/1.0.0/option-1.0.0.jar
+[02:18:21] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar
+[02:18:21] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-legacy/4.16.0/adventure-text-serializer-legacy-4.16.0.jar
+[02:18:21] [Server thread/INFO]: [SpigotLibraryLoader] [NexEngine] Loading 2 libraries... please wait
+[02:18:21] [Server thread/INFO]: [SpigotLibraryLoader] [NexEngine] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/com/zaxxer/HikariCP/5.0.1/HikariCP-5.0.1.jar
+[02:18:21] [Server thread/INFO]: [SpigotLibraryLoader] [NexEngine] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/it/unimi/dsi/fastutil/8.5.11/fastutil-8.5.11.jar
+[02:18:22] [Server thread/INFO]: [STDOUT] [O7XRXC0uEnnuuzTz]  Downloaded from https://directleaks.net 
+[02:18:23] [Server thread/INFO]: [Minepacks] PCGF-PluginLib not installed. Switching to standalone mode!
+[02:18:23] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loading 3 libraries... please wait
+[02:18:23] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/net/kyori/adventure-api/4.14.0/adventure-api-4.14.0.jar
+[02:18:23] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/net/kyori/adventure-key/4.14.0/adventure-key-4.14.0.jar
+[02:18:23] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
+[02:18:23] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
+[02:18:23] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/org/jetbrains/annotations/24.0.1/annotations-24.0.1.jar
+[02:18:23] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson/4.14.0/adventure-text-serializer-gson-4.14.0.jar
+[02:18:23] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-json/4.14.0/adventure-text-serializer-json-4.14.0.jar
+[02:18:23] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar
+[02:18:23] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-bungeecord/4.3.0/adventure-text-serializer-bungeecord-4.3.0.jar
+[02:18:23] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/server-MC/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-legacy/4.13.0/adventure-text-serializer-legacy-4.13.0.jar
+[02:18:24] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.2.1
+[02:18:24] [Server thread/INFO]: [ViaVersion] ViaVersion 5.2.1 is now loaded. Registering protocol transformers and injecting...
+[02:18:24] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[02:18:25] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[02:18:25] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[02:18:25] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[02:18:25] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.3.0
+[02:18:26] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.6
+[02:18:26] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.2.1
+[02:18:26] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[02:18:26] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[02:18:26] [Server thread/INFO]: [floodgate] Took 679ms to boot Floodgate
+[02:18:26] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.2.15+6463-5ca4dff
+[02:18:27] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@5c13dbbf]
+[02:18:27] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.156
+[02:18:28] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.6.0
+[02:18:28] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.9+5934e49
+[02:18:28] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+189-eab2201
+[02:18:28] [Server thread/INFO]: [ItemEdit] Loading server plugin ItemEdit v3.7.0
+[02:18:28] [Server thread/INFO]: [DecentHolograms] Loading server plugin DecentHolograms v2.8.15
+[02:18:28] [Server thread/INFO]: [NexEngine] Loading server plugin NexEngine v2.2.12
+[02:18:28] [Server thread/INFO]: [ajLeaderboards] Loading server plugin ajLeaderboards v2.9.0
+[02:18:28] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for gson
+[02:18:28] [Server thread/INFO]: [ajLeaderboards] Checksum matched for gson
+[02:18:28] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for jar-relocator
+[02:18:28] [Server thread/INFO]: [ajLeaderboards] Checksum matched for jar-relocator
+[02:18:28] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for asm
+[02:18:28] [Server thread/INFO]: [ajLeaderboards] Checksum matched for asm
+[02:18:28] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for asm-commons
+[02:18:28] [Server thread/INFO]: [ajLeaderboards] Checksum matched for asm-commons
+[02:18:28] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for gson
+[02:18:28] [Server thread/INFO]: [ajLeaderboards] Checksum matched for gson
+[02:18:28] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for HikariCP
+[02:18:28] [Server thread/INFO]: [ajLeaderboards] Checksum matched for HikariCP
+[02:18:28] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for slf4j-api
+[02:18:28] [Server thread/INFO]: [ajLeaderboards] Checksum matched for slf4j-api
+[02:18:28] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for h2
+[02:18:28] [Server thread/INFO]: [ajLeaderboards] Checksum matched for h2
+[02:18:28] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for okhttp
+[02:18:28] [Server thread/INFO]: [ajLeaderboards] Checksum matched for okhttp
+[02:18:28] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for okio
+[02:18:28] [Server thread/INFO]: [ajLeaderboards] Checksum matched for okio
+[02:18:28] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for okio-jvm
+[02:18:28] [Server thread/INFO]: [ajLeaderboards] Checksum matched for okio-jvm
+[02:18:28] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for kotlin-stdlib-jdk8
+[02:18:28] [Server thread/INFO]: [ajLeaderboards] Checksum matched for kotlin-stdlib-jdk8
+[02:18:28] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for kotlin-stdlib
+[02:18:28] [Server thread/INFO]: [ajLeaderboards] Checksum matched for kotlin-stdlib
+[02:18:28] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for kotlin-stdlib-common
+[02:18:28] [Server thread/INFO]: [ajLeaderboards] Checksum matched for kotlin-stdlib-common
+[02:18:28] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for annotations
+[02:18:28] [Server thread/INFO]: [ajLeaderboards] Checksum matched for annotations
+[02:18:28] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for kotlin-stdlib-jdk7
+[02:18:28] [Server thread/INFO]: [ajLeaderboards] Checksum matched for kotlin-stdlib-jdk7
+[02:18:28] [Server thread/INFO]: [bloodmoon-advanced] Loading server plugin bloodmoon-advanced v4.5.7
+[02:18:28] [Server thread/INFO]: [RealisticSeasons] Loading server plugin RealisticSeasons v11.6.7
+[02:18:28] [Server thread/INFO]: [Permadeath] Loading server plugin Permadeath v1.3
+[02:18:28] [Server thread/INFO]: [Minepacks] Loading server plugin Minepacks v2.4.31.6-T20250103114036
+[02:18:28] [Server thread/INFO]: [AxRewards] Loading server plugin AxRewards v3.3.0
+[02:18:28] [Server thread/INFO]: [AxRewards] Loading library commons-math3
+[02:18:28] [Server thread/INFO]: [AxRewards] Loading library caffeine
+[02:18:28] [Server thread/INFO]: [AxRewards] Loading library snakeyaml
+[02:18:28] [Server thread/INFO]: [AxRewards] Loading library mysql-connector-j
+[02:18:28] [Server thread/INFO]: [AxRewards] Loading library sqlite-jdbc
+[02:18:28] [Server thread/INFO]: [AxRewards] Loading library h2
+[02:18:28] [Server thread/INFO]: [AxRewards] Loading library postgresql
+[02:18:28] [Server thread/INFO]: [AxRewards] Loading library HikariCP
+[02:18:28] [Server thread/INFO]: [AxRewards] Loading library commons-dbutils
+[02:18:28] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.6.1-SNAPSHOT
+[02:18:29] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[02:18:29] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[02:18:29] [Server thread/INFO]: [ModelEngine] Loading server plugin ModelEngine vR4.0.8
+[02:18:29] [Server thread/INFO]: [MeteoritesPro] Loading server plugin MeteoritesPro v1.5.3
+[02:18:29] [Server thread/INFO]: [ChatControl] Loading server plugin ChatControl v5.9.1
+[02:18:29] [Server thread/INFO]: [ItemTag] Loading server plugin ItemTag v3.7.1
+[02:18:29] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.0.7
+[02:18:29] [Server thread/INFO]: [TerraformGenerator] Loading server plugin TerraformGenerator v18.1.2
+[02:18:29] [Server thread/INFO]: [YamipaPlugin] Loading server plugin YamipaPlugin v1.3.2
+[02:18:29] [Server thread/INFO]: [nLogin] Loading server plugin nLogin v10.4.21
+[02:18:30] [Server thread/INFO]: [EnchantsSquared] Loading server plugin EnchantsSquared v2.5.16
+[02:18:30] [Server thread/INFO]: [ExcellentCrates] Loading server plugin ExcellentCrates v5.0.0
+[02:18:30] [Server thread/INFO]: [SimpleTpa] Loading server plugin SimpleTpa v7.6
+[02:18:30] [Server thread/INFO]: [nAntiBot] Loading server plugin nAntiBot v6.1.28
+[02:18:30] [Server thread/INFO]: [Graves] Loading server plugin Graves v4.9
+[02:18:31] [Server thread/INFO]: [Graves] Integration: Hooked into WorldGuard 7.0.9+5934e49.
+[02:18:31] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.21.0-dev+189-eab2201
+[02:18:31] [Server thread/INFO]: [LevelledMobs] Loading server plugin LevelledMobs v3.14.0 b815
+[02:18:31] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[02:18:31] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.3.0
+[02:18:31] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.15+6463-5ca4dff
+[02:18:31] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[02:18:31] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[02:18:31] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R1.PaperweightAdapter as the Bukkit adapter
+[02:18:33] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.156
+[02:18:34] [Server thread/INFO]:         __    
+[02:18:34] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.156
+[02:18:34] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[02:18:34] [Server thread/INFO]: 
+[02:18:34] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[02:18:35] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[02:18:36] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[02:18:36] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[02:18:37] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 3329ms)
+[02:18:37] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.6.0
+[02:18:37] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
+[02:18:38] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.20.0.
+[02:18:38] [Server thread/INFO]: [SkinsRestorer] Floodgate skin listener registered
+[02:18:39] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[02:18:39] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: skinsrestorer [15.6.0]
+[02:18:39] [Server thread/INFO]: [SkinsRestorer] PlaceholderAPI expansion registered!
+[02:18:39] [Server thread/WARN]: [SkinsRestorer] Please update your Java runtime to at least Java 21 (your version is 17).
+[02:18:39] [Server thread/WARN]: [SkinsRestorer] At some point in the future, SkinsRestorer will no longer be compatible with this version of Java.
+[02:18:39] [Server thread/INFO]: [NexEngine] Enabling NexEngine v2.2.12
+[02:18:39] [Server thread/INFO]: [NexEngine] Seems like we have Paper based fork here...
+[02:18:39] [Server thread/WARN]: [NexEngine] ==================================
+[02:18:39] [Server thread/WARN]: [NexEngine] WARNING: You're running an outdated/deprecated server version (1.20.1)!
+[02:18:39] [Server thread/WARN]: [NexEngine] Support for this version will be dropped soon.
+[02:18:39] [Server thread/WARN]: [NexEngine] Please, upgrade your server to at least 1.20.2.
+[02:18:39] [Server thread/WARN]: [NexEngine] ==================================
+[02:18:39] [Server thread/INFO]: [NexEngine] Plugin loaded in 122 ms!
+[02:18:39] [Server thread/INFO]: [Permadeath] Enabling Permadeath v1.3
+[02:18:39] [Server thread/INFO]: [ModelEngine] Enabling ModelEngine vR4.0.8
+[02:18:39] [Server thread/WARN]: [ModelEngine] [S] Unable to read the model ID cache file. If the file is missing, ignore this warning.
+[02:18:39] [Server thread/INFO]: [TerraformGenerator] Enabling TerraformGenerator v18.1.2
+[02:18:39] [Server thread/INFO]: [TerraformGenerator] Custom Logger Initialized
+[02:18:39] [Server thread/INFO]: [TerraformGenerator] bStats Metrics enabled.
+[02:18:40] [Server thread/INFO]: [TerraformGenerator] Detected version: 1.20, number: 20.0
+[02:18:40] [Server thread/INFO]: [nLogin] Enabling nLogin v10.4.21
+[02:18:40] [Server thread/INFO]: [nLogin] Successful plugin core start (took 0.70s)
+[02:18:40] [Server thread/INFO]:           __             _       
+[02:18:40] [Server thread/INFO]:   _ __   / /  ___   __ _(_)_ __  
+[02:18:40] [Server thread/INFO]:  | '_ \ / /  / _ \ / _` | | '_ \ 
+[02:18:40] [Server thread/INFO]:  | | | / /__| (_) | (_| | | | | |
+[02:18:40] [Server thread/INFO]:  |_| |_\____/\___/ \__, |_|_| |_|
+[02:18:41] [Server thread/INFO]:                   |___/            
+[02:18:41] [Server thread/INFO]:  By: www.nickuc.com - V 10.4.21
+[02:18:41] [Server thread/INFO]:  
+[02:18:41] [Server thread/INFO]: [nAntiBot] Enabling nAntiBot v6.1.28
+[02:18:42] [Server thread/INFO]: [nAntiBot] Successful plugin core start (took 0.54s)
+[02:18:42] [Server thread/INFO]:           _         _   _   ___       _   
+[02:18:42] [Server thread/INFO]:   _ __   /_\  _ __ | |_(_) / __\ ___ | |_ 
+[02:18:42] [Server thread/INFO]:  | '_ \ //_\\| '_ \| __| |/__\/// _ \| __|
+[02:18:42] [Server thread/INFO]:  | | | /  _  \ | | | |_| / \/  \ (_) | |_ 
+[02:18:42] [Server thread/INFO]:  |_| |_\_/ \_/_| |_|\__|_\_____/\___/ \__|
+[02:18:42] [Server thread/INFO]:                                          
+[02:18:42] [Server thread/INFO]:  By: www.nickuc.com - V 6.1.28 DEVELOPMENT
+[02:18:42] [Server thread/INFO]: 
+[02:18:43] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[02:18:43] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[02:18:43] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[02:18:43] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[02:18:43] [Server thread/INFO]: Preparing level "world"
+[02:18:44] [Server thread/INFO]: [TerraformGenerator] Detected world: world, commencing injection... 
+[02:18:44] [Server thread/INFO]: [TerraformGenerator] Injection success! Proceeding with generation.
+[02:18:44] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[02:18:45] [Server thread/INFO]: Time elapsed: 376 ms
+[02:18:45] [Server thread/INFO]: [TerraformGenerator] world loaded.
+[02:18:45] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[02:18:45] [Server thread/INFO]: Time elapsed: 235 ms
+[02:18:45] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[02:18:45] [Server thread/INFO]: Time elapsed: 178 ms
+[02:18:45] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.2.1
+[02:18:45] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20-1.20.1 (763)
+[02:18:45] [Server thread/WARN]: [ViaVersion] Please update your Java runtime to at least Java 21 (your version is 17.0.14).
+[02:18:45] [Server thread/WARN]: [ViaVersion] At some point in the future, ViaVersion will no longer be compatible with this version of Java.
+[02:18:45] [Server thread/INFO]: [ModelEngine] [S] Compatibility applied: ViaVersion
+[02:18:46] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
+[02:18:46] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[02:18:46] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.2.1
+[02:18:46] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[02:18:48] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.9+5934e49
+[02:18:48] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[02:18:48] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[02:18:48] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[02:18:48] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[02:18:48] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[02:18:48] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[02:18:48] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[02:18:48] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[02:18:48] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[02:18:48] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[02:18:48] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[02:18:48] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[02:18:48] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[02:18:48] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[02:18:48] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[02:18:48] [Server thread/INFO]: [WorldGuard] Loading region data...
+[02:18:49] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+189-eab2201
+[02:18:49] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[02:18:49] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[02:18:49] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[02:18:50] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[02:18:50] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[02:18:50] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[02:18:50] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[02:18:50] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[02:18:50] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[02:18:50] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[02:18:50] [Server thread/INFO]: [Essentials] Selected Legacy InventoryView Abstract Class ABI Provider as the provider for InventoryViewProvider
+[02:18:50] [Server thread/INFO]: [Essentials] Selected 1.9-1.20.4 Potion Meta Provider as the provider for PotionMetaProvider
+[02:18:50] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[02:18:50] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[02:18:50] [Server thread/INFO]: [Essentials] Selected Reflection Sync Commands Provider as the provider for SyncCommandsProvider
+[02:18:50] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[02:18:50] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[02:18:50] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[02:18:50] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[02:18:50] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[02:18:50] [Server thread/INFO]: [Essentials] Selected Legacy Damage Event Provider as the provider for DamageEventProvider
+[02:18:50] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+[02:18:50] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[02:18:50] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[02:18:50] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[02:18:50] [Server thread/INFO]: [Essentials] Loaded 43465 items from items.json.
+[02:18:50] [Server thread/INFO]: [Essentials] Using locale en
+[02:18:50] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[02:18:51] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[02:18:51] [Server thread/WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
+[02:18:51] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
+[02:18:51] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[02:18:51] [Server thread/INFO]: [ItemEdit] Enabling ItemEdit v3.7.0
+[02:18:51] [Server thread/INFO]: [ItemEdit] Hooking into MiniMessageAPI see https://webui.advntr.dev/
+[02:18:51] [Server thread/INFO]: [ItemEdit] Selected Storage Type: YAML
+[02:18:51] [Server thread/INFO]: [ItemEdit] Unable to hook into Vault
+[02:18:51] [Server thread/INFO]: [ItemEdit] Hooking into PlaceHolderAPI
+[02:18:51] [Server thread/INFO]: [ItemEdit] placeholders:
+[02:18:51] [Server thread/INFO]: [ItemEdit]   %itemedit_amount_<{itemid}>_[{slot}]_[{player}]%
+[02:18:51] [Server thread/INFO]: [ItemEdit]     shows how many itemid player has on slot
+[02:18:51] [Server thread/INFO]: [ItemEdit]     <{itemid}> for item id on serveritem
+[02:18:51] [Server thread/INFO]: [ItemEdit]     [{slot}] for the slot where the item should be counted, by default inventory
+[02:18:51] [Server thread/INFO]: [ItemEdit]       Values: inventory (include offhand), equip (include offhand), inventoryandequip (include offhand), hand, offhand, head, chest, legs, feet
+[02:18:51] [Server thread/INFO]: [ItemEdit]     [{player}] for the player, by default self
+[02:18:51] [Server thread/INFO]: [ItemEdit]     example: %itemedit_amount_{my_item_id}_{hand}%
+[02:18:51] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: itemedit [1.0]
+[02:18:51] [Server thread/INFO]: [ItemEdit] # Enabled (took 398 ms)
+[02:18:51] [Server thread/INFO]: [DecentHolograms] Enabling DecentHolograms v2.8.15
+[02:18:52] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: v1_20_R1! Trying to find NMS support
+[02:18:52] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_20_R1' loaded!
+[02:18:52] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'DecentHolograms' to create a bStats instance!
+[02:18:52] [Server thread/INFO]: [ajLeaderboards] Enabling ajLeaderboards v2.9.0
+[02:18:53] [Server thread/INFO]: [ajLeaderboards] Using H2 flatfile for board cache. (h2)
+[02:18:53] [Server thread/INFO]: [ajLeaderboards] Loaded 0 boards
+[02:18:53] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: ajlb [2.9.0]
+[02:18:53] [Server thread/INFO]: [ajLeaderboards] PAPI placeholders successfully registered!
+[02:18:53] [Server thread/INFO]: [ajLeaderboards] ajLeaderboards v2.9.0 by ajgeiss0702 enabled!
+[02:18:53] [Server thread/INFO]: [bloodmoon-advanced] Enabling bloodmoon-advanced v4.5.7
+[02:18:54] [Server thread/INFO]: [bloodmoon-advanced] plugin registered for user 419728 with nonce -896557144
+[02:18:54] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: bloodmoon-advanced [4.5.7]
+[02:18:54] [Server thread/INFO]: [RealisticSeasons] Enabling RealisticSeasons v11.6.7
+[02:18:54] [Server thread/INFO]: [RealisticSeasons] [STDOUT] [Spigotunlocked.com] - COSMO
+[02:18:54] [Server thread/WARN]: Nag author(s): '[]' of 'RealisticSeasons v11.6.7' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
+[02:18:54] [Server thread/INFO]: [Minepacks] Enabling Minepacks v2.4.31.6-T20250103114036
+[02:18:54] [Server thread/INFO]: [Minepacks] Starting Minepacks in standalone mode!
+[02:18:54] [Server thread/INFO]: [Minepacks] Config file successfully loaded.
+[02:18:54] [Server thread/INFO]: [Minepacks] Language file successfully loaded. Language: english  Author: GeorgH93
+[02:18:54] [Server thread/INFO]: [at.pcgamingfreaks.MinepacksStandalone.libs.com.zaxxer.hikari.HikariDataSource] Minepacks-Connection-Pool - Starting...
+[02:18:54] [Server thread/INFO]: [at.pcgamingfreaks.MinepacksStandalone.libs.com.zaxxer.hikari.HikariDataSource] Minepacks-Connection-Pool - Start completed.
+[02:18:55] [Server thread/INFO]: [Minepacks] Item name language file successfully loaded. Language: english  Author: GeorgH93
+[02:18:55] [Server thread/INFO]: [Minepacks] Loading item translations ...
+[02:18:55] [Server thread/INFO]: [Minepacks] Finished loading item translations for 828 items.
+[02:18:55] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: minepacks [2.4.31.6-T20250103114036]
+[02:18:55] [Server thread/INFO]: [Minepacks] PlaceholderAPI hook was successfully registered!
+[02:18:55] [Server thread/INFO]: [Minepacks]  Minepacks has been enabled!  :) 
+[02:18:55] [Server thread/INFO]: [AxRewards] Enabling AxRewards v3.3.0
+[02:18:56] [pool-57-thread-1/INFO]: [ajLeaderboards] You are up to date! (2.9.0)
+[02:18:57] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: axrewards [1.0.0]
+[02:18:57] [Server thread/INFO]: [AxRewards] Hooked into PlaceholderAPI!
+[02:18:58] [Server thread/INFO]: [AxRewards] Loaded plugin! Using H2 database to store data!
+[02:18:58] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.6.1-SNAPSHOT
+[02:18:59] [Server thread/INFO]: [MeteoritesPro] Enabling MeteoritesPro v1.5.3
+[02:18:59] [Server thread/INFO]:          __
+[02:18:59] [Server thread/INFO]:    |\/| |__)   MeteoritesPro v1.5.3
+[02:18:59] [Server thread/INFO]:    |  | |        by OliPulse
+[02:18:59] [Server thread/INFO]:  
+[02:18:59] [Server thread/INFO]: [ChatControl] Enabling ChatControl v5.9.1
+[02:18:59] [Server thread/INFO]: Hooked into: Essentials
+[02:18:59] [Server thread/INFO]: Hooked into: ProtocolLib (Packet Features)
+[02:18:59] [Server thread/INFO]: Hooked into: PlaceholderAPI
+[02:18:59] [Server thread/INFO]: Starting checker listener with NORMAL priority
+[02:18:59] [Server thread/INFO]: [ItemTag] Enabling ItemTag v3.7.1
+[02:18:59] [Server thread/INFO]: [ItemTag] Data using Spigot PersistentDataContainer
+[02:18:59] [Server thread/INFO]: [ItemTag] EquipmentChangeListener
+[02:18:59] [Server thread/INFO]: [ItemTag] Hooking into PlaceholderApi
+[02:18:59] [Server thread/INFO]: [ItemTag] Hooked into PlaceHolderAPI:
+[02:18:59] [Server thread/INFO]: [ItemTag] placeholders:
+[02:18:59] [Server thread/INFO]: [ItemTag]   %itemtag_cooldown_<timeunit>_[cooldownid]%
+[02:18:59] [Server thread/INFO]: [ItemTag]     shows how much cooldown has selected cooldownid for player
+[02:18:59] [Server thread/INFO]: [ItemTag]     <timeunit> may be h, s or ms
+[02:18:59] [Server thread/INFO]: [ItemTag]     [cooldownid] for cooldown type, by default default
+[02:18:59] [Server thread/INFO]: [ItemTag]     example: %itemtag_cooldown_s_anid%
+[02:18:59] [Server thread/INFO]: [ItemTag]   %itemtag_handcooldown_<timeunit>%
+[02:18:59] [Server thread/INFO]: [ItemTag]     shows how much cooldown has player on the item in his hand
+[02:18:59] [Server thread/INFO]: [ItemTag]     <timeunit> may be h, s or ms
+[02:18:59] [Server thread/INFO]: [ItemTag]     example: %itemtag_handcooldown_s%
+[02:18:59] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: itemtag [1.0]
+[02:18:59] [Server thread/INFO]: [ItemTag] # Enabled (took 59 ms)
+[02:18:59] [Server thread/INFO]: [TAB] Enabling TAB v5.0.7
+[02:18:59] [Server thread/INFO]: [TAB] Loaded NMS hook in 228ms
+[02:19:00] [Server thread/INFO]: [TAB] Enabled in 340ms
+[02:19:00] [Server thread/INFO]: [YamipaPlugin] Enabling YamipaPlugin v1.3.2
+[02:19:00] [Server thread/INFO]: [YamipaPlugin] Enabled image animation support
+[02:19:00] [Thread-17/WARN]: [YamipaPlugin] [FileSystemWatcher] Device does not support inotify, detection of file changes will be slower
+[02:19:00] [Server thread/INFO]: [YamipaPlugin] [ImageRenderer] No placed fake images configuration file found
+[02:19:00] [Server thread/INFO]: [EnchantsSquared] Enabling EnchantsSquared v2.5.16
+[02:19:00] [Server thread/INFO]: [ExcellentCrates] Enabling ExcellentCrates v5.0.0
+[02:19:00] [Server thread/INFO]: [ExcellentCrates] Powered by: NexEngine
+[02:19:00] [Server thread/WARN]: [ExcellentCrates] ==================================
+[02:19:00] [Server thread/WARN]: [ExcellentCrates] WARNING: You're running an outdated/deprecated server version (1.20.1)!
+[02:19:00] [Server thread/WARN]: [ExcellentCrates] Support for this version will be dropped soon.
+[02:19:00] [Server thread/WARN]: [ExcellentCrates] Please, upgrade your server to at least 1.20.2.
+[02:19:00] [Server thread/WARN]: [ExcellentCrates] ==================================
+[02:19:00] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: excellentcrates [5.0.0]
+[02:19:00] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+[02:19:00] [Server thread/INFO]: [com.zaxxer.hikari.pool.HikariPool] HikariPool-1 - Added connection org.sqlite.jdbc4.JDBC4Connection@68499d5e
+[02:19:00] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+[02:19:00] [Server thread/INFO]: [ExcellentCrates] Using Internal hologram handler.
+[02:19:00] [Server thread/INFO]: [ExcellentCrates] Registered currency: xp
+[02:19:00] [Server thread/INFO]: [ExcellentCrates] Loaded 3 crate keys.
+[02:19:00] [Server thread/INFO]: [ExcellentCrates] Loaded 4 rarities!
+[02:19:01] [Server thread/INFO]: [ExcellentCrates] Loaded 3 crates.
+[02:19:01] [Server thread/ERROR]: [ExcellentCrates] Invalid crate 'diamond' in 'default' menu!
+[02:19:01] [Server thread/INFO]: [ExcellentCrates] Loaded 1 crate menus.
+[02:19:01] [Server thread/INFO]: [ExcellentCrates] Plugin loaded in 552 ms!
+[02:19:01] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v7.6
+[02:19:01] [Server thread/INFO]: [SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9
+[02:19:01] [Server thread/INFO]: [SimpleTpa] Simple Tpa has been enabled on version 7.6
+[02:19:01] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
+[02:19:01] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: SimpleTpa [7.6]
+[02:19:01] [Server thread/INFO]: [Graves] Enabling Graves v4.9
+[02:19:01] [Server thread/INFO]: [Graves] Integration: Hooked into ProtocolLib 5.3.0.
+[02:19:01] [Server thread/INFO]: [Graves] Integration: Hooked into WorldEdit 7.2.15+6463-5ca4dff.
+[02:19:01] [Server thread/INFO]: [Graves] Integration: Hooked into WorldGuard 7.0.9+5934e49.
+[02:19:01] [Server thread/INFO]: [Graves] Integration: Hooked into MiniMessage.
+[02:19:01] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: graves [4.9]
+[02:19:01] [Server thread/INFO]: [Graves] Integration: Hooked into PlaceholderAPI 2.11.6.
+[02:19:01] [Server thread/INFO]: [Graves] Compatibility: Essentials Detected, make sure you don't have the essentials.keepinv or essentials.keepxp permissions.
+[02:19:02] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.21.0-dev+189-eab2201
+[02:19:02] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[02:19:02] [Server thread/INFO]: [LevelledMobs] Enabling LevelledMobs v3.14.0 b815
+[02:19:02] [Server thread/INFO]: LevelledMobs: Using NMS version v1_20_R1 for nametag support
+[02:19:02] [Server thread/INFO]: LevelledMobs: File Loader: Loading files...
+[02:19:02] [Server thread/INFO]: LevelledMobs: File Loader: Loading file 'rules.yml'...
+[02:19:02] [Server thread/INFO]: LevelledMobs: Current rules hash: 8d445cc2910fb4e7e0050f24ecf91d874655be6ac43f678d9968d7191bf19576
+[02:19:02] [Server thread/INFO]: LevelledMobs: File Loader: Loading file 'settings.yml'...
+[02:19:02] [Server thread/INFO]: LevelledMobs: File Loader: Loading file 'messages.yml'...
+[02:19:02] [Server thread/INFO]: LevelledMobs: Listeners: Registering event listeners...
+[02:19:02] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: LevelledMobs [3.14.0 b815]
+[02:19:02] [Server thread/INFO]: LevelledMobs: Commands: Registering commands...
+[02:19:02] [Server thread/INFO]: LevelledMobs: Running misc procedures
+[02:19:02] [Server thread/INFO]: LevelledMobs: Tasks: Starting async nametag auto update task...
+[02:19:02] [Server thread/INFO]: LevelledMobs: File Loader: Loading file 'customdrops.yml'...
+[02:19:02] [Server thread/INFO]: LevelledMobs: Start-up complete (took 221ms)
+[02:19:02] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[02:19:02] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[02:19:02] [Server thread/INFO]: [Geyser-Spigot] 
+[02:19:02] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.6.1-b785 (git-master-f27290a)
+[02:19:02] [Server thread/INFO]: [Geyser-Spigot] 
+[02:19:02] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[02:19:07] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
+[02:19:07] [Server thread/INFO]: [Geyser-Spigot] Done (4.514s)! Run /geyser help for help!
+[02:19:07] [Server thread/INFO]: Running delayed init tasks
+[02:19:07] [Server thread/INFO]: Permadeath ➤ No se ha encontrado una librería JDA, deberás instalar una en caso de querer utilizar un bot de Discord.
+[02:19:07] [Server thread/INFO]: Descarga aquí: https://www.spigotmc.org/resources/permadeath-%E2%98%A0%EF%B8%8F.112343/
+[02:19:07] [Craft Scheduler Thread - 8 - nAntiBot/INFO]: [nAntiBot] Connecting to the remote server antibot.nickuc.com...
+[02:19:07] [Server thread/INFO]: Si no puedes descargarlo allí, únete a este Discord y te daremos acceso al enlace: https://discord.gg/8evPbuxPke
+[02:19:07] [Craft Scheduler Thread - 4 - ModelEngine/INFO]: [ModelEngine] [A] 
+[02:19:07] [Craft Scheduler Thread - 4 - ModelEngine/INFO]: [ModelEngine] [A] [Importing models]
+[02:19:07] [Craft Scheduler Thread - 4 - ModelEngine/WARN]: [ModelEngine] [A] Unable to read the model ID cache file. If the file is missing, ignore this warning.
+[02:19:07] [Craft Scheduler Thread - 4 - ModelEngine/INFO]: [ModelEngine] [A] Generator Profiled:
+[02:19:07] [Craft Scheduler Thread - 10 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[02:19:07] [Craft Scheduler Thread - 4 - ModelEngine/INFO]: [ModelEngine] [A]  - Import Phase: 5,446,644.8ms
+[02:19:07] [Craft Scheduler Thread - 4 - ModelEngine/INFO]: [ModelEngine] [A]  - Assets Phase: 0.0ms
+[02:19:07] [Craft Scheduler Thread - 4 - ModelEngine/INFO]: [ModelEngine] [A]  - Zipping Phase: 5,446,651.8ms
+[02:19:07] [Craft Scheduler Thread - 10 - DecentHolograms/INFO]: [DecentHolograms] Loading holograms... 
+[02:19:07] [Craft Scheduler Thread - 14 - Essentials/INFO]: [Essentials] Fetching version information...
+[02:19:07] [Server thread/INFO]: ------------------------------------------
+[02:19:07] [Server thread/INFO]:              PERMADEATH
+[02:19:07] [Server thread/INFO]:      - Versión: 1.3
+[02:19:07] [Server thread/INFO]:      - Versión del Servidor: v1.20
+[02:19:07] [Server thread/INFO]: ------------------------------------------
+[02:19:07] [Server thread/INFO]:  >> INFORME DE ESTADO
+[02:19:07] [Server thread/INFO]: > Estado de mundos: Overworld: world End: world_the_end
+[02:19:07] [Server thread/INFO]:     > End: world_the_end
+[02:19:07] [Server thread/INFO]:     > Overworld: world
+[02:19:07] [Server thread/INFO]: > Estado de Compatibilidad: Compatible
+[02:19:07] [Server thread/INFO]: > Software: PaperMC (Compatible)
+[02:19:07] [Server thread/INFO]: > Cambios:
+[02:19:07] [Server thread/INFO]: >   Días disponibles: 1-60
+[02:19:07] [Craft Scheduler Thread - 10 - DecentHolograms/INFO]: [DecentHolograms] Loaded 1 holograms!
+[02:19:07] [Craft Scheduler Thread - 25 - LevelledMobs/INFO]: [WARN] LevelledMobs: LevelledMobs Update Checker Notice:
+[02:19:07] [Craft Scheduler Thread - 5 - SkinsRestorer/INFO]: [SkinsRestorer] ----------------------------------------------
+[02:19:07] [Craft Scheduler Thread - 5 - SkinsRestorer/INFO]: [SkinsRestorer]     +==================+
+[02:19:07] [Craft Scheduler Thread - 5 - SkinsRestorer/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[02:19:07] [Craft Scheduler Thread - 5 - SkinsRestorer/INFO]: [SkinsRestorer]     |------------------|
+[02:19:07] [Craft Scheduler Thread - 5 - SkinsRestorer/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[02:19:07] [Craft Scheduler Thread - 5 - SkinsRestorer/INFO]: [SkinsRestorer]     +==================+
+[02:19:07] [Craft Scheduler Thread - 5 - SkinsRestorer/INFO]: [SkinsRestorer] ----------------------------------------------
+[02:19:07] [Craft Scheduler Thread - 25 - LevelledMobs/INFO]: [WARN] LevelledMobs: Your LevelledMobs version is outdated! Please update to v4.3.0.1 as soon as possible. (You're running v3.14.0)
+[02:19:07] [Craft Scheduler Thread - 5 - SkinsRestorer/INFO]: [SkinsRestorer]     Version: 15.6.0
+[02:19:07] [Craft Scheduler Thread - 5 - SkinsRestorer/INFO]: [SkinsRestorer]     Commit: dec2ffc
+[02:19:07] [Craft Scheduler Thread - 5 - SkinsRestorer/INFO]: [SkinsRestorer]     This is the latest version!
+[02:19:07] [Craft Scheduler Thread - 5 - SkinsRestorer/INFO]: [SkinsRestorer] ----------------------------------------------
+[02:19:07] [Craft Scheduler Thread - 5 - SkinsRestorer/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[02:19:07] [Craft Scheduler Thread - 5 - SkinsRestorer/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[02:19:08] [Server thread/INFO]: [RealisticSeasons] [STDOUT] [Spigotunlocked.com] - COSMO
+[02:19:08] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: rs [1.0.0]
+[02:19:08] [Server thread/INFO]: [RealisticSeasons] Total biomes registered on server: 284
+[02:19:08] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: localtime [1.2]
+[02:19:08] [Server thread/WARN]: [PlaceholderAPI] Cannot load expansion vault due to a missing plugin: Vault
+[02:19:08] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: player [2.0.8]
+[02:19:08] [Server thread/INFO]: 2 placeholder hook(s) registered!
+[02:19:08] [Server thread/INFO]: Done (49.392s)! For help, type "help"
+[02:19:08] [Server thread/INFO]: Timings Reset
+[02:19:08] [Craft Scheduler Thread - 17 - Permadeath/INFO]: Permadeath ➤ Versión del plugin: Versión más reciente instalada.
+[02:19:12] [User Authenticator #0/INFO]: UUID of player elian is 3e97d394-1562-31e4-9172-59b2e573112d
+[02:19:18] [pool-27-thread-2/INFO]: [nAntiBot] [Captcha] Captchas generated successfully. (RAM usage ≃ 8 MB [static only], total = 500, protocol count = 45, threads = 2, took 35.85s)
+[02:19:20] [Server thread/INFO]: elian se ha unido al servidor.
+[02:19:21] [Server thread/INFO]: elian[/127.86.242.136:48029] logged in with entity id 163 at ([world]273.40045418499403, 118.0, -0.13742404104745606)
+[02:19:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11098ms or 221 ticks behind
+[02:19:28] [User Authenticator #0/INFO]: UUID of player dx_monilo_ is c1ac826b-3786-3b6d-a92b-8400553dd72d
+[02:19:28] [Server thread/INFO]: dx_monilo_ se ha unido al servidor.
+[02:19:28] [Server thread/INFO]: dx_monilo_[/127.181.188.8:53679] logged in with entity id 1087 at ([world]273.40045418499403, 118.0, -0.13742404104745606)
+[02:19:31] [User Authenticator #0/INFO]: UUID of player 1Kennethe is 58ded296-153e-304a-9f19-127df9f5730f
+[02:19:31] [Server thread/INFO]: 1Kennethe se ha unido al servidor.
+[02:19:31] [Server thread/INFO]: 1Kennethe[/127.166.241.202:52497] logged in with entity id 1464 at ([world]273.40045418499403, 118.0, -0.13742404104745606)
+[02:19:36] [Craft Scheduler Thread - 5 - nLogin/INFO]: [nLogin] The user elian has successfully logged in.
+[02:19:41] [Craft Scheduler Thread - 5 - nLogin/INFO]: [nLogin] The user dx_monilo_ has successfully logged in.
+[02:19:50] [Craft Scheduler Thread - 25 - nLogin/INFO]: [nLogin] The user 1Kennethe has successfully logged in.
+[02:20:11] [Server thread/INFO]: 1Kennethe issued server command: /pdc
+[02:20:13] [Server thread/INFO]: dx_monilo_ issued server command: /gms *
+[02:20:19] [Server thread/INFO]: dx_monilo_ issued server command: /tp 1Kennethe elian
+[02:22:38] [Server thread/INFO]: dx_monilo_ ha abandonado el servidor.
+[02:22:52] [User Authenticator #1/INFO]: UUID of player dx_monilo_ is c1ac826b-3786-3b6d-a92b-8400553dd72d
+[02:22:52] [Server thread/INFO]: dx_monilo_ se ha unido al servidor.
+[02:22:52] [Server thread/INFO]: dx_monilo_[/127.181.188.8:49863] logged in with entity id 4455 at ([world]273.40045418499403, 118.0, -0.13742404104745606)
+[02:23:36] [Server thread/INFO]: dx_monilo_ ha abandonado el servidor.
+[02:23:44] [User Authenticator #1/INFO]: UUID of player dx_monilo_ is c1ac826b-3786-3b6d-a92b-8400553dd72d
+[02:23:44] [Server thread/INFO]: dx_monilo_ se ha unido al servidor.
+[02:23:44] [Server thread/INFO]: dx_monilo_[/127.181.188.8:57871] logged in with entity id 9556 at ([world]273.40045418499403, 118.0, -0.13742404104745606)
+[02:23:55] [Craft Scheduler Thread - 41 - nLogin/INFO]: [nLogin] The user dx_monilo_ has successfully logged in.
+[02:26:48] [Async Chat Thread - #1/INFO]: [Not Secure] <1Kennethe> Whats.
+[02:27:16] [Server thread/INFO]: elian has made the advancement [Best Friends Forever]

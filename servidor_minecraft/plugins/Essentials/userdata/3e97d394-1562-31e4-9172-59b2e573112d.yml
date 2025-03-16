@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.86.242.136
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1742091266896
+  login: 1742091561100
+money: '0'
+last-account-name: elian
+logoutlocation:
+  world: 64abf6b2-2f0f-47ef-b152-b5de591b0494
+  world-name: world
+  x: -164.1854559317159
+  y: 63.0
+  z: 856.1619131531098
+  yaw: -112.63501739501953
+  pitch: 10.650282859802246
+lastlocation:
+  world: 64abf6b2-2f0f-47ef-b152-b5de591b0494
+  world-name: world
+  x: 69.71396277194344
+  y: 112.48167458101331
+  z: 7.676803518017506
+  yaw: 51.300079345703125
+  pitch: 41.850189208984375

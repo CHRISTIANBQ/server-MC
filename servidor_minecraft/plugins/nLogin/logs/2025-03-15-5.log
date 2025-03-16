@@ -1,0 +1,63 @@
+[2025/03/15 17:32:52]: §9          __             _       
+[2025/03/15 17:32:52]: §9  _ __   / /  ___   __ _(_)_ __  
+[2025/03/15 17:32:52]: §9 | '_ \ / /  / _ \ / _` | | '_ \ 
+[2025/03/15 17:32:52]: §9 | | | / /__| (_) | (_| | | | | |
+[2025/03/15 17:32:52]: §9 |_| |_\____/\___/ \__, |_|_| |_|
+[2025/03/15 17:32:52]: §9                  |___/            
+[2025/03/15 17:32:52]: §9 By: www.nickuc.com - V 10.4.21
+[2025/03/15 17:32:52]: §9 
+[2025/03/15 17:32:52]: §3[nLogin] [DEBUG] All settings were loaded in 72 ms.
+[2025/03/15 17:32:52]: §3[nLogin] [DEBUG] Loading the messages_es.yml message file...
+[2025/03/15 17:32:52]: §3[nLogin] [DEBUG] All plugin messages were loaded in 35 ms (languageByClient=false).
+[2025/03/15 17:32:52]: §3[nLogin] [DEBUG] All proxy settings were loaded in 1 ms.
+[2025/03/15 17:32:52]: §3[nLogin] [DEBUG] Loading database...
+[2025/03/15 17:32:52]: §3[nLogin] [DEBUG] Starting logger filter...
+[2025/03/15 17:34:01]: §4[nLogin] [ERROR] §cUnable to verify that the player is an NPC. Most likely this is a Citizens error.
+java.lang.NoClassDefFoundError: net/citizensnpcs/api/CitizensAPI
+	at com.nickuc.login.ΠρβυουξΣφετχε.b(:23)
+	at com.nickuc.login.ΩιιφΔβχυ.c(:125)
+	at com.nickuc.login.ηεΨχΩνμψφ.a(:60)
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor86.execute(Unknown Source)
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77)
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:81)
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54)
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:126)
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:615)
+	at net.minecraft.server.players.PlayerList.canPlayerLogin(PlayerList.java:746)
+	at net.minecraft.server.network.LoginListener.d(LoginListener.java:160)
+	at net.minecraft.server.network.LoginListener.c(LoginListener.java:85)
+	at net.minecraft.network.NetworkManager.a(NetworkManager.java:593)
+	at net.minecraft.server.network.ServerConnection.c(ServerConnection.java:234)
+	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1573)
+	at net.minecraft.server.dedicated.DedicatedServer.b(DedicatedServer.java:447)
+	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1394)
+	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1171)
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.lang.ClassNotFoundException: net.citizensnpcs.api.CitizensAPI
+	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:445)
+	at nLogin.jar//com.nickuc.login.loader.MemClassLoader.findClass(MemClassLoader.java:56)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:592)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+	... 21 more
+[2025/03/15 17:34:29]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'THEMONILO', `unique_id` = 8ce330b9f7463d8f91749156ece89f7c,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$m3m7G6PbWRkHZz5VJwj4qeoIo30kzN0d5tjE3ifmfYVIbYaJUacFO', `last_ip` = '127.181.188.8', `creation_date` = 2025-03-15 00:43:37.495, `last_seen` = 2025-03-15 17:34:29.079, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"es","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_ip, last_seen, settings] columns)
+[2025/03/15 17:34:29]: [nLogin] The user THEMONILO has successfully logged in.
+[2025/03/15 17:47:32]: §3[nLogin] [DEBUG] [SQLite] [UNREGISTER]: Removing the THEMONILO's account...
+[2025/03/15 17:47:32]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'THEMONILO', `unique_id` = 8ce330b9f7463d8f91749156ece89f7c,  `mojang_id` = null,  `bedrock_id` = null,  `password` = null, `last_ip` = null, `creation_date` = 1970-01-01 00:00:00.0, `last_seen` = 1970-01-01 00:00:00.0, `email` = null, `discord` = null, `settings` = null WHERE `ai` = 1" (applied to all columns)
+[2025/03/15 17:47:32]: §3[nLogin] [DEBUG] The THEMONILO player had his account unregistered by CONSOLE.
+[2025/03/15 17:47:32]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'THEMONILO', `unique_id` = 8ce330b9f7463d8f91749156ece89f7c,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$m3m7G6PbWRkHZz5VJwj4qeoIo30kzN0d5tjE3ifmfYVIbYaJUacFO', `last_ip` = '127.181.188.8', `creation_date` = 2025-03-15 00:43:37.495, `last_seen` = 2025-03-15 17:47:32.553, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"es","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_seen, settings] columns)
+[2025/03/15 17:48:01]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'THEMONILO', `unique_id` = 8ce330b9f7463d8f91749156ece89f7c,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$wvzSTa9eigC2FtofDroNNeBskn1BO4Ylel10lBYy7tfypmaaG8Bp2', `last_ip` = '127.181.188.8', `creation_date` = 2025-03-15 17:48:01.1, `last_seen` = 2025-03-15 17:48:01.1, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":true,"key":"force-invalid-session"},{"value":"es","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to all columns)
+[2025/03/15 17:48:01]: [nLogin] The user THEMONILO has successfully registered.
+[2025/03/15 17:53:07]: §3[nLogin] [DEBUG] [SQLite] [UNREGISTER]: Removing the THEMONILO's account...
+[2025/03/15 17:53:07]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'THEMONILO', `unique_id` = 8ce330b9f7463d8f91749156ece89f7c,  `mojang_id` = null,  `bedrock_id` = null,  `password` = null, `last_ip` = null, `creation_date` = 1970-01-01 00:00:00.0, `last_seen` = 1970-01-01 00:00:00.0, `email` = null, `discord` = null, `settings` = null WHERE `ai` = 1" (applied to all columns)
+[2025/03/15 17:53:07]: §3[nLogin] [DEBUG] The THEMONILO player had his account unregistered by CONSOLE.
+[2025/03/15 17:53:07]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'THEMONILO', `unique_id` = 8ce330b9f7463d8f91749156ece89f7c,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$wvzSTa9eigC2FtofDroNNeBskn1BO4Ylel10lBYy7tfypmaaG8Bp2', `last_ip` = '127.181.188.8', `creation_date` = 2025-03-15 17:48:01.1, `last_seen` = 2025-03-15 17:53:07.25, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":true,"key":"force-invalid-session"},{"value":"es","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_seen, settings] columns)
+[2025/03/15 17:53:28]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'THEMONILO', `unique_id` = 8ce330b9f7463d8f91749156ece89f7c,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$p1Av.IOTHGOmTdhiQ/UTzOuGAbGFnWZv.1MgzSxggnZCthH1oj/mK', `last_ip` = '127.181.188.8', `creation_date` = 2025-03-15 17:53:28.5, `last_seen` = 2025-03-15 17:53:28.5, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":true,"key":"force-invalid-session"},{"value":"es","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to all columns)
+[2025/03/15 17:53:28]: [nLogin] The user THEMONILO has successfully registered.
+[2025/03/15 17:53:34]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'THEMONILO', `unique_id` = 8ce330b9f7463d8f91749156ece89f7c,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$p1Av.IOTHGOmTdhiQ/UTzOuGAbGFnWZv.1MgzSxggnZCthH1oj/mK', `last_ip` = '127.181.188.8', `creation_date` = 2025-03-15 17:53:28.5, `last_seen` = 2025-03-15 17:53:34.304, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":true,"key":"force-invalid-session"},{"value":"es","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_seen, settings] columns)
+[2025/03/15 17:53:55]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'THEMONILO', `unique_id` = 8ce330b9f7463d8f91749156ece89f7c,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$p1Av.IOTHGOmTdhiQ/UTzOuGAbGFnWZv.1MgzSxggnZCthH1oj/mK', `last_ip` = '127.181.188.8', `creation_date` = 2025-03-15 17:53:28.5, `last_seen` = 2025-03-15 17:53:55.579, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"es","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_ip, last_seen, settings] columns)
+[2025/03/15 17:53:55]: [nLogin] The user THEMONILO has successfully logged in.
+[2025/03/15 18:31:42]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'THEMONILO', `unique_id` = 8ce330b9f7463d8f91749156ece89f7c,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$p1Av.IOTHGOmTdhiQ/UTzOuGAbGFnWZv.1MgzSxggnZCthH1oj/mK', `last_ip` = '127.181.188.8', `creation_date` = 2025-03-15 17:53:28.5, `last_seen` = 2025-03-15 18:31:42.154, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"es","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_seen, settings] columns)
+[2025/03/15 18:57:05]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'THEMONILO', `unique_id` = 8ce330b9f7463d8f91749156ece89f7c,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$p1Av.IOTHGOmTdhiQ/UTzOuGAbGFnWZv.1MgzSxggnZCthH1oj/mK', `last_ip` = '127.181.188.8', `creation_date` = 2025-03-15 17:53:28.5, `last_seen` = 2025-03-15 18:57:05.679, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"es","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_ip, last_seen, settings] columns)
+[2025/03/15 18:57:05]: [nLogin] The user THEMONILO has successfully logged in.
