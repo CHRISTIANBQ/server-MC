@@ -492,3 +492,101 @@
 [02:23:55] [Craft Scheduler Thread - 41 - nLogin/INFO]: [nLogin] The user dx_monilo_ has successfully logged in.
 [02:26:48] [Async Chat Thread - #1/INFO]: [Not Secure] <1Kennethe> Whats.
 [02:27:16] [Server thread/INFO]: elian has made the advancement [Best Friends Forever]
+[02:28:09] [Server thread/INFO]: dx_monilo_ issued server command: /msg elian ese man xd
+[02:29:14] [User Authenticator #2/INFO]: [ExcellentCrates] Created new user data for: 'b4f2116f-62cd-3703-88a5-3d85923e6e8c'
+[02:29:14] [User Authenticator #2/INFO]: UUID of player AnRuXD is b4f2116f-62cd-3703-88a5-3d85923e6e8c
+[02:29:14] [Server thread/INFO]: AnRuXD se ha unido al servidor.
+[02:29:14] [Server thread/INFO]: AnRuXD[/127.226.126.59:50095] logged in with entity id 11229 at ([world]273.40045418499403, 118.0, -0.13742404104745606)
+[02:29:14] [Server thread/INFO]: AnRuXD has made the advancement [Getting an Upgrade]
+[02:29:38] [Server thread/INFO]: dx_monilo_ issued server command: /spawn
+[02:29:58] [Server thread/INFO]: AnRuXD ha abandonado el servidor.
+[02:30:11] [User Authenticator #2/INFO]: UUID of player AnRuXD is b4f2116f-62cd-3703-88a5-3d85923e6e8c
+[02:30:11] [Server thread/INFO]: AnRuXD se ha unido al servidor.
+[02:30:11] [Server thread/INFO]: AnRuXD[/127.226.126.59:37611] logged in with entity id 13819 at ([world]273.40045418499403, 118.0, -0.13742404104745606)
+[02:30:55] [Server thread/INFO]: AnRuXD ha abandonado el servidor.
+[02:31:04] [User Authenticator #2/INFO]: [ExcellentCrates] Created new user data for: '051c432a-4127-3921-a3d8-551dd088b688'
+[02:31:04] [User Authenticator #2/INFO]: UUID of player shiko_owo is 051c432a-4127-3921-a3d8-551dd088b688
+[02:31:04] [Server thread/INFO]: shiko_owo se ha unido al servidor.
+[02:31:04] [Server thread/INFO]: shiko_owo[/127.54.73.92:36997] logged in with entity id 22937 at ([world]273.40045418499403, 118.0, -0.13742404104745606)
+[02:31:04] [Server thread/INFO]: shiko_owo has made the advancement [Getting an Upgrade]
+[02:31:22] [User Authenticator #2/INFO]: UUID of player AnRuXD is b4f2116f-62cd-3703-88a5-3d85923e6e8c
+[02:31:22] [Server thread/INFO]: AnRuXD se ha unido al servidor.
+[02:31:22] [Server thread/INFO]: AnRuXD[/127.226.126.59:59307] logged in with entity id 26274 at ([world]273.40045418499403, 118.0, -0.13742404104745606)
+[02:31:28] [Server thread/INFO]: Set the weather to rain & thunder
+[02:31:28] [Server thread/INFO]: 1Kennethe ha muerto y ahora descanza en paz.
+[02:31:28] [Server thread/INFO]: Este es el comienzo del sufrimiento eterno de 1Kennethe. ¡HA SIDO PERMABANEADO!
+[02:31:28] [Server thread/INFO]: X: -125 || Y: 23 || Z: 849
+[02:31:28] [Server thread/INFO]: 1Kennethe was shot by Lvl 5 | Skeleton
+[02:31:33] [Server thread/INFO]: ¡Comienza el Death Train con duración de 1 horas!
+[02:31:41] [Server thread/INFO]: Villager EntityVillager['Librarian'/2023, uuid='aeea015a-ae89-4ac3-8141-0ec51ed2d75e', l='ServerLevel[world]', x=-167.49, y=62.53, z=862.33, cpos=[-11, 53], tl=75304, v=true] died, message: 'Librarian was slain by Zombie'
+[02:31:47] [Server thread/INFO]: dx_monilo_ issued server command: /gms 1Kennethe
+[02:31:48] [Server thread/INFO]: shiko_owo ha abandonado el servidor.
+[02:31:58] [Server thread/INFO]: Villager EntityVillager['Librarian'/2014, uuid='10170490-1eee-4c99-a1bb-3269b9c32ea5', l='ServerLevel[world]', x=-147.70, y=59.00, z=859.46, cpos=[-10, 53], tl=75644, v=true] died, message: 'Librarian was slain by Zombie'
+[02:32:07] [User Authenticator #2/INFO]: UUID of player shiko_owo is 051c432a-4127-3921-a3d8-551dd088b688
+[02:32:07] [Server thread/INFO]: shiko_owo se ha unido al servidor.
+[02:32:07] [Server thread/INFO]: shiko_owo[/127.54.73.92:39691] logged in with entity id 33716 at ([world]273.40045418499403, 118.0, -0.13742404104745606)
+[02:32:30] [User Authenticator #2/INFO]: [ExcellentCrates] Created new user data for: '1276c0fa-30b2-393f-990f-dcc6a1cf5658'
+[02:32:30] [User Authenticator #2/INFO]: UUID of player Jos3Gat0 is 1276c0fa-30b2-393f-990f-dcc6a1cf5658
+[02:32:30] [Server thread/INFO]: Jos3Gat0 se ha unido al servidor.
+[02:32:30] [Server thread/INFO]: Jos3Gat0[/127.97.180.188:33357] logged in with entity id 37727 at ([world]273.40045418499403, 118.0, -0.13742404104745606)
+[02:32:30] [Server thread/INFO]: Jos3Gat0 has made the advancement [Getting an Upgrade]
+[02:32:38] [Server thread/INFO]: Set the weather to rain & thunder
+[02:32:38] [Server thread/INFO]: elian ha muerto y ahora descanza en paz.
+[02:32:38] [Server thread/INFO]: Este es el comienzo del sufrimiento eterno de elian. ¡HA SIDO PERMABANEADO!
+[02:32:38] [Server thread/INFO]: X: -169 || Y: 63 || Z: 866
+[02:32:38] [Server thread/INFO]: elian was slain by Lvl 12 | Spider
+[02:32:42] [Server thread/INFO]: dx_monilo_ issued server command: /gms elian
+[02:32:43] [Server thread/INFO]: ¡Comienza el Death Train con duración de 1 horas!
+[02:32:48] [Tuinity Chunk System Worker #0/WARN]: [ChunkUpgradeGenericStatusTask] Future status not complete after scheduling: minecraft:biomes, generate: true
+[02:32:54] [Server thread/INFO]: dx_monilo_ issued server command: /back elian
+[02:33:01] [Server thread/INFO]: dx_monilo_ issued server command: /gamemode adventure
+[02:33:02] [Server thread/INFO]: dx_monilo_ issued server command: /gamemode survival
+[02:33:03] [Server thread/INFO]: dx_monilo_ issued server command: /gamemode creative
+[02:33:04] [Server thread/INFO]: dx_monilo_ issued server command: /gamemode spectator
+[02:33:05] [Craft Scheduler Thread - 84 - nLogin/INFO]: [nLogin] The user Jos3Gat0 has successfully registered.
+[02:33:09] [Server thread/INFO]: dx_monilo_ issued server command: /gamemode creative
+[02:33:17] [Server thread/INFO]: shiko_owo ha abandonado el servidor.
+[02:33:19] [Server thread/INFO]: dx_monilo_ issued server command: /setspawn
+[02:33:19] [Server thread/INFO]: Villager EntityVillager['Villager'/41979, uuid='df166cd2-8f53-49d1-8b58-93cf9aa988e5', l='ServerLevel[world]', x=-161.61, y=69.00, z=887.41, cpos=[-11, 55], tl=76946, v=true] died, message: 'Villager was slain by Zombie'
+[02:33:25] [Server thread/INFO]: AnRuXD ha abandonado el servidor.
+[02:33:34] [User Authenticator #3/INFO]: UUID of player shiko_owo is 051c432a-4127-3921-a3d8-551dd088b688
+[02:33:34] [Server thread/INFO]: shiko_owo se ha unido al servidor.
+[02:33:34] [Server thread/INFO]: shiko_owo[/127.54.73.92:59193] logged in with entity id 48582 at ([world]273.40045418499403, 118.0, -0.13742404104745606)
+[02:33:34] [User Authenticator #4/INFO]: UUID of player AnRuXD is b4f2116f-62cd-3703-88a5-3d85923e6e8c
+[02:33:34] [Server thread/INFO]: AnRuXD se ha unido al servidor.
+[02:33:34] [Server thread/INFO]: AnRuXD[/127.226.126.59:43387] logged in with entity id 48633 at ([world]273.40045418499403, 118.0, -0.13742404104745606)
+[02:34:14] [Server thread/INFO]: dx_monilo_ issued server command: /spawn Jos3Gat0
+[02:34:18] [Server thread/INFO]: AnRuXD ha abandonado el servidor.
+[02:34:19] [Server thread/INFO]: dx_monilo_ issued server command: /gamemode survival
+[02:34:26] [User Authenticator #4/INFO]: UUID of player AnRuXD is b4f2116f-62cd-3703-88a5-3d85923e6e8c
+[02:34:26] [Server thread/INFO]: AnRuXD se ha unido al servidor.
+[02:34:26] [Server thread/INFO]: AnRuXD[/127.226.126.59:44957] logged in with entity id 56897 at ([world]273.40045418499403, 118.0, -0.13742404104745606)
+[02:34:51] [Server thread/INFO]: shiko_owo ha abandonado el servidor.
+[02:34:55] [Server thread/INFO]: dx_monilo_ issued server command: /tp 1Kennethe elian
+[02:35:29] [Server thread/INFO]: AnRuXD ha abandonado el servidor.
+[02:35:37] [User Authenticator #5/INFO]: UUID of player AnRuXD is b4f2116f-62cd-3703-88a5-3d85923e6e8c
+[02:35:39] [User Authenticator #5/INFO]: UUID of player AnRuXD is b4f2116f-62cd-3703-88a5-3d85923e6e8c
+[02:35:39] [Server thread/INFO]: AnRuXD se ha unido al servidor.
+[02:35:39] [Server thread/INFO]: AnRuXD[/127.226.126.59:46009] logged in with entity id 69557 at ([world]273.40045418499403, 118.0, -0.13742404104745606)
+[02:35:40] [User Authenticator #5/INFO]: UUID of player shiko_owo is 051c432a-4127-3921-a3d8-551dd088b688
+[02:35:40] [Server thread/INFO]: shiko_owo se ha unido al servidor.
+[02:35:40] [Server thread/INFO]: shiko_owo[/127.54.73.92:59683] logged in with entity id 69747 at ([world]273.40045418499403, 118.0, -0.13742404104745606)
+[02:36:09] [Server thread/INFO]: Villager EntityVillager['Butcher'/41978, uuid='b81249b9-d880-4b04-9137-34e3d55ba0f7', l='ServerLevel[world]', x=-165.72, y=64.17, z=900.30, cpos=[-11, 56], tl=80191, v=true] died, message: 'Butcher was slain by Zombie'
+[02:36:15] [Async Chat Thread - #2/INFO]: [Not Secure] <dx_monilo_> tiene q poner /register pancracio pancracio
+[02:36:19] [Async Chat Thread - #2/INFO]: [Not Secure] <dx_monilo_> dile
+[02:36:22] [Async Chat Thread - #3/INFO]: [Not Secure] <Jos3Gat0> xdç
+[02:36:23] [Server thread/INFO]: AnRuXD ha abandonado el servidor.
+[02:36:26] [Async Chat Thread - #2/INFO]: [Not Secure] <Jos3Gat0> Ya ya.
+[02:36:29] [User Authenticator #5/INFO]: UUID of player AnRuXD is b4f2116f-62cd-3703-88a5-3d85923e6e8c
+[02:36:29] [Server thread/INFO]: AnRuXD se ha unido al servidor.
+[02:36:29] [Server thread/INFO]: AnRuXD[/127.226.126.59:55393] logged in with entity id 78422 at ([world]273.40045418499403, 118.0, -0.13742404104745606)
+[02:37:13] [Server thread/INFO]: AnRuXD ha abandonado el servidor.
+[02:37:26] [User Authenticator #5/INFO]: UUID of player AnRuXD is b4f2116f-62cd-3703-88a5-3d85923e6e8c
+[02:37:26] [Server thread/INFO]: AnRuXD se ha unido al servidor.
+[02:37:26] [Server thread/INFO]: AnRuXD[/127.226.126.59:55625] logged in with entity id 88732 at ([world]273.40045418499403, 118.0, -0.13742404104745606)
+[02:37:27] [Server thread/INFO]: shiko_owo ha abandonado el servidor.
+[02:37:49] [User Authenticator #5/INFO]: UUID of player shiko_owo is 051c432a-4127-3921-a3d8-551dd088b688
+[02:37:49] [Server thread/INFO]: shiko_owo se ha unido al servidor.
+[02:37:49] [Server thread/INFO]: shiko_owo[/127.54.73.92:36061] logged in with entity id 93075 at ([world]273.40045418499403, 118.0, -0.13742404104745606)
+[02:38:14] [Server thread/INFO]: dx_monilo_ issued server command: /chatcontrol reload
+[02:38:34] [Server thread/INFO]: shiko_owo ha abandonado el servidor.

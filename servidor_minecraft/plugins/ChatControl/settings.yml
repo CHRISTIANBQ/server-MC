@@ -74,7 +74,11 @@ Anti_Spam:
     - t
     - w
     - r
- 
+    - register
+    - login
+    - spawn
+    - home
+    - sethome     
     # Commands ignored from the similarity check.
     Whitelist_Delay:
     - spawn

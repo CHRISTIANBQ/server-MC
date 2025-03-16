@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.97.180.188
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 0
+  login: 1742092350367
+money: '0'
+last-account-name: Jos3Gat0
+lastlocation:
+  world: 64abf6b2-2f0f-47ef-b152-b5de591b0494
+  world-name: world
+  x: 271.1131762180645
+  y: 118.0
+  z: 1.752895525033929
+  yaw: -44.36114501953125
+  pitch: -3.7287018299102783

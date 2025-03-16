@@ -4,9 +4,9 @@ Players:
     LastDay: 1
     UUID: 3e97d394-1562-31e4-9172-59b2e573112d
     banCause: Mobs
-    banTime: 01:43:48
+    banTime: 02:32:38
     banDay: '2025-03-16'
-    coords: -124 67 876
+    coords: -168 63 866
   THEMONILO:
     HP: 0
     LastDay: 1
@@ -21,8 +21,17 @@ Players:
   1Kennethe:
     UUID: 58ded296-153e-304a-9f19-127df9f5730f
     HP: 0
-    banCause: Causa desconocida.
-    banTime: 02:10:46
+    banCause: Proyectil
+    banTime: 02:31:28
     banDay: '2025-03-16'
-    coords: -156 63 859
+    coords: -124 23 849
     LastDay: 1
+  AnRuXD:
+    UUID: b4f2116f-62cd-3703-88a5-3d85923e6e8c
+    HP: 0
+  shiko_owo:
+    UUID: 051c432a-4127-3921-a3d8-551dd088b688
+    HP: 0
+  Jos3Gat0:
+    UUID: 1276c0fa-30b2-393f-990f-dcc6a1cf5658
+    HP: 0

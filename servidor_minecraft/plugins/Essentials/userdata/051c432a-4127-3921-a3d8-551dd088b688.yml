@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.54.73.92
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1742092714019
+  login: 1742092669864
+money: '0'
+last-account-name: shiko_owo
+lastlocation:
+  world: 64abf6b2-2f0f-47ef-b152-b5de591b0494
+  world-name: world
+  x: 273.40045418499403
+  y: 118.0
+  z: -0.13742404104745606
+  yaw: -1.5001238584518433
+  pitch: -18.60003662109375
+logoutlocation:
+  world: 64abf6b2-2f0f-47ef-b152-b5de591b0494
+  world-name: world
+  x: 273.28592840216965
+  y: 118.0
+  z: -0.4566821822236926
+  yaw: -3.150073289871216
+  pitch: -13.649996757507324

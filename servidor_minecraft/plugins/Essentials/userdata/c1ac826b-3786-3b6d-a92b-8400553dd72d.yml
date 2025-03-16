@@ -11,7 +11,7 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1742090629037
+  lastteleport: 1742092454974
   lastheal: 0
   mute: 0
   jail: 0
@@ -25,11 +25,11 @@ last-account-name: dx_monilo_
 lastlocation:
   world: 64abf6b2-2f0f-47ef-b152-b5de591b0494
   world-name: world
-  x: 6.112475509109363
-  y: 58.49385188180366
-  z: 13.766404919431304
-  yaw: -14.550004005432129
-  pitch: -9.900001525878906
+  x: -153.9004778967978
+  y: 63.0
+  z: 858.2112571925802
+  yaw: 92.25216674804688
+  pitch: 15.749885559082031
 logoutlocation:
   world: 64abf6b2-2f0f-47ef-b152-b5de591b0494
   world-name: world
